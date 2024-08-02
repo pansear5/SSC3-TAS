@@ -1,0 +1,21 @@
+unsafe
+
+#Start
+ 59
+   1,J
+ 196
+#Endscreen
+ 195
+#Exit
+   1,J
+  43
+   1,J
+#Overworld
+ 220
+   1,S
+   1,X
+ 100
+   1,J
+  43
+   1,J
+  46
