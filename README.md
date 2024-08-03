@@ -1,3 +1,3 @@
-# SSC2-TAS
-The 2023 Secret Santa Collab 
-https://gamebanana.com/mods/452173
+# SSC3-TAS
+The 2024 Secret Santa Collab 
+https://gamebanana.com/mods/532531
