@@ -1,13 +1,19 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 414
+RecordCount: 472
 
 console load SecretSanta2024/3-Hard/auroraaquir
+#Start
    1
 
-#Start
+#lvl_overworld2
  190
+   4,R,D,Z
+   1,R,J
+   7,R
+   1,R,J
+   2,R
   14,R,D,Z
    1,R,D,J
   14,R,D,Z
@@ -20,19 +26,20 @@ console load SecretSanta2024/3-Hard/auroraaquir
    1,R,D,J
   14,R,D,Z
    1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  10,R,D,Z
+   8,R,D,Z
   40
-   4
+
+#lvl_overworld3
+   6
    1,R,D,J
   14,R,D,Z
    1,R,D,J
   14,R,D,Z
    1,R,D,J
-  14,R,D,Z
-   5,R
+  14,R
    1,X
+
+#lvl_overworld3b
    5,U,C
   44,R,D
   16,D,C
@@ -55,9 +62,11 @@ console load SecretSanta2024/3-Hard/auroraaquir
   15,R,C
    5,U,Z
   45,L,D
-  15,L,Z
+   8,L,Z
+
+#lvl_the_fight_true_evil
+   7
  445
-# true evil fight
    5,R,C
    5
    5,K
@@ -308,118 +317,136 @@ console load SecretSanta2024/3-Hard/auroraaquir
   20
    5,J
   20
-# ending part
+
+#lvl_the_end (0)
   32
    1,S
    1,D,J
   34
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  12,L,D,Z
-  40
-   2
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  10,L,D,Z
-   1,S
-   1,D,J
-  34
-   4
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,S
-   1,D,J
-  34
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1
-   1,X
-   1,S
-   1,D,J
-  34
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  40
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  12,R,D,Z
-  40
-   2,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  14,R,D,Z
-   1,R,D,J
-  11,R,D,J
-   6,U,C
-   9,L,J
-  13,L
-   1,R
-   1,X
-   1,S
-   1,D,J
-  34
-  14,L,D,Z
-   1,L,D,J
-  14,L,D,Z
-   1,J
-   5,R,Z
-  29,L,D,J
-  40
-  13,L,D,C
+   4,L,D,Z
    1,L,J
+   7,L
+   1,L,J
+   2,L
+  14,L,D,Z
+   1,L,D,J
+   9,L,D,Z
+  40
+
+#lvl_final_run1
+   5
+   1,L,D,J
   14,L,D,Z
    1,L,D,J
    7,L,D,Z
    1,S
    1,D,J
   34
-   3,L,D,Z
+   7
+   1,L,D,J
+  14,L,D,Z
+   1,L,D,J
+  14,L,D,Z
+   1,L,D,J
+  13,L,D,Z
+   1,S
+   1,D,J
+  34
+   1
+   1,L,D,J
+  14,L,D,Z
+   1,L,D,J
+  14,L,D,Z
+   1,L,D,J
+  14,L,D,Z
+   1,L,D,J
+  15,L,D,Z
    1,X
    1,S
    1,D,J
   34
-  10
-   5,D,Z
- 148
+   4,R,D,X
+   1,R,J
+   7,R
+   1,R,J
+   2,R
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+  40
 
-ChapterTime: 1:04.770(3810)
+#lvl_the_end (1)
+   1,R,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+   8,R,D,Z
+  40
+
+#lvl_final_run2
+   6
+   1,R,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   1,R,D,J
+  14,R,D,Z
+   6,R,J
+   6,U,C
+  11,L,J
+  11,L
+   1,R
+   1,X
+   1,S
+   1,D,J
+  34
+   4,L,D,X
+   1,L,J
+   7,L
+   1,L,J
+   2,L
+  14,L,D,Z
+   1,L,D,J
+  24,L,D
+  40
+
+#lvl_the_end (2)
+  14,L,D,Z
+   1,L,J
+  12,L,D,X
+   1,S
+   1,D,J
+  34
+   2
+   1,X
+   1,S
+   1,D,J
+  34
+   9,L
+
+#lvl_heart_room
+   1
+  15,D,X
+   3,D
+ 135
+
+ChapterTime: 1:04.396(3788)
