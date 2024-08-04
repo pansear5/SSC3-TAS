@@ -1,4 +1,4 @@
-RecordCount: 3201
+RecordCount: 3270
 
 console load SecretSanta2024/3-Hard/maya
    1
@@ -593,26 +593,30 @@ console load SecretSanta2024/3-Hard/maya
    1,J,G
    6,R
    1,S,N
-  10,J
-   1,J
+  11,J
    1
    1,J
   13,R,J
    4,X
   11,R,D,X
    4,R,D
-   1,R,J
- 324,R
+  44,R,J
+  12,R,D
+  15,R,X
+  55
 
 #lvl_endcutscene_0
- 184
+   1,S
+   1,D,J
+   1,O
+ 216
 
 #lvl_endcutscene_1
- 545
+ 544
 
 #lvl_heart
  189
   12,U,X
  135
 
-ChapterTime: 1:19.951(4703)
+ChapterTime: 1:17.112(4536)
