@@ -5,49 +5,56 @@ console load SecretSanta2024/3-Hard/phrog
 
 #Start
   84
+
 #lvl_01
-  10,R,Z
+   6,L,D,Z
    1,R,J
-   7,R
-  14,R,Z
-  11,R,K
-   4,R,J,G
-  14,R,D,X
-   3,R,J
+   3,R
+   1,R,J
+   3,R
+   8,R,J
   10,R,D,X
-   4,R,J
-   2,R,K,G
-   8,R,J,G
-  15,R,D,X
-   5,R,J
-   6,R
-  15,R,D,X
+   7,R,J,G
+   1,R
+   7,R,J
+   1,R
    2,R,J
-   8,R,U,X
-   2,R,J,G
-   7,R
-  12,R,J
+   7,R,D,X
+   3,R,J,G
+  15,R,D
+   7,R,J
+  15,R,D,X
+  10,R,J
+  12,R,D,X
+   4,R,J,G
+   1,R
+   7,R,J
+   1,R
+   7,R,J
+   2,R
   40
 #lvl_a00
-   5,R,J
+   9,R
+   1,R
+   4,R,D,J
    2,R
-   9,R,D,X
-   1,R,J,G
-   5,R
-   1,R,J
-   7,R
-   2,R,J
-  17,R,D,X
+  19,R,D,X
   12,R,J
   12,R
-  14,R,X
-  10,R,J,G
-   1,R
+  10,R,X
+   8,R,J,G
+   2,R
   40
+
 #lvl_a01
-  16,R
-  15,R,U,Z
-   7
+  13,R
+  14,R,U,Z
+
+#0:05.151(303)
+
+#0:05.712(336)
+
+   7,L
   22,R,X
   24,R,C
   15,R,X
@@ -70,6 +77,7 @@ console load SecretSanta2024/3-Hard/phrog
    7,R,J
    9,R,D,X
   40
+
 #lvl_a02
    7,R
   30,R,J
@@ -107,30 +115,43 @@ console load SecretSanta2024/3-Hard/phrog
    1,G
   10,R
   30,R,J,G
+
   35,R,U,X
    5,R,D
    3,R,J,G
    1,R
    2,R,J,G
-   1,J
+   1,K,G
    1,R
-   6
-   1,R,J
-   8,L,Z
-   1,R,J
-   6,R
-   2,R,J
-   2,R,K,G
-  13,R,J,G
+   5
+   1,R
+   1
+   1,L
+   3
+   4,R,Z
+   1,J
+   4,R
+   3,R,J
+  12,R,K,G
+   2,R
   40
 #lvl_a03
-   3,R,J
-  14,R,Z
+   3,R
    4,R,J
-  22,R,D,X
-   6,R,J
-   9,R
+   2,R
+   3,R,J
+   3,R
+  15,R,D,X
+   1,R,J
+  15,R,D,X
+   2,R,J
+   6,R
   15,R,U,Z
+
+#0:18.479(1087)
+
+#0:18.581(1093)
+
   29,R
   15,R,Z
   10,R
@@ -253,6 +274,7 @@ console load SecretSanta2024/3-Hard/phrog
    5,R,J
    9,R,D,X
   40
+
 #lvl_a04
    6,R
    4,R,D,J
@@ -295,6 +317,7 @@ console load SecretSanta2024/3-Hard/phrog
    1,R,J
    7,R
    5,R,D
+
    9,R,D,J
   14,R
   10,R,X
@@ -307,83 +330,85 @@ console load SecretSanta2024/3-Hard/phrog
   12,R,U,X
    9,R,J,G
   40
+
 #lvl_ab00
    3,R,J
    1,J
   15,R,D,X
-   1,R,J
-  14,R
-   1,R,J
-   5,R,K,G
-   1,R,J,G
-   3,R
-   1
-  11,R,D
-   4,R,J
-   4,R
+  11,R,D,J
+   9,R,D,X
+   4,R,J,G
+   1,R,K,G
+   7,R,D
+   1,D
+   8,R,D
+   6,R,J
    7,R,D,X
    1,R,J,G
-  12,R
+  11,R
    7,R,J
-  15,R,D,X
-   2,R,J
+  14,R,D,X
   40
+
 #lvl_b00
-   3,R
-   6,R,D,X
-   1,R,J,G
-   9,R
-  11,R,J
-  15,R,D,X
-   2,R
-   6,R,D
-   4,R,J
-   1,R,K,G
-  11,R,U,X
-  40
-#lvl_b01
-   3,R
-   6,R,J,G
-   8,R
-  15,R,D,X
-  10,R,J
-   6,R
-   3,R,J
-StunPause
-   5,R
-EndStunPause
-   3,R
-StunPause
-   5,R
-EndStunPause
-   5,R
-   5,R,U,X
-   3,R,J,G
-   7,R
-  40
-#lvl_b02
-   3,R,K
-   1,R,J
-   5,R
+   1,R,D
    2,R,J
+   8,R
+   9,R,J
+  15,R,D,X
    7,R
-  14,R,U,Z
-  16,R,J,G
-   4,L,J
-   3,K,G
-   2,R,K
-   5,L,K
-   3,L,J,G
+   7,R,J
+   9,R,U,X
+  40
+
+#lvl_b01
+   4,R,U,X
+   7,R,J,G
+   3,R
+  15,R,D,X
+   1,R,J
+  13,R,D
+Stunpause
+   2,R,D
+endstunpause
+   9,R,D
+  10,R,U,Z
+   3,R,J,G
+   4,R
+  40
+
+#lvl_b02
+   4,R
+   1,R,J
+   8,R
+  12,R,U,Z
+   8,R,J,G
    3,J
-   9,R,K
-  18,R,D
-  12,D
+   5
+   3,R
+   1
+  12,J
+   5,L,K,G
+   1,J
+   1,K
+   7,R,K
+  19,R,D
+   8,D
+   2,R,D
+#1:03.070(3710)
+
+
+#1:03.631(3743)
+
+
+#1:04.566(3798)
+
   12,R
   18,U,Z
   11,L
   20,D
-  20,R
-   7,R,D
+  18,R
+   9,R,D
   14,R,Z
    1,R,J
   14,R,X
@@ -397,6 +422,7 @@ EndStunPause
    1,R,J,G
   10,R
   40
+
 #lvl_b03
    1,R
    1,R,J
@@ -495,7 +521,11 @@ EndStunPause
   12,R,D,X
    1,S
    1,D,J
- 224
+  18
+
+#lvl_cb00
+ 206
+
    4,X
   12,R,J
    3,R,K,G
@@ -505,40 +535,49 @@ EndStunPause
    6,R
    2,R,J
   15,R,D,X
-   4,R,J
+   3,R,J
+   5,R,D,X
+   1,R,J,G
+   1,R,D
+   1
+   1,R
+  13,R,D
+   1,R,J
    4,R,K,G
    2,R
-  11,R,D,X
-   2,R,J,G
-   7,R
-   1,R,J
   40
+
 #lvl_c00
-   6,R,J
-   4,R
-   9,R,D,X
-   1,R,J,G
-   5,R
+   1
+   6,R,D,X
+   1,L,J,G
+   1,R,J
+   5,R,D
    1,R,J
    6,R
    1,R,J
-  15,R,D,X
+  19,R,D,X
    4,R,J
-  10,R,K
-   3,R
-  13,R,U,X
-   8,R,J
-   6,R,K
+  12,R,K
+  14,R,U,X
+   4,R,J
+   8,R,K
+   2,R
   40
+
 #lvl_c01
-   1,R,J
-   5,R
-   2,R,J
-   3,R
-  12,R,U,Z
-   7,J,G
+   6,R
+   4
+  14,R,U,Z
+   6,J,G
    1,L,J
-  13,J
+  12,R,J
+   1
+#1:35.659(5627)
+
+
+#1:35.761(5633)
+
   24,R,C
   13,L,D,X
    2,R,J
@@ -576,6 +615,7 @@ EndStunPause
    8,R,D,X
    1,R,J
   40
+
 #lvl_c02
    7,R,J
    3,R
@@ -598,6 +638,7 @@ EndStunPause
    1,R,J
    8,R
   40
+
 #lvl_c03
    4,R
   10,R,J
@@ -637,10 +678,12 @@ EndStunPause
   31,R,U,X
   15,R,U,C
   40
+
 #lvl_c04
    1,S
    1,D,J
   69,O
+
    6,L,Z
    1,R,J
    7,R
@@ -697,6 +740,7 @@ EndStunPause
    1,R,J,G
    7,R
   40
+
 #lvl_c05
    4,R
    1,R,J
@@ -730,36 +774,37 @@ EndStunPause
    7,R
   16,R,J
   10,U,Z
-   4,L,J
+   4,R,J
+   1
+   6,R
+   5,R,J
+   1,R,D
    2,R,J
-   8,R
-   2,R,J
-  12,R,D
+   7,R,D
    4,Z
    1,R,J
    7,R
-   1,R,J
-   4,R
+   4,R,J
+   5,R,D,X
+   3,R,J,G
    2,R,K,G
-   1,R,J,G
-   9,R
+   8,R
   40
-
 #lvl_c06
-   4,R,J
-  21,R,D,X
-   4,R,J
-   3,R,K,G
-   1,R,J,G
-   2,J
+   4,R
    1,R,J
-  12,R,K,G
-  15,R,D,X
+  19,R,D,X
+   2,R,J
+  11,R,K,G
+   7,R,J,G
+  27,R,D,X
    2,R
-  22,R,D
+   9,R,D
    4,R,J
   13,U,X
  135
 
-ChapterTime: 2:17.003(8059)
+ChapterTime: 2:14.657(7921)
+
+
  
