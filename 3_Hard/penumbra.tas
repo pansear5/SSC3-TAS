@@ -1,5 +1,6 @@
-RecordCount: 3383
+RecordCount: 3969
 
+console wipedebug
 console load SecretSanta2024/3-Hard/maya
    1
 
@@ -38,10 +39,6 @@ console load SecretSanta2024/3-Hard/maya
   40
 
 #lvl_ultras
-
-#un comment this if
-#you wanna heart collect
-#Set,SilverBerry[ultras:499].Position,0,0
 #   5,R,U,X
 #   1,R,J,G
 #   1,R,K,G
@@ -268,93 +265,58 @@ console load SecretSanta2024/3-Hard/maya
   40
 
 #lvl_most readable maya gameplay
-  28,L,U
-  43,U
-  13,L,U,X
+  33,L,U
+  40,U
+  10,L,U,X
    5,L,J
   15,L,U,X
-   9,L,J
-   1,L
-   5,L,U,X
-   1,L,J,G
-   2,L,K,G
-   4,L,J,G
-   1,L,K,G
-   6,L
-   1,S,N
-  10,J
    1,L,J
+   6,L
+   8,L,D,X
+   1,L,J,G
+   4,L,K,G
    1,L
-  10,L,J
-  21,L
+   1,L,J,G
+   1,L,K,G
+   1,L
+  12,L,J,G
+  15,L
+   5,L
+   4,L,U
   14,L,D,X
-
-#---------
-#   1,L,J,G
-#   1,L
-#   1,L,K,G
-#   2,L,J,G
-#   7,L
-#   6,L,J
-#  15,L,U,X
-#   1,L,J
-#  15,L,U,X
-#   3,L,U
-#  17,L,J
-#  10,L,U,X
-#   1,L,J,G
-#   2,L,K,G
-#   1,L,J,G
-#   5,L
-#   1,S,N
-#  10,J
-#   1,L,J
-#   2,L
-#   2,L,J
-#  15,L,U,X
-#  18,L
-#   2,L,J
-#  15,L,U,X
-#   1,L
-#   7,L,U
-#   1,L,J
-#   6,L,U,J,X
-#   6,R,J
-# 200,R
-#---------
-
-   5,J,G
-  18
+   9,J,G
+   8,L
+   1,L
+   2,L
+   4,L
   11,R,Z
    1,R,J
    2,R,K,G
    1,R,J,G
-   6,R,K,G
+   2,R,K,G
+   2,R
   15,R,U,X
-  17,R
+   2,R
+  10,R,U
    1,R,J
    7,R,U,X
    1,R,J
    1,R,K,G
    2,R,J,G
-   1,R,K,G
-   2,R
+   2,R,K,G
+   1,R
    1,R,J,G
   14,R,U
    1,R,J
   15,R,U,X
   28,R,U
-  27,R,J
-   3,R
-  15,R,U,X
-  57,R
-   8,R,J
-   6,R
-  15,U,X
+  12,R,J
+  25,R
+  47,R,U
   40
 
 #lvl_teleport
- 137
+ 129
 
 #lvl_the voices are getting louder
   12,R,U,Z
@@ -530,102 +492,76 @@ console load SecretSanta2024/3-Hard/maya
   40
 
 #lvl_singularity
-  18,L,D
-  22,R,D
-   5,R,Z
+  25,D
+  15,L,D
+#-55f
+   6,R,Z
    1,R,J
-   7,R
-   1,R,J
-   1
-  15,R,D,X
-   7,R,D,C
-   1,R,J,G
-   1,R,K,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-   6,R
-   1,S,N
-  10,J
-   1,J
-   1
-   6,R,D,J
-   5,R
-  11,R,D,X
-   1,R,J,G
-  11,R
-   5,R,J
-  11,R,X
-   3,R,J,G
+   3
    4,R
+   1,R,D,J
   15,R,D,X
-   2,R
-   3,R,J
-   7,R
-   1,R,J
-   3,R
-   1,R,J
-   6,R,D,X
-   3,R,J,G
-   5,R
-   3,R,J
-   1,R
-   2,R,J
-  14,R,U,X
-   1,R
-  15,R,U,X
-   6,R
-   1,R,J
-   9,R
+   3,R,D
    5,R,D,X
    1,R,J,G
    2,R,K,G
    1,R,J,G
-  11,R,K,G
-   5,R
-   2,R,K
-   2,R
-   2
-   1,L,J
+   2,R,K,G
+   6,R,J,G
+  15,R,D,X
+  10,R,U,Z
+   7,R,J,G
+   1,R
+   7,R,D,X
+   1,L,J,G
+   6,R,J
+   6,R
+   1,R,J
+   3,R
+   3,R,J
+  15,R,D,X
+   1,R
+   2,R,J
+   3,R
+   7,R,D,X
+   2,R,J,G
+   8,R
+   2,R,J
+  14,R,U,X
+   1,R
   15,R,U,X
-   1,R,U
+   5,R,U
+   1,R,J
+  11,R,Z
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   1,R,K,G
+  15,R,U,X
+   4,R,U
    1,R,J
   15,R,D,X
    3,R,D
    1,R,J
-   4,R
   15,R,U,X
-   6,R
-   2,R,U
-   1
-  14,R,D,X
-   1,J,G
-   6,R
-   1,S,N
-  11,J
-   1
-   1,J
-  13,R,J
+  12,R,U
+  15,R,D,X
+  15,R,J
    4,X
   11,R,D,X
-   4,R,D
-  44,R,J
-  12,R,D
-  15,R,X
-  55
+  70,R
+  25,R,X
+  45
 
 #lvl_endcutscene_0
-   1,S
-   1,D,J
-   1,O
- 216
+ 183
 
 #lvl_endcutscene_1
- 544
+ 546
 
 #lvl_heart
  189
   12,U,X
  135
 
-ChapterTime: 1:16.687(4511)
+ChapterTime: 1:13.984(4352)
