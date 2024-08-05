@@ -1,0 +1,32 @@
+console load SecretSanta2024/0-Lobbies/1-Easy 2016 296
+   1
+
+#Start
+  36
+   2,R,J
+  14,L,Z
+   1,L,J
+  19,L,D,X
+   1,L,J
+  14,L,U,X
+   3,L,K,G
+   8,L
+   1,L,N
+  12,L,J
+  10,L,Z
+   1,L,J
+  11,L,D
+  36,R,D,X
+   8,D
+   1,R,N
+   8,L,Z
+   1,L,J
+   1,L,K,G
+  11,L
+   5,L,J
+  11,L,D,X
+   1,L,J
+  11,L
+   1,N
+
+#0:02.907(171)

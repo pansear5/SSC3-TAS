@@ -1,0 +1,52 @@
+console load SecretSanta2024/0-Lobbies/1-Easy
+   1
+
+#Start
+ 190
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  10,R,D,X
+   1,R,J
+   9,R,K,G
+  15,U,X
+  11,K,G
+   7,R
+   2,J
+   6,R,J
+   2,R,K,G
+   1,R
+  14,R,U,X
+   5,R,J,G
+  10,R
+   1,N
+   6,R,Z
+   1,R,J
+   4,R
+   1,R,J
+   5,R
+  15,D,X
+   6,L,D
+   6,L,Z
+   1,L,J
+   7,L
+   1,L,J
+  14,L,D,X
+   1,L,J
+  11,L,D,X
+   8,L,J
+   3,L
+   1
+  11,L,Z
+   1,L,J
+   6,L,K,G
+   7,L,Z
+  11,L,J,G
+   3,L,K,G
+   1,L
+   8,L,J,G
+   4,L
+   1,N
+
+#0:03.740(220)
