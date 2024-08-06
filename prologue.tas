@@ -1,0 +1,64 @@
+# SecretSantaCollab2024
+# https://gamebanana.com/mods/532531
+
+RecordCount: 116
+
+console load SecretSanta2024/0-Lobbies/0-Prologue
+   1
+
+#Start
+  99
+
+#lvl_1
+   4,R,Z
+   1,R,J
+   7,R
+  11,R,J
+   3,R,K,G
+   3,L
+   1
+  20,R,D,X
+   1,R,J
+   5,R,K,G
+   1,K
+  14,R,U,X
+   4,R,J,G
+  13,R
+   5,R,J
+  14,R,D,Z
+   1,R,J
+  16,R,D,X
+   8,R,J
+  15,R,D,X
+repeat 5
+   1,R,J
+  14,R,D,X
+endrepeat
+   1,R,J
+  13,R,D,X
+   1,R,J
+   1,R
+   5,R,D,X
+   1,R,J,G
+  14,R
+   1,R,J
+  14,R,D,X
+   1,R
+   1,X
+   1
+repeat 380
+   1,J
+   1,O
+endrepeat
+  17
+   1,D
+   1,J
+repeat 90
+   1,J
+   1,O
+endrepeat
+   1
+# timer stops here but you
+# can still do inputs ????
+# idk
+ChapterTime: 0:20.298(1194)
