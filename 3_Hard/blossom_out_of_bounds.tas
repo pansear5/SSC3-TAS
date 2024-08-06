@@ -1,4 +1,4 @@
-RecordCount: 1296
+RecordCount: 1300
 
 console load SecretSanta2024/3-Hard/nuwut
    1
@@ -352,10 +352,8 @@ EndStunpause
   40
 
 #lvl_Plant
-   1,S
-   1,D,J
-   1,O
-  68
+   1
+  72,O
    2,R,J
   16,R,Z
 #why even TAS if you're gonna do stuff like this?
@@ -572,4 +570,4 @@ EndStunpause
   16,R,V
  138
 
-FileTime: 1:02.611(3683)
+FileTime: 1:02.594(3682)
