@@ -1,4 +1,4 @@
-RecordCount: 5439
+RecordCount: 5521
 
 console load SecretSanta2024/1-Easy/GlowWoomii
    1
@@ -780,7 +780,7 @@ EndRepeat
    1,R,J,G
   18,R
    8,D
-### +67f
+### +100f
 #   1
 #   9,L
 #  13
@@ -862,38 +862,39 @@ StunPause
    2,R
    5
 EndStunPause
-   2
-   3,R
-   4,R
+   3
+   1,R
+   2,R,K
+   2,R
    5,R,U,X
    1,L
    7,J,G
-   2,R,J
-   1,J
-   1
+   1,R,J
+   2,J
+   1,L,J
   15,U,Z
-   5,R
-   1,L
-   4,L,J,G
-StunPause
-   4,L,J
-EndStunPause
-   4,L,J
-  10,L,K,G
-StunPause
-   1,L,K
-   1,L
-  11,L,J,G
-   1,L
-   7,L,K,G
-   1,R,K
-   2,L,K
+   1,J,G
+   1,R,J
+   2,J
+   1,R,J
+   9,L,K,G
    3,L
-   1
+  11,L,J,G
+StunPause
+   1,J
+  12,L,K,G
+   1,L,J,G
+   8,J
    4,L
 EndStunPause
-   1,L
-  14,D
+   1,S,N
+  10,J
+   2,L,J
+StunPause
+   2,L
+EndStunPause
+  15,L,Z
+   6,D
    1,D,J
    2,K,G
    1,R,K
@@ -1025,4 +1026,4 @@ EndStunPause
    9,U,X
  135
 
-ChapterTime: 1:31.868(5404)
+ChapterTime: 1:31.307(5371)
