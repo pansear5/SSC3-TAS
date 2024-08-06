@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 296
+RecordCount: 298
 
 console load SecretSanta2024/0-Lobbies/0-Prologue
    1
@@ -43,8 +43,9 @@ EndRepeat
    7,L
    8,R,D,X
    1,R,J,G
-  12,R
-   1,R,J
+  11,R
+   1
+   1,R,D,J
   13,R,D,X
    1,L,J
    7,L
@@ -65,4 +66,4 @@ endrepeat
 # timer stops here but you
 # can still do inputs ????
 # idk
-ChapterTime: 0:18.887(1111)
+ChapterTime: 0:18.802(1106)
