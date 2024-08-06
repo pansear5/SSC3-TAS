@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1899
+RecordCount: 1900
 
 console load SecretSanta2024/1-Easy/Firefox529
    1
@@ -299,7 +299,7 @@ console load SecretSanta2024/1-Easy/Firefox529
    1,R,D
   15,R,D,X
    1,R,J
-  14,R,D,X
+  13,R,D,X
   13,G
   40
 
@@ -379,4 +379,4 @@ console load SecretSanta2024/1-Easy/Firefox529
   14,L,X
  137
 
-ChapterTime: 1:12.777(4281)
+ChapterTime: 1:12.760(4280)
