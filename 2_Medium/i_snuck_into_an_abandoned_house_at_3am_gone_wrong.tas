@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 2333
+RecordCount: 2400
 
 console load SecretSanta2024/2-Medium/moladan
    1
@@ -13,24 +13,18 @@ console load SecretSanta2024/2-Medium/moladan
   34
 
 #lvl_intro
-   4,R,X
-   6,R,J
-   7,R
    4,R,Z
-   1,R,J
-   7,R
-  10,R,J
-# downright cb into dultra
-# probably faster but i cant
-# land the dultra on the
-# cutscene platform for the
-# life of me :catplant:
-  13,R,D,X
+   4,R,J
+   4,R,K,G
+   1,R,J,G
+  10,R
+   9,R,J
+  12,R,D,X
    1,S
    1,D,J
   34
   12,R
-   1,X
+   1,N
  155
 
 #lvl_intro-2
@@ -49,14 +43,18 @@ endrepeat
    7,R
   12,R,J
   14,R,Z
-  34,R,D
-  10,L,D,Z
-   5,L,J
+   2,R,J
+  15,D,X
+  14,D
+  10,L,D,X
+   3,L,J
+   2,J
   15,L,D,X
    1,J
-   9,L,U,Z
-   2,L,J,G
-  17,L
+   8,L,U,Z
+   4,L,J,G
+  12,L
+   6
   31,R,D,X
   60
 
@@ -804,27 +802,26 @@ repeat 3
    1,L,K
   13,L,J,G
 endrepeat
-repeat 58
+repeat 56
   11,K,G
    1,R,K
    1,J
   24,L,J
 endrepeat
-   1,K,G
-   3,L,K
-   5,K
-   1,L,K
-   1,R,K
-   1,L,K
-  14,L,J,G
-   8,R,K
+  15,U,X
+  21,R,J
+  10,K,G
+   1
+   1,L
+   1,J
+  24,R,J
+   8,R,K,G
    1,S
    1,D,J
   34
-   1,R,J
    7,R
-   8,R,J
-  16,R,U,X
+   6,R,J
+  15,R,U,X
  135
 
-ChapterTime: 3:43.992(13176)
+ChapterTime: 3:43.261(13133)
