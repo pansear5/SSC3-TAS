@@ -1,4 +1,4 @@
-RecordCount: 261
+RecordCount: 275
 console load SecretSanta2024/1-Easy/skqw
    1
 
@@ -12,70 +12,74 @@ console load SecretSanta2024/1-Easy/skqw
    7,R,J
   15,R,D,X
    1,R,J
-   3,R,K,G
-   6,R
-   3,R,J
    2,R,K,G
-   2,R,J,G
+   8,R
+   1,R,J
+   1,R
+   1,R,K,G
+   1,R
+   1,R,J,G
+   1,R
    1,R,K,G
   13,R
    1,R,J
-   3,R
+   2,R
+   5,R,U,X
   40
+
 #lvl_a-01-kitchen
-  11,R
+   3,R,U,X
+   1,L,J,G
+   7,R,J
+  15,R,D,X
    1,R,J
-  14,R
-  11,R,J
-   7,R
-   4,R,J
-   2,R,K,G
-   7,R,J,G
+  12,R
+   1,R,J
+   3
+   4,R
+   3,R,J
+   4,R,K,G
   14,U,X
-   5,L,J
-   4,R,J
+   7,R,J
+   4,L,J
   40
 
 #lvl_a-03-living
-   6,R,J
-   5,R
-   6,R,Z
+   1,L
+   1,R
+   1,J,G
+   2
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   3,R
+   6,Z
    1,R,J
    7,R
+Repeat, 7
    1,R,J
   14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
+EndRepeat
   40
 
 #lvl_a-05-stairs
    1,R,J
   14,R,D,X
-   1,R,J
-   5,R,J
-   4
-   1,J
-   2
+   3,R,J
+   1,R
+   4,R,J
+   5
   15,D,X
-   9,L
+   5,L,D
+   1,L,J
   15,D,X
-   8,R
-   2
-   4,Z
+   9,R,D
+   2,R
+   6,Z
    1,R,J
-   6,R
+   4,R
+   2
    1,R,D,J
-   3,R
   35,R,D,X
    1,R,J
    5,R,D,X
@@ -113,5 +117,4 @@ endrepeat
   18,U,X
  135
 
-ChapterTime: 0:15.555(915)
-
+ChapterTime: 0:15.453(909)
