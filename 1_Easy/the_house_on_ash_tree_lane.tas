@@ -1,4 +1,4 @@
-RecordCount: 275
+RecordCount: 278
 console load SecretSanta2024/1-Easy/skqw
    1
 
@@ -79,8 +79,9 @@ EndRepeat
    1,R,J
    4,R
    2
-   1,R,D,J
-  35,R,D,X
+   1,R
+   1,R,J
+  33,R,D,X
    1,R,J
    5,R,D,X
   40
@@ -117,4 +118,4 @@ endrepeat
   18,U,X
  135
 
-ChapterTime: 0:15.453(909)
+ChapterTime: 0:15.436(908)
