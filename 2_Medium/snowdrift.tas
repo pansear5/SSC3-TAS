@@ -1,4 +1,4 @@
-RecordCount: 2521
+RecordCount: 2557
 
 console load SecretSanta2024/2-Medium/qtpi
    1
@@ -861,6 +861,7 @@ EndRepeat
    1,R,K
 EndStunPause
    1,R,K
+#
    5,R
    9,D,X
   40
@@ -871,6 +872,8 @@ EndStunPause
   14,R,D,X
    1,R,J
    9,R,D,X
+#
+#1:50.194(6482)
    1,S
    1,D,J
   34
@@ -976,9 +979,8 @@ EndStunPause
    1,R,J
   14,R
   11,R,D,J
-   1,L,K,G
-  15,R,K
-  10,U,X
- 135
+   9,L,K,G
+  15,R,U,X
+ 136
 
-ChapterTime: 2:06.429(7437)
+ChapterTime: 2:06.412(7436)
