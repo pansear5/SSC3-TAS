@@ -1,4 +1,4 @@
-RecordCount: 3969
+RecordCount: 4896
 
 console wipedebug
 console load SecretSanta2024/3-Hard/maya
@@ -319,182 +319,148 @@ console load SecretSanta2024/3-Hard/maya
  129
 
 #lvl_the voices are getting louder
-  12,R,U,Z
-   1,L,J
-   2,L
+  13,R,U,Z
+   2,L,J
   15,L,D,X
-   2,L
+   3,L
    1,L,J
   15,L,U,X
    3,L
-   4,L,J
-  10,L,U,X
+   1,L,J
+   4,L
+   9,L,U,X
    1,L,J,G
+   2,L,K,G
+   1,L,J,G
+   1,L,K,G
+   1,L
+  18,L,U,X
+  15,L,D,C
+   1,L
+  15,L,D,X
+   1,L,D
+   2,L,J
+  15,L,D,X
+   2,L,D
+   6,L,J
+  12,L,Z
+   1,L,J,G
+   1,L,K,G
+   1,L
+   6,L,D,X
+   1,L,J,G
+   2,L
+   4,L,K,G
+   6,L
+   1,L,K
+   2,L
+   3,L,J
+   6,L,U,X
    2,L,J,G
    1,L,K,G
-   1,L
-  15,L,U,X
-   4,L
-  15,L,D,X
-   4,L
-   5,L,U,X
-   1,L,J,G
-   2,L,K,G
-   1,L,J,G
-   6,L
-   1,S,N
-  10,J
-   1,L,J
-   1,L
-   3,L,J
-   1,L
-  15,L,D,X
-   5,L,D
-   7,L,J
-   6,L,U,X
-   1,L,J,G
-   2,L,K,G
    1,L,J,G
    5,L
    1,S,N
   10,J
    1,L,J
-   4,L
-   2,L,J
-   5,L,D,X
-   1,L,J,G
-   2,L,K,G
-   1,L,J,G
-   4,L,K,G
+   2,L
    1,L
-   7,L,K
-   2,L
-   2,L,J
-   6,L,U,X
-   1,L,J,G
-   2,L,K,G
-   5,L
-   1,S,N
-  10,J
    1,L,J
-   2,L
-   5,L,J
-   5,L,D,X
+   1,L
+   7,L,D,X
    1,L,J,G
    2,L,K,G
    1,L,J,G
    1,L,K,G
-   6,L
+   5,L
    1,S,N
   10,J
    1,L,J
-   1,L
+   8,L
+   5,L,J
+   7,L
    1,L,J
-  13,L,U,X
-   1,L,J,G
-   2,L,K,G
-   1,L,J,G
-   3,L,K,G
-  14,L,U
   15,L,D,X
-  47,L
-  40,L,D
+  15,L,D,C
+  34,L
+  32,L,D
+   9,R,D
   40
 
 #lvl_transition2
-  35,L,D
-  10,L,X
-   5,L,J
-  14,D,X
+  17,R,D
+  16,D
+   7,L,D
+   8,D
   40
 
 #lvl_suffer
-  21,L,D
-  11,L,J
-  14,L,U,X
+   7,D
+   4,X
+  11,D,X
+  14,R,Z
    1,R,J
-  10,R,D,X
-   5,R,J,G
-  16,R,U,X
-   1,R,J
-   2,R
-   1,R,J
-  14,R,D,X
-   1,R,J,G
-   6,R
-   1,R,J
-   2,R
-   1,R,J
-   1,R
-   6,R,X
-   3,R,J,G
-   1,R,K,G
-   2,R,J,G
-   1,K,G
-   6,R,K
-  20,R,D,X
-   1,R,J
-   5,R
-  14,R,U,X
-   1,R,J,G
-   2,J
-  20,R,D,X
-   1,R,J
-   1,R
-   9,R,U,X
-   1,R,J,G
-   1,R,K,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-   7,R
-   1,R,J
-  10,R,D,X
+   2
+   9,R,Z
    1,R,J,G
    2,R,K,G
    1,R,J,G
-   5,R
-   9,D
-   1,L,U
-   5,L
+   1,R,K,G
+  15,R,D,X
+   7,R,D
+   1,R,D,J
+  10,R
    1
-   6,L,D,X
-   7,J,G
-   6,L
+  15,R,U,Z
+   1,J
+  15,R,D,X
+   7,R
+   2,R,J
+   1,R
+   8,R,U,X
+   1,R,J,G
+   2,R,K,G
+   1,R,J,G
+   1,R,K,G
+   6,R
    1,S,N
   10,J
-   1,J
-   1
-   1,L,J
-   9,L,U,X
-   1,L,J,G
-   1,L,K,G
-   1,L
-   1,L,J,G
-   9,L
-   2,L,J
-  20,L,D,X
-   3,L
-  13,L,U,C
-  50,R,D
-  13,R,D,X
-   5,R,J
-   3,R
-   1,R,K,G
-   3,R
-   1,R,J,G
-   9,R
-   1
    1,R,J
+   1,R
+   1,R,J
+   9,R,D,X
+   1,R,J,G
+   2,R,K,G
+   3,R,J,G
+   8,L
+  10,L,D,X
+   3,L,J,G
+  16,L
+   6,L,D
+   4,L,J
+   4,X
+   7,L,D,X
+  67,R
+  13,R,Z
+   1,R,J
+   1,R,K,G
+   3,R,J,G
   15,R,U,X
-  38,R,D,C
-  52,D
+   1,R,U
+  15,R,D,C
+  10,D
+  28,R,D
+   1,D
+   1,R,D
+   6,R
+  12,R,D
+   1,R
+   8,D
   40
 
 #lvl_singularity
-  25,D
-  15,L,D
-#-55f
+  33,D
+   7,L,D
    6,R,Z
    1,R,J
    3
@@ -564,4 +530,4 @@ console load SecretSanta2024/3-Hard/maya
   12,U,X
  135
 
-ChapterTime: 1:13.984(4352)
+ChapterTime: 1:11.179(4187)
