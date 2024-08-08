@@ -1,4 +1,4 @@
-RecordCount: 2370
+RecordCount: 2557
 
 set, CommunalHelper.DeployElytra, Q
 
@@ -6,11 +6,9 @@ console load SecretSanta2024/2-Medium/Spooooky
    1
 
 #Start
-
   98
 
 #lvl_a-01
-
    6,R,Z
    1,R,J
    7,R
@@ -76,8 +74,7 @@ console load SecretSanta2024/2-Medium/Spooooky
   37,R,J,PQ
   31,U,PQ
   12,PQ
-   7,R
-   1,R
+   8,R
   14,R,Z
    1,L,J
   14,L,D,X
@@ -92,7 +89,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-02
-
    1,PQ
    1
   15,R,D,X
@@ -121,7 +117,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-03a
-
    1,R
   72,O
    6,R,Z
@@ -137,7 +132,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-03
-
   13,L,D
    1,L
    1,L,D
@@ -150,7 +144,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   43
 
 #lvl_a-04
-
   11,R
    3
    1,R
@@ -168,48 +161,44 @@ console load SecretSanta2024/2-Medium/Spooooky
   10,R,U,Z
    1,L
    2,J,G
-   7
-   1,R,J
-   2
+   5
+   1,J
+   1
+   1,J
+   1,K
+   1,J
    5,R,Z
    1,R,J
-   3,R
-   1,R,J
+   4,R
   40
 
 #lvl_a-05
-
-   2,R,J
-   3,R
-   4,Z
-   1,R,J
+   2,R
+#faster setup?
+   3,R,J
+   6,J
+   9
+   1,J
    8
-   1,R
-  10,L,J
-  15,R,Z
-  29,L,D
-   1,D
-   4
-   1,L
-  27,R
-  15,R,U,X
-  26,R,D
-  27
-   2,R,J
-  15,J
-   1,L,J
-  14,U,X
-  35,L
-  11,U,X
+   3,L,D
+   4,R,Z
+  33
+  15,R,D,X
+  25
+   5,R
+   8,L
+  18,J
+  18,U,X
+  31,L
+  12,U,X
   12,L,J
    4,L
    7,R
-   4,R,J
-   3,J
+   3,R,J
+   4,J
   15,U,X
-  10,R
-  10
-   2,L
+   8,R
+  14
   14,R,Z
   11,R,J
    2,R
@@ -222,7 +211,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-06
-
    8
    5,R,J
    5,L,J
@@ -237,69 +225,63 @@ console load SecretSanta2024/2-Medium/Spooooky
   25,R,D
    1,D
   12,D,X
-  65,R,PQ
-  25,R,D,PQ
-  25,R,PQ
-   1,U,PQ
-   1
-  15,R,D,X
-   1
-   6,R,Z
+  44,R
+   3,R,PQ
+   1,R,D,PQ
+   2,R,PQ
+Repeat, 12
+   1,R,D,PQ
+   1,R,PQ
+EndRepeat
+  42,R,PQ
+  14,R,D,X
    1,R,J
-  10,R,D
-   1,R,J
-   1,R
-  10,R,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   2,PQ
-   1
-   1,R,J
-   3,R,K,G
-   2,R
-   7,R,J,G
-   2,R,K,G
-   1,R
-  14,R,U,X
-   2,R,J,G
    7,R
-   6,L,Z
    1,R,J
-  28,R
-   2,D
-   1
-   2,D
-   5,R,D
-  12,D,X
-   4,R,J,G
-   7,L,Z
-   1,R,J
-   3,R
-   1,R,J
-   3,R
-   5,R,U,J,PQ
-  39,PQ
-  57,U,PQ
-  11,U,X
-  14,R,J
-  11,R
-   1,R,J
-   1,R
+Repeat, 10
+   1,R,U,PQ
+   1,R,PQ
+EndRepeat
+   4,R,U,PQ
+Repeat, 5
+   1,R,U,PQ
+   1,R,PQ
+EndRepeat
+   1,R,PQ
+Repeat, 3
+   1,R,U,PQ
+   1,R,PQ
+EndRepeat
+   2,R,PQ
+   1,R,U,PQ
+   5,R,PQ
+Repeat, 3
+   1,U,PQ
+   1,R,PQ
+EndRepeat
+   9,R,PQ
+   1,R,U,PQ
+   9,R,PQ
+  12,R,D
+  10,L,D,X
    2,R,J
+   4,R,K,G
+   6,R,U,PQ
+  25,R,PQ
+Repeat, 5
+   1,R,D,PQ
+   1,R,PQ
+EndRepeat
+  19,R,U,PQ
+Repeat, 30
+   1,R,U,PQ
+   1,R,PQ
+EndRepeat
+   6,U,X
+  13,R,J
    8,R
+   3,R,J
+  13,R
    6,R,J
   10,L,D,X
    1,R,J
@@ -309,7 +291,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-07
-
    1,U,PQ
    5,PQ
    1
@@ -376,7 +357,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-08
-
   15,R,D,X
    3,R,J
    3,R
@@ -419,23 +399,35 @@ console load SecretSanta2024/2-Medium/Spooooky
    8,J,G
   14,R,J
   48,R,X
-  25,R,J
-  37,R,U,X
-  29,D
-   4,L,D
-   1,D
-   1,L,D
-  15,R,Z
-  23,L,D
-   5,L
-  39,R
-  13,L,D,X
+  11,R,J
+  11,R
    1,R,J
-  44,R,PQ
-  12,U,PQ
-   5,PQ
-   2,U,PQ
-   4,R
+  11,R
+   1,R,D
+   2,D
+   1
+  15,R,Z
+  13,L
+   3,L,J
+   9,L
+   1
+  14,R,D,X
+  28,R,J
+  11,R,PQ
+Repeat, 27
+   1,R,D,PQ
+   1,R,PQ
+EndRepeat
+   9,R,U,PQ
+Repeat, 6
+   1,R,U,PQ
+   1,R,PQ
+EndRepeat
+   1,R,PQ
+   1,R,U,PQ
+   1,R,PQ
+   1,R,U,PQ
+   1,R
    1,R,J,G
    1,L
    3,R
@@ -450,7 +442,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-09
-
    1,U,PQ
   63,R,PQ
   24,U,PQ
@@ -494,7 +485,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-10
-
   13,U,PQ
    1,PQ
   23,U,PQ
@@ -554,7 +544,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-11
-
    1,R
    3,R,J
   15,R,D,X
@@ -613,7 +602,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-12
-
    1,R,J
   14,R,D,X
    1,R,J
@@ -633,7 +621,6 @@ console load SecretSanta2024/2-Medium/Spooooky
   40
 
 #lvl_a-13
-
    8,U,PQ
    8,PQ
    1,U,PQ
@@ -641,4 +628,4 @@ console load SecretSanta2024/2-Medium/Spooooky
    7,D,X
  141
 
-ChapterTime: 1:33.126(5478)
+ChapterTime: 1:31.222(5366)
