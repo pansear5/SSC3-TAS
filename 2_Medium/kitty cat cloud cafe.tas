@@ -1,7 +1,9 @@
-RecordCount: 2557
+# SecretSantaCollab2024
+# https://gamebanana.com/mods/532531
 
-set, CommunalHelper.DeployElytra, Q
+RecordCount: 3998
 
+Set, CommunalHelper.DeployElytra, Q
 console load SecretSanta2024/2-Medium/Spooooky
    1
 
@@ -30,90 +32,53 @@ console load SecretSanta2024/2-Medium/Spooooky
    1,S
    1,D,J
   34
-  13,R,D,X
-  15,R,J,PQ
-   1
-  21,R,J,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   2,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1
-   1,R
   12,R,D,X
-   1,L,J
-   2
-  14,L,Z
    1,R,J
-   6,R,D,X
+  11,R,PQ
+   1
+   6,R,J
+  14,R,J,PQ
+   1,J,PQ,F,85.9
+  31,J,PQ,F,80
+   1
    1,R,J,G
-  12,R
-  37,R,J,PQ
-  31,U,PQ
-  12,PQ
-   8,R
-  14,R,Z
+   9,R
+   1,R,J
+  12,R,J,PQ
+  83,PQ,F,76.345
+   1
+   3,R
+  14,R,D,Z
    1,L,J
+   1
+   1,J
+   5
+   1,L
   14,L,D,X
    1,R,J
    6,R,D,X
    1,R,J,G
-   3
-   9,R
-   1,R,J,PQ
-   9,R,U,PQ
-   2,PQ
+  11,R
+   1,R,J
+  12,J,PQ,F,60.30
   40
 
 #lvl_a-02
-   1,PQ
-   1
+   1,R,J
   15,R,D,X
-   5,R,D,J
+   1,R,D,J
+   4,R,J,PQ
+  12,PQ,F,73.98
+   3,R,PQ
+   9,PQ,F,69
+   5,PQ,F,63
+  15,PQ,F,54
+  16,R,PQ
+   7,PQ,F,70
    7,R,PQ
-   1,U,PQ
-   6,PQ
-   1,U,PQ
-   1,PQ
-  13,U,PQ
-   3,PQ
-  12,U,PQ
-  12,PQ
-   7,U,PQ
-   7,PQ
-   3,U,PQ
-  14,PQ
-  11,U,PQ
-   6,PQ
-  10,U,PQ
-  64,PQ
-  43,U,PQ
-   1
-  13,U,X
-  24,L,J
+  17,PQ,F,75.5
+  45,PQ,F,71.8
+  40,U,PQ
   40
 
 #lvl_a-03a
@@ -222,165 +187,98 @@ console load SecretSanta2024/2-Medium/Spooooky
   19,R,J
   14,R,D,X
    6,R,J
-  25,R,D
-   1,D
+  22,R,D
+   4
+   2,D
   12,D,X
-  44,R
-   3,R,PQ
-   1,R,D,PQ
-   2,R,PQ
-Repeat, 12
-   1,R,D,PQ
-   1,R,PQ
-EndRepeat
-  42,R,PQ
-  14,R,D,X
+  42,R
+  61,R,PQ
+   5,PQ,F,81
+  15,R,D,X
+   1,R,D
+   2,D
+   2,R,D
+   8,Z
    1,R,J
-   7,R
+   6,R
    1,R,J
-Repeat, 10
-   1,R,U,PQ
-   1,R,PQ
-EndRepeat
-   4,R,U,PQ
-Repeat, 5
-   1,R,U,PQ
-   1,R,PQ
-EndRepeat
-   1,R,PQ
-Repeat, 3
-   1,R,U,PQ
-   1,R,PQ
-EndRepeat
-   2,R,PQ
-   1,R,U,PQ
-   5,R,PQ
-Repeat, 3
-   1,U,PQ
-   1,R,PQ
-EndRepeat
-   9,R,PQ
-   1,R,U,PQ
-   9,R,PQ
-  12,R,D
+   7,R,J,PQ
+  30,J,PQ,F,55.74
+  12,PQ,F,69.8
+  14,PQ,F,120
+  17,R
   10,L,D,X
    2,R,J
    4,R,K,G
-   6,R,U,PQ
-  25,R,PQ
-Repeat, 5
-   1,R,D,PQ
-   1,R,PQ
-EndRepeat
-  19,R,U,PQ
-Repeat, 30
-   1,R,U,PQ
-   1,R,PQ
-EndRepeat
-   6,U,X
-  13,R,J
+  10,K,PQ,F,60.55
+  22,R,PQ
+   5,PQ,F,120
+   5,R,PQ
+  58,PQ,F,57
+  11,U,X
+   9,R,J
    8,R
-   3,R,J
+   4,R,J
   13,R
-   6,R,J
-  10,L,D,X
-   1,R,J
-  11,R,PQ
+   1,D
    1
-   7,R,U,J,PQ
-  40
-
-#lvl_a-07
-   1,U,PQ
-   5,PQ
-   1
-  15,R,D,X
-   5,R,D,J
-  10,R,PQ
-   1,U,PQ
-   3,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   8,PQ
-   6,U,PQ
-  33,PQ
-   1
-   6,R,J
-  12,R,PQ
-   1,U,PQ
-  10,PQ
-  25,U,PQ
-  20,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   1,PQ
-   1,U,PQ
-   7,PQ
-  10,U,PQ
-  40,PQ
-  21,U,PQ
-  38,PQ
-  29,U,PQ
-   1
-  21,R,Z
-  14,U,V
-  10,L,J,PQ
- 245,PQ
-  17,U,PQ
-   9,PQ
-   1,U,PQ
-   1,PQ
-   1
-   1,R
-   1
-   7,R,D,X
+   1,D
+   4,Z
    1,R,J
    6,R
-   9,R,U,J,PQ
-   4,PQ
+   1,R,J
+  11,J,PQ,F,71.19
   40
 
-#lvl_a-08
+   7,J,PQ,F,71.
+  15,R,D,X
+   5,R,D,J
+  14,R,J,PQ
+   1,PQ,F,90
+  14,PQ,F,78.46
+  43,PQ,F,87.56
+   7,R,J
+   5,J,PQ,F,60
+   7,PQ,F,94
+  12,PQ,F,99
+  42,PQ,F,24
+  20,R,PQ
+  18,PQ,F,76.4
+  24,PQ,F,64
+  34,PQ,F,58
+  26,PQ,F,45
+  65,R,PQ
+  66,L,PQ
+  59,R,PQ
+  64,PQ,F,84.88
+   1,R
+   4,Z
+   1,R,J
+   6,R
+   1,R,J
+  14,J,PQ,F,57.6
+  40
+
   15,R,D,X
    3,R,J
-   3,R
-   2,R,PQ
-  48,D,PQ
-   1,PQ
-   5,D,PQ
-   2,PQ
-   1,D,PQ
-   7,PQ
-   3,D,PQ
-   2,PQ
-   2,D,PQ
-   4
+   1
+  38,PQ,F,160
+  19,PQ,F,144.9
+  18,PQ,F,141.85
+   5,R
+
+  15,R,Z
    1,R
-  16,R,Z
    1,G
    1,L
   24,L,J
   38,R
   20,R,U,X
   15,U,Z
-   2,R,J
-   8,J
+   1,R,J
+   4,J
+   1,R,J
+   4,J
   15,R,X
   10,L
   12,R,D,X
@@ -628,4 +526,4 @@ EndRepeat
    7,D,X
  141
 
-ChapterTime: 1:31.222(5366)
+ChapterTime: 1:27.720(5160)
