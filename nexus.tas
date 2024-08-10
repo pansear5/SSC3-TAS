@@ -1,11 +1,9 @@
-RecordCount: 3769
+RecordCount: 4216
 
 console load SecretSanta2024/3-Hard/corkr900 
    1
-
 #Start
  110
-
 #lvl_001
    1,S
    1,D,O
@@ -461,12 +459,11 @@ console load SecretSanta2024/3-Hard/corkr900
    5,R
    3,R,D
    1,R
-   4,R,Z
+   4,Z
    2,R,J
    4,R
    1,R,J
   40
-
 #lvl_011
   18,R
   10,R,J
@@ -589,37 +586,41 @@ console load SecretSanta2024/3-Hard/corkr900
    1,S
    1,D,J
   69,O
-   3,R,J
-   4,J
+   5,R,J
+   2,R
    5,R,Z
-   1,J,G
-   4,R
+   1,R,J
+   1,R
   40
-
 #lvl_017
+  14,R
+   9,R,Z
+   1,R,J
    6,R
-   5,L,D
-   1,N
-   3,J
-  10,R,D,X
-   1,R,J
-   4,R
-   8,R,D,X
-   1,R,J
-   7,R
    1,R,J
   17,R,D,X
-   4,R,J
-  14,R,D,X
-  19,R
+   3,R,J
+   1,R
+  15,R,D,X
+   6,R
+   1
+  10,R
   15,R,D,X
   15,R,D,C
   15,R,D,X
   15,R,D,C
   17,R,D,X
   10,R,J
-  37,R
-   6,R,D
+  25,R
+   1
+   2,R
+   1,R,D
+   1,R
+   1,R,D
+   1,R
+   8,R,D
+   1,R
+   1,R,D
   14,R,U,X
    1,R,J,G
    9,R
@@ -642,17 +643,15 @@ console load SecretSanta2024/3-Hard/corkr900
    6,R,U,C
    3,R,J,G
    7,R
-   3,R,J
-  13,R,D,X
+   6,R,J
+  11,R,U,X
   40
-
 #lvl_018
-   3,L,J
+   3,R
    1,S
    1,D,J
   34
-   4,J
-  14,R,U,X
+   6,R,J
+  14,R,C
  135
-
-ChapterTime: 1:29.675(5275)
+ChapterTime: 1:29.420(5260)
