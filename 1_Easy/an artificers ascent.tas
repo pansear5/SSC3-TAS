@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 3983
+RecordCount: 6390
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -15,40 +15,44 @@ console load SecretSanta2024/1-Easy/xolimono
 #lvl_xd-start
   15,U,X
   15,R,U,C
-   6,R,U
+   4,R,U
+   1,U
   15,U,X
    1
-   1,J
-   1,L,J
+  18,L,J
   15,U,X
-   4,L,J,G
-   8,L
-  15,U,X
-   4,R
-  11,R,J,G
-   8,R
+   2,L,J
+   5,R,J
+  12,R,K,G
+   1,R,J,G
+   1,R,K,G
+   3,R,J,G
+   2,R,K,G
+   5,R
    1,R,J
-   2,R
-   4,R,J,G
-   9,R
-   1,R,J
-   8,R
-  15,U,X
-   6,L,J,G
-   8,L
-   4,L,X
-   3,L,J
-   4,L
-   1,L,K,G
-   9,L
-  15,U,X
-  13,R,J,G
-   3,R,K,G
-   9,R
-  10,R,X
-  13,L,J
-  15,U,X
-  44,U
+   3,R
+   9,R,J
+  15,U,Z
+   1,L,J,G
+   1,R
+   6,L
+  11,L,J
+   9,U,X
+   6,J
+  12,R,K,G
+   2
+   3,J,G
+   6,R
+   1,L
+   9,L,D,J
+   6,J
+#banger ChapterTime IL strat
+#  35,U,X
+#  18,L,D,C
+# 200
+#
+  26,U,X
+  24,D,C
 
 #lvl_x-intro_tent
    1,S
@@ -56,245 +60,160 @@ console load SecretSanta2024/1-Easy/xolimono
   34
 
 #lvl_x-intro_tentB
-  15,L,X
-  31,L
+   4,L,Z
+   1,L,J
+   7
+   3,R,J
+   6,R,D,X
+   1,R,J
+   8,R
+  14,L,Z
+   1,L,J
+   7,L,D,X
 
 #lvl_x-1
-  32
+   4,L,D,X
+   1,L,J
+   4,L
+   2,L,J
+   2,L
+   3
+  14,L,D,X
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+  12,R
+   1,R,J
+  10,R,D,X
+#cutscene
    1,S
    1,D,J
   34
-   4,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   2,R
+   1,R,D,J
+   4,R,J
+   8,R,D,X
+#cutscene
    1,S
    1,D,J
-   3
-  14,R,D,X
+  34
+   2,R
    1,R,J
-  77,PE,F,84.06846775739132
-   1,R,J
-  12,R,D,X
-   6,R,J
-   5,R,K,G
-   1,R,J,G
-   3,R
-  18,PE,F,180.0
-  23,PE,F,0.0
-  26,PE,F,90.0
-  37,PE,F,0.0
-  15,U,X
-  12,R
-   8,R,J,G
-   7,R
-   4,R,D,X
-   5,R,J
+  45,J,PE,F,73.26
+   5,R
+#cutscene
+   1,S
+   1,D,J
+  34
+   2,R,D,J
+  16,PE,F,63.70
+  34,PE,F,27.05
+   1,R
+  10,R,J,G
    1,R,K,G
-  12,R
-  11,R,D,X
+   2,R
+   2,R,K,G
+   1,R,J,G
+   9,R
    1,R,J
-   7,R
-   1,R,J
-  14,R,D,X
-   1,R,J
-  15,R,D
-  15,D,X
-   1,R,D
-   4,R,D,X
-   1,R,J
-   7,R
-   3,R,J
-  10,PE,F,90.0
-  23,PE,F,35.92516375880553
-  36,PE,F,90.0
-   1,R,J
-  12,L,D
-  15,D,X
-   4,R,Z
-Repeat,3
-   1,R,J
-   1,R,K
-EndRepeat
-   1,R,J
-   4,R,K,G
-   9,PE,F,90.0
-  40,PE,F,90.0
+   1,R
+  17,R,D,X
+   1,R,D,J
+  55,PE,F,75.19
+  40
 
 #lvl_x-2
-  18,PE,F,91.00015234351659
-   8,PE,F,97.05283489953746
-  28,PE,F,0.0
-  15,U,X
-   9,R
-  11,L,D,X
-   6,R,J
-   4,R,K,G
-  18,R,J,G
-   3,R,K,G
-   7,R,J,G
-  17,PE,F,0.0
-  32,PE,F,179.99999914622634
-  70,PE,F,91.00015234351659
-  36,PE,F,0.0
-  15,U,X
+  46,PE,F,68.70
+  15,R,D,X
+   6,R,D,J
+  26,J,PE,F,73.07
+  41,J,PE,F,75.3
+   4,R,J
    1,R
-  11,R,U,X
-   1,R,J,G
-  13,R
-   6,L,D,X
-   6,R,J
-   6,R,K,G
-   1,R,J,G
-   1,R,K,G
-   8,R
-   4,R,D,X
-   1,R,J
-   7,R
-   3,R,J
-  10,R,U,X
-   1,R,J,G
-  13,R
-   1,R,J
+   5,R,J
   11,R,D,X
-   1,R,J
-   2,R
+   3,R,J,G
   40
 
 #lvl_x-3
-   1,R
-  12,R,Z
-   5,R,J
-   2,R,K,G
-   1,R
-  13,R,D,X
-   4,R,J
-   9,R
-   4,R,D,X
-   8,R,J
-   4,R
+   6,J,PE,F,69.26
+   7,R
+  11,R,J
+  11,R,D,X
+#cutscene
    1,S
    1,D,J
   34
-   1,R,J
+   9,R,J
+  38,J,PE,F,78.55
+  44,J,PE,F,95.47
    2,R
-  47,PE,F,90.0
- 152,PE,F,82.02381598515954
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   9,R,D,X
+   2,R,J
+   3,R,K,G
+   9,J,PE,F,64.00
   40
 
 #lvl_x-4
-   5,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  38,PE,F,67.42676374122719
-  21,PE,F,90.0
-  98,PE,F,66.16988017433982
-   1,R,G
-   8,R,J,G
-  13,R
-  10,L,D
-   3
-   9,L,J,G
-  13,L,K,G
-   7,L,K
-  15,L,U,X
-   9,L
-  11,L,J,G
-   9,L
-  15,U,X
-  21,L,D
-   4,L,D,X
-   1,L,J
-   7,L
-   1,L,J
-   2,L
-  15,PE,F,270.0
-   3,PE
- 122,PE,F,63.56202908748797
-   7,L
-  14,L,J
-  18,U,X
-  15,R,C
-  11,R,D
-  10,L,D,X
-   7,R,J
-   5,R,K,G
-  12,R
-   4,R,D,J
-   9,R,D
-  10,R,D,X
-   1,R,J
-   5,R
-  25,PE,F,90.0
-   3,PE
-  46,PE,F,0.0
-   3,PE
-  15,R,U,X
-  85,PE,F,95.01914809902514
-   6,J
-  13,R,K,G
-   9,R,J,G
-   7,R
-   4,R,D,X
-   4,R,J
+   6,J,PE,F,63.45
+  19,J,PE,F,57.195
+  21,R
+   1,R,D
+   1,R,D,J
+  11,U,J,PE
+   5,L
+   1,R,J,G
    1,R,K,G
-  22,R,D
-   1,R,J
-  14,R,D,X
-   3,R,J
-   9,R,D
-   1,R,J
-  12,R
-  11,R,U,X
-   7,R,J,G
-  10,R
-   4,R,D,X
-   4,R,J
+   2,R,J,G
+   7,R
+   7,R,J
+   1,R
+   6,R,Z
+   2,R,J
+   1,R,K,G
    9,R
    1,R,J
-   6,R,D,X
+  85,J,PE,F,45.32
+  10,R,D,X
+   4,R,J
+   3,R,K,G
+  79,PE,F,45.4
+   8,R
+   2,R,J
+   8,R,Z
+   1,R,J
+   6,R
+   2,R,J
+  15,R,D,X
+   1,R,J
+  27,PE,F,72.9
+   4,R
+   7,R,D,J
+   1,R,K,G
+   1,R
+  12,PE,F,66.24
   40
 
 #lvl_x-5
-   7,R,D,X
-   1,R,J
-   1,R
-  10,R,D,X
-   5,R,J
-   1,R,K,G
-  16,R
-  14,R,D,X
-   1,R,J
-  11,R,D,X
-   6,R,J
-   1,R,K,G
-   4,R,J,G
-  17,R
-   4,R,J
-  15,R,U,X
-   6,R
-   1,R,J,G
-   6
+  18,PE,F,66.24
    2,R
-   5,R,J
-  15,U,X
-   2
-   9,L,J,G
+   1,J
    1,L,K,G
-   9,L
-   6,R,X
-   7,L,J
-   9,L,K,G
-   3,L,J,G
-  20,L
+  10,K
+   4,R,K
+   3,R,J
+   1,R
+  14,R,Z
+   3,R,J
+   1,R,K,G
+   1,R
+  11,R,J,G
+   1,R
+   3
+  15,U,X
+  20,R
+   1,R,J
+   1,R,K
+   1,R,J,G
+  10,R
    1,N
  155
 
@@ -1473,8 +1392,7 @@ EndRepeat
    8,PE,F,0.0
    1,L
    1,L,J,G
-   1,L,K,G
-  18,L,K,G
+  19,L,K,G
    5,L,J,G
    1,R,J
    1,R,K
@@ -1804,8 +1722,7 @@ EndRepeat
    1,D,J
   34
    5,R,J
-   5,R
-   3,R
+   8,R
    1,N
  155
 
@@ -2056,7 +1973,7 @@ EndRepeat
  155
 
 #lvl_xd-4
-#skipping the keys entirely
+#skiPEing the keys entirely
 #might be doable if we can grab
 #onto the side of that top platform
 #I wasn't able to get it though
@@ -2227,4 +2144,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:47.592(23976)
+ChapterTime: 6:27.345(22785)
