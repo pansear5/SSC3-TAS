@@ -1,7 +1,9 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 4096
+
+
+RecordCount: 4209
 AnalogMode,Ignore
 Set,BounceHelper.JellyfishDash,A
 console load SecretSanta2024/1-Easy/Quinnigan
@@ -213,10 +215,10 @@ console load SecretSanta2024/1-Easy/Quinnigan
    2,R,K,G
   11,R
   11,R,J
-   1,R,K,G
-   3,R
- 108,D,C
-  12,R,Z
+   1,K,G
+   4,R,K,G
+ 109,R,D,X
+   4,L,Z
    1,L,J
    5,L
    9,L,J
@@ -224,7 +226,8 @@ console load SecretSanta2024/1-Easy/Quinnigan
    5,L,J
    3,L
   15,L,D,X
- 107,R,D
+   3,R,D
+ 104,R,D
   14,R,D,X
    1,R,J
   14,R,D,C
@@ -274,6 +277,8 @@ console load SecretSanta2024/1-Easy/Quinnigan
    7,L,D,X
    2,R
    8,L,J
+
+
   14,L
    1,L,J
    6,L,U,X
@@ -471,20 +476,38 @@ console load SecretSanta2024/1-Easy/Quinnigan
 #lvl_4reef1 (0)
    9,R,U,C
    7,R,K,G
-  10,R,J,G
+## old routing +4f
+#  10,R,J,G
+#   1,S
+#   1,D,J
+#  34
+#   2,R,J,G
+#  15,R,D,X
+#  11,R
+#  21,R,J
+#  15,R,D,X
+#   5,R
+#   1,R,J
+#   7,L,J
+#   3,R,J
+#   7,R
+#
+   4,R,J,G
+   4,R
+   6,R,D,X
    1,S
    1,D,J
   34
-   2,R,J,G
-  15,R,D,X
-  11,R
-  21,R,J
+  21,R,D
+  20,R,J
   15,R,D,X
    5,R
-   1,R,J
-   7,L,J
+   3,R,J
+   5,L,J
    3,R,J
    7,R
+##
+
   40
 
 #lvl_4reef2 (0)
@@ -937,7 +960,9 @@ console load SecretSanta2024/1-Easy/Quinnigan
   26
 
 #lvl_4reef1 (1)
-   3
+#spinner cycle
+   1
+#
   10,L,Z
    1,R,J
    7,R
@@ -2282,4 +2307,4 @@ EndStunPause
   12,R,J,G
    5,K
 
-ChapterTime: 5:11.712(18336)
+ChapterTime: 5:11.508(18324)
