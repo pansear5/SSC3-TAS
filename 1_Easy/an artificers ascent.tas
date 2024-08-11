@@ -336,129 +336,6 @@ console load SecretSanta2024/1-Easy/xolimono
   13,L
    1,N
 
-#lvl_butcher-1 (0)
-   1,L,J
-   6,L,D,X
-   1,R,J
-   7,R
-   1,R,J
-  14,R,D,X
-   1,R,J
-   4,PE,F,0.0
-  15,PE,F,90.0
-  14,PE,F,180.0
-  42,PE,F,0.0
-  22,PE,F,90.0
-   1,R,J
-   4,R,D,X
-   7,R,J
-   1,R,K,G
-   7,R
-  40
-
-#lvl_butcher-1b
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  20,PE,F,100.15588943429955
-  31,PE,F,32.954835326713116
-  17,PE,F,180.0
- 102,PE,F,87.99878041556671
-   3,PE
-  69,PE,F,0.0
-  80,PE,F,84.98085190097487
-  34,PE,F,0.0
-  33,PE,F,90.0
-   3
- 214,PE,F,314.44365719266466
-  67,PE,F,271.00015234351656
-#swag route that's sadly slower
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#   1,L,J
-#   2,L
-#  14,L,D,X
-#  17,L,J
-#  18,L,Z
-#   1
-#  15,L,Z
-#  23,L,D
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#  12,L,J
-#  12,L,K,G
-#   1,L,J,G
-#  10,L
-#   1,L,D,J
-#   1,L,J,G
-#   1,K,G
-#   1,R,K
-#  12,L,K
-#   8,L
-#  15,L,Z
-#   2,L,D
-#StunPause
-#   6,L,D
-#EndStunPause
-#  12,R,D
-   4,L,D,X
-   1,L,J
-   7,L
-   3,L,J
-  27,L,D
-   8,PE,F,180.0
-  53,PE,F,270.0
-  41,PE,F,0.0
-   8,R,J,G
-  10,R
-   6,R,J
-  13,R,K,G
-  13,R,J,G
-   5,R,K,G
-  10,R,X
-   6,R,J
-   5,R
-   5,R,D,X
-  15,L,J
-   8,L
-   3,L,K,G
-   5,L
-   1,N
-   
-#lvl_butcher-1 (1)
-   4,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-   1,R
-  51,PE,F,160.0
-   1,N
-
-#lvl_xe-1 (2)
-   1,L,J
-   4,R,D,X
-   1,R,J
-   7,R
-   1,L,J
-   2,L
-  15,D,X
-  15,L,D
-   4,L,D,X
-   1,L,J
-   7,L
-   2,L,J
-   7,L
-  14,L,D,X
-   1,L,J
- 170,PE,F,292
-  14,PE,F,270
-   1,L,J
-  15,L,D,X
-   1,N
-
 #lvl_butcher-2 (0)
    1,L,J
    4,L,D,X
@@ -558,13 +435,26 @@ console load SecretSanta2024/1-Easy/xolimono
   65,PE,F,107.80212884508671
    1,N
 
-#lvl_xe-1 (3)
+#lvl_xe-1 (2)
    1,L,J
+   4,R,D,X
+   1,R,J
+   7,R
+   1,L,J
+   2,L
+  15,D,X
+  15,L,D
    4,L,D,X
    1,L,J
-  30,L,D
-  20,R,D
-  50,D
+   7,L
+   2,L,J
+   7,L
+  14,L,D,X
+   1,L,J
+ 170,PE,F,292
+  14,PE,F,270
+   1,L,J
+  15,L,D,X
    1,N
 
 #lvl_butcher-3 (0)
@@ -617,6 +507,116 @@ console load SecretSanta2024/1-Easy/xolimono
    6,L
    1,L,J
   75,PE,F,234.7356103172453
+   1,N
+
+#lvl_xe-1 (3)
+   1,L,J
+   4,L,D,X
+   1,L,J
+  30,L,D
+  20,R,D
+  50,D
+   1,N
+
+#lvl_butcher-1 (0)
+   1,L,J
+   6,L,D,X
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+   4,PE,F,0.0
+  15,PE,F,90.0
+  14,PE,F,180.0
+  42,PE,F,0.0
+  22,PE,F,90.0
+   1,R,J
+   4,R,D,X
+   7,R,J
+   1,R,K,G
+   7,R
+  40
+
+#lvl_butcher-1b
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  20,PE,F,100.15588943429955
+  31,PE,F,32.954835326713116
+  17,PE,F,180.0
+ 102,PE,F,87.99878041556671
+   3,PE
+  69,PE,F,0.0
+  80,PE,F,84.98085190097487
+  34,PE,F,0.0
+  33,PE,F,90.0
+   3
+ 214,PE,F,314.44365719266466
+  67,PE,F,271.00015234351656
+#swag route that's sadly slower
+#   4,L,D,X
+#   1,L,J
+#   7,L
+#   1,L,J
+#   2,L
+#  14,L,D,X
+#  17,L,J
+#  18,L,Z
+#   1
+#  15,L,Z
+#  23,L,D
+#   4,L,D,X
+#   1,L,J
+#   7,L
+#  12,L,J
+#  12,L,K,G
+#   1,L,J,G
+#  10,L
+#   1,L,D,J
+#   1,L,J,G
+#   1,K,G
+#   1,R,K
+#  12,L,K
+#   8,L
+#  15,L,Z
+#   2,L,D
+#StunPause
+#   6,L,D
+#EndStunPause
+#  12,R,D
+   4,L,D,X
+   1,L,J
+   7,L
+   3,L,J
+  27,L,D
+   8,PE,F,180.0
+  53,PE,F,270.0
+  41,PE,F,0.0
+   8,R,J,G
+  10,R
+   6,R,J
+  13,R,K,G
+  13,R,J,G
+   5,R,K,G
+  10,R,X
+   6,R,J
+   5,R
+   5,R,D,X
+  15,L,J
+   8,L
+   3,L,K,G
+   5,L
+   1,N
+   
+#lvl_butcher-1 (1)
+   4,R,D,X
+   1,R,J
+   7,R
+   1,R,J
+   1,R
+  51,PE,F,160.0
    1,N
 
 #lvl_xe-1 (4)
@@ -801,8 +801,8 @@ EndRepeat
   13,L,K,G
    4,R,J
    8,R,K,G
-   1,R,J,G
-   7,R
+   4,R,J,G
+   9,R
    4,R,Z
    1,R,J
    1,R,K
@@ -838,13 +838,14 @@ EndRepeat
    1,N
 
 #lvl_xb-3
-  15,L,C
+   6
 Repeat,25
    1,J
    1,K
 EndRepeat
-   2
-   4,L,J
+   3
+  20,L
+   9,J
   12,U,X
    1,J
    5,R,J
@@ -2070,4 +2071,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:16.448(22144)
+ChapterTime: 6:16.873(22169)
