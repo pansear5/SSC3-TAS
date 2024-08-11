@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 6390
+RecordCount: 6419
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -328,19 +328,14 @@ console load SecretSanta2024/1-Easy/xolimono
   13,L,J,G
   13,L,K,G
    5,L,J,G
-  10,L
-   7,R,X
-   4,L,J
   12,L
-  19,L,J
-  15,U,X
-   9,R,J,G
-   4,R,K,G
-   7,R
-   4,R,D,X
-   1,R,J
-  12,R
-   1,N
+   4,L,J
+   9,L,K,G
+  12,U,X
+   9,J
+   7,L,K,G
+  13,L
+   1,X
 
 #lvl_butcher-1 (0)
    1,L,J
@@ -380,7 +375,6 @@ console load SecretSanta2024/1-Easy/xolimono
  214,PE,F,314.44365719266466
   67,PE,F,271.00015234351656
 #swag route that's sadly slower
-#***S
 #   4,L,D,X
 #   1,L,J
 #   7,L
@@ -2144,4 +2138,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:27.345(22785)
+ChapterTime: 6:26.801(22753)
