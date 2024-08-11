@@ -301,13 +301,11 @@ console load SecretSanta2024/1-Easy/xolimono
   12,R,J
    3,R,K,G
    8,R
-   9,L,D,X
-   1,R,J
-   7,R
+  10,R,X
+   4,R,J
    1,L,J
   15,R,U,X
-  28,R,D
-   2,R
+  31,R,D
    1,N
 
 #lvl_xe-2 (1)
@@ -2110,4 +2108,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:25.186(22658)
+ChapterTime: 6:25.152(22656)
