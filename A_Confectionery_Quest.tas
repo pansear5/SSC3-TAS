@@ -1,9 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-
-
-RecordCount: 4209
+RecordCount: 5071
 AnalogMode,Ignore
 Set,BounceHelper.JellyfishDash,A
 console load SecretSanta2024/1-Easy/Quinnigan
@@ -145,7 +143,6 @@ console load SecretSanta2024/1-Easy/Quinnigan
   66,L,D
   55,R,D
   40
-
 #lvl_1gardens2 (0)
  155,R,D
    6,R,Z
@@ -242,16 +239,25 @@ console load SecretSanta2024/1-Easy/Quinnigan
   12,L,G
    1,L,J,G
   40,R,D,G
-  20,D,G
-   4,L,D,G
-   5,D,G
-   4,L,D,G
-   4,D
-  19,R,D
+##
+  39,D,G
+   3,R,D,G
+  16,R,G
+   1,R
+#
+#  20,D,G
+#   4,L,D,G
+#   5,D,G
+#   4,L,D,G
+#   4,D
+#  19,R,D
+##
+
   10,L,Z
   10,R,J
    8,R,D,X
-   3,R,K,G
+   1,R,K,G
+   2,R,K
    7,R
    1,R,J
   14,R,D,X
@@ -277,23 +283,36 @@ console load SecretSanta2024/1-Easy/Quinnigan
    7,L,D,X
    2,R
    8,L,J
-
-
-  14,L
-   1,L,J
-   6,L,U,X
-  18,L,G
-  11,L,J,G
-   2,L,K,G
-   6,L,G
-  40
-
-#lvl_1gardens2 (1)
+   5,L
+   9,L,D,X
   13,L,G
-   1,L,J,G
-  14,L,G
+  11,L,J,G
+   9,L,G
+   2,L,J,G
+   3,L,G
+  40
+  15,L,G
   11,L,J,G
    7,L,G
+   4,L,J,G
+
+#  14,L
+#   1,L,J
+#   6,L,U,X
+#  18,L,G
+#  11,L,J,G
+#   2,L,K,G
+#   6,L,G
+#  40
+
+
+#lvl_1gardens2 (1)
+#  13,L,G
+#   1,L,J,G
+#  14,L,G
+#  11,L,J,G
+#   7,L,G
+
    4,J,G
    9,R,J,G
    1,D
@@ -961,7 +980,7 @@ console load SecretSanta2024/1-Easy/Quinnigan
 
 #lvl_4reef1 (1)
 #spinner cycle
-   1
+   0
 #
   10,L,Z
    1,R,J
@@ -969,35 +988,51 @@ console load SecretSanta2024/1-Easy/Quinnigan
    2,R,J
   15,R,D,X
    2,R,D
-   5,R,D,C
-  58,C,F,112
- 125,C,F,145
-  76,C,F,180
-  34,C,F,225
-   2,L
-   1,X
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   6,R,D,X
+   5,C,F,95
+   8,C,F,130
+repeat,26
+   1,C,F,95
+   1,C,F,130
+endrepeat
+  27,C,F,175
+  19,C,F,210
+   1
+   1,N
    1,S
    1,D,J
   34
-  14,R,Z
+  14,L,Z
    1,R,J
-   5,R,D,C
-   7,C,F,158
-  49,C,F,120
-  85,C,F,96
-  40
+  15,R,C
+  15,C,F,175
+repeat,15
+   1,C,F,130
+   1,C,F,175
+endrepeat
+  71,C,F,98
+
+#buffer thru transition to
+#avoid instant slow down
+  40,C
+
 
 #lvl_4reef2 (1)
-   3
-   1,R
-   5,R,D,C
-   5,C,F,160
-  23,C,F,141
+  18,C,F,130
+  24,R,D,X
    1,R,J
    5,R,U,C
    9,C,F,51
-  90,C,F,83
-  33,C,F,51
+  81,C,F,83
+  32,C,F,51
    5,C,F,108
    5,C,F,140
   21,C,F,175
@@ -1019,7 +1054,7 @@ console load SecretSanta2024/1-Easy/Quinnigan
    2,R,K,G
    2,R,J
   11,R
-   1,X
+   1,N
    1,S
    1,D,J
   36
@@ -1080,27 +1115,36 @@ StunPause
    9,R,J,G
 EndStunPause
    1,L,J,G
-  14,R,J,G
-  10,R
+  13,R,J,G
+  11,R
   13,R,C
-   2,R,K,G
-   7,R
-   1,R,J
+   3,R,K,G
+   6,R
   40
 
 #lvl_reef-rift3
-  10,R,J
-   5,R,G
-   2,R,J,G
-   5,R,D,X
-  72,R,U,G
+   1,R
+   4,R,J
+   4,R
+  11,R,D,X
+  15,R,D,G
+   1,R,J,G
+  16,R,G
    1,L
-   9,R,J
+  19,R
+   2,R,D
+   1,R
+   1,R,D
+  12,R,U,X
+   1,R,J,G
+   9,R
+   4,R,J
   40
 
 #lvl_reef-rift4
+   2,R,J
   15,R,D,X
-   8,R,D
+   6,R,D
    3,R,J
   14,R,U,X
    1,L
@@ -1150,30 +1194,27 @@ EndStunPause
   40
 
 #lvl_reef-rift6
+
    3,R,J
-   3,R,K,G
-  14,R,D,X
-  30,R,C
-   6,C,F,120
-   5,C,F,90
-  32,R
-  24,R,U,G
-   6,R,K,G
-   9,R,J,G
-  21,R,J,G
-   1,L
-   6,R,J
-  28,R,G
-   2,L
    1,R,K,G
-   1,R,J,G
-  11,R
-  15,R,D,X
-   1,R,J
-  22,R,C
-   7,C,F,70
-  17,C,F,120
-  35,R,C
+   5,R
+  38,R,C
+   6,C,F,130
+   2,C,F,90
+  29,R
+  12,R,U,G
+   9,R,J,G
+   2,R,K,G
+  11,K
+  22,R,K,G
+   1,L,K
+  10,R,J
+  23,R,G
+   1,R
+  46,R,X
+   8,C,F,140
+   5,C,F,75
+  26,R,D
   14,R,Z
   15,R,J
   14,R,D,X
@@ -1314,7 +1355,6 @@ EndStunPause
   14,R,D,C
    1,L,J
    1,L
-
 #lvl_4reef2 (2)
    2,L
   25,L,D,X
@@ -1342,8 +1382,8 @@ EndStunPause
   15,D,X
    9,D
    3
-#we get water physics in the next room
-   1,X
+we get water physics in the next room
+   1,N
    3
    1,D,J
   26
@@ -2307,4 +2347,4 @@ EndStunPause
   12,R,J,G
    5,K
 
-ChapterTime: 5:11.508(18324)
+ChapterTime: 5:07.309(18077)
