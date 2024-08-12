@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 7733
+RecordCount: 7938
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -381,44 +381,48 @@ console load SecretSanta2024/1-Easy/xolimono
   10,L,J
   15,U,X
    2
-  13,R,J,G
-  13,R,K,G
-  11,R,J,G
-  23,R,K,G
+  10,R,J,G
+  11,K,G
+   1,L,K
+  14,R,J,G
+  22,R,K,G
+  20,L,J
+   4,L
    1,L,J
-  17,L,D
-  20,D
-  33,L,J
-  27,L,K,G
-   4,J,G
-   4,K,G
-   8,L,K,G
+  10,L
+  15,L,Z
+  90,PE,F,284
+  74,PE,F,339
+   1,L
+  11,L,K,G
+   1,L
+  12,L,J,G
+   7,L
+   2,L,J
+  11,L,X
+   5,R,J
+   7,PE,F,42
+  22,PE,F,90
+  51,PE,F,67
+   1,R
+   4,R,J,G
+   1,L,K
+  47,K,PE,F,315
+   1,L
   15,L,X
- 133,PE,F,320.0
-   9,L,J,G
+   6,L
+  10,L,J
+  13,U,X
+   5,L,J
+  11,L
+   4,L,Z
+   1,L,J
    7,L
-  10,L,D,X
-  10,R,J
-  72,PE,F,0.0
- 152,PE,F,94.00978355046658
-  76,PE,F,305.26438968275465
-  35,PE,F,270.0
-   7,L
-   6,L,J
-  15,U,X
-  32,L,J
-  14,L,D
-   4,R,D,X
-   1,R,J
-   7,R
-   3,R,J
-  15,U,X
-   6,R,J,G
-   1,R,K,G
-  10,R
-   4,R,D,X
-   1,R,J
-   7,R
+   3,L,J
+  17,PE,F,90
+   1,R
+   1,R,J,G
+   9,R
    1,N
 
 #lvl_butcher-2 (1)
@@ -2058,4 +2062,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:04.684(21452)
+ChapterTime: 6:00.196(21188)
