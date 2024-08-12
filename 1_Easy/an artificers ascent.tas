@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 6451
+RecordCount: 6862
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -99,15 +99,17 @@ console load SecretSanta2024/1-Easy/xolimono
   34
    2,R
    1,R,J
-  45,J,PE,F,73.26
-   5,R
+  11,J,PE,F,60.9
+  34,J,PE,F,90
+   1,R
+   1,R,D,J
 #cutscene
    1,S
    1,D,J
   34
-   2,R,D,J
-  16,PE,F,63.70
-  34,PE,F,27.05
+   5,R,D,J
+  12,J,PE,F,63.70
+  32,J,PE,F,9.548
    1,R
   10,R,J,G
    1,R,K,G
@@ -116,37 +118,39 @@ console load SecretSanta2024/1-Easy/xolimono
    1,R,J,G
    9,R
    1,R,J
-   1,R
+   1
   17,R,D,X
    1,R,D,J
-  55,PE,F,75.19
+  54,PE,F,75.0
   40
 
 #lvl_x-2
   46,PE,F,68.70
   15,R,D,X
    6,R,D,J
-  26,J,PE,F,73.07
-  41,J,PE,F,75.3
-   4,R,J
-   1,R
+  32,J,PE,F,65.2
+  36,J,PE,F,90
+   1
    5,R,J
   11,R,D,X
    3,R,J,G
+   0,R
   40
 
 #lvl_x-3
-   6,J,PE,F,69.26
+   1,R
+   5,J,PE,F,68.81
    7,R
-  11,R,J
-  11,R,D,X
+  10,R,J
+   1,R
+  10,R,D,X
 #cutscene
    1,S
    1,D,J
   34
    9,R,J
-  38,J,PE,F,78.55
-  44,J,PE,F,95.47
+  38,J,PE,F,78.5493
+  44,J,PE,F,96
    2,R
    2,R,J
    3,R,K,G
@@ -154,9 +158,11 @@ console load SecretSanta2024/1-Easy/xolimono
   40
 
 #lvl_x-4
-   6,J,PE,F,63.45
-  19,J,PE,F,57.195
-  21,R
+   6,J,PE,F,63.64
+  19,J,PE,F,57.3
+  15,R
+   1
+   5,R
    1,R,D
    1,R,D,J
   11,U,J,PE
@@ -2063,4 +2069,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:14.765(22045)
+ChapterTime: 6:14.578(22034)
