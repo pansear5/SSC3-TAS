@@ -823,26 +823,20 @@ console load SecretSanta2024/2-Medium/saltedsalmon
    1,J
    2,L,J
    1,J
-   2,R,K,G
+  16,K
+   7,L,K
+   1,R,J,G
+   2,J
+   1,L,J
+   1,J
+   1,L,J
+   1,J
+   1,L
    1,K
-   4,R,K
-   5,K
-   2,R,K
   15,U,X
-   1,L
-   0
-  15,L,J
-   8,L
-   1,L,J
-   2,L
-   2,L,J
-   1,L
-   1,L,J
-   2,L
-   2
-   2,L
-   1
-  13,Z
+   3
+   7,R
+   4,Z
    1,R,J
    6,R
   23,R,J
@@ -1054,4 +1048,4 @@ console load SecretSanta2024/2-Medium/saltedsalmon
    1,D,J
  173
 
-ChapterTime: 1:41.303(5959)
+ChapterTime: 1:40.980(5940)
