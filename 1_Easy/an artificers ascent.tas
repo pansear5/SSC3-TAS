@@ -242,6 +242,7 @@ console load SecretSanta2024/1-Easy/xolimono
    9,PE,F,60.0
   20,PE,F,90.0
    1,N
+# -6f [xe-1 (0)]: use elytra to keep speed
 
 #lvl_xe-2 (0)
    1,R,J
@@ -323,16 +324,17 @@ console load SecretSanta2024/1-Easy/xolimono
    7,R
   12,R,J
   15,U,X
-  13,L,J,G
-  13,L,K,G
-   5,L,J,G
-  12,L
-   4,L,J
-   9,L,K,G
-  12,U,X
-   9,J
+  12,L,J,G
    7,L,K,G
-  13,L
+   7,L,J,G
+   5,L,K,G
+  10,L
+   3,L,J
+   7,L,K,G
+  13,U,X
+   9,L,J
+   8,L,K,G
+  10,L
    1,N
 
 #lvl_butcher-2 (0)
@@ -442,8 +444,11 @@ console load SecretSanta2024/1-Easy/xolimono
    2,L,K,G
   50,PE,F,280.5
    1,L,J
-  98,PE,F,282.8
-   3,L
+  56,PE,F,276.0
+   3,L,J
+   9,L,K,G
+  22,PE,F,284.0
+   4,L
    1,N
 
 #lvl_butcher-3 (0)
@@ -618,6 +623,7 @@ console load SecretSanta2024/1-Easy/xolimono
    7,PE,F,60.0
   34,PE,F,120.0
    1,N
+# -6f [xe-1 (4)]: do a reverse hyper bunnyhop into an ultra using the elytra afterwards
 
 #lvl_x-5b
    1,R,J
@@ -2057,4 +2063,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:14.986(22058)
+ChapterTime: 6:14.765(22045)
