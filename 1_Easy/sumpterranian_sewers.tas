@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 6166
+RecordCount: 6184
 
 console load SecretSanta2024/1-Easy/vagoosem
    1
@@ -10,7 +10,10 @@ console load SecretSanta2024/1-Easy/vagoosem
   36
 
 #lvl_z- Entry (0)
- 197,D
+ 124,D
+   1,S
+   1,D,J
+  69,O
    1,R,J
    8,L,Z
    1,R,J
@@ -852,10 +855,9 @@ EndStunPause
    2,L
   36
    7,R
- 138
-   7,J
-   5,U,X
-  22,J
+ 131
+  13,U,X
+  27,J
    1,S
    1,D,J
   34
@@ -866,4 +868,4 @@ EndStunPause
   16,U,X
  135
 
-ChapterTime: 1:48.766(6398)
+ChapterTime: 1:48.715(6395)
