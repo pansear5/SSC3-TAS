@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1308
+RecordCount: 1366
 
 console load SecretSanta2024/2-Medium/Flamecrafter113
    1
@@ -370,23 +370,14 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
   14,R,Z
    7,R,J
   28,R,D,X
-   8,R,J
-   3,R
-  14,R,U,X
-   7,J,G
-   7,R
-  10,R,D,X
-   5,L,J
-  15,L,U,X
-Repeat 27
-   1,L,D
-   1,R,D
-EndRepeat
-   1,J
-Repeat 40
-   1,L,D
-   1,R,D
-EndRepeat
-
-ChapterTime: 0:44.914(2642)
-
+   1
+  21,R,J
+   8,U,X
+  28,L,J
+  36,L,U,X
+   7,L,J,G
+  20,L
+   6,L,J
+  15,L,Z
+  58
+ChapterTime: 0:44.846(2638)
