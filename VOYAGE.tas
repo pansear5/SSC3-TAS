@@ -1,10 +1,11 @@
-RecordCount: 3749
-console load SecretSanta2024/1-Easy/Flagpole1up
+RecordCount: 4220
 
+console load SecretSanta2024/1-Easy/Flagpole1up
+   1
+
+Set Session.Deaths 1
 console remove_upgrade
 console clear_warps
-
-   1
 
 ##################################
 
@@ -24,6 +25,7 @@ console clear_warps
 #Start
  190
 
+#lvl_RunicCoastFront_1 (0)
 #tread lightly when possible, it looks cool
    1,R,J
   14,R
@@ -170,7 +172,7 @@ console clear_warps
    2,R
   40
 
-#lvl_RunicCoastFront_3_H1 
+#lvl_RunicCoastFront_3_H1
    1,R
    2,R,J
    3,R
@@ -192,36 +194,41 @@ console clear_warps
   60
    1,J
   30
-   6,L,J
+   4,L,J
+   1,J
+   1,L,J
   12,R,D,X
    2,L,J
    2,L
   20,L,D,X
-   1,L,J
-   7,L
-   1,L,J
-   8,L
-   7,L,D,J
+   3,L,D,J
+   8,L,D,X
+   2,L,J
+   4
+   1,L
+   7,L,D,X
+   4,L,J
+   3,L,D,K
    3,L
-   1,L,J
   40
 
 #lvl_RunicCoastFront_3 (1)
-   3,L
-   1,L,J
-   6,L
   12,L,J
-  10,L,Z
+   5,L
+   3,L,J
+   1,L
    1,L,J
-  11,L
-   1,L,J
+   9,L
+   2,L,K
    1,L
   24,L,U,X
   10,L,Z
    1,L,J
-  21,L
-   6,L,D
-  24,L,U,X
+  23,L,D
+   2,L
+   1,L,D
+  22,L,U,X
+   2
   14,L,Z
    1,L,J
   22,L,D,X
@@ -249,7 +256,7 @@ console clear_warps
    5,L,J
   40
 
-#lvl_RunicCoastFront_1
+#lvl_RunicCoastFront_1 (1)
    3,L,J
   15,L,D,X
    1,L,J
@@ -263,7 +270,11 @@ console clear_warps
    7,L
    1
    1,L,J
-  50
+   8
+  40
+
+#lvl_RunicCoastFront_4
+   2
    8,L
    7,J
    3,L
@@ -317,10 +328,9 @@ console clear_warps
   20,U,X
    5,L
   11,U,C
-  40
+  43
 
 #lvl_RunicCoastFront_6 (0)
-   3
    1,L
    1
    1,L
@@ -330,25 +340,33 @@ console clear_warps
    3,L
    5,L,Z
    1,L,J
-  10,L
-   1,L,J
-   7,L
+  11,L
+   1,L,K
+   5
   15,U,X
-  38,D
+   6,L
+  22
+   7,D
+   1,L
   15,D,X
   15,D,C
    2,J
-  12,R,Z
+  13,R,Z
    1,R,J
    6,R
-   3,R,J
+   3,R,K
   15,R,D,X
    1,R,J
-  11,R
-  22,R,J
-  15,R,U,Z
-  17,L,U,X
-  14,U,C
+  12,R,D,X
+   1,R,J
+   2,R
+   1,R,J
+   1,R
+   9,R,K
+  15,R,U,X
+   1
+  18,L,U,C
+  15,U,X
   40
 
 #lvl_RunicCoastFront_7
@@ -1211,7 +1229,7 @@ EndStunpause
    5
    3,R
 #wait for drift
- 314
+ 332
 ###
   15,J
   17,U,X
