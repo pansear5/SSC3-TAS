@@ -844,8 +844,8 @@ Repeat,25
    1,K
 EndRepeat
    3
-  20,L
-   9,J
+  12,L
+   9,L,J
   12,U,X
    1,J
    5,R,J
@@ -2071,4 +2071,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:16.873(22169)
+ChapterTime: 6:16.737(22161)
