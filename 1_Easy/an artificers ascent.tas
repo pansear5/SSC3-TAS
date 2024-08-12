@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 7183
+RecordCount: 7591
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -257,67 +257,63 @@ console load SecretSanta2024/1-Easy/xolimono
 # -6f [xe-1 (0)]: use elytra to keep speed
 
 #lvl_xe-2 (0)
-   1,R,J
-   4,R,D,X
+   4,Z
    1,R,J
    7,R
-   1,R,J
-   2,R
-  14,R,Z
-   1,R,J
+   3,R,J
+  10,R,X
+  16,L,J
+   1,PE,F,18
+  46,PE,F,0
    1,R
-  14,R,D,X
+   9,R,J,G
+   1,R
+   1,R,J,G
+   1,R
+   5,R,K,G
+   5,R
+#yeah this setup is lame
+   2,R
    1,R,J
-  28,PE,F,68.65577710182836
-  25,PE,F,21.169672130918812
-   3,R
-   3
-  32,PE,F,270.0
-  29,PE,F,0.0
-  15,U,X
-   9,R
-   3,R,J,G
-   9,R
-  10,L,D,X
+   8,R
+   6
+  14,L,D,X
+   1,R,J
+   5,R,D,X
+   2,R,J,G
+   5,R
+   1,R,J
+   2,R
+   1,R,J
+   7,PE,F,60
+  24,PE,F,90
+   1,R
+   4,R,J
+   6,R,D,X
+   5,R,J,G
+   2,R,K,G
+   5,R
    1,R,J
    7,R
-   4,R,J
-   2,R,K,G
+   2,R,J
+   7,R,D,X
    1,R,J,G
-   3,R,K,G
-  15,R
-  14,R,D,X
-   6,R,J
-   1,R,K,G
-   2,R
-   9,R,D,X
+   6,R
+   1,R,K
+   1,R,J,G
+   7,R
   40
 
 #lvl_xe-2b
-   5,R,D,X
+   4,R
    1,R,J
-   5,R
-  14,R,D,X
-   1,R,J
-  16,PE,F,0.0
-  24,PE,F,90.0
-   8,PE,F,0.0
- 120,PE,F,68.65577710182836
-   3,R
-  15,U,X
-   2,R
-  11,R,U,C
-   3,R,J,G
-  10,R
-   5,R,X
-  12,R,J
-   3,R,K,G
-   8,R
-  10,R,X
-   4,R,J
-   1,L,J
-  15,R,U,X
-  31,R,D
+#highly optimisable fall
+  18,PE,F,69
+  46,PE,F,40.25
+  14,PE,F,90
+   1,R
+  15,R,D,X
+  10,R,D
    1,N
 
 #lvl_xe-2 (1)
@@ -2075,4 +2071,4 @@ EndRepeat
   15,R,X
  138
 
-ChapterTime: 6:14.306(22018)
+ChapterTime: 6:10.413(21789)
