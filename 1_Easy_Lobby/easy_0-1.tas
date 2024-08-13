@@ -5,21 +5,25 @@ console load SecretSanta2024/0-Lobbies/1-Easy
  190
    6,R,D,X
    1,L,J
-   7,L
-   7,L,J
-  14,L,Z
+   5,L
    1,L,J
-  12,L,D,X
-   2,L,J
-   9,L,K,G
+   1,L
+   9,L,J
+   6,L,D,X
+   1,L,J,G
+   3
+   8,L
+   1,L,J
+   1,J
+   8,L
+   1,L,J
+   3,L
   15,L,D,X
-   1
    1,L,N
-   4,L,J
+   3,L,J
    1,L,K,G
-   9,L
-  12,L,J
-  14,L,D,X
+   7,L
+   4,L,J
+  17,L
    1,N
-
-#0:01.734(102)
+#0:01.615(95)

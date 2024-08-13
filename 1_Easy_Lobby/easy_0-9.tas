@@ -3,15 +3,12 @@ console load SecretSanta2024/0-Lobbies/1-Easy
 
 #Start
  190
-   6,R,Z
+   4,R,Z
    1,R,J
    7,R
-   1,R,J
-  10,R,D,X
-   1,R,J
-   9,R,K,G
+  15,R,J
   15,U,X
-  11,K,G
+   6,R,J,G
    7,R
    2,J
    6,R,J
@@ -27,10 +24,11 @@ console load SecretSanta2024/0-Lobbies/1-Easy
    1,R,J
    5,R
   15,D,X
-   6,L,D
-   6,L,Z
+   2,L
+   4,L,D
+   7,L,Z
    1,L,J
-   7,L
+   6,L
    1,L,J
   14,L,D,X
    1,L,J
@@ -38,15 +36,11 @@ console load SecretSanta2024/0-Lobbies/1-Easy
    8,L,J
    3,L
    1
-  11,L,Z
-   1,L,J
-   6,L,K,G
-   7,L,Z
-  11,L,J,G
-   3,L,K,G
-   1,L
-   8,L,J,G
-   4,L
+   4,Z
+   7,L,J
+  15,L,K,G
+   4,L,J,G
+   8,L,K,G
+   3,L
    1,N
-
-#0:03.740(220)
+#0:03.434(202)
