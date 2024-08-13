@@ -1,4 +1,4 @@
-RecordCount: 12050
+RecordCount: 12126
 
 console load SecretSanta2024/3-Hard/Hydro
 
@@ -258,7 +258,7 @@ console load SecretSanta2024/3-Hard/Hydro
    1,R,J
   24,R,D,X
 #spinner cycle
-   1
+   0
 #
   18,U,C
    4,L
@@ -291,10 +291,10 @@ console load SecretSanta2024/3-Hard/Hydro
   15,R,U,C
    3,R,J,G
   21,R
-   5
-  12,U,X
+   2
+  15,U,Z
   19,U,C
-  13,R
+  11,R
   17,R,D,X
   31,R,C
   38,R,D,X
@@ -364,19 +364,20 @@ EndStunpause
   14,R
   21,R,J
   14,R,U,X
-  11,R,K,G
+   2,R,J,G
    7,R
-   4,R,Z
+   6,R,J
    1,K
-#frame save?
+   5,R,Z
+   1,R,K
    4,R
   40
 
 #lvl_b02
-   3,R
-   5,R,J
+   2,R
+   6,R,J
   14,R,U,X
-   8,R,J,G
+   7,R,J,G
    2,J
    2,R
    1,K,G
@@ -694,14 +695,21 @@ EndStunpause
    4,R,K,G
    7,R
    2,R,J
-  14,R,U,X
-   1,R,J,G
-   1,L,J,G
-   2,R,J
-  11,R,K,G
-   7,R
-   2,J
   15,R,U,X
+   1,R,J,G
+   5,R
+   2
+   1,R,J
+   3,J
+   4,R,J
+   3,J
+   1,R,K,G
+   6,R,J,G
+#wouldn't save time to get more speed on dcb
+#because of height
+  10,U,X
+#1:14.290(4370)
+#-2f get a dcb to updash into the heart
  135
 
-ChapterTime: 1:16.466(4498)
+ChapterTime: 1:16.347(4491)
