@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 8431
+RecordCount: 8811
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -257,8 +257,7 @@ console load SecretSanta2024/1-Easy/xolimono
 # -6f [xe-1 (0)]: use elytra to keep speed
 
 #lvl_xe-2 (0)
-   1,L,J
-  10,R,D,X
+  10,R,D,C
    4,L,J
    1,R,J
   38,PE,F,0
@@ -319,16 +318,14 @@ console load SecretSanta2024/1-Easy/xolimono
    1,N
 
 #lvl_xe-1 (1)
-   1,R,J
-   4,R,D,X
+   4,R,Z
    1,R,J
    7,R
-  12,R,J
+  13,R,J
   15,U,X
   12,L,J,G
-   7,L,K,G
-   7,L,J,G
-   5,L,K,G
+  12,L,K,G
+   6,L,J,G
   10,L
    3,L,J
    7,L,K,G
@@ -352,29 +349,95 @@ console load SecretSanta2024/1-Easy/xolimono
   15,L,D,X
   12,L,D
    1,L,D,J
-  35,PE,F,282
-  30,PE,F,315
-  35,PE,F,345
-  65,PE,F,270
-   7,PE,F,285
-  22,PE,F,270
-  40,PE,F,300
-  43,PE,F,325
-  15,L,U,C
-  15,L
-   7,L,Z
-   1,L,J
-   7,L
-   1,L,J
-   6,L,D,X
+### heck!
+   1,PE,F,270
+  11,PE,F,285.5
+   7,PE,F,270
+   1,PE,F,271.05
+   1,PE,F,272.1
+   1,PE,F,273.15
+   1,PE,F,274.2
+   1,PE,F,275.25
+   1,PE,F,276.3
+   1,PE,F,277.35
+   1,PE,F,278.4
+   1,PE,F,279.45
+   1,PE,F,280.5
+   1,PE,F,281.55
+   1,PE,F,282.6
+   1,PE,F,283.65
+   1,PE,F,284.7
+   1,PE,F,285.75
+   1,PE,F,286.8
+   1,PE,F,287.85
+   1,PE,F,288.9
+   1,PE,F,289.95
+   1,PE,F,291
+   1,PE,F,292.05
+   1,PE,F,293.1
+   1,PE,F,294.15
+   1,PE,F,295.2
+   1,PE,F,296.25
+   1,PE,F,297.3
+   1,PE,F,298.35
+   1,PE,F,299.4
+   1,PE,F,300.45
+   1,PE,F,301.5
+   1,PE,F,302.55
+   1,PE,F,303.6
+   1,PE,F,304.65
+   1,PE,F,305.7
+   1,PE,F,306.75
+   1,PE,F,307.8
+  44,PE,F,335.1
+  94,PE,F,270
+   1,PE,F,271.697
+   1,PE,F,273.394
+   1,PE,F,275.091
+   1,PE,F,276.788
+   1,PE,F,278.485
+   1,PE,F,280.182
+   1,PE,F,281.879
+   1,PE,F,283.576
+   1,PE,F,285.273
+   1,PE,F,286.97
+   1,PE,F,288.667
+   1,PE,F,290.364
+   1,PE,F,292.061
+   1,PE,F,293.758
+   1,PE,F,295.455
+   1,PE,F,297.152
+   1,PE,F,298.849
+   1,PE,F,300.546
+   1,PE,F,302.243
+   1,PE,F,303.94
+   1,PE,F,305.637
+   1,PE,F,307.334
+   1,PE,F,309.031
+   1,PE,F,310.728
+   1,PE,F,312.425
+   1,PE,F,314.122
+   1,PE,F,315.819
+   1,PE,F,317.516
+   1,PE,F,319.213
+   1,PE,F,320.91
+   1,PE,F,322.607
+   1,PE,F,324.304
+  54,PE,F,326
+   1,L
+  14,L,Z
+   1,J
+  12,L,D,X
   40
 
 #lvl_butcher-2b
-   8,L,D,X
+   1,L,D,X
+   1,L,J
+   7,L
   10,L,J
   15,U,X
-   2
-  10,R,J,G
+   5,R,J,G
+   2,R
   11,K,G
    1,L,K
   14,R,J,G
@@ -444,15 +507,16 @@ console load SecretSanta2024/1-Easy/xolimono
   12,L
    2,L,J
    3,L,K,G
-  38,PE,F,281
+   6,PE,F,298
+  32,PE,F,270
    1,L
-   1,L,J
-  40,PE,F,275.4
+   6,L,J
+  39,J,PE,F,270
    1,L
-   4,L,J
-   9,L,K,G
-  13,PE,F,284.0
-   4,L
+   6,L,J
+   7,J,PE,F,290
+   8,PE,F,270
+   1,L
    1,N
 
 #lvl_butcher-3 (0)
@@ -542,17 +606,19 @@ console load SecretSanta2024/1-Easy/xolimono
 
 #lvl_butcher-1b
    2,R
-   8,R,J
+   7,R,J
   15,R,D,X
-   8,R
-  30,PE,F,72
-  60,PE,F,70.5
-  55,PE,F,60
- 121,PE,F,73.4
-   3
- 214,PE,F,314.44365719266466
-  66,PE,F,271.00015234351656
+  12,R,J
+  25,PE,F,90
+  80,J,PE,F,68
+ 115,J,PE,F,62
+  75,PE,F,315
+  42,PE,F,275
+  85,PE,F,315
+  62,PE,F,270
+   1,PE,F,269.5
    1,L
+
 #swag route that's sadly slower
 #   4,L,D,X
 #   1,L,J
@@ -596,7 +662,7 @@ console load SecretSanta2024/1-Easy/xolimono
   40,PE,F,270.0
   41,PE,F,0.0
    2,R,J,G
-   6,R,K,G
+   5,R,K,G
    7,R
    7,R,J
   12,R,K,G
@@ -604,11 +670,13 @@ console load SecretSanta2024/1-Easy/xolimono
    6,R,K,G
   10,R,X
    6,R,J
-   5,R
-   5,R,D,X
+   1,R
+   5,R,Z
   15,L,J
-   8,L
-   3,L,K,G
+   2,L
+   2,L,J
+   4,L
+   2,L,J
    5,L
    1,N
 
@@ -998,16 +1066,10 @@ EndRepeat
    1,R,J
   12,R,D
    1,R,J
+Repeat, 5
   14,R,D,X
    1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
+EndRepeat
    7,R,D,X
   40
 
@@ -2085,4 +2147,4 @@ EndRepeat
   15,R,X
  133
 
-ChapterTime: 5:54.552(20856)
+ChapterTime: 5:52.971(20763)
