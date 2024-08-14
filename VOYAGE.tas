@@ -285,7 +285,7 @@ console clear_warps
   11,U,C
   40
 
-#lvl_RunicCoastFront_5 (0)
+#lvl_RunicCoastFront_5
   11
   10,R,X
    7,J
@@ -355,7 +355,7 @@ console clear_warps
   15,U,X
   40
 
-#lvl_RunicCoastFront_7
+#lvl_RunicCoastFront_7 (0)
   11,R
   15,R,D,X
    5,R,J
@@ -392,7 +392,7 @@ console clear_warps
   10,R,J
   40
 
-#lvl_TravellersPlains_1
+#lvl_TravellersPlains_1 (0)
   29,R,U,X
    4,R,Z
    1,R,J
@@ -441,7 +441,7 @@ console clear_warps
   15,U,X
   40
 
-#lvl_TravellersPlains_2
+#lvl_TravellersPlains_2 (0)
   11,L
   26,L,U,X
    2
@@ -631,9 +631,6 @@ EndRepeat
   60
    1,J
   30
-
-
-
    4,Z
    1,R,J
   19,R,D
@@ -653,6 +650,7 @@ EndRepeat
   15,R,D,X
   40
 
+#lvl_TravellersPlains_7
    3,R,D
   37,L,D,C
   10,L,Z
@@ -664,6 +662,7 @@ EndRepeat
   25
   40
 
+#lvl_RunicCoastFront_10
    1,S
    1,D,J
   69,O
@@ -673,6 +672,7 @@ EndRepeat
    9,L,K
   40
 
+#lvl_RunicCoastFront_TideCavern_1
    2,L,K
    9,L,Z
    1,L,J
@@ -718,6 +718,7 @@ EndRepeat
    2,J
   40
 
+#lvl_RunicCoastFrontTideCavern1H1
    8
    2,R
    1
@@ -744,6 +745,7 @@ EndRepeat
    1,J,F,180
   33
 
+#lvl_RunicCoastFront_6 (1)
    4,Z
    2,R,J
    2,R,K,G
@@ -765,6 +767,7 @@ EndRepeat
   14,U,X
   40
 
+#lvl_RunicCoastFront_7 (1)
    9,R,J
    4,R
   14,R,Z
@@ -793,6 +796,7 @@ EndRepeat
    1,R,D,K
   40
 
+#lvl_TravellersPlains_1 (1)
    1,R,K
   12,R,U,X
    1,R,J,G
@@ -836,6 +840,7 @@ EndRepeat
   18,L,J
   40
 
+#lvl_TravellersPlains_2 (1)
   13,L
   28,L,U,X
    5,L,Z
@@ -851,6 +856,7 @@ EndRepeat
   19,J
   40
 
+#lvl_TravellersPlains_9_H1
   11
   14,L,U,X
   11,K,G
@@ -891,6 +897,7 @@ EndRepeat
   15,U,X
   40
 
+#lvl_TravellersPlains_9
    2,L,J
   12,R,J
    1
@@ -948,6 +955,7 @@ EndRepeat
   17,L,J
   40
 
+#lvl_TravellersPlains_10
    9
    1,K,G
    2
@@ -983,6 +991,7 @@ EndRepeat
    1,L,J
   40
 
+#lvl_TravellersPlains_11
   14,L
    2,L,K
   13,L
@@ -1012,6 +1021,7 @@ EndRepeat
    2,L
   40
 
+#lvl_BelltowerAtoll_1
    4,L
   11,L,K
    9,L,D,X
@@ -1021,13 +1031,13 @@ EndRepeat
   11,L
    2,L,K
    3,L
-
    2,L,J,G
    3,L,K,G
    2,L
   16,L,D,X
   40
 
+#lvl_BelltowerAtoll_2
    3,L,D
    1,L,N
    1,PJ
@@ -1143,6 +1153,7 @@ EndRepeat
    8,R,J
   40
 
+#lvl_BelltowerAtoll_4
   11,L
   13,L,U,X
    1,L,J,G
