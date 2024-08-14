@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1149
+RecordCount: 1239
 Set,CommunalHelper.DeployElytra,E
 console load SecretSanta2024/3-Hard/vitellary
    1
@@ -482,28 +482,27 @@ console load SecretSanta2024/3-Hard/vitellary
    3,L,D
    5,R,D
    3,R
-   1,R,J
-  10,J,PE,F,72.9
-   5,PE,F,90
-  19,R,D,X
-   3
-  15,R,D,C
-  22,R,U,X
    1,J
-   3
-   1,K
-  10,K,PE,F,72.5
-  15,PE,F,90
-  79,PE,F,40.3
-  25,PE,F,90
-   1,R
-  14,R,D,X
+  10,J,PE,F,72.9
+   5,PE,F,60
+  34,R,D,X
+   1,R,J
+  30,R,U,X
+   1,J
+   1,PE,F,70
+   1,PE,F,110
+   8,R
+   5,R,D
+   1,R,J
+  10,PE,F,90
+  60,PE,F,15
+  29,PE,F,90
 
 #lvl_15
-   1,R,D,X
-   1,R,J
-  15,J,PE,F,270
-  38,L,D,X
- 101
+  19,R,D,X
+   4,R,J
+  10,J,PE,F,342.542
+   4,L,X
+ 135,D
 
-ChapterTime: 1:09.139(4067)
+ChapterTime: 1:09.003(4059)
