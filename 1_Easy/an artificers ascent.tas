@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 10198
+RecordCount: 10412
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -11,49 +11,53 @@ console load SecretSanta2024/1-Easy/xolimono
 
 #Start
  190
+
 #lvl_xd-start
+#-3f extra up dash
   15,U,X
   15,U,C
   14,U,X
-  22,R,J
-   3,R,K,G
-   2,L,K
-   2,R,K
-  14,R,J,G
-   0,J
-  15,U,X
+   7,L,J
+  15,U,Z
+   1,R,J,G
+   1,L
+   6,R
+  10,R,J
+   2,J
    1,R
+  15,U,Z
    1,L,J,G
-   4,L,K,G
-   5,L
-   1,L,J
-   4,L
+   5,L,K,G
+   6,L
+   1,L,K
+   2,L
    3,L,J
    3,L,K,G
   15,U,Z
    3,R,J,G
    7,R
-   2,R,J
-   5,R,K,G
-   2,R
+#-2f better climbing
+   4,R,J
+   4,R,K,G
   15,U,X
-  12,L,J,G
-   1
+   1,L
+#-1f better ending end me
+   2,L,J,G
+   1,J
+   3,L,J
+   6,J
    2,K,G
    2
    1,L
-   2
-   1,L
+   1
+   2,L
    1,R
   11,R,J
-   7,R
-  26,U,C
-#banger ChapterTime IL strat
-#  35,U,X
-#  18,L,D,C
-# 200
-#
-  24,D,X
+   6,R
+  25,U,X
+   3,R
+   3
+  19,D,X
 
 #lvl_x-intro_tent
    1,S
@@ -2491,4 +2495,4 @@ EndRepeat
   15,R,X
  133
 
-ChapterTime: 5:33.319(19607)
+ChapterTime: 5:33.217(19601)
