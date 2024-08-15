@@ -1,4 +1,4 @@
-RecordCount: 5394
+RecordCount: 5884
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
@@ -71,6 +71,7 @@ console clear_warps
    1,R,J
    1,R
   40
+
 #lvl_RunicCoastFront_2 (0)
   13,R
    1,R,J
@@ -531,7 +532,7 @@ console clear_warps
   12,L,D,X
   40
 
-#lvl_TravellersPlains_4 (0)
+#lvl_TravellersPlains_4
    2,L,D,X
    1,L,J
    7,L
@@ -585,7 +586,7 @@ EndRepeat
   11,L
   40
 
-#lvl_TravellersPlains_5 (0)
+#lvl_TravellersPlains_5
    8,L,D,X
    1,L,J
    7,L
@@ -898,61 +899,31 @@ EndRepeat
   40
 
 #lvl_TravellersPlains_9
-   2,L,J
-  12,R,J
-   1
-   5,R,X
-   6,R,K
-   2,R
-   1,L
-   1
-   2,R
-   1
-   9,L,Z
-   1,R,J
-   6,R
-  11,R,D,K
-   1,L,J,G
-  19,R,J
-   4,R
-  15,U,Z
-  11,R
-  12,J
-  15,U,X
-   6,R,J
-  11,R
-  10,R,K
-  15,U,Z
-  10,R
-   6,R,J
-  13,U,X
-  12,K
-  11,L
-   5,R,D,X
-   1,L,J
-   5,L
-   1,L,J
-   1,L
-   2,L,K
-   9,L,U,X
-   1,L,J,G
-   9,L
-   4,L,K
-  14,L,D,X
-  14,L,J
-  13,L
-  10,L,K
-   5,L
-   2,L,K
-   1,L
-   1,L,K
-   8,L
-  14,L,X
-   1,R,J
-   4,J
-  15,U,X
+  15,J
+   5,L,X
+   6,L,J
+   7,L
+  24,L,U,X
    2,L
+  24,L,U,X
+  27,R
+  16,D,X
+  10,L
+  13,D,X
+  25
+   5,R
+  20,U,X
+  25,R,J
+   6
+  16,L
+  13,L,Z
   17,L,J
+  15,U,X
+  15,R,J
+  22,L,K
+   2,J,G
+   1,R,J
+   1,L,J
   40
 
 #lvl_TravellersPlains_10
@@ -1046,7 +1017,8 @@ EndRepeat
   25
    1,S
    8,O
-  14,L,D,J
+   3,L,D,J
+  11,L,U,J
    5,L,Z
    5,U,Z
    1,S
@@ -1214,7 +1186,7 @@ EndRepeat
    3,L
    3
 #drift
-1825
+1874
 #-----
   15,J
   17,U,X
