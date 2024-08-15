@@ -1,4 +1,4 @@
-RecordCount: 5884
+RecordCount: 5929
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
@@ -1378,17 +1378,52 @@ Endstunpause
    5,R,J
   15,U,X
   18,L,D
-  14,R,Z
+
+   5,R,Z
    1,L,J
-  15,D,X
-Repeat, 112
-   2,R,D
-   2,L,D
-Endrepeat
-   1,D
+  11,L
+  32,R,D,X
+  19,D
+   5,U,X
+   1,J
+  26,L,D
+   5,L,U,X
+   1,L,J,G
+  10,L
+   5,L,Z
+   1,L,J
+   9
+   5,L,U,C
+   1,L,J,G
+  10,L
+  14,L,Z
+   1,R,J
+  37,L
+   1,R
+ 101,U
+   1,L,J
    3,J
-  15,R,J
+   3,L,K,G
+   8,K
+   4,X
+   6,L,D,X
+  10,L,J
+  15,U,X
+   8,R
+   2
+  14,J
+  18,U,X
+   1,R,J,G
+   4,L,J
+   7,R,J
+   7,R
+  39,R,K
+  30,R,J
+   9,L,J
+   3,L
+  12,L,K
+  15,K
   14,U,X
  135
 
-ChapterTime: 4:09.764(14692)
+ChapterTime: 4:09.747(14691)
