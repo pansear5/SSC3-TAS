@@ -300,8 +300,6 @@ Repeat, 28
    1,J,PE,F,90
 EndRepeat
    8,J,PE,F,90
-
-
   10,R,D,X
    2,R,J
    5,R,K,G
@@ -399,117 +397,183 @@ EndRepeat
    1,N
 
 #lvl_butcher-1 (0)
-  10,L,Z
+   8,L,Z
    1,R,J
    7,R
    7,R,J
   15,R,D,X
-   1,R,J
-  35,PE,F,170
-   1,PE,F,106
-  36,PE,F,30
-  14,PE,F,73.5
-   2,R
-   1,R,J
-   8,L,Z
-   1,R,J
-   6,R
+   6,R,J
+   4,R
+  18,R,D,X
+  12,R,PE
+   1,PE,F,88.81
+   1,PE,F,87.63
+   1,PE,F,86.44
+   1,PE,F,85.25
+   1,PE,F,84.06
+   1,PE,F,82.86
+   1,PE,F,81.67
+   1,PE,F,80.45
+   1,PE,F,79.25
+   1,PE,F,78.03
+   1,PE,F,76.80
+   1,PE,F,75.56
+   1,PE,F,74.32
+   1,PE,F,73.07
+   1,PE,F,71.80
+   1,PE,F,70.52
+   1,PE,F,69.22
+   1,PE,F,67.91
+   1,PE,F,66.58
+   1,PE,F,65.23
+   1,PE,F,63.85
+   1,PE,F,62.47
+   1,PE,F,61.06
+   1,PE,F,59.61
+   1,PE,F,58.14
+   1,PE,F,56.64
+   1,PE,F,55.11
+   2,PE,F,53.53
+  13,R
    3,R,J
-   5,R,D,X
-   1,R,K,G
-   9,R
+   2,R
+   6,R,D,X
+   1,R,J,G
+   8,R
   40
 
 #lvl_butcher-1b
-   2,R
+   3,PE,F,90
    7,R,J
   15,R,D,X
-  12,R,J
-  25,PE,F,90
-  80,J,PE,F,68
- 115,J,PE,F,62
-  75,PE,F,315
-  42,PE,F,275
-  85,PE,F,315
-  62,PE,F,270
-   1,PE,F,269.5
+   8,R,J
+  23,R,J,PE
+   1,PE,F,85.06
+   1,PE,F,84.21
+   1,PE,F,83.37
+   1,PE,F,82.53
+   1,PE,F,81.68
+   1,PE,F,80.83
+   1,PE,F,79.98
+   1,PE,F,79.12
+   1,PE,F,78.26
+   1,PE,F,77.39
+   1,PE,F,76.53
+   1,PE,F,75.65
+   1,PE,F,74.78
+   1,PE,F,73.89
+   1,PE,F,73.01
+   1,PE,F,72.11
+   1,PE,F,71.21
+   1,PE,F,70.30
+   1,PE,F,69.39
+   1,PE,F,68.47
+   1,PE,F,67.55
+Repeat, 9
+   1,PE,F,66.9
+   1,PE,F,90
+EndRepeat
+   1,PE,F,66.90
+   1,PE,F,65.93
+Repeat, 13
+   1,PE,F,64.97
+   1,PE,F,90
+EndRepeat
+Repeat, 31
+   1,PE,F,62.5
+   1,PE,F,90
+EndRepeat
+  21,PE,F,270
+   1,PE,F,290.75
+   1,PE,F,292.57
+   1,PE,F,294.43
+   1,PE,F,296.33
+   1,PE,F,298.28
+   1,PE,F,300.26
+   1,PE,F,302.30
+   1,PE,F,304.40
+   1,PE,F,306.57
+Repeat, 33
+   1,PE,F,308.82
+   1,PE,F,270
+EndRepeat
+  33,PE,F,270
+Repeat, 24
+   1,PE,F,300.91
+   1,PE,F,270
+EndRepeat
+  28,PE,F,270
    1,L
-
-#swag route that's sadly slower
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#   1,L,J
-#   2,L
-#  14,L,D,X
-#  17,L,J
-#  18,L,Z
-#   1
-#  15,L,Z
-#  23,L,D
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#  12,L,J
-#  12,L,K,G
-#   1,L,J,G
-#  10,L
-#   1,L,D,J
-#   1,L,J,G
-#   1,K,G
-#   1,R,K
-#  12,L,K
-#   8,L
-#  15,L,Z
-#   2,L,D
-#StunPause
-#   6,L,D
-#EndStunPause
-#  12,R,D
-   4,L,D,X
+  12,Z
    1,L,J
-   7,L
-   6,L,J
-   4,L
-  15,L,D,X
-   3,L,D
-   2,L
-  14,PE,F,180.0
-  40,PE,F,270.0
-  41,PE,F,0.0
-   2,R,J,G
-   5,R,K,G
-   7,R
-   7,R,J
-  12,R,K,G
-  12,R,J,G
-   6,R,K,G
-  10,R,X
-   6,R,J
-   1,R
-   5,R,Z
-  15,L,J
-   2,L
-   2,L,J
-   4,L
-   2,L,J
    6,L
-   1,R,D,X
+   3,L,J
+   3,L
+  15,L,D,X
+   2,L,D
+   1,PE,F,270
+Repeat, 17
+   1,PE,F,255.60
+   1,PE,F,270
+EndRepeat
+   9,PE,F,270
+   1,PE,F,270.72
+   1,PE,F,272.09
+   1,PE,F,273.45
+   1,PE,F,274.81
+   1,PE,F,276.18
+   1,PE,F,277.56
+   1,PE,F,278.93
+   1,PE,F,280.32
+   1,PE,F,281.72
+   1,PE,F,283.13
+   1,PE,F,284.55
+   1,PE,F,285.98
+   1,PE,F,287.43
+   1,PE,F,288.89
+   1,PE,F,290.38
+Repeat, 9
+   1,PE,F,0
+   1,PE,F,270
+EndRepeat
+   1
+   1,J
+   7,R,K,G
+   5,R
+   3,R,J
+   2,R
+   1,R,J
+   6,R,K
+  12,J,G
+   4,K,G
+   6,J,G
+   6,L,J
+  10,R,X
+   7,R,J
+  10,R,Z
+   1,L,J
+   1,J,PE,F,270
+Repeat, 8
+   1,J,PE,F,270
+   1,J,PE,F,300
+EndRepeat
+   7,L
+   1,Z,N
 
 #lvl_butcher-1 (1)
-   3,R,D,X
+   5,Z
    1,R,J
-   7,R
-   1,R,J
-   1,R
-  48,PE,F,160.0
-   1,R
+   8,R
+Repeat, 13
+   1,PE,F,90
+   1,PE,F,180
+EndRepeat
+  20,R,D
    1,L,J,N
-   5,L
-   1,R,D,X
 
 #lvl_xe-1 (1)
-  13,R,D,X
+   5,L
+  14,R,D,X
    1,L,J
    2,J,PE,F,90
   25,J,PE,F,0
@@ -2427,4 +2491,4 @@ EndRepeat
   15,R,X
  133
 
-ChapterTime: 5:36.243(19779)
+ChapterTime: 5:33.319(19607)
