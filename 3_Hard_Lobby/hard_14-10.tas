@@ -1,0 +1,35 @@
+console load SecretSanta2024/0-Lobbies/3-Hard 360 -48
+   1
+
+#Start
+  36
+  10,L,C
+  15,L,J
+   1,L
+   2,L,J
+  14,L
+   1,L,N
+   7,L,C
+   1,L,J
+   4,L
+   2,L,J
+  15,L
+   1,L,D
+  15,R,D,X
+  21,R,D
+   1,R,D,N
+   5,R,Z
+   1,R,J
+   6,R
+   3,R,J
+  14,R,Z
+   1,R,J
+  14,R,D,X
+   1,R,J
+  10,R,D,X
+   5,R,J
+   6,R,K,G
+   1,R
+  15,R,D,X
+   1,R,N
+#0:02.873(169)
