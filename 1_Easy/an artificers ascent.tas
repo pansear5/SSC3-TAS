@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 9954
+RecordCount: 10198
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -11,7 +11,6 @@ console load SecretSanta2024/1-Easy/xolimono
 
 #Start
  190
-
 #lvl_xd-start
   15,U,X
   15,U,C
@@ -20,13 +19,17 @@ console load SecretSanta2024/1-Easy/xolimono
    3,R,K,G
    2,L,K
    2,R,K
-  15,R,J,G
-  15,U,Z
-   6,L,J,G
-  10,L
-   2,L,J
-   1,L,K,G
-   3,L,J,G
+  14,R,J,G
+   0,J
+  15,U,X
+   1,R
+   1,L,J,G
+   4,L,K,G
+   5,L
+   1,L,J
+   4,L
+   3,L,J
+   3,L,K,G
   15,U,Z
    3,R,J,G
    7,R
@@ -34,15 +37,17 @@ console load SecretSanta2024/1-Easy/xolimono
    5,R,K,G
    2,R
   15,U,X
-   1,L,J,G
-   7,L
-   7,L,J
-   1,R,J
-   3,J
-   1,R,K
-  21,R,J
-  23,U,X
-   3,R
+  12,L,J,G
+   1
+   2,K,G
+   2
+   1,L
+   2
+   1,L
+   1,R
+  11,R,J
+   7,R
+  26,U,C
 #banger ChapterTime IL strat
 #  35,U,X
 #  18,L,D,C
@@ -372,151 +377,242 @@ EndRepeat
  155
 
 #lvl_xe-1 (0)
-  10,L,D,C
+   4,Z
+   1,L,J
+   7,L
+   1,L,J
+  11,J,PE,F,270
+Repeat, 4
+   1,J,PE,F,284.22
+   1,J,PE,F,270
+EndRepeat
+   2,L
+   2,L,J
+   2,L
+  15,L,D,X
+   1,L,J
+Repeat, 4
+   1,J,PE,F,270
+   1,J,PE,F,300
+EndRepeat
+   9,L
+   1,N
+
+#lvl_butcher-1 (0)
+  10,L,Z
    1,R,J
    7,R
-  14,R,J
-  13,R,K,G
-   6,R,J,G
-   4,R,K,G
-   7,R,Z
-   8,R,J
-   5,R
-  10,R,D,X
-   9,R,J
-   6,R
-   3,R,J
-   1,R,K,G
-   1,R,J,G
-   1,R
-  14,R,D,X
+   7,R,J
+  15,R,D,X
    1,R,J
-   9,PE,F,60.0
-  20,PE,F,90.0
-   1,N
-# -6f [xe-1 (0)]: use elytra to keep speed
-
-#lvl_xe-2 (0)
-  10,R,D,C
-   4,L,J
-   1,R,J
-  38,PE,F,0
-   2,R,J,G
-  10,R,K,G
-   6,R
-   1,J
-   1,R,J
-   1,R,J
-   8,R
-   6
-  14,L,D,X
-   1,R,J
-   5,R,D,X
-   2,R,J,G
-   5,R
-   1,R,J
+  35,PE,F,170
+   1,PE,F,106
+  36,PE,F,30
+  14,PE,F,73.5
    2,R
    1,R,J
-   7,PE,F,60
-  24,PE,F,90
-   1,R
-   4,R,J
-   6,R,D,X
-   5,R,J,G
-   2,R,K,G
-   5,R
+   8,L,Z
    1,R,J
-   7,R
-   2,R,J
-   7,R,D,X
-   1,R,J,G
    6,R
-   1,R,K
-   1,R,J,G
-   7,R
+   3,R,J
+   5,R,D,X
+   1,R,K,G
+   9,R
   40
 
-#lvl_xe-2b
-   4,R
-   1,R,J
-   6,J,PE,F,90
-   1,PE,F,70.0
-   1,PE,F,69.35225344848159
-   1,PE,F,68.70335691491886
-   1,PE,F,68.05327047096165
-   1,PE,F,67.40195386049193
-   1,PE,F,66.74936648775667
-   1,PE,F,66.09546740534219
-   1,PE,F,65.44021530198492
-   1,PE,F,64.78356849021358
-   1,PE,F,64.12548489381791
-   1,PE,F,63.46592203513875
-   1,PE,F,62.804837022174866
-   1,PE,F,62.142186535501374
-   1,PE,F,61.477926814995115
-   1,PE,F,60.81201364636213
-   1,PE,F,60.14440234746256
-   1,PE,F,59.475047754428395
-   1,PE,F,58.80390420756952
-   1,PE,F,58.13092553706377
-   1,PE,F,57.456065048426545
-   1,PE,F,56.77927550775616
-   1,PE,F,56.10050912675071
-   1,PE,F,55.4197175474929
-   1,PE,F,54.736851826999285
-   1,PE,F,54.051862421530544
-   1,PE,F,53.36469917065988
-   1,PE,F,52.67531128109683
-   1,PE,F,51.98364731026402
-   1,PE,F,51.28965514962498
-   1,PE,F,50.593282007761346
-   1,PE,F,49.894474393198365
-   1,PE,F,49.193178096978
-   1,PE,F,48.489338174979636
-   1,PE,F,47.78289892998878
-   1,PE,F,47.073803893515084
-   1,PE,F,46.36199580736143
-   1,PE,F,45.647416604946926
-   1,PE,F,44.930007392387246
-   1,PE,F,44.20970842933691
-   1,PE,F,43.48645910959899
-   1,PE,F,90
-Repeat, 8
-   1,PE,F,36
-   1,PE,F,90
-EndRepeat
-   8,PE,F,90
-   5,R
+#lvl_butcher-1b
+   2,R
+   7,R,J
   15,R,D,X
-  10,D
-   1,D,X
-  
+  12,R,J
+  25,PE,F,90
+  80,J,PE,F,68
+ 115,J,PE,F,62
+  75,PE,F,315
+  42,PE,F,275
+  85,PE,F,315
+  62,PE,F,270
+   1,PE,F,269.5
+   1,L
 
-#lvl_xe-2 (1)
+#swag route that's sadly slower
+#   4,L,D,X
+#   1,L,J
+#   7,L
+#   1,L,J
+#   2,L
+#  14,L,D,X
+#  17,L,J
+#  18,L,Z
+#   1
+#  15,L,Z
+#  23,L,D
+#   4,L,D,X
+#   1,L,J
+#   7,L
+#  12,L,J
+#  12,L,K,G
+#   1,L,J,G
+#  10,L
+#   1,L,D,J
+#   1,L,J,G
+#   1,K,G
+#   1,R,K
+#  12,L,K
+#   8,L
+#  15,L,Z
+#   2,L,D
+#StunPause
+#   6,L,D
+#EndStunPause
+#  12,R,D
+   4,L,D,X
+   1,L,J
+   7,L
+   6,L,J
+   4,L
+  15,L,D,X
+   3,L,D
+   2,L
+  14,PE,F,180.0
+  40,PE,F,270.0
+  41,PE,F,0.0
+   2,R,J,G
+   5,R,K,G
+   7,R
+   7,R,J
+  12,R,K,G
+  12,R,J,G
+   6,R,K,G
+  10,R,X
+   6,R,J
+   1,R
+   5,R,Z
+  15,L,J
+   2,L
+   2,L,J
+   4,L
+   2,L,J
+   6,L
+   1,R,D,X
+
+#lvl_butcher-1 (1)
    3,R,D,X
    1,R,J
-  12,R
-   2,R,J
-  15,R,D,X
-  41,R
-   1,N
+   7,R
+   1,R,J
+   1,R
+  48,PE,F,160.0
+   1,R
+   1,L,J,N
+   5,L
+   1,R,D,X
 
 #lvl_xe-1 (1)
-   4,R,Z
-   1,R,J
-   7,R
-  13,R,J
-  15,U,X
-  12,L,J,G
-  12,L,K,G
-   6,L,J,G
-  10,L
+  13,R,D,X
+   1,L,J
+   2,J,PE,F,90
+  25,J,PE,F,0
+   3,J,PE,F,90
+  12
+  10,R,Z
+   5,L,J
+   2,J,PE,F,90
+  47,J,PE,F,0
+   2
+  10,J,G
+   2
+   7,K,G
+   2,L,K
+   7,L
    3,L,J
-   7,L,K,G
-  14,U,X
-   9,L,J
-   6,L,K,G
-  10,L
+   7,L,U,X
+   3,L,J,G
+   7,L
+   7,L,X
+   2,L,J
+  12,L
+   1,D,X
+
+#lvl_butcher-3 (0)
+  10,R,D,X
+   8,L,J
+   2,L
+  14,L,Z
+   1,L,J
+  25,PE,F,0.0
+  27,PE,F,270.0
+  55,PE,F,0.0
+   7,PE,F,330
+  15,L,X
+   1,L,D
+  14,D
+   2,R,D
+   1,R
+   4,L,Z
+   1,L,J
+   5,L
+   1,L,J
+  36,J,PE,F,291.8
+  37,PE,F,301.1
+   7,L
+   1,L,J
+   1,L
+  14,R,D,X
+   1,L,J
+   5,L,D,X
+   3,L,K,G
+   5,L
+   2,L,J
+   5,L
+   1,L,J
+   2,J,PE,F,290
+  40
+
+#lvl_butcher-3b
+  61,J,PE,F,295.6
+  29,PE,F,289.6
+  23,PE,F,330
+  17,PE,F,280
+  15,L,D,X
+  11,L,D
+   1,D,X
+
+#lvl_butcher-3 (1)
+   3,D,X
+   8,L,J
+   4,L
+   1,L,J
+  73,PE,F,237
+   1,L
+   1,N
+
+#lvl_xe-1 (2)
+   5,L
+   1,L,J
+  14,L,Z
+   1,R,J
+   5,R,D,X
+   1,R,J,G
+  14,R
+   2,R,J
+  17,R,D,X
+   2,R,J
+   3,R,K,G
+  11,J,PE,F,90
+Repeat, 13
+   1,J,PE,F,90
+   1,J,PE,F,79.5
+endrepeat
+   1,J,PE,F,90
+   1,R
+   4,R,J
+  20,PE,F,90
+Repeat, 4
+   1,PE,F,90
+   1,PE,F,85
+EndRepeat
+   7,R
    1,N
 
 #lvl_butcher-2 (0)
@@ -683,214 +779,133 @@ EndRepeat
   15,R,D,C
    1,N
 
-#lvl_xe-1 (2)
-  10,L,Z
-   1,R,J
-   2,R
-   2,L
-  14,R,D,X
-   1,L,J
-   6,L,D,C
-   1,L,K,G
-  12,L
-   2,L,J
-   3,L,K,G
-   6,PE,F,298
-  32,PE,F,270
-   1,L
-   6,L,J
-  39,J,PE,F,270
-   1,L
-   6,L,J
-   7,J,PE,F,290
-   8,PE,F,270
-   1,L
-   1,R,D,X
-
-#lvl_butcher-3 (0)
-  10,R,D,X
-   8,L,J
-   2,L
-  14,L,Z
-   1,L,J
-  25,PE,F,0.0
-  27,PE,F,270.0
-  55,PE,F,0.0
-   7,PE,F,330
-  15,L,X
-   1,L,D
-  13,D
-   1,D
-   2,R,D
-   1,R
-   4,L,Z
-   1,L,J
-   5,L
-   1,L,J
-  36,J,PE,F,291.8
-  37,PE,F,301.1
-   7,L
-   1,L,J
-   1,L
-  14,R,D,X
-   1,L,J
-   5,L,D,X
-   3,L,K,G
-   5,L
-   2,L,J
-   5,L
-   1,L,J
-   2,J,PE,F,290
-  40
-
-#lvl_butcher-3b
-  61,J,PE,F,295.6
-  29,PE,F,289.6
-  23,PE,F,330
-  17,PE,F,280
-  15,L,D,X
-  11,L,D
-   1,D,X
-
-#lvl_butcher-3 (1)
-   3,D,X
-   8,L,J
-   4,L
-   1,L,J
-  73,PE,F,237
-   1,L
-   1,N
-
 #lvl_xe-1 (3)
-   6,R,Z
+  10,R,Z
+   3,R,J
+   2,R
+  27,D,X
+   8,R,D
+   2,D
+  17,L,D
+  14,L,D,X
    1,L,J
-  16,L
-   1,R,D
-  12,PE,F,180
-  69,L,D
+   9,L
    1,N
 
-#lvl_butcher-1 (0)
-  10,L,Z
+#lvl_xe-2 (0)
+  10,R,D,C
+   4,L,J
    1,R,J
-   7,R
-   7,R,J
-  15,R,D,X
+  38,PE,F,0
+   2,R,J,G
+  10,R,K,G
+   6,R
+   1,J
+   2,R,J
+   8,R
+   6
+  14,L,D,X
    1,R,J
-  35,PE,F,170
-   1,PE,F,106
-  36,PE,F,30
-  14,PE,F,73.5
+   5,R,D,X
+   2,R,J,G
+   5,R
+   1,R,J
    2,R
    1,R,J
-   8,L,Z
+   7,PE,F,60
+  24,PE,F,90
+   1,R
+   4,R,J
+   6,R,D,X
+   5,R,J,G
+   2,R,K,G
+   5,R
    1,R,J
+   7,R
+   2,R,J
+   7,R,D,X
+   1,R,J,G
    6,R
-   3,R,J
-   5,R,D,X
-   1,R,K,G
-   9,R
+   1,R,K
+   1,R,J,G
+   7,R
   40
 
-#lvl_butcher-1b
-   2,R
-   7,R,J
+#lvl_xe-2b
+   4,R
+   1,R,J
+   6,J,PE,F,90
+   1,PE,F,70.0
+   1,PE,F,69.35225344848159
+   1,PE,F,68.70335691491886
+   1,PE,F,68.05327047096165
+   1,PE,F,67.40195386049193
+   1,PE,F,66.74936648775667
+   1,PE,F,66.09546740534219
+   1,PE,F,65.44021530198492
+   1,PE,F,64.78356849021358
+   1,PE,F,64.12548489381791
+   1,PE,F,63.46592203513875
+   1,PE,F,62.804837022174866
+   1,PE,F,62.142186535501374
+   1,PE,F,61.477926814995115
+   1,PE,F,60.81201364636213
+   1,PE,F,60.14440234746256
+   1,PE,F,59.475047754428395
+   1,PE,F,58.80390420756952
+   1,PE,F,58.13092553706377
+   1,PE,F,57.456065048426545
+   1,PE,F,56.77927550775616
+   1,PE,F,56.10050912675071
+   1,PE,F,55.4197175474929
+   1,PE,F,54.736851826999285
+   1,PE,F,54.051862421530544
+   1,PE,F,53.36469917065988
+   1,PE,F,52.67531128109683
+   1,PE,F,51.98364731026402
+   1,PE,F,51.28965514962498
+   1,PE,F,50.593282007761346
+   1,PE,F,49.894474393198365
+   1,PE,F,49.193178096978
+   1,PE,F,48.489338174979636
+   1,PE,F,47.78289892998878
+   1,PE,F,47.073803893515084
+   1,PE,F,46.36199580736143
+   1,PE,F,45.647416604946926
+   1,PE,F,44.930007392387246
+   1,PE,F,44.20970842933691
+   1,PE,F,43.48645910959899
+   1,PE,F,90
+Repeat, 8
+   1,PE,F,36
+   1,PE,F,90
+EndRepeat
+   8,PE,F,90
+   5,R
   15,R,D,X
-  12,R,J
-  25,PE,F,90
-  80,J,PE,F,68
- 115,J,PE,F,62
-  75,PE,F,315
-  42,PE,F,275
-  85,PE,F,315
-  62,PE,F,270
-   1,PE,F,269.5
-   1,L
-
-#swag route that's sadly slower
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#   1,L,J
-#   2,L
-#  14,L,D,X
-#  17,L,J
-#  18,L,Z
-#   1
-#  15,L,Z
-#  23,L,D
-#   4,L,D,X
-#   1,L,J
-#   7,L
-#  12,L,J
-#  12,L,K,G
-#   1,L,J,G
-#  10,L
-#   1,L,D,J
-#   1,L,J,G
-#   1,K,G
-#   1,R,K
-#  12,L,K
-#   8,L
-#  15,L,Z
-#   2,L,D
-#StunPause
-#   6,L,D
-#EndStunPause
-#  12,R,D
-   4,L,D,X
-   1,L,J
-   7,L
-   6,L,J
-   4,L
-  15,L,D,X
-   3,L,D
-   2,L
-  14,PE,F,180.0
-  40,PE,F,270.0
-  41,PE,F,0.0
-   2,R,J,G
-   5,R,K,G
-   7,R
-   7,R,J
-  12,R,K,G
-  12,R,J,G
-   6,R,K,G
-  10,R,X
-   6,R,J
-   1,R
-   5,R,Z
-  15,L,J
-   2,L
-   2,L,J
-   4,L
-   2,L,J
-   6,L
-   1,R,D,X
-
-#lvl_butcher-1 (1)
+  10,D
+   1,D,X
+  
+#lvl_xe-2 (1)
    3,R,D,X
    1,R,J
-   7,R
-   1,R,J
-   1,R
-  48,PE,F,160.0
-   1,R
-   1,D,X
+  12,R
+   2,R,J
+  15,R,D,X
+  41,R
+   1,N
 
 #lvl_xe-1 (4)
-  11,L,X
-   1,R,J
-   7,R
-   3,R,J
-  15,R,D,X
-   1,R,J
-   7,PE,F,60.0
-  34,PE,F,120.0
+   4,Z
+   1,L,J
+   7,L
+   1,L,J
+  59,L,J,PE
+   4,L,K
+  31,L,D,X
    1,N
-# -6f [xe-1 (4)]: do a reverse hyper bunnyhop into an ultra using the elytra afterwards
 
-#lvl_x-5b
+#lvl_x-5b 
    4,R,Z
    1,R,J
    7,R
@@ -983,7 +998,6 @@ EndRepeat
    1,N
 
 #lvl_xb-1
-
    4,R,Z
    1,R,J
    4,R,D
@@ -991,7 +1005,6 @@ EndRepeat
    7,R,D
   15,R,Z
    3,R
-  
   13,U,X
    7,R,J
    7,R,X
@@ -1002,13 +1015,11 @@ EndRepeat
 #  15,R,C
 #  15,U,X
 #   2
-
 #  13,U,X
 #   5,R,J
 #   4,R
 #   5,R,X
 #1:45.689(6217)
-
    3,R,X
   11,R,J
    5,R,K,G
@@ -1037,7 +1048,6 @@ EndRepeat
   11,L,V
    1,L,J
    8,L
-   0
   15,L,D,X
   15,L,U,V
   15,U,X
@@ -1131,7 +1141,6 @@ EndRepeat
    7,R
   10,R,J,G
    7,R
-
    3,R,J
   15,R,Z
    6,R
@@ -1145,10 +1154,8 @@ EndRepeat
    1,R,J
    9,R
    1,N
-
 #   1,R,J
 #  15,R,Z
-
 #  12,L
 #   9,L,J
 #  12,U,X
@@ -1163,7 +1170,6 @@ EndRepeat
 #  11,R,J,G
 #   1,R,K,G
 #   8,R
-
 #   4,R,X
 #   2,R,J
 #   9,R
@@ -2421,4 +2427,4 @@ EndRepeat
   15,R,X
  133
 
-ChapterTime: 5:36.549(19797)
+ChapterTime: 5:36.243(19779)
