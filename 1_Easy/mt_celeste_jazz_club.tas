@@ -1,0 +1,665 @@
+# SecretSantaCollab2024
+# https://gamebanana.com/mods/532531
+
+RecordCount: 1345
+
+
+console load SecretSanta2024/1-Easy/Aiden
+   1
+#seeding the platypus (?)
+console ah_set_seed 1234
+
+
+#If someone wants to implement swag movement
+#(e.g. cornerslips, soft landings) that would
+#be cool and be worth pushing without a time
+#save imo
+
+#Start
+  84
+
+#lvl_Hubby (0)
+   7,Z
+   8,R,J
+  11,R
+   1,N
+Repeat, 268
+   1,J
+   1,K
+EndRepeat
+
+#lvl_It's Reining Deer
+  36
+Repeat, 11
+   1,R,J
+  14,R
+EndRepeat
+  11,J
+   5
+   1,J
+   5
+Repeat, 5
+   1,J
+  14
+EndRepeat
+   4
+  23,J
+  14
+   1,J
+  27
+   1,J
+  14
+   1,J
+  27
+Repeat, 6
+   1,J
+  14
+EndRepeat
+  28,J
+   1,K
+  14
+   1,J
+   8
+   2,J
+  10
+   1,J
+  20
+Repeat, 3
+   1,J
+  14
+EndRepeat
+  40,J
+  40,K
+Repeat, 4
+   1,J
+  14
+EndRepeat
+  36,J
+Repeat, 6
+   1,K
+  14
+EndRepeat
+   6,J
+  18
+   6,J
+  18
+  39,J
+   9
+   8,D,J
+  12
+Repeat, 3
+   1,J
+  14
+EndRepeat
+   4
+   1,J
+  14
+   1,J
+  14
+   9,J
+  25
+  12,J
+  66
+  54,J
+  42,K
+Repeat, 4
+   1,J
+  14
+EndRepeat
+   5,J
+  17
+   1,J
+  14
+  21,J
+  16
+Repeat, 5
+   1,J
+  14
+EndRepeat
+   4,J
+  17
+  33,J
+  29,K
+   8,J
+   5
+   1,J
+   5
+   1,J
+  14
+   1,J
+  18
+   1,J
+  14
+   1,J
+  14
+#do some wizardry here?
+ 175
+   1,J
+  14
+   4,J
+  11
+  11,J
+  28,K
+  11,J
+  26,K
+   1,J
+  14
+   9,J
+   5
+   1,J
+  24
+   1,J
+  14
+   1,J
+  14
+  10,J
+  15
+  11,J
+  38,K
+#so so close
+#   1,K
+#
+  25,X
+   1,J
+  14
+   3,J
+  11
+   9,J
+  18,K
+  34
+   1,J
+  60
+  10,J
+   5
+Repeat, 6
+   1,J
+  14
+EndRepeat
+  54
+   3,J
+   5
+   2,J
+  36
+   7,J
+  33
+  16,R,D,X
+   1,U
+   1,J
+Repeat, 9
+   2,U
+   1,J
+EndRepeat
+   2,U
+  92
+Repeat, 3
+   1,J
+  14
+EndRepeat
+  24,J
+  43,K
+   9,J
+  41
+   2,J
+   5
+   1,J
+   5
+   2,J
+ 110
+Repeat, 3
+   1,J
+  14
+EndRepeat
+   4,J
+  19
+  28,Z
+   9,J
+  18
+Repeat, 4
+   1,J
+  14
+EndRepeat
+   7,J
+   7
+  15,R,U,Z
+  38,J
+  10,K
+   8
+   1,J
+  17
+   1,J
+  14
+  20,J
+  45
+  11,U,J
+Repeat, 18
+   2,U
+   1,J
+EndRepeat
+  38
+  20,J
+Repeat, 6
+   2,U
+   1,J
+EndRepeat
+   2,U
+   4
+   5,J
+#grab jump refill?
+ 251
+Repeat, 5
+   1,J
+  14
+EndRepeat
+   5
+   8,J
+  65,K
+  15,R,D,X
+  23
+#try to soft land and delay ultra
+#for more speed on next jump refill?
+   1,J
+  14
+   1,J
+  27
+   6,J
+  37,K
+   4,J
+   5
+   4,J
+   3
+  52,X
+  19,J
+  40
+   1,J
+  14
+   8,J
+  19
+  12,J
+  22
+   1,J
+  14
+   2,J
+  10
+  11,J
+  12,K
+  84
+  36,J
+  81
+Repeat, 4
+   1,J
+  14
+EndRepeat
+  54
+   1,J
+  14
+  11,J
+   9
+   1,J
+  27
+   5,J
+  17
+   1,D,J
+  21
+   1,J
+  14
+   1,J
+  14
+  45,J
+   7,K
+   5
+   1,J
+   6
+Repeat, 11
+   1,J
+  14
+EndRepeat
+  10,J
+   5
+   1,J
+   2
+   2,J
+  12
+   1,J
+  14
+   1,J
+  14
+  11,J
+   7
+Repeat, 3
+   1,J
+  14
+EndRepeat
+   4,J
+   1,S
+   1,D,J
+  18
+
+#lvl_Hubby (1)
+  51
+   6,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  10,R,D,X
+   1,R,J
+   7,R
+   2,R,J
+  10,R,U,Z
+   1,L,J,G
+   3,R,J
+  10,R
+   1,R,J
+   8,R,D,X
+   3
+   2,L
+Repeat, 56
+   1,L
+   1
+EndRepeat
+  14,L,U,X
+   1,L,J
+  16,L,U,X
+   1,L,J
+  14,L
+  11,L,J
+   9,L
+   1,N
+Repeat, 192
+   1,J
+   1,K
+EndRepeat
+
+#lvl_The Platypus
+  36
+Repeat, 4
+   1,R,J
+  14,R
+EndRepeat
+Repeat, 17
+   1,J
+  14
+EndRepeat
+   6,J
+  18
+  33,K
+  35,J
+   8,K
+  15
+Repeat, 3
+   1,J
+  14
+EndRepeat
+   6,J
+  18
+  30,J
+  35,X
+  41,C
+Repeat, 4
+   1,J
+  14
+EndRepeat
+  64,J
+  58,K
+  53,J
+  56,K
+  11,J
+ 113
+  12,U,J
+   1,U
+   1,J
+Repeat, 4
+   2,U
+   1,J
+EndRepeat
+   1,J
+  13
+  17,Z
+  16,J
+  19,K
+  17,Z
+   8,J
+   9
+   1,J
+  14
+  13,J
+   2
+  16,Z
+  11,J
+   5
+  16,J
+  23,K
+   5,J
+   5
+   2,J
+   1
+  14,Z
+   1,J
+   6
+  26,J
+  50,K
+Repeat, 3
+   1,J
+  14
+EndRepeat
+  10,J
+   5
+   2,J
+  65
+  10,J
+  13
+   1,J
+  15
+  41,J
+  12
+   5,J
+   9
+   1,J
+  22
+  15,X
+  10
+  15,R,D,X
+   6
+  15,R,U,X
+  10
+  75,Z
+  11,J
+  18
+Repeat, 4
+   1,J
+  14
+EndRepeat
+  10,J
+  75
+   6,J
+  18
+  23,J
+  36,K
+   7,J
+  25,U,Z
+   1,D
+   2,J
+Repeat, 9
+   2,D
+   1,J
+endrepeat
+   2,D
+  36
+   5,J
+   2
+   1,D
+   1
+   1,D
+  72
+   6,J
+  18
+  10,J
+  21
+   1,J
+  14
+   8,J
+  19
+  42,J
+  14,Z
+   1,J
+  16
+   1,J
+   8
+   1,J
+  14
+   1,J
+  14
+  17,J
+  15,R,D,X
+  13
+   1,J
+  14
+   3,J
+  17
+  36,J
+   8,K
+  22
+  12,J
+   5
+   1,J
+  20
+Repeat, 5
+   1,J
+  14
+EndRepeat
+   3,J
+  17
+  14,J
+  26,K
+  36,J
+  14,R,U,X
+   3,J
+  34
+   1,U,J
+   5
+   1,J
+   9
+   3,J
+  21
+  15,R,U,X
+  17
+   1,J
+  14
+   1,J
+  18
+Repeat, 3
+   1,J
+  14
+EndRepeat
+   1,J
+   9
+  10,J
+  11,K
+  42
+  15,R,Z
+Repeat, 4
+   2,U
+   1,J
+EndRepeat
+   2,U
+  32
+  47,J
+  79,K
+  22,J
+  10,K
+  12
+   1,J
+  14
+  12,D,J
+   7
+Repeat, 17
+   2,D
+   1,J
+EndRepeat
+   7,J
+   7
+   3,J
+  13
+  11,J
+   7,K
+   7
+  11,D,J
+Repeat, 11
+   2,D
+   1,J
+EndRepeat
+  11,J
+  40
+   1,J
+   1,K
+   1,J
+  26
+  15,J
+  75,K
+  14,Z
+   1,J
+  24
+  11,J
+   8
+  61,J
+  52,Z
+Repeat, 5
+   1,J
+  14
+EndRepeat
+  20,J
+  81
+Repeat, 4
+   1,J
+  14
+EndRepeat
+   2
+  39,J
+  30,X
+  14,Z
+   1,J
+   7
+   1,J
+  14
+  15,J
+   6,K
+   8
+   8,J
+   7
+   3,J
+  16
+   5,D,J
+   5
+  41,J
+  57,K
+  52,J
+  58,K
+ 152,J
+   1,S
+   1,D,J
+  18
+
+#lvl_Hubby (2)
+  51
+   7,L,J
+  14,L,Z
+   2,L,J
+   1,L
+  22,L,U,X
+   4,L
+   1,L,J
+   4,L
+   5,L,D,Z
+  40
+
+#lvl_Lubby
+   4,L,D,X
+   1,R,J,G
+  15,L,J,G
+  16,L,X
+ 137
+
+ChapterTime: 3:06.184(10952)
