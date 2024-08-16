@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 10412
+RecordCount: 10723
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -973,7 +973,7 @@ EndRepeat
   31,L,D,X
    1,N
 
-#lvl_x-5b 
+#lvl_x-5b
    4,R,Z
    1,R,J
    7,R
@@ -1888,53 +1888,151 @@ EndRepeat
    1,N
 
 #lvl_xc-6 (0)
-  14,R,J
-  15,U,X
-  13,L,J,G
-  13,L,K,G
-   2,L,J,G
-   1,L,K,G
-   9,L
-   4,L,D,X
-   1,L,J
-   5,L
+  11,L,Z
+   5,R,J
+   5,R,D,X
+   2,R,K,G
+  12,R
+   3,R,J
+   5,R,D,C
+   1,R,K,G
+  11,R
+   3,R,J
+   5,R,D,X
+   5,R,K,G
+   3,R
+   3,R,K,G
+  10,R
+   1,R,D,J
+   7,R,J
+   1,J,PE,F,64.1434
+   1,J,PE,F,63.1949
+   1,J,PE,F,62.2447
+   1,J,PE,F,61.2925
+   1,J,PE,F,60.3383
+   1,J,PE,F,59.3819
+   1,J,PE,F,58.4232
+   1,J,PE,F,57.4621
+   1,J,PE,F,56.4985
+  23,J,PE,F,78.4
+   1,PE,F,77.5013
+   1,PE,F,76.4618
+   1,PE,F,75.4221
+   1,PE,F,74.3821
+   1,PE,F,73.3417
+   1,PE,F,72.3006
+   1,PE,F,71.2587
+   1,PE,F,70.2159
+   1,PE,F,69.1719
+   1,PE,F,68.1267
+   1,PE,F,67.0801
+   1,PE,F,66.0319
+   1,PE,F,64.9820
+   1,PE,F,63.9301
+   1,PE,F,62.8761
+  17,PE,F,73
    2,R
-   1,L,J
-  18,R
-   1,N
+   1,R,J,G
+  11,R
+   1,R,D,J
+  15,PE,F,45
+  10,PE,F,78.4
+  14,R
+  19,PE,F,85
+  37,PE,F,75
+  23,PE,F,66
+   1,R
+   1,R,J,G
+  11,R
+   1,R,J
+   4,R,D,X
+   1,R,J
+   7,R
+  40
 
 #lvl_xc-6b
-   2,L,J
-   6,L,D,X
-   1,L,J
-   7,L
-   3,L,J
-   8,L,Z
-   1,L,J
-   7,L
-   1,L,J
-   0,L
+   1,R,J
+   5,R
+   1,R,J,G
+   3,R
+   3,R,K,G
+   5,R
+   1,R,J,G
+   8,R,J
+  10,L,D,X
+   8,L,J
+  15,L,D,X
+   1,L,D,J
+  35,PE,F,50
+  40,PE,F,78.4
+  54,PE,F,70
+   4,R
+   1,R,J
+   4,R,D,X
+   1,R,J
    7,R
-  15,U,Z
-   1,L
-   5,L,J
-  27,R,J
-  12,R,K,G
-  10,L,J
-  25,D
+   3,R,J
+   1,R,K,G
+   8,R,K
   15,R,D,X
-  10,L,D
-   4,L
+   3,R,J
+   3,R,K,G
+   9,R
+   1,R,D,J
+   7,J,PE,F,90
+   1,PE,F,62.2721
+   1,PE,F,61.0491
+   1,PE,F,59.8228
+   1,PE,F,58.5929
+   1,PE,F,57.3591
+   1,PE,F,56.1211
+   1,PE,F,54.8786
+   1,PE,F,53.6315
+   1,PE,F,52.3793
+   1,PE,F,51.1218
+   1,PE,F,49.8587
+   1,PE,F,48.5897
+   1,PE,F,47.3145
+   1,PE,F,46.0328
+   1,PE,F,44.7442
+   1,PE,F,43.4485
+   1,PE,F,42.1452
+   1,PE,F,40.8341
+   1,PE,F,39.5147
+   1,PE,F,38.1868
+   1,PE,F,36.8500
+   1,PE,F,35.5038
+   1,PE,F,34.1479
+   1,PE,F,32.7819
+   1,PE,F,31.4054
+   1,PE,F,30.0179
+   1,PE,F,28.6191
+  83,PE,F,90
+   1,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  15,R,U,X
+  28,D
+   1,J
+  30,D
+  14,L,D,X
+   1,R,J
+  10,R,D
   15,D,X
-  22,R,D
-   2,R,J
-   7,R,Z
+  12,R,D
+   1,R,J
+   4,R,K,G
+   5,R,D,X
    1,R,J
    7,R
    1,R,J
-  12,R,D,X
-   5,R,J
-  11,R
+  17,PE,F,90
+   7,R
    1,N
 
 #lvl_xc-6 (1)
@@ -1988,7 +2086,7 @@ EndRepeat
    1,L,J
    7,L
    1,L,J
-  43,R,D
+  53,R,D
    8,L,D,X
   12,R,J
    5,R,K,G
@@ -2495,4 +2593,4 @@ EndRepeat
   15,R,X
  133
 
-ChapterTime: 5:33.217(19601)
+ChapterTime: 5:43.026(20178)
