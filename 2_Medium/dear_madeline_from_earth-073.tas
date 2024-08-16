@@ -1,4 +1,4 @@
-RecordCount: 2646
+RecordCount: 2874
 
 console load SecretSanta2024/2-Medium/sunsetquasar
    1
@@ -34,23 +34,30 @@ console load SecretSanta2024/2-Medium/sunsetquasar
    5,R
    1,R,J
   10,R
-  16,R,J
-  17,R,D,X
+   4,R,J
+   3,R
+   1,J
+  12,R,D,X
+#would probably be faster to land this dultra,
+#but I couldn't make it work
+   1,L,J,G
+   2,R,J
+   1,R,K,G
+  16,R,J,G
+   1
+  14,R,X
+   1,R,J,G
+  17,R
    1,R,J
-  15,R,U,X
-   1,J,G
-   6,R
-  12,L
-   2,L,J
-   5,L,Z
-   1,L,J
-   6,L
-   8,L,J
+  14,R,D,X
+   1,R,J
+  13,R,Z
 #wait 6 1/2 hours
  122
 
 #lvl_b-00
-  60
+  59
+   1,R,J
    1,S
    1,D,J
   34
@@ -77,8 +84,7 @@ console load SecretSanta2024/2-Medium/sunsetquasar
    7,R
    1,R,J
   13,R,D,X
-   1,U
-  48
+  49,U
 
 #lvl_elevator-0 (0)
    4,Z
@@ -102,8 +108,7 @@ console load SecretSanta2024/2-Medium/sunsetquasar
    6,R,J
    3,R
    9,R,D,X
-   1,U
-  48
+  49,U
 
 #lvl_dawn-0
   93
@@ -369,8 +374,7 @@ console load SecretSanta2024/2-Medium/sunsetquasar
    1,L,J
    1,R,J
   13,R,D,X
-   1,U
-  48
+  49,U
 
 #lvl_elevator-0 (1)
    7,Z
@@ -615,6 +619,7 @@ console load SecretSanta2024/2-Medium/sunsetquasar
   49,U
 
 #lvl_elevator-0 (2)
+
    7,Z
    1,R,J
    7,R
@@ -638,5 +643,14 @@ console load SecretSanta2024/2-Medium/sunsetquasar
  198
    1,S
    1,D,J
+  34
+   4,D,X
+
+#lvl_end-02
+  40
+   1,D
+   1,S
+   1,D,J
+ 428
   
-ChapterTime: 1:38.549(5797)
+ChapterTime: 1:38.719(5807)
