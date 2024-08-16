@@ -359,7 +359,7 @@ console load SecretSanta2024/3-Hard/phrog
    2,R,J
   14,R
    6,R,Z
-stunpause simulate
+stunpause
    6,R
 endstunpause
    5,R,J,G
