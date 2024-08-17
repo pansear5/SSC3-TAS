@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1366
+RecordCount: 1697
 
 console load SecretSanta2024/2-Medium/Flamecrafter113
    1
@@ -43,22 +43,23 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
    5,R,J
    7,R
    4,R,Z
-   2,R,J
-   6,R
    1,R,J
+   3,R
+   5,R,J
    1,R
    1,R,D
    2,R
    2,R,J
    5,R
-   7,R,J
-  14,R,U,X
-   6,R,J,G
+   3,R,J
+   2,R,J
    1,R
-   1,K,G
-   1,L,K
-  10,R,J,G
-   7,R
+   1,R,J
+   1,J
+   1
+  13,U,X
+   7,R,J
+  11,R
    7,R,Z
    1,R,J
    6,R
@@ -120,19 +121,28 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
    2,R,J
   15,R,D,X
    3,R
-   8,R,J
-  13,R,D,X
-  21,R,G
+   7,R,J
+  14,R,D,X
+  13,R,G
+   1,G
+   2,J,G
+   4,G
+   1,R,G
    1,R
    1,O
   71
-   7,L,Z
+   4,L,Z
    1,R,J
-  21,R,G
-   3,R
+  13,R,G
+   2,G
+   1,R,G
+   1,G
+   4,R,G
+   2,R
    1,O
   71
-   2,L,J
+   1,L,J
+   1,R
   10,R,D,X
    6,R,J
    3,R
@@ -165,11 +175,12 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
   11,R
    1,R,J
    7,R,D,X
-  12,L,G
+  12,R,G
    1,R,G
    8,R,J,G
    1,L,J
-   5,R
+   1,R
+   4,R
    4,R,J
   14,R,Z
   12,J,G
@@ -259,12 +270,13 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
    1,L
    7,U,X
   12,G
-   9
+   9,G
    1,R
    3
    5,U,X
   12,G
-  10
+   9,G
+   1
    1,O
   71
   12,L,G
@@ -380,4 +392,4 @@ console load SecretSanta2024/2-Medium/Flamecrafter113
    6,L,J
   15,L,Z
   58
-ChapterTime: 0:44.846(2638)
+ChapterTime: 0:44.659(2627)
