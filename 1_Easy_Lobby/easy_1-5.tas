@@ -15,13 +15,13 @@ console load SecretSanta2024/0-Lobbies/1-Easy 936 872
    6,L,Z
    1,L,J
    4,L
-   5,L,J
-   3,K,G
-   3,R,K
+   1,L
+   9,R,J
   24,L,U,X
-   7,L,J
+   1,L,J
+  11,J
   15,U,X
-   8,J,G
+   3,J,G
    2,L,J,G
    7,L
    7,L,J
@@ -29,8 +29,9 @@ console load SecretSanta2024/0-Lobbies/1-Easy 936 872
   10,L
    4,Z
    1,L,J
-   7,L
-   3,L,N
+   6,L
+   1,L,N
+   2,L
    6,R,Z
    1,R,J
    4,R
@@ -41,5 +42,4 @@ console load SecretSanta2024/0-Lobbies/1-Easy 936 872
    1,R,J
    7,R
    1,R,N
-
-#0:03.298(194)
+#0:03.264(192)
