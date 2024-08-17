@@ -1,4 +1,4 @@
-RecordCount: 6084
+RecordCount: 6197
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
@@ -392,23 +392,22 @@ console clear_warps
    1,R,J
    2,R
   33,R,U,X
-   6,L,C
-  10,R,J
+   7,L,D,C
+   1,R,J
+   7,R
   40
 
 #lvl_TravellersPlains_1 (0)
-  29,R,U,X
-   4,R,Z
-   1,R,J
-   7,R
-   3,R,J
-   3,R
-  16,R,D,X
+  15,R,U,X
+  13
+  12,R,D,X
+   4,R,J
+  15,R,D,X
    6,R,J
    8,R
    1,R,J
    1,R
-  14,R,Z
+  13,R,Z
    1,R,J
    5,R
    1,R,J
@@ -448,18 +447,18 @@ console clear_warps
    9,R,K
   15,R,U,X
    9,L
-  13,L,J
-  13,U,X
+  11,L,J
+  14,U,X
   40
 
 #lvl_TravellersPlains_2 (0)
-  11,L
-  26,L,U,X
+  12,L
+  27,L,U,X
    5,L,Z
    1,L,J
   11,L
-   1,L,J
-   2,L
+   2,L,J
+   1,L
   14,L,Z
    1,L,J
    7,L
@@ -477,8 +476,9 @@ console clear_warps
    1,L,J
    7,L
   34,L,K
-   8
-  14,L,Z
+   5
+   2,J
+  13,L,D,X
    1,R,J
   10,R
    5,R,Z
@@ -826,30 +826,32 @@ EndRepeat
   24,R,U,X
   12,R,K
    4,J,G
-  12,R,Z
+   5,R,Z
    1,R,J
-   2
-   4,X
-   6,K
-  21,L
-   4,Z
+   7,R
+   9,R,K
+  10,R,D,X
+   1,L,J
+   4,L
+   7,L,D,X
    1,R,J
-   3
+   1
    1,J
-   1,D
-  10,R,K
-   4,R,J,G
-   2,R
+   1
+   1,R
+  11,R,K
+   1,R,J,G
+   4,R
    7,R,D,X
    1,R,J
-   1,R
+   1
    1,R,J
    2,R
    6,R,D,K
    8,K
    2,R,K
   15,U,X
-  18,L,J
+  19,L,J
   40
 
 #lvl_TravellersPlains_2 (1)
@@ -1148,6 +1150,9 @@ EndRepeat
    1,N
    1,PJ
   25
+#spinner unload cycle
+   1
+#-------------
    1,X
   25,U
    1,U,Z
@@ -1434,4 +1439,4 @@ Endstunpause
   14,U,X
  135
 
-ChapterTime: 3:38.025(12825)
+ChapterTime: 3:37.821(12813)
