@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 10723
+RecordCount: 10817
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -508,60 +508,26 @@ Repeat, 24
 EndRepeat
   28,PE,F,270
    1,L
-  12,Z
    1,L,J
-   6,L
-   3,L,J
-   3,L
+   8,L,D,X
+   1,L,J
+  13,L
+   1,L,D,J
+   9,PE,F,290
+  32,PE,F,281.56
+  25,PE,F,300
+  19,PE,F,281.56
+   1,L
   15,L,D,X
-   2,L,D
-   1,PE,F,270
-Repeat, 17
-   1,PE,F,255.60
-   1,PE,F,270
-EndRepeat
-   9,PE,F,270
-   1,PE,F,270.72
-   1,PE,F,272.09
-   1,PE,F,273.45
-   1,PE,F,274.81
-   1,PE,F,276.18
-   1,PE,F,277.56
-   1,PE,F,278.93
-   1,PE,F,280.32
-   1,PE,F,281.72
-   1,PE,F,283.13
-   1,PE,F,284.55
-   1,PE,F,285.98
-   1,PE,F,287.43
-   1,PE,F,288.89
-   1,PE,F,290.38
-Repeat, 9
-   1,PE,F,0
-   1,PE,F,270
-EndRepeat
-   1
-   1,J
-   7,R,K,G
-   5,R
-   3,R,J
-   2,R
-   1,R,J
-   6,R,K
-  12,J,G
-   4,K,G
-   6,J,G
-   6,L,J
-  10,R,X
-   7,R,J
-  10,R,Z
-   1,L,J
-   1,J,PE,F,270
-Repeat, 8
-   1,J,PE,F,270
-   1,J,PE,F,300
-EndRepeat
-   7,L
+  28,R,D
+   4,R,X
+   6,R,J
+   7,R
+   4,L,D,X
+  20,L,J
+   5,L
+   2,L,K
+   8,L
    1,Z,N
 
 #lvl_butcher-1 (1)
@@ -2591,6 +2557,6 @@ EndRepeat
 
 #lvl_mapend
   15,R,X
- 133
+ 133,D
 
-ChapterTime: 5:43.026(20178)
+ChapterTime: 5:42.703(20159)
