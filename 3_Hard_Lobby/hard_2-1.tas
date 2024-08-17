@@ -3,20 +3,23 @@ console load SecretSanta2024/0-Lobbies/3-Hard 216 200
 
 #Start
   36
-   7,R,D,X
+   4,Z
    1,L,J
-  15,L
-   3,L,J
+   2
+  11,L
+   2
+   2,L,J
+   1,J
   15,L,D,X
    1,L,N
-   1,J
+   1,L,J
    8,L,D,X
    1,L,J
    4,L
    5,L,J
   15,L,D,X
    3,L,D
-   1,L,D,N
+   1,D,N
    1,L
    1,L,J
    1
@@ -39,4 +42,5 @@ console load SecretSanta2024/0-Lobbies/3-Hard 216 200
    5,R
   14,R,X
    1,R,N
-#0:02.822(166)
+
+#0:02.771(163)
