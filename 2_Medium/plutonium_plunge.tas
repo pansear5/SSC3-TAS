@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 345
+RecordCount: 682
 
 console load SecretSanta2024/2-Medium/MousseMoose
    1
@@ -48,95 +48,93 @@ console load SecretSanta2024/2-Medium/MousseMoose
    2,R
   15,R,U,X
   11,R
-   6,Z
-   1,R,J
-   7,R
-   1,R,J
-  11,R,D,X
-  40,G
 
-#lvl_2-Fission
-   3,R,D,X
-   1,R,J
-  14,R,D,X
-   2,R,J
-  23,R,D
-   2,R
-  15,D,X
-   4,R,D,X
-   5,L,U,C
-  36,L,G
-   1,R
-   2,L
+
+  14,Z
    1,L,J
-  10,R,X
-   3,R,J
-   4,R
-  13,G
-   8,R
-   1,L
-   2,R
-  15,R,U,X
-  24,R
-   6,Z
-   1,R,J
-   7,R
+   7,L
+  21,L,J
+  15,L,D,X
+  17,L
+   6,L,J
+   2,L
+   1,L,K,G
+   2,L,J,G
+   1,L,G
+  12,L,Z
+   3,J,G
+   1,K,G
+   6,L
+   1,L,N
+   7,L,J
+  13,L,Z
+  25,R,J
+
+  14,R,U,Z
+   1,J
+   6,L,K,G
+   7,L
+   1,L,J
+
+   2,L
+   3
+  14,L,D,Z
    1,R,J
    9,R,D,X
+   2,R,J,G
+   1,R,K,G
+   1,R,G
+   1,S
+  10,J
+   7,R,J
+   2,R
+   2,R,J
+  15,R,D,X
+   1
+  11,R
+   1,R,J
+  14,R,D,X
   40
 
-#lvl_3-Superposition
-   5,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   3,R
-  14,R,Z
-   1,R,J
-  14,R,D,X
+#lvl_2-Fission
+  29,R,J
+
+  13,R,D,X
+   1,R,J,G
+  10,R
+   1,R,J,G
+   2,R
   40
+
+
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+   1,R,J
+   6,R
+  40
+
 
 #lvl_4-Valence
-   1,R,J
-  14,R,D,X
-   1,R,J
-  13,R,D,X
-   1,R,J
    8,R
    1,R,J
-  14,R,D,X
+  15,R
    1,R,J
-  13,R,D,X
-  40
-
-#lvl_5-Entropy
-   1,R,D,X
-   5,R,J
-  10,R
-   1,L,J,G
-   8,R,J
-  32,R,D
-  23,R,C
+  14,R
+  49,R,J
+   1,R
+  15,R,D,X
+  26,R,J
+  19,R
   15,R,X
-  31,R,D
-   3,R
-   1,R,D
-   4,R
-  14,U,X
-  13,G
-  42,R,G
-   1,L
-   0,R
-  15,R,U,X
-  12,R
-   6,Z
+  27,R,U,C
+   7,Z
    1,R,J
    7,R
    1,R,J
-   8,R,D,X
-  40
+   7,R,D,X
+  40,G
 
 #lvl_6-Heart Death of the Universe
    3
@@ -149,6 +147,7 @@ console load SecretSanta2024/2-Medium/MousseMoose
    3,D
   15,L,D,X
   31,R,D
+#tested jelly fast fall, it's slower
 Stunpause
   16,R,D
 EndStunpause
@@ -162,4 +161,4 @@ EndStunpause
    5,D,X
  137
 
-ChapterTime: 0:26.469(1557)
+ChapterTime: 0:25.670(1510)
