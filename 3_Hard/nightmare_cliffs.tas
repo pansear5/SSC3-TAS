@@ -1,4 +1,4 @@
-RecordCount: 1735
+RecordCount: 1777
 
 console load SecretSanta2024/3-Hard/SummitBadeline
    1
@@ -431,8 +431,7 @@ endrepeat
    4,L,J
    1,L,K
   19,L,D,X
-  10,L,J
-   1,J
+  11,L,J
   15,L,D,X
    3,L
    2,L,J
@@ -452,26 +451,30 @@ endrepeat
    3,L,J
    2,L
   19,L,D,X
-   1,L,J
-   5,L
+   1,L
+   4,L,J
    5,L,D,X
-   5,L,J,G
-   5,L
-   2,L,J
-   6,L
-   9,L,J
-   1,L
-  19,L,D,X
-   5,L,J
-   1,L
-   6,L,D,X
    4,L,J,G
+   5,L
+   5,L,J
    3,L
-  11,L,J,G
+   6,L,J
+   4,L
+  21,L,D,X
+   1,L,J
+   6,L
+   5,L,D,X
+   1,L,J,G
+   1,L
+   2,L,J,G
+   4,L
+   7,L,J,G
+   4,J
    2,L,K,G
-   2,D
-  30,L,D
+  20,L,D
+   1,D
+  11,L,D
    2,L,J
   14,L,U,X
- 135
-ChapterTime: 1:04.430(3790)
+ 135,L
+ChapterTime: 1:04.396(3788)
