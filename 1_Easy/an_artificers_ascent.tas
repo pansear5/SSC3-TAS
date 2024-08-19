@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 12704
+RecordCount: 13119
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -1231,19 +1231,18 @@ EndRepeat
    6,L
    1,L,J
    2,L
-   1,L,J
+   1,L,D,J
    1,J,PE,F,90
-  65,J,PE,F,54.5
+  65,J,PE,F,54.8
   27,PE,F,40
-   7,PE,F,90
-   6,R
+   3,PE,F,90
+   8,R
    4,R,Z
    1,R,J
-   7,R
+   6,R
    1,R,J
-   2,R
-  11,PE,F,90
-   1,R
+   6,PE,F,90
+   9,R
    1,N
  155
 
@@ -1352,14 +1351,10 @@ EndRepeat
    8,J,PE,F,60
   15,R,D,X
    1,R,J
-  26,J,PE,F,77.7
+  25,J,PE,F,77.6
    2,R
-   1,L,J
-   4,R,J
-   1,J
-   2
-  15,R,D,X
-   5,R,D
+   8,D,J
+  20,R,D,X
    1,N
 
 #lvl_xc-3 (0)
@@ -1382,6 +1377,7 @@ EndRepeat
    1,R,K,G
    1,L,K,G
   24,R,K,G
+#2:14.555(7915)
    8,L,Z
    1,R,J
    7,R
@@ -1462,6 +1458,7 @@ EndRepeat
    7,R,J
   20,R
    8,L
+
    1,R,J
    1,J
    4
@@ -1718,20 +1715,18 @@ EndRepeat
    1,N
 
 #lvl_xc-5 (0)
+   4,R,Z
    2,R,J
-   7,R,Z
-   1,R,J
-   7,R
-   3,R,J
-  14,R,Z
-   8,R,J
-   3,R
-  50,PE,F,69.85924380595738
-   8,PE,F,0.0
+   3,R,K,G
+  12,R
+   3,R,D,J
+   2,R,K,G
+  59,PE,F,69.85924380595738
+  15,PE,F,0.0
    1,L
    1,L,J,G
-  19,L,K,G
-   5,L,J,G
+  14,L,K,G
+   3,L,J,G
    1,R,J
    1,R,K
   21,R,J
@@ -2108,13 +2103,14 @@ EndRepeat
    3,R,J
   11,R
    8,R,J
-  15,U,X
-   3,L,J,G
+  14,U,X
+   1,L
+   1,K,G
+   2,R,K
    7
-   7,J
-  15,U,X
-   6,J
-  11
+  14,U,X
+  12,J
+  11,L
   10,J
   15,U,X
   13
@@ -2441,25 +2437,29 @@ EndRepeat
  155
 
 #lvl_xd-ending
-  10,L,D,X
+   8,L,Z
    1,R,J
    7,R
-   1,R,J
-  57,PE,F,66.16988017433982
-  47,PE,F,84.13958260120829
-   2,R
-   1,R,J
-   6,L,D,X
+   9,R,J
+  11,R,D,X
    1,R,J
    7,R
+   7,R,J
+  15,R,D,X
+   8,R,J
+   8,R,X
+   5,R,J,G
+   7,R
    1,R,J
-  14,PE,F,54.73561031724534
-  16,PE,F,0.0
+  18,PE,F,90
+   1,R
+   3,R,D,J
+   2,R,K,G
+  26,PE,F,37
+   1
+   1,J
+  19,L,K,G
    1,L
-  25,L,J,G
-   2,J
-   2,L,K,G
-   7,L
    2,L,J
   10,L,X
   10,L,J
@@ -2486,8 +2486,8 @@ EndRepeat
    4,Z
    7,R,J
    5,R,K,G
-   1,R,J,G
-   8,R
+   2,R,J,G
+   7,R
    1,S
    1,D,J
   34
@@ -2558,4 +2558,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 5:26.876(19228)
+ChapterTime: 5:25.822(19166)
