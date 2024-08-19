@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1345
+RecordCount: 1369
 
 
 console load SecretSanta2024/1-Easy/Aiden
@@ -23,10 +23,11 @@ console ah_set_seed 1234
    8,R,J
   11,R
    1,N
-Repeat, 268
+Repeat, 253
    1,J
-   1,K
+   1,O
 EndRepeat
+   1,J
 
 #lvl_It's Reining Deer
   36
@@ -368,10 +369,11 @@ EndRepeat
   11,L,J
    9,L
    1,N
-Repeat, 192
+Repeat, 182
    1,J
-   1,K
+   1,O
 EndRepeat
+   1,J
 
 #lvl_The Platypus
   36
@@ -658,8 +660,13 @@ EndRepeat
 #lvl_Lubby
    4,L,D,X
    1,R,J,G
-  15,L,J,G
-  16,L,X
- 137
+   5,L,J,G
+  13,L,D,X
+   1,R,J,G
+  12,L
+  62,R,U,X
+   1,R,J
+  29,R,U,X
+  50,L,J
 
-ChapterTime: 3:06.184(10952)
+ChapterTime: 3:05.385(10905)
