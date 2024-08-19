@@ -1,4 +1,4 @@
-RecordCount: 1141
+RecordCount: 1225
 
 console load SecretSanta2024/2-Medium/filledwithgeese
    1
@@ -457,25 +457,28 @@ console load SecretSanta2024/2-Medium/filledwithgeese
    7,R
    7,R,Z
    1,R,J
-   5,R
+   5,D
   40
 
 #lvl_a_11heart
-   1
+   1,R
    1,R,J
-  13,R,D,X
+  10,R,D,X
    1,R,J
-   7,R
-   1,R,N
+   4,R
    1,R,J
-  65,D,X
-  15,D,C
-  82,R,D
+   3,R
+   4,Z
+   1,L,J,N
+  63,L
+   3,L,D
    4,Z
    1,R,J
-   7,R
-  11,R,J
-  13,U,X
- 135,R
-ChapterTime: 1:19.254(4662)
-FileTime: 1:28.264(5192)
+  20,R,D
+  44,R
+  36,R,D
+   4,X
+ 135,R,D,X
+
+ChapterTime: 1:18.931(4643)
+FileTime: 1:27.941(5173)
