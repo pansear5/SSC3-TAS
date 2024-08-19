@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1990
+RecordCount: 1991
 
 console load SecretSanta2024/3-Hard/butcherberries
    1
@@ -15,7 +15,7 @@ console load SecretSanta2024/3-Hard/butcherberries
   17
 
 #lvl_DEPTH-1
- 205
+ 206
   10,R,U,X
    2,K,G
    2
