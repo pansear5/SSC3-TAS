@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1955
+RecordCount: 1964
 
 console load SecretSanta2024/2-Medium/Nicole
    1
@@ -342,10 +342,10 @@ console load SecretSanta2024/2-Medium/Nicole
   14,L,U,X
   35,R,J
   17,L,K
-  20,J,G
-  20,K,G
   14,J,G
-  12,R,K
+  15,K,G
+  15,J,G
+  15,R,K
   15,R,X
   73,R,G
   12,R,J,G
@@ -358,7 +358,7 @@ console load SecretSanta2024/2-Medium/Nicole
    1,L,J
   14,U,X
    3,J
-  14,R,J
+  13,R,J
    1,R,K,G
   10,R
    6,R,D,X
@@ -374,6 +374,7 @@ console load SecretSanta2024/2-Medium/Nicole
   15,U,X
   17,J
   40
+#3880
 
 #lvl_7 (1)
   11,R
@@ -655,4 +656,4 @@ console load SecretSanta2024/2-Medium/Nicole
   26,R,U,X
  123
 
-ChapterTime: 2:05.018(7354)
+ChapterTime: 2:04.882(7346)
