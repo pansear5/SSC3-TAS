@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1964
+RecordCount: 2275
 
 console load SecretSanta2024/2-Medium/Nicole
    1
@@ -10,85 +10,86 @@ console load SecretSanta2024/2-Medium/Nicole
   61
 
 #lvl_1
-   4,R,X
-  15,R,J
-   1,R,K,G
-   7,R
-   4,R,D,X
+  11,L,Z
    1,R,J
-  12,R
-  12,R,J
-  14,R,Z
-   4,R,J
-  14,R,X
+   1,R,J
+   2,R,J
+  12,R,U,X
    1,R,J,G
-   1,R,K,G
+  15,R
+  11,R,J
    1,R
-   1,R,J,G
-  12,R
-   5,R,J
+  10,R,Z
+   7,R,J
+   1,R,J
+   1,R
+  11,R,Z
+   1,R,J
+   8,R
+   4,R,J
+  17,R,D,X
+   1,R,J
+   4,R
   15,R,D,X
-   3,R
-   1,R,J
-   7,R,D,X
-   1,R,J
-  12,R,D
-  13,D
-   9,R,D,X
+   1,L,D
+   9,R,D
+   4,Z
    1,R,J
    7,R
-  12,R,J
-   2,R,K,G
-  10,R,D,X
+  11,R,J
+   2,R,J
+   1,R,K,G
+   4,R
+  11,R,D,X
+   2,R,J
    1,R,J
-   7,R
+   1,R,K,G
+  10,R
+   2,R,J
+   5,R
+   4,R
    1,R,J
-  13,R,D,X
-   6,R,J
-  18,R,K,G
-   2,R,J,G
-   7,R
-   6,R,D,X
-   1,R,J
-   7,R
+   4,R
+  11,R,U,X
+   1,R,J,G
+   9,R
    1,R,J
   14,R,D,X
-   3,R,J
-  17,R,D,X
    2,R,J
-   8,R,X
+   1,J
+  18,R,D,X
+   1,R,D,J
+   9,R,U,X
    1,R,J,G
+   2,R,J,G
+  13,R,K,G
+   2,R,J,G
+  11,R
+   1,R,J
    4,R,J
-   1,R,K,G
-   3,R,K
-  11,R,J,G
-   2,R
-   1,R,K,G
-   7,R
-   6,R,D,X
-   1,R,J
-   7,R
-   1,R,J
-  12,R,D,X
+   5,R,U,Z
   40
 
 #lvl_1.5
-   2
-   5,R,J
-  12,R,K,G
-   6,R,J,G
-   6,R,Z
+   9,R,U,Z
+   1,R,J,G
+  13,R
    1,R,J
+  13,R,D,X
+   2,R,J
+  18,R
+  15,U,X
+  35
    7,R
-   1,R,J
-  14,R,D,X
-  11,R,J
-   4,L,J
-   9,L
-  79,L,J
-  77,R
-  15,R,U,X
-  11,U,C
+   1
+   1,R
+  15
+  12,J,G
+   5
+   5,R,J
+  52,R
+  18,R,U,Z
+   9,U,C
   12,R
    7,J,G
   40
@@ -656,4 +657,4 @@ console load SecretSanta2024/2-Medium/Nicole
   26,R,U,X
  123
 
-ChapterTime: 2:04.882(7346)
+ChapterTime: 2:03.590(7270)
