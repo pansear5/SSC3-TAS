@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 13119
+RecordCount: 13184
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -2390,22 +2390,27 @@ EndRepeat
    1,R,D,J
   50,PE,F,57.87897284183805
   24,PE,F,0.0
-  99,PE,F,90.0
+  96,PE,F,90.0
   15,R,D
-  14,R,D,X
-   1,L,J
-   7,L
-   1,L,D,J
-  47,PE,F,321.3784373314765
-  10,PE,F,0.0
-  11,R
-  13,R,J,G
-   7,R,K,G
+   4,R,D,X
+   1,R,J
    7,R
+   1,R,D,J
+  22,J,PE,F,300
+   9,J,PE,F,270
+  29,J,PE,F,326
+   3,J,PE,F,330
+   4,J,PE,F,0
+   4,R
+   1,J,G
+   4,R,J
+  13,R,J,G
+   9,R,K,G
+   8,R
    4,Z
    4,R,J
    4,R,K,G
-   9,R
+  10,R
    1,N
  155
 
@@ -2558,4 +2563,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 5:25.822(19166)
+ChapterTime: 5:25.805(19165)
