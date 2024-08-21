@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 13328
+RecordCount: 13913
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -13,7 +13,6 @@ console load SecretSanta2024/1-Easy/xolimono
  190
 
 #lvl_xd-start
-#-3f extra up dash
   15,U,X
   15,U,C
   14,U,X
@@ -36,12 +35,10 @@ console load SecretSanta2024/1-Easy/xolimono
   15,U,Z
    3,R,J,G
    7,R
-#-2f better climbing
    4,R,J
    4,R,K,G
   15,U,X
    1,L
-#-1f better ending end me
    2,L,J,G
    1,J
    3,L,J
@@ -513,19 +510,42 @@ EndRepeat
    1,L,J
   13,L
    1,L,D,J
-   9,PE,F,290
-  32,PE,F,281.56
-  25,PE,F,300
-  19,PE,F,281.56
+  12,PE,F,270
+   9,PE,F,282
+  15,PE,F,281.56
+   1,PE,F,283.16
+   1,PE,F,284.75
+   1,PE,F,286.37
+   1,PE,F,288.01
+   1,PE,F,289.66
+   1,PE,F,291.34
+   1,PE,F,293.05
+Repeat, 14
+   1,PE,F,294.59
+   1,PE,F,270
+EndRepeat
+   6,PE,F,270
+   6,PE,F,292
+   6,PE,F,270
+  21,D,X
+   1
+   1,D
+   1
+   4,Z
+   1,L,J
+   6,L
+   1,L,J
+   1,J,PE,F,270
+   1,PE,F,302.21
+   1,PE,F,303.81
+   1,PE,F,305.45
+   1,PE,F,307.13
+   1,PE,F,304
+   2,PE,F,270
    1,L
-  15,L,D,X
-  28,R,D
-   9,R,J
-  10,R,Z
-  19,L,J
-  16,L,X
+   4,L,J,G
+   7,L
    1,Z,N
-
 
 #lvl_butcher-1 (1)
    5,Z
@@ -536,180 +556,155 @@ Repeat, 13
    1,PE,F,180
 EndRepeat
   20,R,D
-   1,L,J,N
+   1,N
 
 #lvl_xe-1 (1)
-   5,L
-  14,R,D,X
-   1,L,J
-   2,J,PE,F,90
-  25,J,PE,F,0
-   3,J,PE,F,90
-  12
-  10,R,Z
-   5,L,J
-   2,J,PE,F,90
-  47,J,PE,F,0
-   2
-  10,J,G
-   2
-   7,K,G
-   2,L,K
-   7,L
-   3,L,J
-   7,L,U,X
-   3,L,J,G
-   7,L
-   7,L,X
-   2,L,J
-  12,L
-   1,D,X
-
-#lvl_butcher-3 (0)
-  10,R,D,X
-   8,L,J
-   2,L
-  14,L,Z
-   1,L,J
-   1,PE,F,294.17
-   1,PE,F,295.56
-   1,PE,F,296.96
-   1,PE,F,298.35
-   1,PE,F,299.74
-   1,PE,F,301.13
-   1,PE,F,302.52
-   1,PE,F,303.92
-   1,PE,F,305.31
-   1,PE,F,306.70
-   1,PE,F,308.09
-   1,PE,F,309.49
-   1,PE,F,310.88
-   1,PE,F,312.27
-   1,PE,F,313.66
-   1,PE,F,315.06
-   1,PE,F,316.45
-   1,PE,F,317.84
-   1,PE,F,319.23
-   1,PE,F,320.62
-   1,PE,F,322.02
-   1,PE,F,323.41
-   1,PE,F,324.80
-   1,PE,F,326.19
-   1,PE,F,327.59
-   1,PE,F,328.98
-   1,PE,F,330.37
-   1,PE,F,331.76
-   1,PE,F,333.16
-   1,PE,F,334.55
-   1,PE,F,335.94
-   1,PE,F,337.33
-  21,PE,F,270.0
-   1,PE,F,294.17
-   1,PE,F,295.56
-   1,PE,F,296.96
-   1,PE,F,298.35
-   1,PE,F,299.74
-   1,PE,F,301.13
-   1,PE,F,302.52
-   1,PE,F,303.92
-   1,PE,F,305.31
-   1,PE,F,306.70
-   1,PE,F,308.09
-   1,PE,F,309.49
-   1,PE,F,310.88
-   1,PE,F,312.27
-   1,PE,F,313.66
-   1,PE,F,315.06
-   1,PE,F,316.45
-   1,PE,F,317.84
-   1,PE,F,319.23
-   1,PE,F,320.62
-   1,PE,F,322.02
-   1,PE,F,323.41
-   1,PE,F,324.80
-   1,PE,F,326.19
-   1,PE,F,327.59
-   1,PE,F,328.98
-   1,PE,F,330.37
-   1,PE,F,331.76
-   9,PE,F,270
-  15,L,X
-   3,L,D
-   9,D
-   7,R
-   4,L,Z
+   4,Z
+   1,R,J
+   1,R
+   3,R,J
+  16,R
+   4,Z
    1,L,J
    6,L
-   1,L,J
-  20,J,PE,F,270
-   1,PE,F,251.00
-   1,PE,F,275.25
-   1,PE,F,276.58
-   1,PE,F,277.92
-   1,PE,F,279.25
-   1,PE,F,280.58
-   1,PE,F,281.91
-   1,PE,F,283.24
-   1,PE,F,284.57
-   1,PE,F,285.90
-   1,PE,F,287.23
-   1,PE,F,288.56
-   1,PE,F,289.89
-   1,PE,F,291.22
-   1,PE,F,292.56
-   1,PE,F,293.89
-   1,PE,F,295.22
-   1,PE,F,296.55
-   1,PE,F,297.88
-   1,PE,F,299.21
-   1,PE,F,300.54
-   1,PE,F,301.87
-   1,PE,F,303.20
-   1,PE,F,304.53
-   1,PE,F,305.86
-   1,PE,F,307.20
-   1,PE,F,308.53
-   1,PE,F,309.86
-   1,PE,F,311.19
-   1,PE,F,312.52
-   1,PE,F,313.85
-   1,PE,F,315.18
-   1,PE,F,316.51
-   1,PE,F,317.84
-   1,PE,F,319.17
-   1,PE,F,320.51
-   1,PE,F,321.84
-   1,PE,F,323.17
-   1,PE,F,324.50
-   1,PE,F,325.83
-   1,PE,F,327.16
-   1,PE,F,328.49
-   1,PE,F,329.82
-   1,PE,F,331.15
-   1,PE,F,332.48
-   1,PE,F,333.81
-   3,L
-   1,L,J,G
-   3,L,D
-   7,R,D
-  14,R,D,X
-   1,L,J
+   5,L,J
    5,L,D,X
-   3,L,J,G
+   1,L,J,G
+   1,L,J
+   4,L,K,G
+   1,L
+   1,L,J,G
   11,L
-   1,L,D,J
-   6,J,PE,F,270
-  40,PE
+   1,L,J
+Repeat, 24
+   1,J,PE,F,90
+   1,J,PE,F,0
+EndRepeat
+   8,PE,F,0
+   1
+   1,J
+  16,L,K,G
+   1,L,J,G
+   1,L,K,G
+   1,L
+   3,L,J,G
+   8,L
+   4,Z
+   9,L,J
+   7,L
+   1,Z,N
+
+#lvl_butcher-3 (0)
+   4,L,Z
+
+   1,R,J
+   8,R
+   1
+  14,R,D,C
+   1,L,J
+   6,L,D,X
+   1,L,J,G
+  12,L
+   1,L,J
+   1,J,PE,F,270
+   1,PE,F,297.92
+   1,PE,F,299.15
+   1,PE,F,300.41
+   1,PE,F,301.68
+Repeat, 23
+   1,PE,F,270
+   1,PE,F,302.94
+EndRepeat
+   1,PE,F,270
+   1,PE,F,301.68
+   1,PE,F,303.15
+   1,PE,F,304.64
+   1,PE,F,306.18
+   1,PE,F,307.76
+   1,PE,F,309.38
+   1,PE,F,311.05
+   1,PE,F,312.76
+   1,PE,F,314.55
+   1,PE,F,316.41
+   1,PE,F,318.34
+   1,PE,F,320.37
+  31,PE,F,270
+  15,L,D,X
+   1,L,J
+   5,L,K,G
+   1,K,PE,F,270
+   1,PE,F,295.83
+   1,PE,F,296.90
+   1,PE,F,297.96
+   1,PE,F,299.05
+   1,PE,F,300.16
+   1,PE,F,301.29
+   1,PE,F,302.43
+   1,PE,F,303.59
+   1,PE,F,304.77
+   1,PE,F,305.98
+   1,PE,F,307.21
+   1,PE,F,308.46
+   1,PE,F,309.74
+   1,PE,F,311.06
+   1,PE,F,312.41
+   1,PE,F,313.80
+   1,PE,F,315.21
+   1,PE,F,314.15
+  25,J,PE,F,270
+   2,L,J
+   1,L
+   4,L,D,J
+   1,L,J,PE
+  40
+
 
 #lvl_butcher-3b
-  22,J,PE,F,300
-  23,PE,F,281.6
-#completely accidental line-up lmao
-  29,PE,F,295
-  23,PE,F,330
-  21,PE,F,270
+   1,PE,F,296.38
+   1,PE,F,297.48
+   1,PE,F,298.61
+   1,PE,F,299.74
+   1,PE,F,300.90
+   1,PE,F,302.07
+   1,PE,F,303.27
+   1,PE,F,304.49
+   1,PE,F,305.73
+   1,PE,F,306.99
+   1,PE,F,307.1
+  22,PE,F,270
+   Repeat, 7
+   1,PE,F,307
+   1,PE,F,270
+EndRepeat
+   1,PE,F,283.05
+   1,PE,F,284.15
+   1,PE,F,285.25
+   1,PE,F,286.37
+   1,PE,F,287.50
+   1,PE,F,288.64
+   1,PE,F,289.78
+   1,PE,F,290.93
+   1,PE,F,292.10
+   1,PE,F,293.29
+   1,PE,F,294.50
+   1,PE,F,295.68
+   1,PE,F,296.92
+   1,PE,F,298.17
+   1,PE,F,299.44
+   1,PE,F,300.73
+   1,PE,F,302.04
+   1,PE,F,303.39
+   1,PE,F,304.76
+   1,PE,F,306.15
+   1,PE,F,307.59
+   1,PE,F,309.06
+   1,PE,F,310.57
+   1,PE,F,312.07
+   7,PE,F,0
+   6,PE,F,270
+  11,L
   15,L,D,X
-  11,L,D
+  12,R
    1,D,X
 
 #lvl_butcher-3 (1)
@@ -1351,7 +1346,7 @@ EndRepeat
 
 #lvl_xc-0
 # spinnercycle
-   1
+   0
 #
    1,L,J
   10,R,D,X
@@ -2285,8 +2280,7 @@ EndRepeat
    1,R,D,J
    8,PE,F,180.0
   24,PE,F,74.45773177662285
-  20,PE,F,0
-  20,PE,F,0
+  40,PE,F,0
    2
   15,L,J,G
    4,L,K,G
@@ -2632,4 +2626,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 5:23.374(19022)
+ChapterTime: 5:20.824(18872)
