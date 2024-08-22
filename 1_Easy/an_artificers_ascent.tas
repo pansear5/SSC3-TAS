@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 13842
+RecordCount: 14174
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -13,6 +13,7 @@ console load SecretSanta2024/1-Easy/xolimono
  190
 
 #lvl_xd-start
+#-3f extra up dash
   15,U,X
   15,U,C
   14,U,X
@@ -35,10 +36,12 @@ console load SecretSanta2024/1-Easy/xolimono
   15,U,Z
    3,R,J,G
    7,R
+#-2f better climbing
    4,R,J
    4,R,K,G
   15,U,X
    1,L
+#-1f better ending end me
    2,L,J,G
    1,J
    3,L,J
@@ -2313,39 +2316,56 @@ EndRepeat
    9,R
    5,R,J
    2,R
-  15,R,Z
-   1,R,G
-   5,R,J,G
-  52,R,D
-   5,L,D,J
-   1,D,J
-   9,L,D,J
-  15,U,X
-  33,R,D
-  10,L,D,X
-   1,R,J
-   6,R
-   1,R,D,J
-  80,PE,F,65.6587599410256
+  13,R,Z
+   4,R,J,G
    7,R
-   4,R,D,X
+  10,X
+   5,R,J
+   8,R,G
+  13,L,Z
+   2,R,J
+   9,R,D
+   4,R,J
+  15,R,U,Z
+   1,L,J,G
+   6,L
+   1,L,J,G
+   3
+   1,J,G
+   1,R,J
+  14,L,K,G
+   8,L,J,G
+  14,L
+  10,L,Z
+   1,R,J
+   5,R
+   2
+   1,R,J
+  29,PE,F,16
+   8,PE,F,90
+  14,R
+   1,R,J
+   4,Z
    1,R,J
    7,R
    7,R,J
-  14,R,Z
-   1,R,J
-   6,R,D,X
-  40,P
+   2,R
+   5,R,D,X
+   1,R,J,G
+  12,R
+  40
 
 #lvl_xd-3
-   8,R,D,X
    1,R,J
   14,R,D,X
-   3,R,J
-  15,R,U,X
-  10,R,G
+   1,R,J
+  14,R,D,X
+   1,R,J
+  13,R,U,X
+   1,R,J,G
+   8,R,G
   12,R,J,G
-   2,R,K,G
+   4,R,K,G
    7,R
   10,R,Z
   14,L,J
@@ -2355,7 +2375,7 @@ EndRepeat
    1,R,J
    6,R
    1,R,J
-  11,PE,F,0.10081424454092
+  12,PE,F,0.10081424454092
   13,L
    5,L,D
    8,L
@@ -2365,31 +2385,32 @@ EndRepeat
    1,L,J
    1,L
   14,D
-  30,R,D,G
-  44,R,G
+  29,R,D,G
+  45,R,G
    1,J,G
    6,L,J
    6,R,J
   15,R,U,Z
- 145,R,D
-   8,R,Z
+ 110,R,D
+  10,L
+   4
+  14,R,Z
    1,L,J
-   6,L
-   1,L,J
-  24,PE,F,0
-   5,L
+   1,L,K,G
+  31,PE,F,0
+   4,L
    1,L,J,G
    7,L
-  10,L,D,X
-   1,R,J
-  40,PE,F,0.0
-   3,R
-   1,R,J,G
-   7,R
-   6,R,X
-  10,L,J
+   5
+  11,R,D,X
+   6,L,J
    5,L,K,G
-  10,L
+   5,L,J,G
+   2,L,K,G
+  11,L,J,G
+  16,PE,F,20.0
+   6,PE,F,90
+  16,R
    1,N
  155
 
@@ -2569,20 +2590,22 @@ EndRepeat
  384
 
 #lvl_x-ending
-   8
-   1,R,J
-  14,L,D,X
+   8,R,J
+   6,R
+  11,L,D,X
    1,L,J
-  26,L,D,X
-   1,L,J
-  58,PE,F,282.5422682233771
+   3,L
+  22,L,D,X
+   7,L,J
+  15,L,D,X
+  37,J,PE,F,282.2
    2,L
    1,L,J
-   7,L,D,X
+   9,L,D,X
    1,S
    1,D,J
   34
-   6,L
+   3,L
    1,N
  155
 
@@ -2590,4 +2613,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 5:13.939(18467)
+ChapterTime: 5:13.004(18412)
