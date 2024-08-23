@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 16123
+RecordCount: 16478
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -581,7 +581,7 @@ EndRepeat
    1,PE,F,312.49080
    1,L
    3,L,J,G
-   7,L
+   5,L
    1,Z,N
 
 #lvl_butcher-1 (1)
@@ -951,7 +951,6 @@ EndRepeat
    1,PE,F,339.78591
    1,PE,F,346.26377
    5,PE,F,360.00000
-   0,PE,F,360.00000
   15,U,X
    4,R
   15,U,C
@@ -1242,10 +1241,8 @@ EndRepeat
   12,R,D,X
    6,R,J
    2,R,K,G
-  16,PE,F,0.0
-   2,R
-   1,R,J,G
-  12,R
+  13,K,PE,F,40.0
+  17,R
    1,N
 
 #lvl_xb-2a
@@ -1254,25 +1251,25 @@ EndRepeat
    9,L
    1,L,J
   14,L,D,X
-   1,L,J
-   4,PE,F,270.0
-  14,L,D
-  15,D,X
-  15,L,Z
-  11,L,V
-   1,L,J
-   8,L
+   3,L,J
   15,L,D,X
-  15,L,U,V
-  15,U,X
-  15,R,Z
-   6,R
-   1,R,J
-  15,U,Z
-   3,L,J,G
+  15,L,D,C
+  15,L,Z
+   9,L,V
+   1,L,J
    7,L
-   5,L,J
-   5,L,Z
+   1,L,J
+  15,L,D,X
+  15,L,U,C
+  16,U,X
+  15,R,Z
+   9,R,V
+   1,L,J
+   5,K
+  15,U,X
+   4,L,J,G
+   7,L
+   4,Z
    5,L,J
    4,L,K,G
    5,L
@@ -1346,9 +1343,9 @@ EndRepeat
 
 #lvl_xb-3
    6
-Repeat,25
+Repeat,24
    1,J
-   1,K
+   1,O
 EndRepeat
    2
   11,L,J
@@ -1365,9 +1362,10 @@ EndRepeat
   15,L,U,V
   15,L,U,Z
    7,U,X
-   1,R,J,G
-   8,R
-  15,R,X
+   9,R,J
+   5,R,Z
+   1,R,J
+   7,R
    1,N
  155
 
@@ -1418,7 +1416,6 @@ EndRepeat
   13,R
    2,R,J
    7,R
-  
    1,N
  155
 
@@ -1811,50 +1808,45 @@ EndRepeat
   15,R,D,X
    4,R,J
   26,R,D,X
- 176
-  17,L
-   1,L,J
-  23,L,D
+ 201
+  15,L
+  12,L,J
   14,R,D,X
    1,R,J
-  12,R,U,X
-   2,R,J,G
-  12,R,D
-   1,R,J
-  14,R
-   6,R,J
-   2,J
-   7,R,D,X
- 103
-   5,L,D,X
+  15,R,D,X
+  13,R,J
+  10,R,D,X
+  12
+   1,S
+   1,D,J
+  69,O
+  10,R,Z
    1,L,J
-  14,L
-   5,L,J
-   4,L,K,G
+  15,PE,F,286
+   3,L
+   1,L,J
   14,L,D,X
    1,L,J
-  15,PE,F,285.5422682233771
-  21,PE,F,0.0
+  13,PE,F,285.5422682233771
+  20,PE,F,0.0
    3,L
-   3,L,J,G
+   1,L,J,G
+   7,L
+   4,Z
+   1,L,J
+   2,L,K,G
    2,L
-   1,L,K,G
-   7,L
+   1,L,J,G
+  11,L
+   7,L,J
+  15,L,D,X
    1,L,J
   14,L,D,X
    1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   1,L,J
-  11,L,D,X
-   1,L,J
-   3,L
-   9,L,D,X
-   1,L,J
-   7,L
-   3,L,J
-  16,L
+  15,L,D,X
+   4,Z
+  10,L,J
+  13,L
    1,N
 
 #lvl_xc-5 (0)
@@ -2040,12 +2032,10 @@ EndRepeat
   14,R
   19,PE,F,85
   37,PE,F,75
-  23,PE,F,66
-   1,R
-   1,R,J,G
-  11,R
+  23,PE,F,62.95
+   5,R
    1,R,J
-   4,R,D,X
+  10,R,D,X
    1,R,J
    7,R
   40
@@ -2058,28 +2048,28 @@ EndRepeat
    3,R,K,G
    5,R
    1,R,J,G
-   8,R,J
+   9,R,J
   10,L,D,X
-   8,L,J
+   6,L,J
+   2,L
   15,L,D,X
    1,L,D,J
-  35,PE,F,50
-  40,PE,F,78.4
-  54,PE,F,70
-   4,R
+  34,PE,F,90
+   3,R,J
+  14,R,D
    1,R,J
-   4,R,D,X
+  35,PE,F,64.8
+   6,R
+   1,R,J
+   5,R,D,X
    1,R,J
    7,R
    3,R,J
    1,R,K,G
-   8,R,K
+  12,R,J,G
   15,R,D,X
-   3,R,J
-   3,R,K,G
-   9,R
    1,R,D,J
-   7,J,PE,F,90
+   8,J,PE,F,90
    1,PE,F,62.2721
    1,PE,F,61.0491
    1,PE,F,59.8228
@@ -2103,18 +2093,16 @@ EndRepeat
    1,PE,F,36.8500
    1,PE,F,35.5038
    1,PE,F,34.1479
-   1,PE,F,32.7819
-   1,PE,F,31.4054
-   1,PE,F,30.0179
-   1,PE,F,28.6191
-  83,PE,F,90
+   1,PE,F,37.7819
+  15,PE,F,90
+  63,PE,F,86
    1,R
    1,R,J
   14,R,D,X
    1,R,J
   14,R,D,X
    1,R,J
-   5,R,D,X
+   4,Z
    1,R,J
    7,R
   14,R,J
@@ -2154,14 +2142,15 @@ EndRepeat
    9,R
    1,R,J
   14,R,D,X
-   3,R,J
-   9,R
+   1,R,J
+  10,PE,F,90
+   2,R
    1,R,J
   14,R,D,X
    1,R,J
   14,R,D,X
    1,R,J
-  12,R,D,X
+   9,R,D,X
    1,R,J
    7,R
    3,R,J
@@ -2698,4 +2687,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 5:08.363(18139)
+ChapterTime: 5:06.612(18036)
