@@ -1,4 +1,4 @@
-RecordCount: 9378
+RecordCount: 9540
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -170,6 +170,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,L,J
    2,L
   40
+
 #lvl_b-04
    3,L
    5
@@ -189,7 +190,7 @@ console load SecretSanta2024/2-Medium/bosssauce
 #  20,L,J
 #   1,J
 #  15,L,J
-
+#
   14,R,J
   18,J
    1,R,J
@@ -208,27 +209,31 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,L,J,G
    1,L,K,G
    7
-   1,R,J
-   9,R
-   1,R,J
-  16,R
-   2
+   3,L
+
+   1,L,J
+   6,L
+   1,J
+  13,R
+   6
   18,R,J,G
+   7,R,G
    1,K
   29,R,K
    8,U,G
   11,G
    1,U,G
-  17,G
+  13,G
    5,U,G
    1,G
    1,R,J,G
    9,R
    1,R,J
   12,R,U,X
-   5,R,J,G
-   3,R,K,G
+   4,R,J,G
+   4,R,K,G
   40
+
 #lvl_b-05
    8,R,K
    6,R
@@ -238,6 +243,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    6,R,J
    5,R,U,X
   40
+
 #lvl_b-06
   10,R
    9,R,U,X
@@ -313,17 +319,13 @@ console load SecretSanta2024/2-Medium/bosssauce
   14,R,J
    7,R
   16,R,U,X
-   4,R
+   3,R
   18,R,X
-  15,L,C
-   9,L,D
+  24,L,C
    1,J
   15,R,D,X
-  15,R,D,C
-   5,D
-  10,R,D
-  10,R,J
-  15,R
+  30,R,D,C
+  30,R,J
 #updiag?
   15,U,Z
    5,U,C
@@ -340,6 +342,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    2,R,J
   14,R,D,X
   40
+
 #lvl_b-09
    5,R
   15,R,J
@@ -371,6 +374,7 @@ console load SecretSanta2024/2-Medium/bosssauce
   12,R,D,X
    1,R,J
   40
+
 #lvl_b-10
    9,R,J
   15,R,U,X
@@ -393,10 +397,14 @@ console load SecretSanta2024/2-Medium/bosssauce
   15,U,Z
    2,R
    1
-   1,R,K
-  15,U,X
-  21,R
-   7
+   2,J
+   1
+   7,L,U,X
+  18,R,J
+   1,R,K,G
+   1
+   1,L
+   5,R
   10,R,D,X
   11,R,J
    6,R,K,G
@@ -464,32 +472,31 @@ console load SecretSanta2024/2-Medium/bosssauce
    5,L,D,X
    1,L,J
   14,L
-   4,J
-  20,D,X
+   4,R,J
+  19,D,X
   10,L,Z
+   4,R,J
+   1,J
+   3
+  13,L,D,X
    1,R,J
-   7,R
-  10,L,D,X
-   2,R,J
-   5,R
-   8,D
-   6,R,D
-   1
-   1,R,D
-   1
+  20,L,D
+   2,D
+
   15,L,Z
-   3,R,D
+   2,R
    1,J
-  11
-  17,R,D
+   7,L
+   1,L,G
+  10
+  12,R,D
    1,J
-   5
-  18,L,D
-   2,L
-   1,L,J,G
+   1,K
+  24,L,D
+   4,L,J,G
   15,L,D,X
-   9,L
-  19,L,J
+   7,L
+  18,L,J
   17,K
   12,L,J
    4,L
@@ -506,10 +513,10 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J,G
    5,R
    6
-   4,R
+   7,R
 #tried very hard to do this dashless
 #it might even be slower?
-  25,R,U,Z
+  22,R,U,Z
    5,U,X
   13,R,J
    1,R
@@ -539,7 +546,7 @@ console load SecretSanta2024/2-Medium/bosssauce
 #find a better place to put this?
 #Spinner Cycle [d-10]
 ##############
-   0
+   1
 ##############
    1,S
    1,D,J
@@ -1065,6 +1072,7 @@ console load SecretSanta2024/2-Medium/bosssauce
 #  14,L,D,X
 #   1,R,J
 #  17,R,D,X
+#
   34
    1,S
    1,D,J
@@ -1089,6 +1097,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J
    8,R
   40
+
 #lvl_d-01
   10,R
    1,R,J,G
@@ -1293,6 +1302,7 @@ console load SecretSanta2024/2-Medium/bosssauce
   14,R
    3,R,J
   40
+
 #lvl_d-06
    4,R,J
    9,R
@@ -1493,6 +1503,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J,G
    7,R
   40
+
 #lvl_d-10
    4,R
    2,R,J
@@ -1955,5 +1966,5 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:31.728(15984)
+ChapterTime: 4:31.779(15987)
 
