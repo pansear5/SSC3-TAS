@@ -1,4 +1,4 @@
-RecordCount: 4380
+RecordCount: 4465
 
 console load SecretSanta2024/2-Medium/snakesphere
    1
@@ -8,7 +8,6 @@ console load SecretSanta2024/2-Medium/snakesphere
  190
 
 #lvl_a-01
-
    4,R,Z
    1,R,J
    4,R
@@ -94,25 +93,25 @@ console load SecretSanta2024/2-Medium/snakesphere
    1,R,J
   11,R
   10,R,D,X
-   6,R,J
-  30,R,D
-   4
-  14,R,D,X
-   3,L,J
-  29,L,D
-   2,D
-  10,R,J
-   1,R
-  13,R,J
-  24,R
-   2,R,J,G
-   1,L,J
-   3,R,J
-   2,R,K,G
+   7,R,J
+  37,R,D
+  10,R,D,X
+   8,L,J
+   1,J
+   3
+   1,J
    1
-  12,R
-  37,R,J
-   2,R,D
+   1,J
+  48,R
+   1
+   1,R
+   1,J,G
+   1,L,J
+  21,R,K,G
+   1,R
+   1,R,K
+   4,R
+  39,R,J
    1,G
    9,R,J,G
   11,U,Z
@@ -166,24 +165,17 @@ console load SecretSanta2024/2-Medium/snakesphere
    6,K
    1,R,J,G
    6,J
-   1,R
-   1
-   1,R
-   5
-   1,R
-   1,L
-   2
-   5,L,Z
+   3
+   5,R
+  14,R,D,X
    1,R,J
-   4,R
-   5,R,J
-  39,R,U,X
-   5,R,D
-  27,D
-  18,R,D
-   6,D
-   4
-   3,L
+  15,R,U,X
+  23,R,D
+  28,D
+  20,R,D
+  10,D
+   1
+   2,L
   10,R,X
   12,R,J
   11,K,G
@@ -192,38 +184,49 @@ console load SecretSanta2024/2-Medium/snakesphere
   15,U,X
    1,R
   18,L,J
-   4,K,G
+   5,K,G
    1,R,K
    1,R,J
   20,R,K
-   2
-   2,J,G
-   7,R,K,G
-   7,K,G
-   2,R,J,G
-   5,J
+   2,K
+   7,R,J,G
+   7,J,G
+   1,R,K,G
+   6,K
    1,R
    1
    1,R
-   5
+   4
    1,R
    1,L
    2
    5,L,Z
    1,R,J
-   1,R
-   1
    2,R
-  18,R,J
+   1,R,J
+   1,R
+   3,R,K
+   6,R
+   4,R,K
+   5,R
   15,R,U,X
-  67,R,D
-  15,L,D
+  60,R,D
    1,D
-   9,L,D
-  30,R,D
-  11,R,X
-   3,R,J
-  10,R,K,G
+   1,R,D
+   1,D
+   1,R,D
+   7,L
+  19,L,D
+  18,R,D
+   1,R
+   1,R,D
+   7,R
+   1,R,D
+   7,R,Z
+   1,R,J
+   3,R
+   5,R,K
+   7,R,J,G
   10,R,Z
    1,R,J
    4,R
@@ -391,7 +394,7 @@ console load SecretSanta2024/2-Medium/snakesphere
    1,D,J
   69,O
 #cycle
-   0
+   2
 #---
   10,R,Z
    2,R,J
@@ -682,7 +685,7 @@ EndStunPause
    1,D,J
   69,O
 #cycle
-   0
+   6
 #---
    2,R,J
   11,R,Z
@@ -1380,4 +1383,4 @@ EndStunPause
  758,O
  135
 
-ChapterTime: 3:42.785(13105)
+ChapterTime: 3:42.530(13090)
