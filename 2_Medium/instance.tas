@@ -99,10 +99,6 @@ console load SecretSanta2024/2-Medium/bosssauce
    2,L,K
    3,R,K
    7,R
-#Spinner Cycle [b-10]
-##############
-   1
-##############
    4,Z
    5,R,J
    3,R,K,G
@@ -1545,7 +1541,7 @@ console load SecretSanta2024/2-Medium/bosssauce
   13
   44
 # spinner cycle
-   2
+   0
 # 
    4,L
    4,L,J
@@ -1966,4 +1962,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:31.779(15987)
+ChapterTime: 4:31.728(15984)
