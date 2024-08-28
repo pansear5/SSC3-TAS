@@ -1,4 +1,4 @@
-RecordCount: 10396
+RecordCount: 10456
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -1515,13 +1515,13 @@ console load SecretSanta2024/2-Medium/bosssauce
    7,R
   11,R,D,X
    1,R,J
-   3,R,K,G
-   1,K
-   4,R,K
-   6,R
-   3,R,K
-   1,R
-##  Old stun strategy +5f and +cycle
+##  Old stun strategy +39f and +cycle
+#   3,R,K,G
+#   1,K
+#   4,R,K
+#   6,R
+#   3,R,K
+#   1,R
 #  45,R,U,Z
 #  15,R,U,X
 #  21,R,Z
@@ -1570,13 +1570,17 @@ console load SecretSanta2024/2-Medium/bosssauce
 #  18,R
 #   1
 #   6,D
-# 
-  15,R,U,Z
-   6,R
-  15,R,X
-  29,R,D
-   9,L,D,X
-  21,L,G
+## 
+   9,R,K,G
+  22,R
+   3
+   1,R
+   4
+   5,R,Z
+  10,R,Z
+   9,R
+   5,L,D,X
+  22,L,G
   35,R,X
   11,R,J,G
    1,R
@@ -1587,14 +1591,14 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,L
   13,L,K,G
   10,L,D,X
-  15,R,J
-  27,R
-   2,R,D
-  10,L,Z
-  21,R,J
-  15,U,X
-  13,R
-   1,R,G
+  14,R,J
+  16,R,D
+  11,D
+  17,R
+  18,R,U,X
+   5
+   2,R
+   3,R,G
   11,L,K
   44,L
   14,L,Z
@@ -2015,4 +2019,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:31.626(15978)
+ChapterTime: 4:31.031(15943)
