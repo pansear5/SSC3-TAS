@@ -1,4 +1,4 @@
-RecordCount: 9788
+RecordCount: 10396
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -540,10 +540,11 @@ console load SecretSanta2024/2-Medium/bosssauce
    6,J
   14,U,X
 #lvl_intro2
+# keeping cycle for potential future optimizations to route
 #find a better place to put this?
 #Spinner Cycle [d-10]
 ##############
-   1
+#   1
 ##############
    1,S
    1,D,J
@@ -1520,55 +1521,107 @@ console load SecretSanta2024/2-Medium/bosssauce
    6,R
    3,R,K
    1,R
-  45,R,U,Z
-  15,R,U,X
-  21,R,Z
-  10,R,V
-  20,R,J
-  13,R,D
-  11
-   2,D
-   1
-   2,L,D
-  16,L
-  15,R,U,X
-   8,L
-   6,R,G
-   1,L,K
-  32,L,D
-  15,L,X
-
-  13
-  44
-# spinner cycle
-   0
+##  Old stun strategy +5f and +cycle
+#  45,R,U,Z
+#  15,R,U,X
+#  21,R,Z
+#  10,R,V
+#  20,R,J
+#  13,R,D
+#  11
+#   2,D
+#   1
+#   2,L,D
+#  16,L
+#  15,R,U,X
+#   8,L
+#   6,R,G
+#   1,L,K
+#  32,L,D
+#  15,L,X
+#
+#  13
+# style this later lol
+#  44
 # 
-   4,L
-   4,L,J
-  10,R,D,X
-   8,R,J
-   6,R
-   1,R,J
-   5,R
-  15,R,U,X
-  18,R
-  10
-  14,R,Z
-   1,R,J
-   4,R
+#   4,L
+#   4,L,J
+#  10,R,D,X
+#   8,R,J
+#   6,R
+#   1,R,J
+#   5,R
+#  15,R,U,X
+#  18,R
+#  10
+#  14,R,Z
+#   1,R,J
+#   4,R
 #weird stunpause
-Stunpause
-   2,R
-   4,R,J
-  11,R,K,G
-   7,R
-EndStunpause
+#Stunpause
+#   2,R
+#   4,R,J
+#  11,R,K,G
+#   7,R
+#EndStunpause
+#   5,R,J
+#  15,R,D,X
+#   2,R,D
+#  18,R
+#   1
+#   6,D
+# 
+  15,R,U,Z
+   6,R
+  15,R,X
+  29,R,D
+   9,L,D,X
+  21,L,G
+  35,R,X
+  11,R,J,G
+   1,R
+  10,U,X
    5,R,J
-  15,R,D,X
+  24,J,G
+   1,R
+   1,L
+  13,L,K,G
+  10,L,D,X
+  15,R,J
+  27,R
    2,R,D
+  10,L,Z
+  21,R,J
+  15,U,X
+  13,R
+   1,R,G
+  11,L,K
+  44,L
+  14,L,Z
+   1,R,J
+   5,R,D,X
+  13,R,G
+  21,R,J,G
+   1,R
+  14,R,U,X
+  21,R,G
+  21,R
+   9,L,D
+  14,L,Z
+   7,L
+   4,R,Z
+   1,R,J
+   6,R
+   5,R,J
+  21,R,J,G
+   1,L
   18,R
-   1
-   6,D
+  15,R,D,X
+  20,R
+   4,R,D
+   4,R
+   1,R,D
+## 
 #find better setup?
    8,L,Z
    1,R,J
@@ -1962,4 +2015,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:31.728(15984)
+ChapterTime: 4:31.626(15978)
