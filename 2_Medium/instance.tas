@@ -1,4 +1,4 @@
-RecordCount: 10772
+RecordCount: 10952
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -196,7 +196,6 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,L,K,G
    7
    3,L
-
    1,L,J
    6,L
    1,J
@@ -410,25 +409,26 @@ console load SecretSanta2024/2-Medium/bosssauce
    5,R,J,G
   15,R,D,X
   17,R,D,C
-  28,R,J
-#used to be able to upright and climbjump without activating block
-  15,U,X
-  20,R
-   1,L,J
-   1,R
-  10,L
-   7
-  14,L,J
-   8,L
-  10,D,X
-  14,L,J
-  15,L
-  17,L,U,Z
-  20,U,C
-  25,R,D,X
+  20,R,J
+  15,R,U,Z
+   4,R,J,G
+  10,R,K,G
+  12,L,D,X
+   3,R,J
+   8,R,U,G
+  31,L,J
+  15,L,U,X
+   6,L
+  13,U,C
+   4,R
+  15,R,X
+  15,R,D
+   3
+   6,D
+# waiting for this spike hitbox offset is very doodoo, there has to be a way to make an earlier one
   13,J
-  14,L,J
-   7,U,X
+  13,L,J
+   6,U,X
   11,R,J
    7,L,K
   24,D
@@ -443,10 +443,9 @@ console load SecretSanta2024/2-Medium/bosssauce
    5,L
    2
    1,L
-   2,J
-   1
+   2
    1,J
-   1
+   2
    6,Z
    1,L,J
    6,L
@@ -468,7 +467,6 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J
   20,L,D
    2,D
-
   15,L,Z
    2,R
    1,J
@@ -529,12 +527,6 @@ console load SecretSanta2024/2-Medium/bosssauce
    6,J
   14,U,X
 #lvl_intro2
-# keeping cycle for potential future optimizations to route
-#find a better place to put this?
-#Spinner Cycle [d-10]
-##############
-#   1
-##############
    1,S
    1,D,J
   42
@@ -1951,4 +1943,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:30.606(15918)
+ChapterTime: 4:30.147(15891)
