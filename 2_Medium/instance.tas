@@ -1,4 +1,4 @@
-RecordCount: 10952
+RecordCount: 11805
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -526,6 +526,7 @@ console load SecretSanta2024/2-Medium/bosssauce
   11,L,J
    6,J
   14,U,X
+
 #lvl_intro2
    1,S
    1,D,J
@@ -1635,6 +1636,7 @@ EndRepeat
    2,R,J
   16,R
   37,D,X
+
 #lvl_e-00
    8,D
    1,S
@@ -1762,26 +1764,25 @@ EndRepeat
   15,R,J
   10,R,C
    2,R,G
-  15,R,D
-   5,R,U,X
-   1,L
-   9
-   1,L
-   1,L,J,G
-   1,K,G
-   1,L,J,G
-  10,R
+  14,R,G
+   1,R
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+  14,R,X
+   1,R
    2,R,J
-  26,R,D,X
-   1,R,J
+  15,R,D,X
+  10,R,D
+   1,R,D,J
    4,R
-  11,R,J
-   7,R
-   1
-   7,R
+  10,R,J
+  14,R
    2,R,J
    3,R
-   3,R,J,G
+   1,J,G
+   2,R,J
    2,R
   40
 
@@ -1901,15 +1902,18 @@ EndRepeat
 
 #lvl_e-08
    8,R,J
-  19,R,G
+  20,R,D,G
+   1,R
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   1,R,K,G
-   9,R
-   9,R,U,X
-  10,R,D,C
-  32,R,J
+   8,R
+   9,R,U,J,X
+   7,L,D,C
+   1,R,J
+   7,R
+   1,R,J
+  19,R
 
 #lvl_ending1
    1,S
@@ -1943,4 +1947,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:30.147(15891)
+ChapterTime: 4:29.807(15871)
