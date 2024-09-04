@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 1369
+RecordCount: 1411
 
 
 console load SecretSanta2024/1-Easy/Aiden
@@ -356,24 +356,29 @@ EndRepeat
    1,R,J
    8,R,D,X
    3
-   2,L
-Repeat, 56
-   1,L
-   1
-EndRepeat
+  12,L,U
+  69,U
+  10,L,U,X
+   1,L,J
+   7,L
+   2,L,J
+  15,L,U,Z
+   2,L,U
+   1,L,J
   14,L,U,X
    1,L,J
-  16,L,U,X
+   7,L
    1,L,J
-  14,L
-  11,L,J
-   9,L
-   1,N
-Repeat, 182
-   1,J
+  11,L,D,X
+   1,J,G
+  10
+   2,R,U
+   1,X
+Repeat, 167
    1,O
-EndRepeat
    1,J
+EndRepeat
+  29
 
 #lvl_The Platypus
   36
@@ -669,4 +674,4 @@ EndRepeat
   29,R,U,X
   50,L,J
 
-ChapterTime: 3:05.385(10905)
+ChapterTime: 3:05.011(10883)
