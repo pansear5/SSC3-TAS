@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 20422
+RecordCount: 20502
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -1213,12 +1213,9 @@ EndRepeat
    1,PE,F,51.7558
    1,PE,F,50.0865
    1,PE,F,50
-   8,PE,F,90
-   1,R
-   1,J,G
-   6,R
-   1,L
-   3
+   7,PE,F,90
+   1,PE,F,0
+   7,R
    1,N
 
 #lvl_xb-2a
@@ -1409,7 +1406,7 @@ EndRepeat
 
 #lvl_xc-0
 #spinner cycle (not stun)
-   1
+   0
 #
    1,L,J
   10,R,D,X
@@ -1738,10 +1735,10 @@ EndRepeat
   19,PE,F,270
    1,PE,F,0
    7,L
-   4,Z
+   5,Z
    1,L,J
    7,L
-   9,L,J
+   4,L,J
   15,L,D,X
    1,N
 
@@ -1878,7 +1875,7 @@ EndRepeat
    1,L,J,G
    2,L
    5,L,J
-  13,L,D
+  13,L
    1,N
 
 #lvl_xc-2hub (2)
@@ -3206,6 +3203,7 @@ EndRepeat
   28,U,X
   21
 
+
 #lvl_xc-ending
  384
 
@@ -3233,4 +3231,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 4:23.262(15486)
+ChapterTime: 4:23.092(15476)
