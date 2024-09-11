@@ -1,50 +1,45 @@
-RecordCount: 12126
+RecordCount: 16456
 
 console load SecretSanta2024/3-Hard/Hydro
 
-# Would be really cool to know the
-# Custom Info command to see oxygen
-
-# Black holes can be silly sometimes
-
-# First three rooms feel pretty optimized,
-# but there is lots of potential elsewhere imo
-
-#Start
+# TO SEE OXYGEN LEVEL
+# Oxygen: {GaseousGrandControl.Oxygen}
+# -2.5/f outside
+# +3.2/f inside
    1
 
-#lvl_Awoken
+#Start
  191
+
+#lvl_Awoken
   12,R,U,Z
   78,R,C
-#love that this lines up
-   2,R,J,G
-   4,R
+   1,R,J,G
+   5,R
   15,D,X
-  10,R,D
+   9,R,D
+   3,R
+   9,R,Z
+   1,R,J
    1,R
-   1,R,D
-   8,R,Z
-   2,R,J
-  10,R
+   1,R,J
+   8,R
    1,L,J
    1,L,K,G
   12,L,D,X
-  22,R,J
-  15,R,D,X
-   1
-  11,R
-   3,R,D
-   2,R
-   4,R,D
-   1,R
-   6,R,J,G
-   7,R
-  12,R,J
-  12,R,K,G
-  16,U,X
-   8,J
-   3,R,K
+  11,R,J
+  40,R
+   5
+   8,R,J,G
+   1,K
+  12,R,J,G
+  12,K,G
+   1,J,G
+   1,L,J
+  15,U,X
+   4,L,J
+   4,R,J
+   2,R,K
    1,R,J,G
    1,K
   40
@@ -53,22 +48,26 @@ console load SecretSanta2024/3-Hard/Hydro
    7,R,K,G
   22,R,X
   15,R,D,C
-   2
+   2,R
    1,R,J
   11,R
-   1,L,J
+   1,L,D,J
    8,L,D,X
-  21,R,D
-#can jump 1f less but need more speed for cb
-   3,R,J
-  18,R,D,X
-   8,R,J
+   6,R
+  10
+# 1.3x gravity trigger here
+   2,R
+   1,J
    3,R
-   3,R,J
-   4,R
-#very precise speed to hit this
+   1,R,D,J
+  15,R,D,X
+   1,R
+   1
+   9,R,J
+  10,R
    1,R,J,G
-  22,R
+   1
+  21,R
    7,R,Z
    1,L,J
    7,L
@@ -80,7 +79,7 @@ console load SecretSanta2024/3-Hard/Hydro
 
 #lvl_a02
 #-------------------
-# [Main Entrance] Spinner Cycle
+# [a05] Spinner Cycle
    0
 #-------------------
    1,S
@@ -95,7 +94,6 @@ console load SecretSanta2024/3-Hard/Hydro
   15,R,D,X
   25,R
    2,L,J,G
-#slow down to avoid weird retention
    1,J
    1
    1,L,K,G
@@ -107,7 +105,6 @@ console load SecretSanta2024/3-Hard/Hydro
    7,R
    1,R,J
    5,R
-#clip through unloaded spinners to skip bubble?
   13,D,X
   22,L,D,C
   15,R,U,X
@@ -123,202 +120,174 @@ console load SecretSanta2024/3-Hard/Hydro
    1,L
    1,R,J
   15,R,D,X
-  20,R,J
-   8,G
-  12,R,K,G
-   5,R,J,G
-  12,R,X
-   8,R,J
-   7,R,K,G
+  11,R,J
+   7
+   1,J
+   1,G
+   2
+   4,G
+   1,J,G
+   2
+  12,R,J,G
+   4,K
+   5,Z
+   1,R,J
+   1,J
+  11,R,J
+   8,R,K,G
   40
 
 #lvl_a03
-# probably potential for something faster
-   3,R
+   2,R,J
   14,R,U,X
   22,U,C
   16,R,D,X
   11,R,J
-#saves 3f... but doesn't because of oxygen
-#   2,R
-#   3
-#   3,R
-#   1,L,J
-#   1,L
-#  15,L,D,X
-#   1,L
-#   1,R,J
-#   1,R
-#   7,R,D,X
-#   2,L,J,G
-#   4,L
-#   1
-#   2,L
-#   1,R,J
-#  15,R,D,X
-#   3,D
-#   7,R,D
-#   1,R,D,J
-#  14,R
-#   1,R,D,J
-#  17,R,D,X
-#  10,R,J
-#  15,R,D,X
-#  17,R
-#   2,R,D
-#  11,R,J
-#   5,R
-#  14,R,U,X
-   3
-   3,R
-   1
-   3,R
-   1,L,J
+  10,R
+   1,L,D,J
   15,L,D,X
-   1,L
+   1
    1,R,J
-  15,R,D,X
-   4,D
-   9,R,D
-   1,R,D,J
-   1,R,K,G
-   1,K
-   1,R,K
-  16,R
-   4,R,J,G
+   6,R,D,X
+   1,L,J,G
+   1,L,J
+   4,L
+   1
+   1,L
+   1
+   1,R,J
+   2,J
+  26,R,D,X
+   1,R,J
+  14,R
+   1,R,J
+  17,R,D,X
+  10,R,J
   18,R,D,X
-  12,R,J
-  15,R,D,X
-  21,R
-  11,R,J
-   5,R
+  16,R
+  15,R,J
   14,R,U,X
    3,R,J,G
-   3,L,J
-   2,R,J
-   5,R
-   2,R,J
-   1,R
-   2,R,J
-   3,R
-   3,R,K,G
-   2,R
+   2,L,J
+   3,R,J
+   7,R
+   1,R,J
+   4,R
+   5,R,K,G
    1,R,J,G
    1,J
    9,R,U,X
    3,R,K,G
    2,K
-   4,R
+   1,R,K
+   3,R
    1,R,J,G
    1,R
   40
 
 #lvl_a04
-  17,R
+  15,R
+   1,R,D
+   1,R
    1,L,J
    1,L
    8,L,U,X
-   1,D
-   1
+   2
    2,D
    5
    1,R
    1
-#probably a better solution for this
   10,R
-   3,L,J
+   2,L,J
+   1,J
    2,L,K,G
    1,K
-   2,L,K
-#barely graze black hole for speed boost
-  10,L,D,X
+   1,L,K
+  11,L,D,X
    1,R,J
    2,J
-   9
-#abuse 7x gravity extvar trigger here
+   7
    1,L,J
-   3
+   1
    1,R,J
-   1,J
-   6
-   1,R
-   8,R,D,X
-   1,D
-   8,R,D
+  11
+   5,R,D,X
+   4,D
+   5,R,D
    6,L,J
-   5,J
-  15,R
-  14,R,Z
-   7,R,J
-   8,R,D,X
+   2,R,J
+   5,R
+   2,R,J
+  11,R
+   8
+   4,Z
+   1,R,J
+   6,R
+   3,R,J
+   4,R,K,G
+   1,R
+   6,R,J,G
+   1,R
+   5,R,K,G
+   6,R,D,X
   40
 
 #lvl_a05
-   7,R,D,X
-   1,R,J
-  24,R,D,X
-#spinner cycle
-   0
-#
-  18,U,C
-   4,L
-  12,L,Z
-   3,R,J
-   5,R
-  15,R,D,X
-#optimizable?
-  17,R
-   1,R,J
-   2
-  16,R,D
-   2,R
-   5
-   1,L,J,G
-   2,L
+   3,R
+StunPause 
+   3,D
+EndStunPause
   11
-   1,R,J,G
-   3
-   2,R
+   8,D
+   1,R,J
+   9,J
    2,R,J
-  12,R
-  11,R,J,G
-   5,R
-   1,R,J,G
+   4,R
+  15,R,D,X
+  25,R,D
+  14,R,U,X
+   1,J,G
    1,R
-  25,R,D,X
-   8,R,D
-   5,R
-  15,R,U,C
-   3,R,J,G
-  21,R
-   2
+   6,L
+  10
   15,U,Z
+#-------------------
+# Spinner Cycle
+   0
+#-------------------
   19,U,C
   11,R
   17,R,D,X
+
   31,R,C
-  38,R,D,X
-   1,L,J,G
+  15,R,D,X
+  23,R,D
+   3,L,D,J
+   1,L,J
   15,L,D,X
-   7,L
-  14,R
-  20,R,D,X
+   4,L
+   1,L,D
+  13,R
+  17,R,D,X
+   2,R
    1,R,J
-   1,J
    1
-   8,R
+   4,R
    1,R,J
-  10,R
-Stunpause
-   2,D
+   5,R
+   1,R,J
+   8,R
+StunPause 
+   1
    1,R
+   1
 SkipInput,3,1
    5,U,Z
 SkipInput,3,1
-  13,U,Z
+  10,U,Z
    1,L
-EndStunpause
-   9,L
+EndStunPause
+  12,L
   15,U,X
    4,L
   15,U,X
@@ -328,122 +297,102 @@ EndStunpause
 #lvl_b01
   11,R
   10,R,X
-  10,R,J
-  17,U,X
+   6,R,J
+   4,R
+  15,U,X
+   1,R,J,G
+   7,R
+   7,J
+   5,R,X
+   3,R,J,G
+  11,R,K,G
+   3,R,J,G
+   1,R,K,G
+   4
+  27,R
+   4,L,J,G
+   6,L,D,X
+  11,R,J,G
+  15,R,D,X
+  12,R,D
+   3,R
+   7
+   2,R,J
+   3,J
+   7
    1,R,J,G
    2,J
-   4,R,J
-   1
-   3,R,K,G
-   1
-   2,R,J,G
-   4,R
-   4,R,J,G
-   1
-   6,R
-   1,R,J
-   2,R,K,G
-   1
-  17,R,D
-   1,R,J
-   1,R
-  21,R,D,X
-   1,L,J
-   1,L
-   6,L,D,X
-   9,R,J,G
-  28,R,D,X
-   4,R
-   1,L,J
-   9,L,D,X
-   1,R,J
-  27,R,D
-   3,R
-   2,R,D
-   1,R,J
-  14,R
-  21,R,J
+   5,R,J
+   7,R
+  10,R,J,G
   14,R,U,X
    2,R,J,G
-   7,R
-   6,R,J
-   1,K
-   5,R,Z
-   1,R,K
-   4,R
   40
 
 #lvl_b02
-   2,R
-   6,R,J
-  14,R,U,X
-   7,R,J,G
-   2,J
-   2,R
-   1,K,G
-   7,R
+   1
+  13,U,X
+   4,R,J
+  11,R
    2,R,J
-  15,R,D,X
-   2,R,D
-   1,R
-   7,R,D
-   4,R,Z
+  25,R,D,X
+   4,Z
    1,R,J
   12,R
    8,R,J
-#not archieing loses 2f earlier but +6 speed later, prob not worth?
-  22,R,C
-  10,R,X
+  22,R,X
+  10,R,C
    1,R,J,G
-   1,R
-   3
+   4,R
   15,R,D,X
    1,R,J
   14,R,D,X
-   1
-   7,R
-   1,L,J
+   7,R,D
+   1,R
+   1,L,D,J
    9,L,D,X
    1,R,J
-   7,R
-   3
+   5,R
+   2,R,J
+   4,R
    1,L,J
-   1
-   8,L
+  12,L,D,X
    1,L,J,G
-   7,L,D,X
-   1,R,J
    1
-  18,R
-   3,L,J
+   5,L,J,G
+   1,R,J
+   8,R
+   2,R,J
+   1,J
+  12,R,D,X
+   2,L,J,G
    5
    3,L
+   2,L,J
+   3,J
+   1,R,K,G
+  15,R,D,X
+   4
    1,R,J
-   1
-   3,L
-   1
-   1,R,J
-   3,R
-   1,R,J,G
-   1,R
-  17,R,D,X
-   1,R,J
-   5
-   1,R
-   8
-  46,R
-   6,R,Z
+   7
+  34,R
+   4,R,Z
    1,R,J
    7,R
-  19,R,J
-  15,U,X
+   1,R,J
+  14,R
   13,R,J
-   5,J
-  12,L,K,G
-   6,J,G
-   6,R,J
-  11,R,K
-   6,R,J
+  15,U,X
+   1,J,G
+   5,R
+   2
+   1,R,J
+   6,J
+  15,U,X
+   4,R,J
+  15,J
+   5,R,K
+   2,R,J
    2,L,K
    2,R,J
    2,L,K
@@ -456,165 +405,169 @@ EndStunpause
    1,D,J
    1,O
   68
-#probably optimizable
   10,L,U,X
-   3,L,K,G
+   3,L,J,G
   10,L
-   2,R,J
+   2,R,D,J
   15,R,D,X
-   5,R,J
-   8,L
+   3,R,J
+   1,J
+  10
+   1,R,J,G
    2,R
-   1,R,K,G
-  23,R
-  14,L
+  35
+   1,R
+   1
   15,U,X
   15,U,C
-   8,L,K,G
-   7,L
-   4,L,Z
-   8,L,J
-   4,L
-   1,L,J
-   6,R,J
-   1,L,J
+   1,R,J
+   5,L,K,G
+   8,L
+  12,L,D,J
   14,L,U,X
-   1,L,K,G
-   5,L
-   2,L,K
-  10,J
-   2
-   1,K
-   2,R,J,G
-   7,R
-   2,R,J
-  10,R,K,G
-   2,R,J,G
-   4,R
-   7,J
-   1,L,K
-   1,L,J
-   5,L,Z
-   8,L,K,G
+   1,L,J,G
+   8,R,J
+   1
+   1,K,G
+   3,L,K
+   3,R,K
    1,R,J,G
+   1,R,J
+   1,J
+   3,R,J
+  10,R,K,G
+   7,R
+   1,R,J
+   2
+   7,U,X
+   1,L,J
+   1,L
+   3,L,K,G
+   3,L,D
+   1,J
    1,K
+   6,U,X
   40
 
 #lvl_Living Quarters
-  11,L
-   3,K
-   5,L,Z
+   8,J
+   2,K
+   1
+   5,L,X
    1,L,J,G
-   9,L
-  11,L,K
-   4,L
-  15,L,U,X
-   1,L,J,G
-   1,R,J,G
-   1,L,J,G
+   8,L
+   1,L,J
+  15,L,K
+  14,L,U,X
+   1,L,K,G
+   2,R,K
    7,L
   12,L,U,X
    5,L,J,G
    2,L
-   1,L,K,G
-   7,L
+   1,L,J,G
+   8,L
+   7,L,J
+   5,J
    1,L,J
-   2,L
-  10,L,J
-   5,L
+   2,J
+   0,L,J
   15,L,U,X
-   1,J
-   7
+   9
   15,U,X
-   1,R
-  12,J,G
-   1,R,K,G
-   1,R,K
-   1,K
-   2,L,K
-   2,R,K
-   7,R
+   1,J
+   3,R,K,G
+   3
+   1,R,J,G
+   4,L,J,G
+   7,R,J,G
+   4,R
+   1
+   2,R
   10,R,X
   13,R,J
   14,U,X
+   9,J
+   4
+   7,R
+   4,X
+  12,R,J
+   8,R
    6,R,J
-   3,J
-  11
-   4,R,X
-   1,R,J
-   2,J
-   9,R,J
-   7,R
-   5,R,J
-   5,R
-   4,R,K,G
+   4,R
+   1,R,J,G
    8,R,U,X
-   1,R,K,G
-  11,R
-   8,R,J
-   7,R
-  15,U,X
-   2,L,K,G
-   1,J,G
-   2,R,J
-  10,L,K,G
-   2,L
-   7,J,G
-   7
-   2,L,J
-  10,J
-  16,U,X
-   1,J,G
-   7,R,K,G
-   1,J,G
-   4,L,J
+   1,R,J,G
+   2,R
+   5
+   6,R
    1,R,J
-  11,K,G
-   2,L,J
+   1,J
+   9,R,J
+   1,J
+   1,R,J
+  15,U,X
+   1,J
+   1,L,K,G
+   7,L
+  12,L,J
+   4,K,G
+   1,J
+   2,L,K,G
+   1,L,K
+   6,J,G
+   1,J
+   4,R,J
+  25,U,X
+  16,U,C
   40
 
 #lvl_b04
-#probably worth re-examining
-   4,R
-   1,R,J,G
-   2,R,K,G
-   3,R
-   1,R,K,G
-  13,R
-   1,R,J
-   4,R
-  14,R,D,X
-   5,R
-   1,L,J
-  15,L,D,X
-  11
-   2,L,J
-   1,R,J
-  15,R,D,X
-   5
-   1,L,J
-   9,L,D,X
-  14,R,D
-   1,R,J
-  17,R,D,X
-   1,L,J
-   6,L
-  15,R,D,X
-   9,R,D
-   2,R,J
-  31,R,D,X
-   2,R,J
-  15,R,D,X
-  15,R
-  25,R,J
-  27,J
    1,R
-  11,R,K,G
-   1,J,G
+   1
+   1,R
+   1,J
+   2,R,K,G
+   2,R
+   1,R,J,G
+  12,R
+   5,R,J
+  15,R,D,X
+   3,R
+   1,L,D,J
+  24,L,D,X
+   1,L,J
+  19,R,D,X
+   6,L,D,J
+  10,R,D
    1,R,J
-  10,J
+   1,R
+  18,R,D,X
+   1,L,D,J
+   6,D,J
+   1,D
+   1,R,D
+   1,D
+  10,R,D
+   2,D
+   3,R,D
+   1,R,J
+   1,R
+  15,R,D,X
+  16,R,D
+   1,L,D,J
+   1,L
+   6,L,D,X
+   1,R,J,G
+  19,R,D
+   1,R,J
+  34,J
+   5,R,J
+  12,J
   15,U,X
-  16,R,J
+   3,L
+  22,L,J
+  12,R,K
   40
 
 #lvl_b05
@@ -626,68 +579,83 @@ EndStunpause
    2
    5,R
    8,R,D,J
-#wait 1f, unfortunately
-   8,U,X
+   7,U,X
+# wait 1f for shockwaves much later on (possibly removable) 
+   1
   24,R,U,C
-  19,R,D,X
-   2
+  18,R,D,X
+   2,R
+   1
    1,L,J
    1
    6,L,D,X
    1,R,J,G
-   1,R,K,G
-   8,K
-  15,R,K
-   4,K
-   1,L,J
+  26,R,K,G
+   2,R
+   1,L,D,J
   15,L,D,X
-  19,R,D,J,C
-   6,J
-  25,R,D,X
+  15,R,D,C
+   4,R
+   2,R,J
+  15,R,D,X
+   2
+   4,R
+   1,L,D,J
+   8,L,X
+   2,R,J
+   5,R
+   1,R,J
+   2,R
+   3,R,J
+   8,R
+   1
+   1,R
+   2,L,J
+   1
+   9,L,D,X
+   1,L,J,G
+   3,L
+   3
+   1,L
    1,L,J
    8,L,D,X
-   2,R
-   1
-  23,R,D
-   1,R,J
+  17,R
+   2,R,J
+  27,R,D,X
    3,R
-  21,R,D,X
-   1,L,J
-  16,L,D,X
-  20,R
+  32,R,J
+   1,L,D,K
+  14,L,D,X
+   1,R,D,J
+  15,R,D,X
+  29,R,D
    1,R,J
    1,R
-  15,R,D,X
-   5,R,D
-   8,R
    1,L,J
-   9,L,D,X
-   1
+   1,L
    1,R,J
-   1,J
-  10,R,J
-  21,R,K,G
-   7,R
+   1,R
    1,L,J
-  13,L,D,X
+   1,L
    1,R,J
-  20,R,D
-  14,R,D,X
-   1,R,J
-   1,R,D
+   1,R
    1,L,J
-   1,L,D
+   1,L
    1,R,J
-   1,R,D
+   2,R
    1,L,J
-   1,L,D
+   1,L
+   3,R,J
+   1,R
+   1,L
    1,R,J
-   1,R,D
+   1,R
    1,L,J
-   1,L,D
+   1,L
    1,R,J
-   1,R,D
-  10,R,J
+   1,R
+   1,L,J
+   1,L
 
 #lvl_TheEnd
   11,R,D,X
@@ -705,11 +673,7 @@ EndStunpause
    3,J
    1,R,K,G
    6,R,J,G
-#wouldn't save time to get more speed on dcb
-#because of height
   10,U,X
-#1:14.290(4370)
-#-2f get a dcb to updash into the heart
  135
 
-ChapterTime: 1:16.347(4491)
+ChapterTime: 1:11.502(4206)
