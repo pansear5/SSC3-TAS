@@ -1,11 +1,18 @@
-RecordCount: 16456
+RecordCount: 17973
 
 console load SecretSanta2024/3-Hard/Hydro
 
-# TO SEE OXYGEN LEVEL
+## Oxygen Info (not important anymore)
+# 
+# Custom Info for Oxygen
 # Oxygen: {GaseousGrandControl.Oxygen}
+# 
+# Starts at 500.0
 # -2.5/f outside
 # +3.2/f inside
+# 
+## 
+
    1
 
 #Start
@@ -80,13 +87,12 @@ console load SecretSanta2024/3-Hard/Hydro
 #lvl_a02
 #-------------------
 # [a05] Spinner Cycle
-   0
+   1
 #-------------------
    1,S
    1,D,J
    1,O
   68
-   0,L
    6,L,Z
    1,R,J
    8,R
@@ -142,54 +148,57 @@ console load SecretSanta2024/3-Hard/Hydro
   14,R,U,X
   22,U,C
   16,R,D,X
-  11,R,J
-  10,R
-   1,L,D,J
+   1,R,J
+   3,J
+   7,R,J
+   8,R
+   1,R,D
+   1,L,J
   15,L,D,X
-   1
    1,R,J
    6,R,D,X
    1,L,J,G
-   1,L,J
-   4,L
+   1,J
+   3
+   1,L
    1
    1,L
    1
    1,R,J
-   2,J
+   1
   26,R,D,X
    1,R,J
   14,R
    1,R,J
   17,R,D,X
   10,R,J
-  18,R,D,X
-  16,R
+  15,R,D,X
+  20,R
   15,R,J
   14,R,U,X
-   3,R,J,G
-   2,L,J
-   3,R,J
-   7,R
-   1,R,J
-   4,R
-   5,R,K,G
+   1,K
    1,R,J,G
-   1,J
-   9,R,U,X
-   3,R,K,G
-   2,K
+   6,R,J
+   2,R
+   1
+   2,R
+   2
+   1,R,J
+   2,R,K,G
+   6,K
+  10,R,U,X
+   3,R,J,G
+   1,R,K,G
+   1,K
    1,R,K
    3,R
    1,R,J,G
-   1,R
+   2,R
   40
 
 #lvl_a04
-  15,R
-   1,R,D
-   1,R
-   1,L,J
+  16,R
+   1,L,D,J
    1,L
    8,L,U,X
    2
@@ -207,13 +216,14 @@ console load SecretSanta2024/3-Hard/Hydro
    1,R,J
    2,J
    7
+# 7x gravity trigger here
    1,L,J
    1
    1,R,J
   11
    5,R,D,X
-   4,D
-   5,R,D
+   5,D
+   4,R,D
    6,L,J
    2,R,J
    5,R
@@ -258,7 +268,6 @@ EndStunPause
   19,U,C
   11,R
   17,R,D,X
-
   31,R,C
   15,R,D,X
   23,R,D
@@ -306,7 +315,8 @@ EndStunPause
    5,R,X
    3,R,J,G
   11,R,K,G
-   3,R,J,G
+   2,R,J,G
+   1,R,J
    1,R,K,G
    4
   27,R
@@ -316,13 +326,15 @@ EndStunPause
   15,R,D,X
   12,R,D
    3,R
+   1
+   1,R
+   1
+   1,R
+   3
+   1,R,J
+   4,J
    7
-   2,R,J
-   3,J
-   7
-   1,R,J,G
-   2,J
-   5,R,J
+   8,R,J,G
    7,R
   10,R,J,G
   14,R,U,X
@@ -330,7 +342,7 @@ EndStunPause
   40
 
 #lvl_b02
-   1
+   1,R
   13,U,X
    4,R,J
   11,R
@@ -355,49 +367,52 @@ EndStunPause
    5,R
    2,R,J
    4,R
-   1,L,J
+   1,L,D,J
   12,L,D,X
    1,L,J,G
    1
-   5,L,J,G
+   3,L,J,G
+   2,J
    1,R,J
    8,R
-   2,R,J
+   2,R,D,J
    1,J
   12,R,D,X
-   2,L,J,G
-   5
-   3,L
-   2,L,J
-   3,J
+   1,L,J,G
+   1,J
+   7
+   1,L
+   1,L,D,J
+   4,J
    1,R,K,G
   15,R,D,X
-   4
-   1,R,J
-   7
-  34,R
+   3
+   1,R,D,J
+   1
+  41,R
    4,R,Z
    1,R,J
-   7,R
+   3,R
+   1,R,J
+   3,R
    1,R,J
   14,R
-  13,R,J
+  12,R,J
+   1,J
   15,U,X
    1,J,G
-   5,R
-   2
+   7,R
    1,R,J
-   6,J
+   7,J
   15,U,X
    4,R,J
-  15,J
-   5,R,K
+  14,J
+   7,R,K
    2,R,J
    2,L,K
    2,R,J
    2,L,K
-   2,R,J
-   2,L,K
+   1,J
   40
 
 #lvl_b03
@@ -471,25 +486,24 @@ EndStunPause
    5,J
    1,L,J
    2,J
-   0,L,J
   15,L,U,X
    9
   15,U,X
    1,J
-   3,R,K,G
-   3
+   5,R,K,G
    1,R,J,G
    4,L,J,G
    7,R,J,G
-   4,R
-   1
-   2,R
+   7,R
   10,R,X
   13,R,J
   14,U,X
    9,J
    4
-   7,R
+   4,R
+   1
+   1,R
+   1
    4,X
   12,R,J
    8,R
@@ -498,28 +512,31 @@ EndStunPause
    1,R,J,G
    8,R,U,X
    1,R,J,G
-   2,R
    5
-   6,R
-   1,R,J
-   1,J
-   9,R,J
-   1,J
-   1,R,J
+   4,R
+   1
+   3,R
+   4,R,J
+   5,J
+   1,R
+   3
   15,U,X
-   1,J
+   1,R,J
    1,L,K,G
    7,L
-  12,L,J
-   4,K,G
-   1,J
-   2,L,K,G
-   1,L,K
-   6,J,G
-   1,J
-   4,R,J
-  25,U,X
-  16,U,C
+  14,L,U,X
+   1,J,G
+   3
+   4,L
+   1,L,J
+   7,J
+   1
+  15,U,X
+   2,R
+   1,K,G
+   3
+   4,L
+  16,U,X
   40
 
 #lvl_b04
@@ -527,8 +544,7 @@ EndStunPause
    1
    1,R
    1,J
-   2,R,K,G
-   2,R
+   4,R,K,G
    1,R,J,G
   12,R
    5,R,J
@@ -537,39 +553,49 @@ EndStunPause
    1,L,D,J
   24,L,D,X
    1,L,J
-  19,R,D,X
-   6,L,D,J
-  10,R,D
-   1,R,J
-   1,R
   18,R,D,X
-   1,L,D,J
-   6,D,J
    1,D
-   1,R,D
-   1,D
-  10,R,D
-   2,D
-   3,R,D
+   1,L,J
+   8,L,D,X
+   2
+   1,R,J
+   4,J
+   3
+  11,R
    1,R,J
    1,R
-  15,R,D,X
-  16,R,D
-   1,L,D,J
-   1,L
+  20,R,D,X
+  12,R,D
+   1,R,J,G
+   9,R
+   1,L,J
+   2,L
    6,L,D,X
    1,R,J,G
-  19,R,D
+  21,R
+   1,L,J
+   8,L,X
+   4,L,J
+   7
    1,R,J
-  34,J
-   5,R,J
-  12,J
+   1,J
+  13,R,D,X
+   1,R,J
+   5
+   1,J
+   2
+   1,J
+   1
+   1,J
+  13
+   1,R,J,G
+   7,K,G
   15,U,X
-   3,L
-  22,L,J
-  12,R,K
+  15,J
+   3,L,J
+   1,J
   40
-
+   
 #lvl_b05
    4
    7,R
@@ -580,8 +606,6 @@ EndStunPause
    5,R
    8,R,D,J
    7,U,X
-# wait 1f for shockwaves much later on (possibly removable) 
-   1
   24,R,U,C
   18,R,D,X
    2,R
@@ -595,11 +619,12 @@ EndStunPause
    1,L,D,J
   15,L,D,X
   15,R,D,C
-   4,R
+   2,R
+   2,R,D
    2,R,J
   15,R,D,X
-   2
-   4,R
+   1
+   5,R
    1,L,D,J
    8,L,X
    2,R,J
@@ -607,73 +632,88 @@ EndStunPause
    1,R,J
    2,R
    3,R,J
-   8,R
+   9,R
    1
-   1,R
-   2,L,J
+   1,L,J
+   1,J
    1
    9,L,D,X
    1,L,J,G
    3,L
    3
-   1,L
+   3,L
    1,L,J
-   8,L,D,X
-  17,R
-   2,R,J
-  27,R,D,X
-   3,R
-  32,R,J
+   6,L,D,X
+  16,R,D
+   1,R,J
+   1,R
+  28,R,D,X
+   2,R
+  31,R,J
+   1,J
    1,L,D,K
   14,L,D,X
-   1,R,D,J
+   1,R,J
   15,R,D,X
-  29,R,D
+  28,D
+   1,R,J
+   1,R
+   1,R,J
+   1,R
    1,R,J
    1,R
    1,L,J
    1,L
-   1,R,J
-   1,R
-   1,L,J
-   1,L
-   1,R,J
-   1,R
    1,L,J
    1,L
    1,R,J
    2,R
    1,L,J
    1,L
-   3,R,J
-   1,R
-   1,L
    1,R,J
    1,R
    1,L,J
-   1,L
+   2,L
    1,R,J
    1,R
-   1,L,J
-   1,L
+## Frame Tie
+#   4,R,J
+#  18,R,U,X
+#  10,J,G
+#   2
+#   1,R,K,G
+#   4,L,K
+#   2,R,K
+#  10,R
+#   8,R,J
+#   2,R,K,G
+#   5,L,K
+#   1,R,J,G
+#   1,R,K,G
+#   9,R,J,G
+#  13,U,X
+# 135
+## 
+   9,R,D,X
+   1,R,J
 
 #lvl_TheEnd
-  11,R,D,X
-  15,R,J,G
-   4,R,K,G
-   7,R
-   2,R,J
-  15,R,U,X
-   1,R,J,G
-   5,R
-   2
+  11,R,J
+  10,R
    1,R,J
-   3,J
-   4,R,J
-   3,J
+   5,R
+   2,R,J
+  11,R,K,G
+  14,R,U,X
+   1,R,J,G
+   3,L,J
+   2,R,J
    1,R,K,G
-   6,R,J,G
-  10,U,X
+   3,R
+   1
+   3,R
+   4,R,J
+  11,U,X
  135
-
-ChapterTime: 1:11.502(4206)
+      
+ChapterTime: 1:10.805(4165)
