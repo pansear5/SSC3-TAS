@@ -1,13 +1,13 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 281
+RecordCount: 865
 
 console load SecretSanta2024/1-Easy/B1ackZer0
-1
+   1
 
 #Start
-190
+ 190
 
    4,R,Z
    1,R,J
@@ -19,123 +19,381 @@ console load SecretSanta2024/1-Easy/B1ackZer0
   15,L,J
 
   12,L
-  10,U,X
-  21,L
-   4,L,Z
    1,L,J
-   8,L
-   2,L,J
-  15,L,U,X
-   5,L,K,G
-   1,L,J,G
-  10,L
-   2,R,J
-  10,L,U,X
-   6,L
-   8,L,J,G
-   4,L
-   6
-   1,R
-   7,R,J
-
   15,U,X
-  25,L,J
+   1,L,J,G
+   9,L
+   4,D,X
+   1,L,J
+   7,L
+   3,L,J
+  14,L,U,X
+   5,J,G
+   7,L
+   7,L,J
+  14,L,U,X
+   1,L,J,G
    1,L,K,G
-   5,L
-   4,R
-  11,R,J
-  16,U,X
-  12,R,J,G
-   6,R,K,G
-   8,R
-   7,R,J
-  15,R,U,X
-  10,R
-   1,J
+   1,L
+   1,L,J,G
+   7,L
+  11,U,X
+   5,L,J
+  12,R,J
+   1,R,K,G
+   7,R
+   2,R,J
   14,U,X
-  40
+  11,L,J
+   7,R,J
+  10,R,K,G
+   2,R
+   9,R,J,G
+   1,K,G
+   7,R
+  10,R,X
+   7,R,J
+  15,U,X
+  12,J,G
+  12,K,G
+  40,P
 
+#lvl_a-1 (1) one
+   2
    4,R
    1,R,J,G
-   8,R
+   4,R
   10,R,X
 
-  12,R,J
-   4,R,K,G
+  11,R,J
+   5,R,K,G
    1,R,J,G
    5,R
    5,D,X
   16,R
-  10,U,C
-  17,R
+  15,U,C
+  11,R
    6,R,J
    9,R,X
-   7,L,J
-  23,L,D,K
-  17,L,D,X
-   7,L,J
+   4,L,J
+   4,L,K
+   8,L,J
+   4,L
+   8,L,J,G
+  20,L,D,X
+   4,L,J
    4,L,Z
-
-   3,L,J
+   5,L,J
   20,L,U
-  11,R,U
+   8,U
    9,U,X
-  18
-  20,U,X
+  19
+  19,U,X
    2,L
-   5,L,J,G
-  13,L
-  15,U,X
-   7
-   8,R,U
-  14,R,X
+   2,L,J,G
+   6,L,K,G
+   9,L
+  17,U,X
+  10,R,U
+  15,R,Z
    4,R,J
   12,R,K
   15,R,X
    4,R,J
-
-   4,R,K
-  22,R,D,X
-   5,K
-   6,L,J
-  19,L,D,X
-   4,R,Z
-  19,R,J
-  12,R,U,Z
-   1,L,J
-   9,L
-  10,L,X
-   7,L,J
-  12,L,K,G
-   3,R,J
-  10,R,X
+   6,R,K
+  20,R,D,X
    4,R,J
-  17,U,X
-  40
-***S
-   1,L,J
-  10,L
-   4,L,D,X
-   1,L,J
-   8,L
-   2,L,J
-   8,K,G
-  10,U,Z
-   7,L
-   9,L,J
-   9,L,U,X
-  36,L
-   6,L,J,G
+   5,R,K
+  18,L,D,X
+   4,R,J
+   7,R,Z
+  15,R,J
+   7,J
+   6,K,G
+   1,L
+   1,R
+
+   1,J,G
+   5,L,J
    1,L,K,G
+   8,L
+   3,L,J
+   8,L
+  11,L,U,Z
+   1,J,G
+   1,K
+   3,R,K
+   1,R,J,G
+  11,R
+   4,R,J
+  12,U,Z
+   5,J
+  40
+
+#lvl_the green ones flowers
+   5,L,J
+   6,L
+   6,L,Z
+   1,L,J
+   7,L
+   3,L,J
+  12,L,K,G
+  16,U,X
+   6,L,J
+   8,L,X
+  21,L,J,G
+  15,L,G
+   4,L,K,G
+  33,L,D
+   8,L,J
+  30,L,X
+  15,L,C
   19,L,D
-  16,L,J
-  25,L
+  32,L,J
+  15,U,X
+   4,R
+  28,L,U,X
+  12,J,G
+   3,K,G
+   1,R,K
+   1,L,K
+   1,K,G
+  19,R,K
+   5,J,G
+   1,L,J
+   1,R,J
+   1,K
+   1,J
+   3,L,J
+  20,L,U,X
+  15,U,C
+  12,R
 
-  25,L,X
-   9,L,D
+   3,J,G
+   2
+   1,K,G
+   1,L,K
+  14,R,K
+   1,R,J,G
+  11,R,K,G
+  19,R,D
+  52,L,U,X
+  12,L,J
+  24,L,X
+  15,U,C
+   4,R
+   1,R,J,G
+   9,L,J
+   1,R,K,G
+   1,R,J,G
+
+   2,R,K,G
+   1,R
+  10,R,K
+  10,U,X
+  11,L,J
+   1,L
+   5,L,J
+  12,R,K,G
+  40
+
+#lvl_the green ones mystery
+   5,R
+   1,R,J,G
+   5,R
+  10,R,Z
+   3,R,J
+  27,R,K,G
+  18,U,X
+  16,L,C
+  19,R,J
+
+
+   1,K
+   2,L,K
+  11,R,K
+  18,R,U,X
+   1,J,G
+  17,U,X
+   4,R,J
+  11,L,J
+  18,R,U,X
+  10,R,D,C
+  10,R,J
+  18,R,U,X
+  11,L
+  18,L,Z
+  18,U,X
+  18,U,C
+  15,U,X
+
+   9,R
+  10,R,D,X
+  98,R,J,G
+  10,R,K,G
+   4,R,J,G
+   2,R
+  18,R,U,X
+   9
+   7
+  15,J
+  19,L,U,X
+   2,L,J,G
+  16,L
+   6,L,J
+   9,U,X
+  40
+
+#lvl_the green ones attack
+   1,J
+  10,R
+  10,R,X
+   3,R,J
+   1,K,G
+   4,R,K,G
+  10,K
+   5,J,G
+   1,K
+   5,L,K
+   3,K
+  15,U,X
+  10,L
+   9,R,Z
+  10,R,J
+  20,R,D
+  18,U,X
+  16,R,C
+  19,L
+   3,J,G
+   1,R,J
+   1,L,J
+   1,K
+  10,R,K
+  31,R,X
+   1,R,J
+  16,R,D
+  16,R,Z
+  16,R,U,X
+  10,J,G
+
+   1,L,J
+   1,R,J
+   1,K
+  20,L,K
+   1,K
+   1,L,J,G
+   3,R,J
+   2,L
+   1,L,K,G
+   1,L,J,G
+   5,L,K,G
+  10,L
+  14,L,D,X
+  11,L,J
   15,L,U,X
-  32,L
-  99,L,J
+   1,J,G
+   1,L,J
+   1,R,J
+   1,L,K,G
+   3,L,J,G
+   1,R,J
+   1,J
+   1,R,J
+   1,L,J
+   1
+   6,L
+   1,J
+   5,L,J
+  27,D,X
+  11,L
 
-r
-#Start
+  14,U,X
+  18,L,J
+   6,L,K,G
+   7,L
+   4,L,X
+  11,L,J
+   9,L
+   7,L,Z
+   1,L,J
+   7,L
+   4,L,J
+  11,U,X
+  40
+
+#lvl_the green ones pink
+   3
+  14,R,J
+  15,R,X
+   1,R,G
+
+
+  12,R,J,G
+  16,R,K,G
+   2,R,J
+  13,R,D
+  15,R,Z
+   7,R,D
+   4,D
+  15,R,D,X
+  27,L
+   3,G
+   3
+  15,R,Z
+  16,L
+  13,L,J,G
+  49,L,G
+  12,L,J,G
+   3
+   7,R
+   6,D,X
+  12,R
+
+  15,U,X
+  11,R,G
+  17,R,J,G
+   6,R,K,G
+   8,L,J
+   7,L,J
+   7,R
+  10,R,J,G
+  15,R
+  10,L,X
+  27,L,J
+   7,L
+  15,L,U,X
+   7,L,C
+  11,L,J,G
+   7,L
+   2,L,J
+ 132,U,X
+  40
+
+#lvl_glee
+  69
+   8,L,U,Z
+   8,L,J,G
+  11,L,K,G
+   5,J,G
+  20,L,K,G
+   1,L,J
+  11,R,J
+   5,R,K,G
+   4,K
+  15,R,Z
+  15,R,D,C
+  15,R,D,X
+  15,R,D,C
+   1,R,J
+   4,R
+   8,U,X
+  16,R,J
+
+   7,K,G
+   7
+   3,J
+   3
+  25,U,X
+ 145,U,C
+
+ChapterTime: 0:57.052(3356)
