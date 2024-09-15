@@ -10,6 +10,7 @@ Equfix
 gate
 He2d
 heatwave
+Jade5
 Lanvilla
 Leganeski
 lunaris
