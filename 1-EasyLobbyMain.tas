@@ -1,0 +1,98 @@
+#This file was made based off the files in the BL folder.
+Unsafe
+#This will wipe the debug save!
+#Uncomment at your own peril.
+console clrsav
+console load SecretSanta2024/0-Lobbies/1-Easy
+EnforceMaingame
+   1
+
+#Start
+Read,1_Easy_Lobby/easy_0-1,Start
+Read,EnterLevel,Start
+Read,1_Easy/mt_celeste_jazz_club,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_1-2,Start
+Read,EnterLevel,Start
+Read,1_Easy/the_austrex_project,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_2-3,Start
+Read,EnterLevel,Start
+Read,1_Easy/a_confectionary_quest,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_3-4,Start
+Read,EnterLevel,Start
+Read,1_Easy/five_foot_forest,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_4-5,Start
+Read,EnterLevel,Start
+Read,1_Easy/an_artificers_ascent,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_5-6,Start
+Read,EnterLevel,Start
+Read,1_Easy/VOYAGE,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_6-7,Start
+Read,EnterLevel,Start
+Read,1_Easy/yep,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_7-8,Start
+Read,EnterLevel,Start
+Read,1_Easy/history_lessons_with_madeline,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_8-9,Start
+Read,EnterLevel,Start
+Read,1_Easy/your_story_my_world,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_9-10,Start
+Read,EnterLevel,Start
+Read,1_Easy/sumperranian_sewers,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_10-11,Start
+Read,EnterLevel,Start
+Read,1_Easy/the_house_on_ash_tree_lane,Start
+   1,O
+  32
+
+
+ 36
+   1,Q
+   1,J
+  31
+Read,1_Easy_Lobby/easy_0-13,Start
+Read,EnterLevel,Start
+Read,1_Easy/sunrise_garden,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_13-12,Start
+Read,EnterLevel,Start
+Read,1_Easy/slumber_in_the_skies,Start
+   1,O
+  32
+
+Read,1_Easy_Lobby/easy_12-14,Start
+  61
+   1,O
+
+FileTime: 23:17.111(82183)
