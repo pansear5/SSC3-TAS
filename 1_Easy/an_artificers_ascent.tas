@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 20502
+RecordCount: 20932
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -1581,19 +1581,17 @@ EndRepeat
    1,PE,F,20.81900
    1,PE,F,16.51795
    1,PE,F,10.57677
-  14,PE,F,0
-   7
-  11,J,G
+  15,PE,F,0
+  11,L,PE,F,0
    1,R,J
    3,K,G
    1,L,K
    1,R,K
    3,R,J,G
    1,L,J
-  15,R,J
+  19,R,J
    1,R
    1,R,J
-   3,R
    7,L,Z
    1,R,J
    6,R
@@ -1640,51 +1638,45 @@ EndRepeat
   40
 
 #lvl_xc-3b
-  13,PE,F,90
-   9,PE,F,180
-  16,PE,F,90
-   1,PE,F,88.90771
-   1,PE,F,87.81502
-   1,PE,F,86.72143
-   1,PE,F,85.62638
-   1,PE,F,84.52929
-   1,PE,F,83.42959
-   1,PE,F,82.32669
-   1,PE,F,81.21998
-   1,PE,F,80.10887
-   1,PE,F,78.99271
-   1,PE,F,77.87071
-   1,PE,F,76.71449
-   1,PE,F,75.57360
-   1,PE,F,74.42430
-   1,PE,F,73.26576
-   1,PE,F,72.09713
-   1,PE,F,70.91750
-   1,PE,F,69.72590
-   1,PE,F,68.52132
-   1,PE,F,67.30265
-   1,PE,F,66.06872
-   1,PE,F,64.81826
-   1,PE,F,63.54989
-   1,PE,F,62.26213
-  29,G
-   4,L
-   1,R
-   1,R,K,G
-   1,R,J,G
-   2,R,K,G
-   1,K
-   2,R,K
-   7,K,PE,F,90
-   1,PE,F,31.20049
-   1,PE,F,26.88595
-   1,PE,F,21.74046
-   1,PE,F,14.92240
-  40,PE,F,90
-   3,PE,F,0
-  11,PE,F,90
-   2,R
-   2,R,J
+   2,PE,F,90
+   1,PE,F,84.5456
+   1,PE,F,83.4483
+   1,PE,F,82.3478
+   1,PE,F,81.2435
+   1,PE,F,80.1348
+   1,PE,F,79.0211
+   1,PE,F,77.9018
+   1,PE,F,76.7484
+   1,PE,F,75.6102
+   1,PE,F,74.4636
+   1,PE,F,73.3079
+   1,PE,F,72.1421
+   1,PE,F,70.9655
+   1,PE,F,69.7769
+   1,PE,F,68.5755
+   1,PE,F,67.3601
+   1,PE,F,66.1295
+   1,PE,F,64.8826
+   1,PE,F,63.6179
+   1,PE,F,62.3340
+   1,PE,F,61.0292
+   1,PE,F,59.7018
+   1,PE,F,58.3499
+   1,PE,F,56.9712
+   1,PE,F,55.5634
+   1,PE,F,54.1238
+   1,L,PE,F,52.6493
+   1,L,PE,F,51.1365
+   1,L,PE,F,49.5813
+   1,L,PE,F,47.9793
+   1,L,PE,F,48.3
+   6,L,PE,F,90
+   1,L,PE,F,50
+   6,R
+  14,PE,F,90
+  61,PE,F,74.43
+   8,R
+   2,J
   14,R,Z
    2,R,J
   14,R,D,X
@@ -1720,6 +1712,7 @@ EndRepeat
    3,L
   10,PE,F,279.3
    3,L
+# can deploy earlier and slide wall probably for faster ascent into next room
   15,L,J
   10,PE,F,90
    1,R
@@ -1815,7 +1808,6 @@ EndRepeat
    1,R,J
   10,R,D,X
   40
-
 #lvl_xc-4b
    3,R,D,X
    1,R,J
@@ -2659,6 +2651,8 @@ EndRepeat
    1,PE,F,6.6178
   97,PE,F,0.0000
   16,L,J
+#3:20.396(11788)
+
    2,L,K
   15,U,Z
   18,J
@@ -3203,7 +3197,6 @@ EndRepeat
   28,U,X
   21
 
-
 #lvl_xc-ending
  384
 
@@ -3231,4 +3224,4 @@ EndRepeat
   15,R,X
  133,D
 
-ChapterTime: 4:23.092(15476)
+ChapterTime: 4:22.310(15430)
