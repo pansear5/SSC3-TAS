@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/1264666
 
-RecordCount: 6065
+RecordCount: 6195
 
 console load SecretSanta2024/3-Hard/bryse0n
    1
@@ -10,7 +10,8 @@ console load SecretSanta2024/3-Hard/bryse0n
  110
    1,S
    1,D,J
-  35
+  34
+   1
    1,S
    1,D,J
  125
@@ -27,56 +28,47 @@ console load SecretSanta2024/3-Hard/bryse0n
   14,R,D,X
    5,R,J,G
   11,R
-   6,R,J
-   9,R
+   5,R,J
+  10,R
    1,S
    1,D,J
   34
-  13,R,X
+  15,R,X
+   1,L,J
    3,R,J
-   6,J
+  11,J
   15,U,X
- 126
-   1,L,G
-   1,X
- 124
-   3,L,D
-   5,L,J
-  17,R,J
-  11,K,G
-   1,L,K
+  45,R,U,G
+Repeat, 4
+   3,J,G
+   3,R,J
+   4,J
+   1,R,J
+   1,L,J
    1,K
-  15,U,X
-   2,R
-   1,J,G
-   2,R,J
-   8,J
+  41,R,K
+EndRepeat
+Repeat, 4
+   3,J,G
+   3,R,J
+   4,J
+   1,R,J
    1,L,J
    1,J
-  24,R,K,G
-  11,J,G
-   1,L,J
-   1,J
-  24,R,K,G
-  11,J,G
-   1,L,J
-   1,J
-  24,R,K,G
-  11,J,G
-   1,L,J
-   1,J
-  28,R,K,G
+  23,R,K,G
+EndRepeat
+   5,R,K
    4,Z
    1,R,J
    7,R
-  12,R,J
-   7,R,Z
+  14,R,J
+   5,R,Z
    1,R,J
    7,R
   14,R,J
   15,U,X
-  12,R,J,G
-   9,R,K,G
+  14,R,J,G
+   8,R,K,G
   10,R
    8,R,Z
    1,R,J
@@ -1194,4 +1186,4 @@ EndRepeat
    1
   12,U,X
  135
-ChapterTime: 3:12.423(11319)
+ChapterTime: 3:11.794(11282)
