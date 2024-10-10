@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 12189
+RecordCount: 12781
 
 console load SecretSanta2024/2-Medium/fonda
    1
@@ -1611,16 +1611,19 @@ EndStunPause
    1
    1,R,J,G
    3,R
-  33,D,X
+  30,D,X
   40
 
 #lvl_d-00b
-  21
-   9,L,D
-  22,L,U,Z
+   3
+  22,D
+  26,L,C
+  11,R,U,Z
    4,R,J
-   7,R,K
-  34,R,X
+   1,J
+   4,R,J
+   2,R
+  23,R,X
    4,R,J
   10,R,Z
   10,R,J
@@ -1632,22 +1635,23 @@ EndStunPause
 
 #lvl_d-00c
   23
-   9,R,D
+   6,R,D
   18,R,X
-  23,R,C
-  17,L,D,X
-   2,L,J
-   6,L,Z
+   1,R,D
+  24,R,C
+   4,L,Z
+   1,L,J
+  15,L
+   5,L,D
+   5,L
+   4,L,Z
    1,L,J
    6,L
-   2,L,J
-  12,L,D,X
-   1,L,J
-   3,L
-   1,L,J
-   3,L
   12,L,J
-  52,L,X
+   5,L
+   4,L,J
+   6,L
+  45,L,X
   40
 
 #lvl_d-00d
@@ -1726,7 +1730,7 @@ EndStunPause
   40
 
 #lvl_d-00f
-  47
+  47,L
    1,R,U
   63,F,36.4
   28,U,X
@@ -1736,53 +1740,61 @@ EndStunPause
   14,R
   10,L,D,X
    2,R,J
-   1,R
-   1,R,J
    3,R
+   1,R,J
+   1,R
   14,R,U,X
    2,R,J,G
-   2,R,K,G
-  16,R
+   3,R,K,G
+  17,R
+# for whatever reason, if you try to skip cutscene before NoControl, you dont get moved by the cutscene to the key door
    1,S
    1,D,J
   34
+   4,R
+# key cycle
+   5
+# 
+   6,L,Z
+   1,L,J
+   6,L
+   1
+   1,L,J
+  13,L,D,X
+   6,L,J
+  12,L,U,X
+   4,L,J,G
+   1
+   4,L
+   2,L,J
+   3,J
+   2
+  14,L,D,Z
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+  16,R
    1,R,J
    1,R
   17,R,D,X
-   1,R,J
-  12,R,D,X
-   1,L,J
-   2,L
-  14,L,D,X
-   2,L,J
-  14,L,U,X
-   6,L,J,G
-  14,L
-   8
-  10,R,Z
-   1,R,J
-  11,R,K,G
-   2,R
-  15,R,D,X
-   3,R,J
-  15,R,D,X
    1,R,J
   14,R,D,X
    1,R,J
    7,R
    3,R,J
+   5,R,X
   40
 
+
 #lvl_d-00h
-   9,R,J
-  10,R,X
-   4,R,J
-   2,R,K
-   8,R
-  19,R,Z
+  13,R,X
    5,R,J
-  26,R,K
-  71,U,X
+  12,R,K
+  16,R,Z
+   4,R,J
+   4,R
+  23,R,J
+  70,U,X
   40
 
 #lvl_d-00g
@@ -1991,71 +2003,47 @@ EndStunPause
    5,R
    9,U,X
   14,R,J
-  15,R,X
-   4
+  19,R,X
+
    4,R,J
    2,R,K
-   1,R
-  10,R,K
-  15,R,U,X
-   8
+   5,R
+   6,R,K
+  23,R,U,X
    4,R,J
    4,Z
    5,R,J
-   5,R
-   2,R,J
-  28,D
-   1,R,D
-   4,R
+   9,R
+   6
+  11,D
+   1
+   1,D
   10,R,Z
    4,R,J
-  11,R,K
-   4,R
-   1
-  12,R,U,X
-   4,R,J
-   1,R,K
-   1,R
-  12,R,X
+   3,R,K
+   5,R
+  10,R,J
+  20,R,X
    4,R,J
   10,R,K
   14,R,D,X
+   9,R,J
+   6,R
    8,R,J
-  15,R
-  63,D,X
-   5,L,D
-  10,R,D,X
-   1,L,J
-   4,L
-Repeat,3
-  10,R,Z
-   1,L,J
-   4
-  10,R,Z
-   1,L,J
-   4
-  10,R,Z
-   1,L,J
-   4
-  10,R,Z
-   1,L,J
-   4
-  10,R,Z
-   1,L,J
-   4
-  11,R,Z
-   1,L,J
-   3,L
+  64,D,X
+  10
+   3,R
+  12,L
+  14,R
+Repeat, 6
+  14,L
+  14,R
 EndRepeat
-   3,L
-   1,G
-   3
-  11,R,D,X
-   1,L,J
-   3,L
+  45,L
   19,L,X
    1
-  40,D,G
+  38,D,G
+   2,G
   52,R,Z
    4,R,J
    7,R,K
@@ -2079,58 +2067,55 @@ EndRepeat
   40
 
 #lvl_d-05
-  19,R,X
+   2,R
+  17,R,X
    4,R,J
-  26,R,D,X
-   3
-  10,R,U,X
-   3
-   4,R,J
-   3,R,K
-   8,R
-   3,R,J
-  11,L,U,Z
-   4,L,D,J
-  10,L,D,K
-  15,L,U,X
-  31
-   1,R,U
-  54,U
-   6,F,20.7
-  24,U,X
-   9,R
-  28,R,U,X
+  31,R,D,X
   15,R,U,C
-  25
+   4,J
+   2,R,K
+   7,K
+   3,R
+   6,J
+   3,L,K
+   4,X
+   1,L,J
+  16,L
+   1,D,J
+  10,L,J
+  30
    1,R,U
-  26,F,91.9
-  35,F,92
-  19,R,Z
-   5,R,J
-  21,R,K
-  51,U,X
+  47,U
+  10,F,10
+  17,F,0.0001
+   4,F,23
+  33,F,23.247
+   2,F,23.332
+   1,F,24
+  47,F,83.5
+  30,F,86.6
+  26,F,77
+  10,F,90
+  11,F,45
+  49,U,X
   40
 
 #lvl_d-05a
-  11
-   3,R
-   8,R,D,X
+  11,U,X
+   5,Z
    1,R,J
    7,R
-   4,R,D,J
-   2,J
-   4,R,J
+  10,R,D,J
    4,R,K,G
-   6,R,D,X
+   7,R,D,X
    1,S
    1,D,J
   34
-   2,R,J
-   3,R
+   4,R,J
    2,R,K,G
    7,R
-   1,R,J
-   3,R
+   3,R,J
+   1,R
   15,R,D,X
    2,R,J
    6,R
@@ -2142,9 +2127,12 @@ EndRepeat
    1,R
    2,R,J
    5,R
-  11,R,D,J
-   5,R
-   2,R,J
+  10,R,D,J
+   1,J
+   0,R
+   5
+   1,R,J
+   1,J
   15,L,U,X
   18,L,C
    4,R,J
@@ -3019,4 +3007,4 @@ Endrepeat
 #lvl_miniheart
  136
 
-ChapterTime: 8:29.524(29972)
+ChapterTime: 8:28.606(29918)
