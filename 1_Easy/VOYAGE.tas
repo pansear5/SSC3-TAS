@@ -1,13 +1,13 @@
-RecordCount: 6310
+RecordCount: 6364
+
+Set XaphanModule.useUpgrades true
+console remove_upgrade
+console clear_warps
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
 
 Set SantasGiftsModule.Settings.InMapJournalBind J
-
-Set Session.Deaths 1
-console remove_upgrade
-console clear_warps
 
 ##################################
 
@@ -72,7 +72,7 @@ console clear_warps
    1,R
   40
 
-#lvl_RunicCoastFront_2 (0)
+#lvl_RunicCoastFront_2
   13,R
    1,R,J
   14,R
@@ -106,7 +106,7 @@ console clear_warps
    2,R
   40
 
-#lvl_RunicCoastFront_3 (0)
+#lvl_RunicCoastFront_3
    4,R
    4,R,J
    6,R
@@ -194,84 +194,44 @@ console clear_warps
 #dash boots
   60
    1,J
-  30
-   1,L,J
-   5,L
-  13,L,D,X
-   5,L,J
-  15,L,D,X
-   1,L,J
-   6,L,D,X
-   1,L,J
-   5,L
-   4,L,J
-   1,L,K
-   1,L,D
-   2,L,J
-   2,L
-  40
-
-#lvl_RunicCoastFront_3 (1)
-   2,L
-   6,L,D,K
-   5,L
-   5,L,K
-   2,L,J
-  32,L,U,X
-  10,L,Z
-   1,L,J
-  21,L,D
-   5,L
-  27,L,U,X
-   1,L,J
-   3,L
-  14,R,D,X
-   5,L,J
-  15,L,D,X
-   3,L,J
-  15,L,D,X
-   2,L
-  40
-
-#lvl_RunicCoastFront_2 (1)
-   1,L
-   1,L,J
-  28,L,U,Z
-  10,L,J
-  19,L,D,X
-   6,L,J
-   6,L
-   1
-   1,L,D,K
-   6,K
-  15,L,D,X
-   1,L,J
-   3,J
-  40
-
+Unsafe
+   1,Q
+   1,O
+  31
+   
 #lvl_RunicCoastFront_1 (1)
-   3,J
-  15,L,D,X
-   1,L,D,J
-  28,L,U,X
-  10,L,K
-  14,L
+ 190
+Safe
+   3,L,J
+   1,L
+  27,L,U,X
+   4,Z
+   1,L,J
+   6,L
+   2,L,K
+   1,L
+   1
+   7,L
    8,L,J
-  20,L,D,X
-   4,L
-   8,L,K
-  11,L
+  15,L,D,X
+  12,L
+   2,L,J
+   8,L
+  13,L,Z
+   1,L,K
+   7,L
+  12,L,J
   40
 
 #lvl_RunicCoastFront_4
-   8,L
-   1,R,D,J
-   3,L,J
-   4,J
-   8
-   1,J
-   3
-  11,R,K
+   1,L
+  15,L,D,X
+   2,L
+   6,L,D,K
+   5,L
+   2,L,K
+  16,L,X
+  11,L,J
   15,L,Z
   15,R
    4,Z
@@ -430,8 +390,8 @@ console clear_warps
   12,R
    5,R,K
 #drift
-   1,S
-  10,O
+#   1,S
+#  10,O
 #------
    8,R,K
   14,R,D,X
@@ -1151,7 +1111,7 @@ EndRepeat
    1,PJ
   25
 #spinner unload cycle
-   1
+   2
 #-------------
    1,X
   25,U
@@ -1445,4 +1405,4 @@ Endstunpause
   14,U,X
  135
 
-ChapterTime: 3:37.447(12791)
+FileTime: 3:37.005(12765)
