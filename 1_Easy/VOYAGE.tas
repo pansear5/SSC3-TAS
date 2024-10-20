@@ -1,5 +1,6 @@
-RecordCount: 6371
+RecordCount: 6372
 
+Invoke SaveData.InitializeDebugMode true
 Invoke XaphanModule.ModSaveData.SavedFlags.Clear
 Invoke XaphanModule.ModSaveData.UnlockedWarps.Clear
 
