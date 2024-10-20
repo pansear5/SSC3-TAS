@@ -1,8 +1,7 @@
-RecordCount: 6364
+RecordCount: 6371
 
-Set XaphanModule.useUpgrades true
-console remove_upgrade
-console clear_warps
+Invoke XaphanModule.ModSaveData.SavedFlags.Clear
+Invoke XaphanModule.ModSaveData.UnlockedWarps.Clear
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
