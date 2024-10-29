@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/1264666
 
-RecordCount: 6596
+RecordCount: 6800
 
 console load SecretSanta2024/3-Hard/bryse0n
    1
@@ -484,78 +484,27 @@ console load SecretSanta2024/3-Hard/bryse0n
    1,X
  128
    1,L,J
-   4,Z
-   1,L,J
-  10,L
-   1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   5,L,J
-   1,D,X
- 201
-   1,L,J
-  10,U,X
-   7,L,J
-  19,L
-  14,R,D,X
-   1,L,J
-  18,L,D,X
-   8,L
-   2
-   9,L,Z
-   1,L,J,G
-   1,L,K,G
-   1,L,J,G
-   1,L,K,G
-   2,L
-  10,L,D,X
-   1,L,J
-   7,L
-   1,L,J
-  15,L,D,X
-   5,R,U,C
-  10,R,J,G
-  12,R,G
+   1,L,K
+  16,L
+  14,L,D,J
+  15,U,X
+   6,R,J,G
+   1
+   1,K
+   4,R,J,G
+   7,R
+   4,R,J
+  15,U,X
+   9,R,J,G
+   1,R,K,G
+   3,L,K
+   5,R,K
    1,R,J,G
    1,R,K,G
-   1,R,J,G
-  12,R
-  15,R,D,X
-  23,R
-   4,R,J
-   3
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-  97
-  10,R,X
- 197
-   1,R,J
-   4,Z
-  11,R,J
-  15,U,X
-   7,L,J,G
-  15,U,X
-  18,J
-   7,R,K,G
-   7,R
-  10,R,Z
-   1,R,J
-   7,R
-  11,R,D,J
-  14,R,D,X
-   1,R,J
-   7,R
-  18,R,J
-  14,R,U,X
-  83
+  10,R
+   9,R,J
+  14,U,X
+  81
    1,R,J
    4,Z
    1,R,J
@@ -616,161 +565,78 @@ console load SecretSanta2024/3-Hard/bryse0n
  173
    9,L,D,X
   81
-  27,L,D,X
-   2,D
-  39,R,D
-   4,Z
-   3,R,J
-   4,R
-   1,R,J
-   7,R
-   9,R,X
- 167
-   1,R,J
-   1,R,K
-  12,R,D,X
-   2,R,J
-   1,J
-  18,R,D,X
-   9,R,U,C
-   6,G
-   1
-  15,R,D,X
-  15,R,C
-   5,L,U,X
-   6,G
-   1,R
-   5,L
-  14,U,X
-   2,J
-  10
-  14,L,Z
-   1,R,J
-   9,R,D,X
-   6,R,G
-   1,R,D
-  12,R,X
-   1,R,J,G
-  30,R
-   1,J
-   1,K,G
-  11
-  16,L
-   4,L,D
-   1,J
-   1,K,G
-  12,R,D,X
-  25,R,G
-   1,R
-   3,L,J
-  14,U,Z
-   6,L,J
-   2
-  11,R,U,X
-   7,R,J,G
-   1,S
-   1,D,J
-  69,O
-   2,L,J
-   5,L,Z
-   1,L,J
-   6,L
-   3,L,J
-   5,L,U,X
- 169
-   1,L,J
    4,Z
    1,L,J
-   9,L
-   5,L,D,J
-   1,L
-   5,J
-  15,U,X
-   1,J
-   8,R,K,G
-   7,R
-   6,R,J
-  15,U,X
-  10,L,J
-   2,L,K,G
-   7,L
-   6,L,Z
+  23,L
+   6,L,D
+   1,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+   7,L,D,X
+   3,L
    1,L,J
    7,L
-   1,L,J
-   4,Z
-   1,L,J
-   7,L
-  12,L,J
-  12,K,G
-  15,D,X
-   4,Z
-   1,L,J
-   7,L
-  15,L,J
-  15,L,U,X
- 124
-   1,L,J
-  15,L,D,X
-  13,R,D,C
-   4,L,J
-  13,L,G
-   1,L
-  15,D,X
-   5,L,Z
-   1,L,J
-   8,L,D
+   4,X
+ 108
+   9,U,X
+  14,L,J
    8,L
-  15,D,X
-   7,R,Z
+   1,L,J,G
+   7,L
+   5,J
+   4,L,J
+  15,L,U,Z
+   2,J
+   7,L
+  10,L,X
+   4,L,J
+   1,K
+  15,U,X
+   1,R
+   1,J,G
+   2,R,J
+   4,J
+   3,R,J
+   1,L,J
+   1,R,J
+  13,R,K,G
+   1,J,G
+   3,R,J
+   5,J
+   1,R,J
+   1,L,J
+   1,R,J
+  13,R,K,G
+  12,R,J,G
+  11,R,K,G
+   7,R
+  14,R,Z
    1,R,J
    7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+   2,R
+  14,R,U,X
+   1,R,J,G
+   9,R
+   3,R,J
+   9,R,K
   15,R,D,X
-   3,R
-  14,R,D,C
-   1,L,J
-  15,L,D,X
-   1,L,J
-  11,L,D,X
-   6,L,G
-   4,L,J,G
-   7,L,J
-  15,U,Z
-   6,R,J,G
-  15,U,X
-  12,R,C
-   1,S
-   1,D,J
-  69,O
-  12,J
-  13,R,X
- 127
-   1,R,J
-   4,Z
-   1,R,J
-  26,R,D
-   2
-  10,R,D,J
-  14,U,X
-   7,J
-  42,D
-   8,J
-  12,L,K
-  12,R,J
-  12,L,K
-  12,R,J
-  12,L,K
-  19,G
-  15,U,Z
-  18,J
-  12,L,K
-  12,R,J
-  12,L,K
-   9,J
+   6,R,J
+  14,R,U,X
   40
 
 #lvl_b_transition
-  11
+   1,S
+   1,D,J
+  65,O
    1,S
    1,D,J
   34
@@ -1206,4 +1072,4 @@ console load SecretSanta2024/3-Hard/bryse0n
    1
   12,U,X
  135
-ChapterTime: 3:02.631(10743)
+ChapterTime: 2:27.730(8690)
