@@ -1,4 +1,4 @@
-RecordCount: 5687
+RecordCount: 5721
 # first draft: 5342
 # sub 11: 5687
 
@@ -50,6 +50,8 @@ console load SecretSanta2024/1-Easy/Flagpole1up
 # H = cancel, NOT grab
 Invoke Input.Grab.Binding.Controller.RemoveAt 1
 Invoke Input.MenuCancel.Binding.Controller.Add Back
+# PA = open ability menu
+Set XaphanHelper.OpenMap A
 # PJ = open journal/manual
 Set SantasGiftsModule.Settings.InMapJournalBind J
 # PB = spawn bomb
@@ -61,7 +63,7 @@ Set XaphanHelper.UseMiscItemSlot W
 
 ## 
 
-# Start
+#Start
 
 ## Coast - Dash
 
@@ -632,7 +634,6 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 
 # we could get bombs + remote warp first and then come here, but then we wouldn't have cdash for thicket 1. cdashing there saves more time than bypassing the bomb checks here loses.
 
-# lvl_AncientBiotope_1 (1)
    1,N
    1,PJ
    2
@@ -3743,18 +3744,27 @@ endrepeat
    2,L
    2
    1,R
-   2
+   1
    1,R,K
-   7,U,X
+   6,U,X
    1,J
    1,K
   10
   15,U,X
-  13
+  13,R
   15,U,C
-  13
-  15,U,X
-  13
+   1,R,J,G
+   2,R
+   2,L
+   2
+   1,L
+   3
+   1,R
+   1,R,K
+   6,U,X
+   1,J
+   1,K
+  10
    5,R,Z
    1,R,J
    2,R
@@ -4132,4 +4142,4 @@ endrepeat
 Read,VOYAGE,lvl_BelltowerAtoll_6
 ## 
 
-FileTime: 10:59.821(38813)
+FileTime: 10:59.617(38801)
