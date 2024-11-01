@@ -1,4 +1,4 @@
-RecordCount: 5721
+RecordCount: 5839
 # first draft: 5342
 # sub 11: 5687
 
@@ -1797,7 +1797,7 @@ endrepeat
   18
 ## 
 
-## Thicket - Remote Warp [14]
+## Thicket - Anchor Tablet [14]
 
 # warp to thicket, get top right berry [14], get remote warp
 
@@ -2055,10 +2055,9 @@ endrepeat
 #lvl_TravellersPlains_11 (0)
   10,L,Z
    1,J
-   7
-   2,PB
-  12,G
-   1,D
+   8
+   2,PBW
+   1,X
    2,J
    5,L,Z
    1,L,K
@@ -2076,6 +2075,7 @@ endrepeat
    1,R,J
    2,R
   15,D,X
+   1
    4,Z
    1,L,J
    7,L
@@ -2316,7 +2316,7 @@ endrepeat
    1,R,G
   40
 
-#lvl_TravellersPlains_12 (1)
+#lvl_TravellersPlains_12_H1
    8,R,G
   14,R,K,G
    1,L,K
@@ -2331,10 +2331,10 @@ endrepeat
   13,L,X,G
   40
 
-#lvl_TravellersPlains_12 (2)
+#lvl_TravellersPlains_12 (1)
    6,L,X
 # spinner cycle
-   0
+   1
 # -------------
    1,J
    1,K
@@ -2482,23 +2482,20 @@ endrepeat
 #lvl_AncientBiotope_19
   25,L,Z
    1,J,G
+   1,K
   15,R,D,X
-   4,D
-   1
-   2,PB
-  12,G
-   2,D,J
-   6,R,X
-  13,G
-   1,L,G
-   9,L,D,K
-  16,L,U,X
-   7,R,J,G
-   3,J
-   4,K,G
+   2,D
+  11
+   2,PBW
+   1,X
+   6,L,J
+  16,U,Z
+   1,R,K,G
+   8,K
    2
    1,J,G
-   7,R
+   5
+   2,R
   12,U,X
   40
 ## 
@@ -2919,9 +2916,9 @@ endrepeat
 
 #lvl_RunicCoastFront_6_H1
    9,L,D,X
-  11,PB
-  12,G
-   1,D
+  10
+   2,PBW
+   1,X
    8,L,J
    9,R,K,G
    3,K
@@ -2929,10 +2926,8 @@ endrepeat
   11,K,G
   20,L,X,G
   15,R,D,C
-   8,R
-  15,R,D
-   3,D
-  15,D,X
+  18,R
+  14
    1,PW
    1,D
    1,F,180
@@ -2940,11 +2935,6 @@ endrepeat
   26
 
 #lvl_RunicCoastFront_6 (3)
-
-
-#7:30.347(26491)
-
-
    1,N
    1,PJ
    2
@@ -3084,12 +3074,10 @@ endrepeat
   15,L,D,X
   18,L,D
   18,D
-   3
-   2,PB
-  12,G
-   1,D
-   1
-  10,L,X
+   2
+   2,PBW
+   1,X
+  10,L,C
   13,J
   15,U,X
    4
@@ -3115,43 +3103,35 @@ endrepeat
    5
    1,R
    1,PBC
-  14
-   2,PB
-  12,G
-   1,J,G
+  13
+   2,PBW
+   1,X
+   1,J
+  13,J,G
    1,L,J,G
-   3,R,J,G
-   3,R,G
+  17,R,J,G
    1,R
-  20,R,X
+  20,R,D,X
   15,D,C
-   7,R,D
-   4,D,X
-  15,L,D,X
+  19,L,D,X
    1,L,PBC
   16,L,U,X
   15,L,U,C
   11,D
   21,L,D
-  26,R,D
-   4,D
-   4,Z
+  15,R,D
+  16,L,D
    1,R,J
-   7,R
-   9,R,K
-  14,R,X
-  16,R,G
-   5,G
-   1,D
-   2,J
-   5
-  15,R
-   2,PB
-  13,G
-   1,D
-   3
-   2,J
-   5,R,D,X
+   1
+  16,R,X,G
+   5,R,K,G
+   7,K
+  20
+   2,PBW
+   1,X
+   4,J
+  10
+   7,R,D,X
   24,G
    1
    7,R
@@ -3516,12 +3496,11 @@ endrepeat
    1,R,K
    7,L,K
    3,L
-   8
 # mega bombs check for 0 speed on both axes, so we have to collide
-   2,PB
-  12,G
-   1,D
-   6
+   7
+   2,PBW
+   1,X
+   5
   43,G
    1,D
    9,R,Z
@@ -3686,7 +3665,6 @@ endrepeat
 #lvl_BelltowerAtoll_4 (0)
   11,R
   13,R,U,X
-
    1,J,G
    5
    2,R
@@ -3924,20 +3902,18 @@ endrepeat
   15,L,U,X
   21,L,D
    7,D
-   2,PB
-  12,G
-   1,D
-   5,L
+   2,PBW
+   1,X
+   4,L
   13,G
   17,D,G
   40
 
-
 #lvl_BelltowerAtoll_4 (3)
-  15,D,G
-  70,R,D,G
+  17,D,G
+   1,R,D,G
    1,D,G
-  10,R,D,G
+  77,R,D,G
    1,R
   14,R,D,X
    1,L,J
@@ -3987,11 +3963,12 @@ endrepeat
    6
   14,U,X
    1,J
-   2,K
-   9
-   2,PB
-  12
-   1,D
+   1,K
+   5
+   1,K
+   4
+   2,PBW
+   1,X
   18,R,K
   15,U,X
    4,R
@@ -4142,4 +4119,4 @@ endrepeat
 Read,VOYAGE,lvl_BelltowerAtoll_6
 ## 
 
-FileTime: 10:59.617(38801)
+FileTime: 10:57.407(38671)
