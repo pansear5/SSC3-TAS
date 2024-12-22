@@ -1,4 +1,4 @@
-RecordCount: 5948
+RecordCount: 6024
 # first draft: 5342
 # sub 11: 5687
 
@@ -301,22 +301,23 @@ Read,VOYAGE,lvl_TravellersPlains_3,power glove
    4,D
    1,J
   12
-  12,L,D
-  22,L
-  47,L,X
-  41,L,U,C
-  24,L,U,X
-   2,L,J
-  10,L,D,X
-   5,L,J
-  15,L,D,X
+   2
+  11,R,D
+  34,R,D,X
+  11,R
+   3
+   8,R,Z
+   1,L,J
+   3,L
+   1,L,J
+   1,L
+   3,L,K
+   4,L
+  18,L,D,X
    2,L
-   2,L,D
-   6,L,K
-   7,L
-   7,L,J
-# +4f collect
-  14,L,Z
+  24,L,U,C
+# +1f collect
+  11,L,Z
 # copied from any%
    5,R,J
   15,R,D,X
@@ -458,6 +459,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,L
   40
 
+#lvl_RunicCoastFront_TideCavern_3
   17,L
    3,L,D
    1
@@ -925,6 +927,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   24
    1,X
   24
+# spinner cycle
+   1
+# ---
    4,L
   18,L,D,K
    1,L,D
@@ -4107,4 +4112,4 @@ endrepeat
 Read,VOYAGE,lvl_BelltowerAtoll_6
 ##
 
-FileTime: 10:53.429(38437)
+FileTime: 10:52.205(38365)
