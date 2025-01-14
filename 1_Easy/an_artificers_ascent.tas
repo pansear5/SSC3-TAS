@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 21806
+RecordCount: 23152
 
 AnalogMode,Ignore
 Set,CommunalHelper.DeployElytra,E
@@ -414,7 +414,8 @@ EndRepeat
 #   2,R
 #   7,R,J
 #  15,R,D,X
-#   1,R,D,J
+#   1,R,J
+#   1,J,PE,F,90
    8,L,Z
    1,R,J
    7,R
@@ -460,6 +461,7 @@ EndRepeat
    7,R
    1
   40
+
 
 #lvl_butcher-1b
    1,R,J
@@ -537,7 +539,6 @@ EndRepeat
   24,PE,F,270
    1,PE,F,268.9
    2,L
-# 2084
    6,R,Z
    1,L,J
    6,L
@@ -565,57 +566,39 @@ EndRepeat
    1,PE,F,303.5555
    1,PE,F,305.2527
   15,PE,F,270
-#ties but less interesting
-#   7,PE,F,281.5370
-#   2,L
-#   3,L
-#  15,D,X
-#   4,L,D
-#   2,L
-#   1,L,D
-#   4,Z
-#   1,L,J
-#   6,L
-#   1,L,J
-#   1,J,PE,F,270
-#   1,PE,F,302.2113
-#   1,PE,F,303.8075
-#   1,PE,F,305.4439
-#   1,PE,F,307.1250
-#   1,PE,F,308.8557
-#   1,PE,F,310.6419
-#   1,PE,F,312.4908
-#   1,L
-#   3,L,J,G
-#   6,L
-#   1,L,N
-#
-   6,PE,F,281.5370
-   7,L
-   5,PE,F,90
-   7,R,D
-  10,R,Z
+   7,PE,F,281.5370
+   2,L
+   3,L
+  15,D,X
+   4,L,D
+   2,L
+   1,L,D
+   4,Z
+   1,L,J
+   6,L
    1,L,J
    1,J,PE,F,270
-   1,PE,F,292.7619
-   1,PE,F,294.3073
-   1,PE,F,295.8791
-   1,PE,F,297.4802
-   1,PE,F,299.1136
-   1,PE,F,300
-  16,PE,F,270
-   2,L
+   1,PE,F,302.2113
+   1,PE,F,303.8075
+   1,PE,F,305.4439
+   1,PE,F,307.1250
+   1,PE,F,308.8557
+   1,PE,F,310.6419
+   1,PE,F,312.4908
+   1,L
+   3,L,J,G
+   5,L
    1,Z,N
 
 #lvl_butcher-1 (1)
    5,Z
    1,R,J
    8,R
-Repeat, 13
-   1,PE,F,90
+Repeat, 22
+   1,PE,F,101
    1,PE,F,180
 EndRepeat
-  20,R,D
+   1
    1,N
 
 #lvl_xe-1 (1)
@@ -643,15 +626,15 @@ EndRepeat
    1,PE,F,90
    1,PE,F,0
    1
-   1,J
-  16,L,K,G
-   1,L,J,G
-   4,L,K,G
-   7,L
-   4,Z
-   9,L,J
-   7,L
+   6,R,J
+   7,R
+   4,X
+   5,L,J
+   7,L,K,G
+   5,L,J,G
+  13,L
    1,Z,N
+
 
 #lvl_butcher-3 (0)
    3,Z
@@ -958,16 +941,16 @@ EndRepeat
    4,Z
    1,R,J
    8,R
-  14,R,D
+  11,R,D
    1,PE,F,270
   21,PE,F,180
-  10,PE,F,270
+   6,R,PE,F,180
+  11,PE,F,270
    1,PE,F,180
-   7,PE,F,270
    1,L
    4,Z
    1,L,J
-   7,L
+   9,L
    1,L,N
 
 #lvl_xe-2 (0)
@@ -1254,16 +1237,14 @@ EndRepeat
    1,L,J
    9,L
    1,L,J
-   0,L
   14,L,D,X
    2,L,J
   14,U,X
-   4,J
-  15,R,U,Z
-  14,R,X
+   2,J
+  15,R,U,X
+  15,R,Z
    2,J
   15,U,X
-   1,L
    1,L,J,G
    7,L
    4,L,J
@@ -1273,25 +1254,24 @@ EndRepeat
    1,N
 
 #lvl_xb-2
-   4,R,Z
+   4,Z
    1,R,J
-  10,R,D
-  15,D,X
-  15,D,C
-  15,D,X
-  12,R,D,C
-   1,R,J
-  18,R
-   5,R,D
-   1,R
-  16,R,Z
-  15,R,D,X
-  11,R,J
-  14,U,X
-  18,J
-   9,K
-   1,L,K
+  12,R
+   1,PE,F,270
+  24,R,PE,F,180
    1
+   6,R,Z
+  18,R,J
+   4,R,D
+  15,R,X
+  15,R,Z
+   1,R,D
+  15,R,D,X
+  10,R,J
+  15,U,X
+  19,J
+   8,K
+   2,L
    1,J,G
    6,R,J
    7,R
@@ -1302,7 +1282,7 @@ EndRepeat
    1,R,K
    1,R,J
    6,R,K
-   7,R
+   6,R
    1,N
 
 #lvl_xb-2ab
@@ -1329,12 +1309,11 @@ EndRepeat
    2,R,J
    7,J,PE,F,90
    5,R
-   8,R,J
-   1,J,PE,F,270
-  11,PE,F,0
-   1,PE,F,351.7
-   3,PE,F,270
-  12,L,J
+   6,R,J
+   2,PE,F,270
+   9,R,PE,F,0
+   5,PE,F,0
+  13,L
    1,L,N
 
 #lvl_xb-3
@@ -1351,26 +1330,38 @@ EndRepeat
   16
    5,R,J
   15,U,X
-   7,J,G
-   1
-   1,R,J,G
-   1
+   8,J,G
+   1,K,G
    6,R
+   5,L
+   4,Z
    1,R,J
-   1,R
-   6,R,Z
-   1,R,J,G
-   6
-   1,R,J
-   4,R
-   4,R,U,J
-  14,U,X
-   8,L,U,J
-  16,L,U,Z
-  15,U,X
-   5,R,Z
-   1,R,J
+   2,R,K,G
    7,R
+   1,R,D,J
+   1,PE,F,60.2110
+   1,PE,F,58.8238
+   1,PE,F,57.4089
+   1,PE,F,55.9638
+   1,PE,F,54.4855
+   1,PE,F,52.9709
+   1,L,PE,F,51.4162
+   1,L,PE,F,49.8171
+   1,L,PE,F,48.1688
+   1,L,PE,F,46.4654
+   1,L,PE,F,44.7001
+   1,L,PE,F,42.8647
+   1,L,PE,F,40.9490
+   1,L,PE,F,38.9406
+   1,L,PE,F,36.8235
+   8,PE,F,90
+   1
+   5,L
+  12,U,X
+   3,J
+   4,Z
+   1,L,J
+   7,L
    1,N
  155
 
@@ -1424,20 +1415,20 @@ EndRepeat
    1,N
  155
 
+
 #lvl_xc-0
 #spinner cycle (not stun)
-   0
+   1
 #
    1,L,J
   10,R,D,X
-   4,R,J
-  10,R
-   5,R,J
-   9,PE,F,90
-   1,PE,F,74.1
-   2,R
    1,R,J
+   6,PE,F,90
    6,R
+   5,R,J
+   5,PE,F,90
+   3,PE,F,180
+   9,R
    5,L,Z
    1,L,J
    2,L
@@ -1682,7 +1673,6 @@ EndRepeat
    1,L,PE,F,50
    6,R
   14,PE,F,90
-# note to self to wiggle here
   61,PE,F,74.43
    8,R
    2,J
@@ -1694,38 +1684,43 @@ EndRepeat
    3,R,J,G
    1,R
    1,R,J
+#
    9,R
    1,R,J
   14,R,D,X
-   3,R,J
-  15,R,D,X
+   1,R,J
+   4,R
+   4,PE,F,270
+   1,R
    1,N
 
 #lvl_xc-3c
-   4,L,Z
+   4,Z
    2,L,J
    5,L,K,G
    7,L
    1,L,D,J
-   8,L,J
-  15,L,D,X
-   4,L,D
-   1,L,J
+   3,L,J
    5,L
-   1,L,J
-   2,L,K,G
-  10,L,J,G
   15,L,D,X
-   2,L,J
-   5,L,K,G
-   3,L
-  10,PE,F,279.3
-   3,L
-# can deploy earlier and slide wall probably for faster ascent into next room
-  15,L,J
-  10,PE,F,90
-   1,R
-   4,R,K,G
+   1,L,J
+   4,PE,F,270
+   8,L
+   6,L,J
+   1,J
+  15,L,D,X
+   1,L,J
+   3,J
+   3
+   1,L,K,G
+   3
+  11,PE,F,270
+   2,L
+  13,L,J
+   1,PE,F,90
+  10,L,PE,F,12
+   1,L
+   2,R,J,G
    6,R
    1,N
 
@@ -1737,7 +1732,7 @@ EndRepeat
   19,PE,F,270
    1,PE,F,0
    7,L
-   5,Z
+   5,L,Z
    1,L,J
    7,L
    4,L,J
@@ -1817,6 +1812,7 @@ EndRepeat
    1,R,J
   10,R,D,X
   40
+
 #lvl_xc-4b
    3,R,D,X
    1,R,J
@@ -1874,9 +1870,9 @@ EndRepeat
    7,L
   10,L,Z
    1,L,J,G
-   2,L
-   5,L,J
-  13,L
+   5,L
+   2,L,J
+  15,L,D,X
    1,N
 
 #lvl_xc-2hub (2)
@@ -1925,21 +1921,20 @@ EndRepeat
    1,PE,F,314.44912
    1,PE,F,316.45351
   22,PE,F,270
-   4,L
+   4,L,J
    1,L,J
    3,L
    5,L,D,X
    1,L,J,G
-   6,L
-   1,L,J
-   3,L
-   8,L,J
+   2,L
+   1,L,J,G
+  12,L
+   7,L,J
   15,L,D,X
    1,L,J
-   1,J,PE,F,270
-   1,PE,F,294.42336
-  26,PE,F,270
-   4,L
+  11,J,PE,F,270
+   1,PE,F,0
+  14,L
    1,N
 
 #lvl_xc-5 (0)
@@ -2104,7 +2099,6 @@ EndRepeat
    1,PE,F,334.9554
    1,PE,F,338.3964
    1,PE,F,342.5105
-# maybe wiggle?
   14,PE,F,0.0000
    1,PE,F,30
   14,U,X
@@ -2166,19 +2160,19 @@ EndRepeat
   18,U,X
   18,L,J
   12,K,G
-  12,J,G
-  12,K,G
+   6
+   1,L
+  15,U,X
    1,J
-   5,R,J
-   3,R
-   4
+   1,K
+   7
    4,Z
-   2,R,J
-   2,R,K,G
-  11,R
+   3,R,J
+   1,R,K,G
+  10,R
    7,R,J
   15,R,D,X
-  11,R
+  13,R
    1,N
 
 #lvl_xc-6 (0)
@@ -2367,12 +2361,10 @@ EndRepeat
    4,Z
    5,R,J
    1,R,K,G
-  12,R
-   1,R,J
-   3,R
+  14,R
+   3
   15,D,X
-   1,R,D
-  22,L,D
+  21,L,D
    1,N
 
 #lvl_xc-2hub (4)
@@ -2509,76 +2501,52 @@ EndRepeat
   15,U,C
   15,U,X
   15,U,C
-   5,L,J
-   4,J
-   9,R,J
-  15,U,X
-   1,R,J,G
-   3,L,J
-   3,J
-   1,L,J
-   1,R,K,G
-   1,R,J,G
-   7,R
+  14,L,J
+  13,L,Z
+   3,R,J
+  15,R,D,X
    1,R,J
-  13,R,Z
-   1,L,J
-   7,L
-   1,L,D,J
-   6,J,PE,F,270
-   1,PE,F,294.8808
-   1,PE,F,296.3889
-   1,PE,F,297.9243
-   1,PE,F,299.4900
-   1,PE,F,301.0890
-   1,PE,F,302.7247
-   1,PE,F,304.4013
-   1,PE,F,306.1231
-   1,PE,F,307.8954
-   1,PE,F,309.7244
-   1,PE,F,311.6172
-   1,PE,F,313.5788
-   1,PE,F,315.6188
-   1,PE,F,317.7495
-   1,PE,F,319.9862
-   1,PE,F,322.3485
-   1,PE,F,324.8628
-   1,PE,F,327.5652
-   1,PE,F,330.5087
-   1,PE,F,333.7754
-   1,PE,F,337.5073
-   1,PE,F,341.9929
-   1,PE,F,348.0560
-# wiggle?
-  26,PE,F,0
-  11,R,J
-   3,R
-   2,K,G
-   6,R
-   1,L
-   1,L,J
-   4,L
+   1,PE,F,198
+   1,PE,F,63.9209
+   1,PE,F,62.6708
+   1,PE,F,61.4012
+   1,PE,F,60.1104
+   1,PE,F,58.7968
+   1,PE,F,57.4583
+   1,PE,F,56.0929
+   1,PE,F,54.6980
+   1,PE,F,53.2711
+   1,PE,F,51.8089
+   1,PE,F,50.3081
+   1,PE,F,48.7646
+   1,PE,F,47.1737
+   1,PE,F,45.5302
+   1,PE,F,43.8274
+   1,PE,F,42.0577
+   1,PE,F,40.2118
+   1,PE,F,38.2780
+   1,PE,F,36.2416
+   1,PE,F,34.0837
+   1,PE,F,31.7787
+   1,PE,F,29.2910
+   1,PE,F,26.5687
+   1,PE,F,23.5292
+   1,PE,F,20.0274
+   1,PE,F,15.7565
+   1,PE,F,9.7508
+  44,PE,F,0.0000
+  16,R
   10,R,Z
+   1,L,J
+  17,PE,F,90
+  10,R
    1,R,J
-   4,R,K,G
-   1,J,PE,F,90
-   1,PE,F,59.4631
-   1,PE,F,58.0123
-   1,PE,F,56.5303
-   1,PE,F,55.0141
-   1,PE,F,53.4603
-   1,PE,F,51.8649
-   1,PE,F,50.2234
-   1,PE,F,48.5306
-   1,PE,F,46.7803
-   3,PE,F,0
-   2,R
-   3,R,J,G
-   2,R
+   7,R,D,X
    1,S
    1,D,J
   34
-  12,R
+   2,R,J
+   8,R
    1,N
  155
 
@@ -2647,10 +2615,7 @@ EndRepeat
    1,PE,F,13.1207
    1,PE,F,6.6178
   97,PE,F,0.0000
-# wiggle?
   16,L,J
-#3:20.396(11788)
-
    2,L,K
   15,U,Z
   18,J
@@ -2839,7 +2804,6 @@ EndRepeat
    1,R,D,J
    1,J,PE,F,270
   87,PE,F,0
-# wiggle?
   15,U,X
    3,R
   18,R,U,X
@@ -2869,7 +2833,7 @@ EndRepeat
    1,L,J
    3,L
    1,K,G
-   9
+   8
    1,N
  155
 
@@ -2902,6 +2866,7 @@ EndRepeat
    1,S
    1,D,J
   34
+#
    4,R
    1,R,D,J
    1,J,PE,F,90
@@ -3186,7 +3151,6 @@ EndRepeat
    1,PE,F,15.2272
    1,PE,F,11.4762
    1,PE,F,5.6009
-# wiggle?
   24,PE,F,0.0000
   58,PE,F,0
   21,L
@@ -3209,11 +3173,12 @@ EndRepeat
   10,R
    3,R,J
    1,R,K,G
-   4,R,J,G
+   5,R,J,G
+   1
   19,U,X
-   4,L,J,G
+   1,L,J,G
   10,L
-  12,L,J
+  10,L,J
   13,L,X
   20,R,J
   28,U,X
@@ -3223,27 +3188,27 @@ EndRepeat
  384
 
 #lvl_x-ending
-   8,R,J
-   6,R
-  11,L,D,X
+  10,R,Z
    1,L,J
-   3,L
-  22,L,D,X
+   7,L
+   1,L,J
+  24,L,D,X
    7,L,J
-  15,L,D,X
-  37,J,PE,F,282.2
-   2,L
+  18,L,D,X
    1,L,J
-   9,L,D,X
+  33,PE,F,288.2
+   5,L
+   1,L,J
+  14,L,D,X
    1,S
    1,D,J
   34
-   3,L
    1,N
  155
 
 #lvl_mapend
-  15,R,X
- 133,D
+   4,Z
+   6,R,J
+ 136,D
 
-ChapterTime: 4:20.865(15345)
+ChapterTime: 4:19.641(15273)
