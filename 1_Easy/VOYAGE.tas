@@ -1,4 +1,4 @@
-RecordCount: 6372
+RecordCount: 6403
 
 Invoke SaveData.InitializeDebugMode true
 Invoke XaphanModule.ModSaveData.SavedFlags.Clear
@@ -26,7 +26,6 @@ Set SantasGiftsModule.Settings.InMapJournalBind J
 #Start
  190
 
-Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 #lvl_RunicCoastFront_1 (0)
@@ -180,28 +179,27 @@ Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
    1,R
    2,R,J
    3,R
-   2,R,J
+   2,R,K
    2,R
-   1,R,J
+   1,R,K
    9,R
-   1,R,D,J
-  22,R
-   1,R,J
+   2,R,J
    5,R
-   1,R,J
-   3,J
-   7,R,J
-   9,R
-   6,R,J
-   8,R
+   2,R,J
+  16,R
+  12,R,K
+   7,R
+   8,R,J
+  11,R
 #dash boots
   60
    1,J
+Assert Contain SecretSanta2024/1-Easy_Upgrade_DashBoots {XaphanModule.ModSaveData.SavedFlags}
 Unsafe
    1,Q
    1,O
   31
-   
+
 #lvl_RunicCoastFront_1 (1)
  190
 Safe
@@ -671,20 +669,14 @@ EndRepeat
   60
    1,J
   30
-
    4,Z
    5,R,J
    6,R
    2,R,J
-   2,J
-  11,D
-   3,R,D
-   2,R
-   1,G
-  11,R,J
-  11,R,U,Z
+  17,D
+  15,R,U,Z
   12,L,J,G
-   7,K,G
+   8,K,G
    2,R,K
   11,R,J
   11,L,K
@@ -1114,7 +1106,7 @@ EndRepeat
    1,PJ
   25
 #spinner unload cycle
-   2
+   1
 #-------------
    1,X
   25,U
@@ -1407,5 +1399,6 @@ Endstunpause
   15,K
   14,U,X
  135
+Assert Equal True {Level.Completed}
 
-FileTime: 3:50.265(13545)
+FileTime: 3:36.852(12756)
