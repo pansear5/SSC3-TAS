@@ -28,6 +28,7 @@ Set SantasGiftsModule.Settings.InMapJournalBind J
 
 Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
+Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 #lvl_RunicCoastFront_1 (0)
 #tread lightly when possible, it looks cool
    1,R,J
@@ -1401,4 +1402,4 @@ Endstunpause
  135
 Assert Equal True {Level.Completed}
 
-FileTime: 3:36.852(12756)
+FileTime: 3:40.524(12972)
