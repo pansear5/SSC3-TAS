@@ -1,34 +1,16 @@
-RecordCount: 7054
+RecordCount: 7173
 # first draft: 5342
 # sub 11: 5687
 
 ## README
 
 ### Warp Menu Bomb Bug
+
 # If you stop playback while a warp menu is open, then restart playback, even from a savestate breakpoint, Madeline will no longer be able to throw bombs. The most surefire way to fix this is to restart chapter, or you can debug to a warp station and use it.
 # Occasionally, Madeline becomes unable to throw bombs for some other reason. I don't know why, and I've found no fix for this but to restart the entire game. Sorry.
 
    0
 ###
-
-### Spinner Cycles
-# For several berry segments, the order in which they're done doesn't matter. This hasn't been implemented yet, but in theory, it'll be faster to move some berry segments before cycle-dependent segments to get on a different cycle without adding wait frames.
-
-# Cycle dependent segments:
-# Tower to Terrarium
-
-# Any-order berry segments:
-# Coast Hub       +?f
-# Coast Warp      +1f
-# Factory Dream*  +?f
-# Thicket Dream   +?f
-# Thicket Lower   +?f
-# Thicket Main*   +?f
-# * only after Tower to Terrarium
-
-   0
-###
-
    0
 ##
 
@@ -38,9 +20,6 @@ RecordCount: 7054
 Invoke SaveData.InitializeDebugMode false
 Invoke XaphanModule.ModSaveData.SavedFlags.Clear
 Invoke XaphanModule.ModSaveData.UnlockedWarps.Clear
-
-# UNCOMMENT to start with dash. Then you can comment the read command in Coast - Dash to speed up the first run to your savestate breakpoint.
-#Invoke XaphanModule.ModSaveData.SavedFlags.Add SecretSanta2024/1-Easy_Upgrade_DashBoots
 
 # Load the level
 console load SecretSanta2024/1-Easy/Flagpole1up
@@ -68,7 +47,6 @@ Set XaphanHelper.UseMiscItemSlot W
 ## Coast - Dash
 
 # get dash, restart chapter
-# comment the read command if you gave yourself dash above
 
 #lvl_RunicCoastFront_1 (0)
 Read,VOYAGE,Start,lvl_RunicCoastFront_1 (1)
@@ -2876,15 +2854,17 @@ endrepeat
    9
    2,PBW
    1,X
-   8,L,J
-   9,R,K,G
-   3,K
-  12,J,G
-  11,K,G
-  20,L,X,G
-  15,R,D,C
-  18,R
-  14
+   8,L
+   5
+   4,L,X,G
+   1,L,J,G
+  15,L,J
+  10,K,G
+   2
+  15,R,D,X
+  17,R
+  11,D
+   2
    1,PW
    1,D
    1,F,180
@@ -2951,22 +2931,28 @@ endrepeat
 
 #lvl_RunicCoastFront_5_H2
   23,L,Z
-   1,J
-  25,R,D
-  13,D
-   4
-  21,R,Z,G
-  12,J,G
-  12,K,G
-   8,J,G
-   5
-   2,R
-   9,R,K
-   7,J,G
-   5,R,Z
-   1,R,K
+   1,J,G
+   4,R,X,G
+   1,J,G,AR
+   2,R,J
    1,R
-   1,R,K
+   5,R,J
+   1,J
+  11,R,J
+   2,R,D
+   1,R
+   3,K,G
+   4,R,K
+   5,R
+   2,R,K
+  20,R
+   6,R,J
+   3,J
+   7,K,G
+   5,R,Z
+   1,R,J
+   1,R
+   1,R,J
   40
 
 #lvl_RunicCoastFront_5 (2)
@@ -3153,22 +3139,20 @@ endrepeat
    1,J,G
    5
    2,L
-   4,Z
+   6,R,D,X
    1,L,K
-   6,L
-  18,L,J
-   7,L,U,Z
+   8,L
+   4,L,Z,G
+   1,L,J,G
+   6,L,J
   40
 
 #lvl_VenomsporeThicket_3 (1)
-   8,L,U,Z
-   1,R,K,G
-   8,R,J,G
-   2,K,G
-   1,R,K
-   1,L,K
-   1,J
-  16,R,K,G
+   4,L,J
+   1,K
+  21,R,K
+  12,J,G
+   8,K,G
   28,L,X,G
    1,J
   15,R,D,X
@@ -3194,45 +3178,45 @@ endrepeat
   15,L,X
   13,L,Z
    1,L,J
-   1,L
-   8,L,D,X
+   1
+   8,L,Z
    1,R,J
-   7
+   1,R
+   6
    1,PJ
- 160
+ 153
    1,X
   25
   40
 
 #lvl_Puzzle_01
-   1,L
-  14,L,D
-  22,L
-   1
-  22,L,D,X
-   1,L,J
-  14,L,D,X
+   3,L,D
+  15,L,D,C
+  15,D
+   4,L,D
+   1,D
+   1,L,D
+  23,L,D,X
+   1,D
+   1,L,D,J
+  14,L,D,C
    2,L,J
   13,L,D,X
-   5,L,J
+   4,L,J
+   1,J
   15,L,X
-   4
-   1,L
-   2
-  10,R
-   1,PJ
+  15,R
+   1,R,PJ
   24
    1,X
   25
   40
 
 #lvl_RunicCoastFront_13
-   3,R,D
-   1,R
-   3
   15,R,D,X
-  13,D
-   2,R
+  11,D
+   1,R,D
+   4,R
   25,R,Z,G
   40
 
@@ -3266,7 +3250,6 @@ endrepeat
    5
   15,U,Z
   34,D
-   1
    1,PW
    1,U,O
   26
@@ -4069,4 +4052,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 11:03.714(39042)
+FileTime: 10:44.997(37941)
