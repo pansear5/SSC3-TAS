@@ -1,4 +1,4 @@
-RecordCount: 7187
+RecordCount: 7347
 # first draft: 5342
 # sub 11: 5687
 
@@ -3215,18 +3215,29 @@ endrepeat
   15,R,D,X
   11,D
    1,R,D
-   4,R
-  25,R,Z,G
+   1,R
+   1
+   1,R
+   3
+   4,R,Z,G
+   1,R,J,G
+  12,R
+   3
   40
 
 #lvl_RunicCoastFront_14
-  51,R,Z
+   5,R
+   1
+   5,R,D
+  10,R,D,K
+   6,R
+   4,R,K
+   6,R
+  12,R,U,X
    1,J,G
-  15,R,U,X
-   1,K,G
    7
   14,U,X
-  11,L,J
+  10,L,J
   40
 
 #lvl_RunicCoastFront_17
@@ -3245,8 +3256,8 @@ endrepeat
  105
    1,K
    8
-   2,K
-   5
+   2,L,K
+   5,L
   15,U,Z
   34,D
    1,PW
@@ -3370,110 +3381,66 @@ endrepeat
 # get remaining berries [32-38], win
 
 #lvl_BelltowerAtoll_3 (1)
-   2,R,J
-   7,R,Z
-   1,R,K
-   6,R,PBC
-   7,R,J
-  15,R,D,X
-   1,R,K
+   7,L
+   2,L,J
+  18,R,X,G
   40
 
 #lvl_BelltowerAtoll_2 (1)
-   8,R,K
-  15,R,D,X
-   1,N
-   1,PJ
-  24
-   1,X
-  24
-   3,U,Z
-   4,L,U,J
-   8,L,U
-   1,U
-   1,S
-   8,O
-  14,R,U,K
-  17,U,Z
-   1
-   1,S
-   8,O
-  27,L,U,J
-   1,S
-   8,O
-  15,U,K,G
-   1,S
-   8,O
-  15,U,J,G
-   1,S
-   8,O
-  14,U,K,G
-   5,U
-   2,L,U
-   1,S
-   8,O
-   7,L,U,J
-   6,L,J,O
-   1,J
-   1,K,G
-   2,R,K
-   1,J
-   9,R,J
-  10,L,X
-  22,R,K
-  15,U,X
-   4,R
-   6,L
-   1,G
-  10,J,G
-   1,L,J
-   1,R,J
-   2,L,K,G
-   9,L,J,G
-   3,J
-  10,K,G
-   1,L,K
-   1,R
-   2,L,J,G
-   1,L,K,G
-   1,R,K
-   7,L,K
-   3,L
-# mega bombs check for 0 speed on both axes, so we have to collide
-   7
-   2,PB
-  12,G
-   1,D
-   6
-  43,G
-   1,D
-   9,R,Z
-   1,L,J
+  80,R,X,PBC
+   1,R,K,G
    4,L
-  16,L,G
-   7,L,K,G
-   5,K,G
+   5
+   2,K
+   5
+   1,L
+   1
+   1,R
+   1
+   1,R
+   1,R,D
+   1,J
+  19,L,J
+   4,L,X,G
+   9,L,J,G
+  29,L
+   1,R,K,G
+  20,L
+   1,L,D
+  15,L,Z
+   9
+  14,PB
+   1,D
+   3
+   2,J
+   1
+   6,L,D,X
+  68,G
+   5,L,K,G
+   6,K,G
+   1,G
    1,J,G
    2,K,G
    1,R,K,G
    5,K,G
    1,D,K
    9,U,X
-  14,U,G
+  13,G
   14,L,G
    1,D
    1,K,G
    4,K
   21,K,G
-   1,D,K
-   1,J,G
-   4,J
-  19,J,G
-   1,R,G
-   5,L,G
+   4,D,K
+   1,L,J,G
+   1,R,J
+  13,R,J,G
+   2,R,J,G
+   4,L,J,G
+   6,L,G
    1,L,D,K
-   5
-   4,Z
+   4,L
+   6,R,D,X
    1,L,K
   13,L,G
    1,L,J,G
@@ -4051,6 +4018,6 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:44.997(37941)
+FileTime: 10:41.393(37729)
 
 Invoke Input.MenuCancel.Binding.Keyboard.RemoveAt 0
