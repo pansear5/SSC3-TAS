@@ -4018,6 +4018,6 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:41.393(37729)
+FileTime: 10:54.245(38485)
 
 Invoke Input.MenuCancel.Binding.Keyboard.RemoveAt 0
