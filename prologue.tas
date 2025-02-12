@@ -1,4 +1,4 @@
-RecordCount: 649
+RecordCount: 842
 
 console load SecretSanta2024/0-Lobbies/0-Prologue
    1
@@ -7,49 +7,48 @@ console load SecretSanta2024/0-Lobbies/0-Prologue
   99
 
 #lvl_1
-   4,R,Z
+   4,Z
    1,R,J
    3,R
+   1
    1,K
-   3
-  10,R,J
-   1,R
+   2
+  11,R,J
   12,R,Z
-   1,R,J
-   1,R
-   1
-  15,R,D,X
-   1
-   1,R,D,J
+   2,R,J
    1,J
-   1
+  15,R,D,X
+   1,R,D
+   2,R,J
    1,R
   14,R,U,X
    1,R,J,G
+   1,J
+   2
    9,R
-   2,R,J
-   7,R,D,X
-   1,R,J,G
-   6,R
+   1,R,J
+   5,R,D,X
+   2,R,J,G
+   4,R
+   2
    1,R,K
-   1,R,J,G
-   3
-   8,R
-   2,R,J
-  15,R,D,X
    2,R
+   3,R,J
+  15,R,D,X
+   3,R
    7,R,J
   15,R,D,X
+   1,R,J
+  14,R
+   1,R,J
+  14,R
+   1,R,J
+   6,R
+   1
    1,R
-  10,R,D,J
-   1,L,J
-   5,K,G
-  15,R,D,X
-   1,R,D,J
-   8,R
    2,R,K
    5,R
-  11,R,D,X
+  14,R,D,X
    1,L,J
    1,L,N
    1,L
@@ -59,14 +58,12 @@ repeat 380
 endrepeat
   17
    1,D
-   1,J
-repeat 65
+   1,O
+   1
+repeat 58
    1,J
    1,O
 endrepeat
-  97
+ 110
 
-# timer stops here but you
-# can still do inputs ????
-# idk
-ChapterTime: 0:18.411(1083)
+ChapterTime: 0:18.343(1079)
