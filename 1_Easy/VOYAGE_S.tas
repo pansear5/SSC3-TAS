@@ -4025,4 +4025,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:40.509(37677)
+FileTime: 10:58.257(38721)
