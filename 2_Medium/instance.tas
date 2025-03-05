@@ -1,4 +1,4 @@
-RecordCount: 12628
+RecordCount: 24696
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
@@ -11,63 +11,65 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,D,J
   34
 #maybe better exit?
-  11,L,D,X
+  11,L,Z
    1,R,J
    1,R,K,G
-   2,R,J,G
+   1,R,J,G
+   1,R
    6,R,D,X
 
 #lvl_a-00
-#very nyoomable, needs optimization
-  11,R,D,X
+  11,R
    1,R,J
   13,R,D,X
    1,R,J,G
    4,R
-   1,R,J
-   3,R
+   4,R,J
   11,R,D,X
    1,R,J,G
-   5,R
-   1,R,J
-   2,J
+   1,R
+   2,R,J
+   4,R
+   7,R,J
   15,R,D,X
-   2,R
-   8,R,J
-  11,R,D,X
+   1,R
+   5,R,J
+   9,R,D,X
    1,R,J,G
   11,R
    1,R,J
   11,R,D,X
-   5,R,J
-   5,R
-   0,R,J
+  10,R,J,G
   15,R,D,X
    1,R,J
   12,R,D,X
-   4,R,J,G
-   4,R
-  16,R,D,X
+   1,R,J
+  19,R
 
 #lvl_a-00b
- 326
-
-#this room is weird
-#lvl_b-00
-   1
+   1,G
    2
-   7,L,Z
+ 312,G
+   3,U,G
+   3,G
+   3,D,G
+   2
+
+#lvl_b-00
+   2
+   6,L,Z
    1,R,J
-   7,R
-   1,R,J
-  10,R,U,X
+   6,R
+   2,R,J
+   9,R,U,X
    1,R,J,G
-  10,R
+   5,R
+   1,R,J
+   4,R
    1,R,J
    8,R
    2,R,J
-  15,R,D,X
-  10,R,D
+  25,R,D,X
    4,R,J
   12,R,X
    2,R,J,G
@@ -75,254 +77,258 @@ console load SecretSanta2024/2-Medium/bosssauce
    3,R,J
   15,R,D,X
    1,R,J
-# buffer jump
   40,J
 
 #lvl_b-01
-   5,R,J
-  14,R,U,X
-  24,R,J,G
-   4,R,K,G
-   5,R
-   1,R,J
+   4,R,J
    1,R
-   1,R,J
-# ^ very yucky and slow way to get high subpixels for resyncing
-   5,R,D,X
-   5,R,J
+  14,R,U,X
+  21,R,J,G
+   2,R,J
+   1,R
+   1,R,K,G
+   1
+   2,R,K,G
+   7,R
+   4,Z
+   6,R,J
    3,R,K,G
    1,R,J,G
-  15,R
+   5,R
    1,R,J
+  10,R
   40
 
 #lvl_b-02
-   3,R
+   3,R,J
    5,R,D,X
    1,R,J,G
-  12,R
-   2,R,J
-  19,R,D
-   7,D
-   4
-   1,D
+  11,R
+   1,R,J
+   5,R
+   1,R,J
+   2,R
+   3,R,J
+  13,R,D
+   6,D
+   2
   15,U,Z
    1,R
-   9,R,J
-  10,J
+  13,J
+   5,R,J
+   1,J
    1,K
    1,J
-  12,L,J
-   6,L
+  11,L,J
+   7,L
   10,J
    3,L,J
   15,U,X
-  10,L
+   9,L
+   1
    7,J
    1,L,J
    1
    2,L
-   2
-   1,K
-   3,L
+   1
+   1,L
+   1,J
+   9,L
    1,L,J
-   4,L
-   1,L,J
-  10,L
+   9,L
   26,L,Z
-  21,L,U,X
-  14,L,Z
+  18,L,U,X
+  14,L,C
+   1,L,J,G
+   9
+   2,J
+   5
+   4,Z
    1,L,J
-   4,L
-  14,L,D,X
+   6,L
   40
 
 #lvl_b-03
    1,L,J
-   3,L,K,G
-   6,L
-  11,L,U,X
-  52,L,J,G
-  19,L,D
-  13,L,J
+   2,L,K,G
    5,L
-  28,L,Z
-   4,V
+  12,L,U,X
+  26,L,J,G
+  35,L,D
+   3,L
+  12,L,J
+   6,L
+  27,L,X
+   5,Z
    1,L,J
-   7,L
-   1,L,J
+   6,L
+   1,L,D,J
    2,L
   15,L,D,X
    1,L,J
-   2,L
+   6,L,D,X
   40
 
 #lvl_b-04
-   3,L
-   5
-   1,L
-   3
-#keeps dash for liftboost shenanigans
-#  15,R,J
-#  12,J
-#  11,K
-#  15,R,D,X
-#   2
-#  12,R,D,X
-#   8,L,J
-#  15,L,D,X
-#   1,L,J
-#   1,J
-#  20,L,J
-#   1,J
-#  15,L,J
-#
-  14,R,J
-  18,J
-   1,R,J
-   8,K
-  14,R,D,X
-   1,L,J
+  10,L
+  13,J
+  16,R,J
+   4,K
+   4,L,K
+   2,K
+  15,R,D,X
+   1
+  10,R,D,X
+   6,L,J
   15,L,D,X
-   2,L,D
-   3,J
-  21,L,J
-   5,L
-  15,L,Z
-   1,L,J,G
-   7,L
-   1,L,K,G
-   1,L,J,G
-   1,L,K,G
-   7
-   3,L
-   1,L,J
-   6,L
+   9,L,J
    1,J
-  13,R
-   6
-  18,R,J,G
-   7,R,G
-   1,K
-  29,R,K
-   8,U,G
-  11,G
-   1,U,G
-  13,G
-   5,U,G
-   1,G
-   1,R,J,G
-   9,R
+  26,L,J
+  16,L,K,G
+   1,L,J,G
+   2,L,K,G
+   2,L
+   1,J,G
+   2,L,J
+   8,L
+   1,R
    1,R,J
-  12,R,U,X
-   4,R,J,G
-   4,R,K,G
+   1,R,K,G
+  12,R
+   1,J,G
+   7
+   2,G
+   8
+   1,G
+   1,R,J
+  14,R
+   4,D
+   1,R
+   1
+  15,U,X
+   1,R
+   6,R,J
+   5,J
+   8
+   1,L,J
+   1,R,J
+   1,L,J
+   1,R,J
+   1,L
+   2,R,J
+   1,R
+   1
+   5,R
+   1,L,J
+   1,K,G
+   1,J,G
+  14,R,U,X
+   5,R,J,G
+   3,R,K,G
   40
 
 #lvl_b-05
-   8,R,K
-   6,R
-   2,R,K
-  17,R
-  15,R,X
-   6,R,J
+   9,R,K
+   5,R
+   2,R,J
+  16,R
+   5,R,J
    5,R,U,X
   40
 
 #lvl_b-06
-  10,R
    9,R,U,X
-   1,R,J,G
-   2,L,J
-   1,R,K,G
-   7,R,J,G
-   5,R
-   2,R,J
-  10,R
-  20,R,U,X
-  13,U,C
-  24,R,J
-  13,R,X
-   1,R,J,G
-   1,R
-   2,R,J,G
+   4,J
    1
-   1,R
-   1
-   1,R
-   3
-   1,J
+  25,R,U,X
+  18,R,U,C
+  12,U,X
+  22,R,J
+  14,R,Z
    1,R,J
-   4,Z
-   1,R,J
-   6,R
-  12,R,J
+   4,R,K,G
   14,R,D,X
+   9,R,J
+   2,J
+   9,R,U,X
   40
 
 #lvl_b-07
-   1,R,D,X
+   5,R,U,X
+   1,L,J,G
+   7,R,J
+  14,R,Z
+  14,R,J
+   5
+   4,R,J,G
+   2,R,K,G
+   5,R
+   2,R,J
+  11,R
+  14,R,U,X
+   1,R,J,G
+   7,J
    3,R,J
-   1,R,K,G
-  12,R,J,G
-   3,R
-  24,R,U,X
-   6,R,J,G
-   1,K,G
-  10,R
-   1,L
-  10,R,D
-   3
-  11,R,J
-  28,R
+   7,R
    4,Z
    1,R,J
    6,R
    3,R,J
-#save 1f here?
-   2,R,K,G
-   7,R,D,X
+   1,R,K,G
+   4,R,J,G
   40
 
 #lvl_b-08
-   5,R,D,X
-   1,R,J
-  11,R,D
-  20,R,D,J
-   8,R
-  15,U,Z
-  12,L,J,G
-  25,L
-  20,L,X
-  13,R
-  14,R,U,X
-   7,J
-  13,L,J
-   1,R,K
-  15,R,D,X
-  24,R
-  14,R,J
-   7,R
-  16,R,U,X
-   3,R
-  18,R,X
-  24,L,C
+   7,R,J
    1,J
   15,R,D,X
-  30,R,D,C
-  30,R,J
-#updiag?
-  15,U,Z
-   5,U,C
-  25,R,J
-   4,R
-   1,R,J
+  12,R,J
   11,R
+  15,U,Z
+  29,L,J,G
+  12,U,X
+  20,L,J
+   4,K
+   2
+   4,R
+   1
+   4,R
+   2,R,D
+   1,R
+   1,R,D
+  22,R
+   3,R,D
+   1,R,J,G
+   1,R,G
+   4,R
+   7
+   1,R
+  21,R,J
+  15,R,U,X
+   9,L
+   4,J
+  23,R,D,X
+   1,D
+   6,R,D
+  21,R,D,X
+   5,R,J
+   5,R
+   2,R,J
+   5,R
+  15,R,X
+  15,U,Z
+   6,U,X
+  15,R,J
+  23,R
    4,R,D
-   6,L,Z
+   1,R
+   1,R,D
+   1,R
+   6,L,D,X
    1,R,J
-   7,R
+   6,R
    1,R,J
+   1,R
   14,R,D,X
    2,R,J
   14,R,D,X
@@ -331,205 +337,217 @@ console load SecretSanta2024/2-Medium/bosssauce
 #lvl_b-09
    5,R
   15,R,J
-  18,L,K
-  10,U,X
-  15,R,J
-  18,R
-  16,R,D
-  10,R,U,Z
-   1,R,J,G
-   4,R,K,G
-   4,J,G
-   1,L
-   4,R
-   1,R,J
-  12,R
-  21,R,Z
-   9,J
-   3
-   5,R,Z
-   1,R,J
-   6,R
-   3,R,J
-   1,R,K,G
-   6,R,K
+  20,K
+   1,L,K
+   3,K
+   1,L,K
+   1,K
+   6,J
+   5,R,J
+   7,J
   15,R,D,X
-  20,R
+   1,R
+   3
+   3,R
+   2,R,D
+   2,D
+  12,R,U,Z
+   3,R,J,G
+   6,R
    1,R,J
-  12,R,D,X
-   1,R,J
+   2,R
+   2,R,J
+   2,R
+  15,R,D,X
+  18,R
+   9,R,J
+   3,R
   40
 
 #lvl_b-10
-   9,R,J
-  15,R,U,X
-   5,L,K,G
-   2,L,J,G
+  10,R
+  14,R,U,Z
+   4,L,J,G
+   1,L,K,G
+   1,J,G
    1,K,G
   15,R,D,X
-   3,R,D,J
+   1,R,J
    7,R
-  11,R,U,X
+  12,R,U,Z
    1,J,G
-   4,R
-   1,L
-  20,D
-   7
-  17,R,U,X
-  19,R,J,G
-   9,R
-   2
+   5,R
+   4,L
+  11,D
+   6,R,D
+   7,R
+  14,R,X
+   7,J,G
+   1,L,J
+   3,J
+   6,K,G
+   1,R,K
+   7,J
+   2,R,J
+   1,J
   15,U,Z
    2,R
    1
-   2,J
-   1
+   2,R,J
+   1,J
    7,L,U,X
-  18,R,J
+   1,J
+  17,R,J
    1,R,K,G
+   1,R
    1
-   1,L
-   5,R
-  10,R,D,X
-  11,R,J
-   6,R,K,G
+   1,R
+   5
+   1,R,J
+   1
+   3,L
+   5,Z
+   1,R,J
+   1,R
+   1
+   1,R
+   7,R,J
+   7,R
+   2,R,D,J
   13,R,D,X
   40
 
 #lvl_b-11
-   5,R,D
-   5,R,J
-   3,R
-  15,R,D,X
-   1,R
+   5,R
+   7,R,D,J
+  16,R,D,X
    1,R,J
-  25,R,Z
-  15,R,U,X
-   3,R
-   5,R,J,G
-  15,R,D,X
-  17,R,D,C
-  20,R,J
-  15,R,U,Z
+  23,R,Z
+  17,R,U,X
    4,R,J,G
-  10,R,K,G
-  12,L,D,X
-   1,R,J
-   9,R,G
-   1,R,J,G
-   1,K,G
-   1,R,J,G
-  15,L,J
-  15,L,U,X
-  15,U,C
-   1
-  10,R
   15,R,D,X
+  16,R,D,C
+  20,R,J
+  14,R,U,Z
+   4,R,J,G
+   4,R,K,G
+   7,K
+  12,L,D,X
    3,R
-   3
-   3,D
-   1
-  13,J
-  14,L,J
-   6,U,X
-  11,R,J
-   7,L,K
-  24,D
-  17,L,D
-   5,D
-  11,L,K,G
-  28,L
-   3,L,J
-   5,U,Z
-##couldn't find anything good with this
-  13,L,J
-   5,L
+   1,L
    2
    1,L
-   2,J
-   1
-   1,J
-   1
-   6,Z
+   1,R,G
    1,L,J
-   6,L
+   1,R,K,G
+  17,L,K
+  15,L,U,Z
+  14,U,X
+  10,R
+  15,R,D,X
+   5,R
+   2,R,D
+   2,R
+   1,R,D
+   6,R,J
+   3,J
+  13,L,J
+   6,J
+  14,R,U,X
+   4,J
+   1,K
+  13
+   2,G
+   6,D
+   1,L,D
+  20,D
+   5,L
+   5,L,X
+  12,J,G
+  11
+   9,L,D
+   1,D
+   3,L,D
+   2,L
+   9,L,J
+  10,R,X
    2,L,J
-   9,L,D,X
+   5,L
+  12,L,U,X
+  11,L,J,G
+   1,J
   40
 
 #lvl_b-12
-   5,L,D,X
-   1,L,J
-  14,L
+  15,L,D,X
+   4,L
    4,R,J
-  19,D,X
+  15,D,X
+   4,R
   10,L,Z
    4,R,J
    1,J
    3
   13,L,D,X
    1,R,J
-  20,L,D
-   2,D
+  21,L,D
+   1,D
   15,L,Z
    2,R
    1,J
-   7,L
-   1,L,G
-  10
-  12,R,D
+   9,L
+   4
+  16,R,D
    1,J
    1,K
   24,L,D
    4,L,J,G
-  15,L,D,X
-   7,L
-  18,L,J
+  21,L,D,X
+  19,L,J
   17,K
   12,L,J
    4,L
-  14
-   1,L
-  13,L,J
-   5,L
-   6
+   2
+   1,J
+   7
+   3,L
+   2
+   4,J
+  18,L,J
   15,U,X
    9,R
-   1,J
-   2
+   2,J
    5,R,Z
    1,R,J,G
-   5,R
-   6
-   7,R
-#tried very hard to do this dashless
-#it might even be slower?
-  22,R,U,Z
-   5,U,X
-  13,R,J
-   1,R
-   8
-   3,L,K
-   5,L
-  16,R,D,X
-  11,R,C
-  22,R,J
-   5,R
-  14,J,G
-  15,U,X
-   6,L
-   3
-   1,L
-   4,Z
+  19,R
+  15,R,U,X
+   6,U,C
+  21,R,J
+   4,K
+  16,R,U,X
+   1,J
+   2,R,J
+   9,R
    1,R,J
-   6,R
-  26,R,J
-   7,U,X
-  30,L,J
+   5,R
+  17,R,U,Z
+   7
+  14,R,Z
+   1,R,J
+   9,R,D,X
+   1,R,J
+   1
+   2,R
+   1,R,J
+   3,R
+  21,R,J
+  15,U,X
+   2,R
    8,L
-  11,L,J
-   6,J
-  14,U,X
+   8,L,J
+  13,J
+   4,X
+   3,L,D,X
 
 #lvl_intro2
    1,S
@@ -538,14 +556,13 @@ console load SecretSanta2024/2-Medium/bosssauce
    5,L,D,X
    1,R,J
    2,R,K,G
+   2,R
+   1
 
 #lvl_c-00
-   2,R
-   3
+   2
    3,R,J
-   1,R,K,G
-#prob best for height?
-  10,R,K
+  11,R,K,G
   10,R,U,Z
   40
 
@@ -553,415 +570,445 @@ console load SecretSanta2024/2-Medium/bosssauce
    2,R,U,Z
    1,L
    3,J,G
-   7,G
+   6
+   1,R
   10,R,Z
    5,R,J
   15,R,D,X
    2,R,J
   15,R,D,X
-   1,R
-   7,R,J
-   2,R,K,G
-  11,R,U,X
+   1,R,J
+   4,R
    1,R,J,G
+  14,R,U,X
+   1,R,J,G
+  12,R
+   9,R,J
    2,R
-   1
-   8,R
-   1,R,J
-   7,R
-  14,R,X
-   1,R,J,G
-   1,R,J
+   8,R,D,X
+   2,R,J,G
    5,R
   40
 
 #lvl_c-01
-   3,R
-  16,R,D,J
-  15,U,X
-  17,R,C
-   3
+   3,R,J
    1,R
-   5
-   1,R
+   1,R,D
+  11,R,D,J
+  20,R,U,X
+  15,R,C
+   7
   10,L,X
-  20,R,J
-   3,R
-  15,R,U,X
-  10,J,G
+   3,R,J
+   5,J
    1
-   4,K,G
-   7,R
+   3,K
+   4,L,K
+  17,R,K
+  15,U,X
+   2,R
+   2,R,J,G
+   3,R
+   1
+   1,R
+   1
+   1,R
    5,L,Z
    1,R,J
    6,R
-   3,R,J
+   3,R,D,J
   14,R,U,X
   18,R,J,G
   40
 
 #lvl_c-02
-  17,R,D,X
-   8,R,J
-   8,R
-   2
-  18,R,U,Z
+  15,R,D,X
+   1,R,D
+   5,R,J
+   5,R
+   2,R,J
+   1,R
+   2,R,J
+   3,R
+  18,R,U,X
   15,D,C
    2,L
   14,R,D,X
-  19,R,J
-   2,R
-  20,U,X
+  21,R,J
+  18,U,X
   24,R,U,C
-  11,R,J
-  10,R,Z
+  12,R,J
+  11,R,Z
   11,R,J
   40
 
 #lvl_c-03
-   5,R,J
-   7,R
-  11,R,J
-   2,J
-  11
+   4,R,J
+   2,R
    1,R,J
+   1,R
+   1,R,J
+   3,R
+   1,J
+   6,R,J
+   1,J
+   4
+   1,R
+  18,R,U,Z
+   2,R
+   5
+   1,R
+   1
+  15,R,Z
+  21,L
+   6,R
+  21,R,J
+  12,R,X
+  20,R,J
+   2,R
+  20,R,U,C
+   1,J,G
+   1,L,J
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
    2,R
    1
+   4,R
+   6,R,J
    1,R
-#is this best route?
-  12,R,Z
-  12,R,J
-  18,U,X
-  18,L,D,C
-   6,R
-  10
-   4,L
-  11,J
-   9,L,J
-  16,R,Z
-   4
-   7,D
-  10,L,V
-  23,R,J
-  16,R,U,X
-   8,R,J,G
-   1,K,G
-   6,R
-   1,L
-   2,L,J
-  14,L,U,X
-   1,L,J,G
-   1,L
-   4,L,J,G
-   8,L
-  13,L,Z
+  10,R,Z
    1,R,J
-   6,R
-   1,R,J
-  17,R,D,X
-   9,R,J
-   7,R,D,X
-  40
+   7,R
+   3,R,D,J
+  43
 
 #lvl_c-04
-  11,R,D,X
-   9,R,J
-   5,R
-  12,R,J
+  16,R,D,X
+   1,R,J
+  19,R,D
+   8,R
+   1
+  18,R,U,X
+  15,R,Z
+   1,R
+   1
+   1,D
+  10,L,D,X
+   4,R,J
+   1,R
+   1,R,K,G
+  13,R
+   5,R,J
+   1,R
+   1,R,J
+   1,R
+   1,R,J
    2,R
-   7
-   2,R
-   1,J,G
-   2,K,G
-  12,R,J
-  22,R,U,Z
-  26,R,X
-   2,R,J
-   5,R,Z
+  30,R,U,X
+   4,Z
    1,R,J
    6,R
    4,R,J
   40
 
 #lvl_c-05
-  15,R,J
-  17,R,U,X
-  20,R,U,C
-  37,D
-   7,L,D
-  11,R,D
+   7,R,J
    5,R
-   2
-   1,D
-   1
-  14,R,Z
-   1,J,G
    1,R,J
+   3,R
+  16,R,U,X
+  15,R,U,C
+   5,R,D
+  34,D
+   6,L,D
+   3,D
+  11,R,D
+   7,R
+   2,D
+  14,R,X
+   1,R,J,G
+   1,J
    7,R
    5,R,J
-   2,R
-   7,R,Z
-   1,R,J
-   6,R
-   1,R,J
-  12,R,D,X
+   2
+   6,R,Z
    1,R,J
    7,R
+   1,R,J
+   1,R
+  14,R,D,X
+   1,R,J
+   4,R
   40
 
 #lvl_c-06
-   5,R
-   1,R,J
-   2,R
-  16,R,Z
-  10
-   1,R
-   4
+   4,R
+   2,R,J
+  15,R,Z
+   6,R
+   6
+   4,R
+   5,R,D
   14,R,Z
-   5,R,J
+  11,R,J
    1,R
-  10,R,J
-  14,R
-  21,U,X
-   9,L,J
+   1,R,J
+   3,R
+   1,R,J
+   1,R
+   1,R,J
+   6,R
+   1
+   1,R
+  18,U,X
+   4,R,J
+   5,J
   11,L,U,X
-   1,L,K,G
+   1,J,G
    7
    1,G
-   4
-  11,R
-  13,L,X
-  14,L,J
-  15,L,Z
-   3,L
-  17,R
-   3
-  15,L,U,X
-  16,L,C
+   7,R
+  13
+   4,Z
+   1,L,J
+   8,L,K,G
+  16,L
+   1
+  21,R
+  16,L,U,X
+  15,L,C
    9,L,J
   13,U,X
   40
 
 #lvl_c-07
   16,R,J
-  14,R,U,X
+  15,R,U,X
+   6,R,U,C
   20,L
-   9,J,G
-  11,K,G
-  16,L,U,X
-  15,L,U,C
-  27,R
-   2,R,J,G
+  14,L,J,G
+  11,U,X
+  36,R
+   1,J,G
    1,L,J
-   1,L
-   3,R
+  10,R,K,G
+   4,R
    1,R,J,G
    1,R,K,G
+   1,R
+   1
   36,R,D
-  17,R,Z
+  16,R,X
+   4
+   1,J
    7
-   2,G
-   1,J,G
-  14,R
-  13,R,Z
+   3,R
+   2
+   1,R
+  14,R,Z
   13,R
   18,R,U,X
   12,R,Z
-  21,R,J
-   6,R
-  13,R,U,X
-   1,R,J,G
-  13,R
+  20,R,J
+   1,R
    1,R,J
+   5,R
+  12,R,U,X
+   1,R,J,G
+   1,R
+   1
+   9,R
+   4,X
+   2,R,J
+   2,R
   40
 
 #lvl_c-08
+   5,R
+   1,R,N
    1,R,J
-   6,R,Z
-   4,R,Z
+   2,R
+   9,R,D,X
    1,R,J
-   4,R
-  13,R,D,X
-   9,R,J
+   7,R
+   5,R,J
+   9,R
+   1,J
+   1,R,D
+   4,D
    1,R
   13,D
-   1,R,D
+  12,R,D
+   8,D
+   2,R,D
    1,D
-   4,R,D
-   1,D
-   1,R,D
-   4,R
-  15,R,D,X
-  10,R
-  18,D,X
-  15,U,C
-   5,L
-   2
-   1,L
-  20
+  25,R,U,X
   14,R,Z
-  20,R,J
-   1,R
   11,R,J
-  21,R,U,X
-   2
-   4,R
-   1,R,J,G
-   5,R
-   1
    1,R
-   5,R,D,X
+   5,R,J
+   2,R
+  15,R,D
+   4
+   1,R,J,G
+  11,R,K,G
+   5,R
+  15,U,X
+   1,R,J,G
+   7,R
+   5,Z
    1,R,J
    7,R
    1,R,J
    3,R
-   5,R,D,X
-   1,R,J,G
-   8,R
+   1,R,K,G
+   8,R,D,X
   40
 
 #lvl_c-09
-   3,R
-   4,R,J
-  15,R,D,X
-   1
-   2,R,D
-   1,D
-   1,R,D
-   6,D
-  13,R,D
-   3,R
-  32,R,U,X
-   5,R,J
-   2,R
-   8,R,Z
    1,R,J
-   6,R
+  31,R,D
+  20,R,Z
+   2
+  14,R,D,X
+   1,R,J
+   8,R,U,X
+   5,R,J,G
+   5,R
    1,R,J
    4,R
-   4,R,K,G
+   3,R,J
   40
 
 #lvl_c-10
    3,R,J
-   7,R
+   5,R
+   3
    1,R,J
-   8,R,K
-   3,K
-   2,R,J
-  15,U,X
-   4,R
-  12,R,Z
-   9,R,J
-  18,R,D,X
-  15,R,U,C
-  16,L
-   1,L,G
-   1,L,K
-   1,L,J
-   3,L,G
-   1,L,K
-   5,L,J
    4,J
-  15,R,U,X
-  30,L
-  11,R,Z
-  20,R,J
-  15,R,U,X
-  10,R,G
    1,R,J
-   1,R,K
-   3,R,G
-   1,R,K
+   1,R
+  31,R,U,X
+  14,R,Z
+  10,R,J
+   1,R
+  19,R,U,X
+  12,L
+   1,L,G
    1,L,J
-   1,J
-   1,K
-   9,L,J,G
-   1,L
-   7,L,K,G
+   1,L,K
+   3,L,G
+   1,L,J
+  10,L,K
+  15,R,U,X
+  26,L
+   4
+  14,R,Z
+  27,R,J
+  15,R,U,X
+   5
+  10,L,J,G
+   2
+   5,K,G
    7,L
-   2,L,J
-   3,J
+   5,L,J
   15,U,X
   40
 
 #lvl_c-11
-   6,L,J
-   5,J
-  15,U,X
-  26,L
-   1,L,J
-  17,L
-  19,L,J
-  15,L,X
-   8,R
-  18,R,J
-  17,U,X
-  24,R,J,G
-   1,R,K,G
-   1,R,J,G
+   5
+  12,J
+   9,L,J
+  10,L,X
    4,R,J
-   2,R
-  21,R,Z
-  15,R,V
-   6,L,Z
-   1,R,J
+   5,R
+  21,R,U,Z
+  15,U,X
+   6,R
+   5
+   1,R
+   1
+   1,R
+   8
+   9,L,D,J
+   2,R,J
    6,R
    1,R,J
+   1,R
+   1
+  15,U,Z
+  10,L
+  15,L,J
+   1,L
+   6
+  13,R,Z
+   6,R,J
+   5,R,D,X
+   2,R,J,G
+   1,J
+   7,R,J
    4,R,K,G
-   1,K
-   6,R,K
-   3,R,J,G
-   9,R
-   2,R,J
-  13,R,D,X
+   5,R
+   1,R,J
+   3,R
+   1
+   1,R,J
+   1
+  12,R,D,X
   40
 
 #lvl_c-12
-   4,R,D
-   5,R,J
+   3,R,D
+   2,D
+   4,R,J
   26,R,D,X
    2,R,J
-   9,R
-   1,J
+   5,R
    1
-   1,R
-   5
-   1,R
+   2,R
+   1,R,J
+   6,R
   18,R,U,X
   15,R,U,C
-  15,U,X
+  18,U,X
+  18,R,U,Z
    2,R
-   7
-  21,R,U,Z
-  20,R,V
-  16,L,U,X
-  12,L,U,C
-   2,J
-  35,R,D
-   8,D
-  25,R,D
-  14,R,Z
-   1,R,J
+  20,R,X
+  15,L,U,C
+  13,L,U,X
+   1,R,J,G
+  33,R,D
+   2,D
+Repeat, 13
+   1,R,D
+   1,D
+EndRepeat
+   2,R,D
+   5,R
+  16,R,Z
+  12,R,V
+  33,R,J
+   4,J
+   1,K,G
+   1,L,K
+   1,R,J,G
+   1,R,K,G
+   1,R,K
+   1,L,K
+   4,R,K
    1,R
-   2,R,J
-   1,R
-   5,R,J
-   1,R
-  19,R,J
-  29,R,U,X
-   4,R,J,G
+   1,R,J,G
    7,R
    8,R,J
-   2,J
-  15,U,X
-  10,J,G
+  15,U,Z
+  12,J,G
+  12,K,G
+   7,R
+  12,R,J
    2
-  11,K,G
-   6,R
-  10,R,J
-   2,R
-   6,K,G
+   2,J,G
    5,R,Z
    1,R,J
    2,R
@@ -972,49 +1019,51 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J
    2,R
   14,R,D,X
-   5,R,J
-  18,R,Z
-  22,R,U,X
-   6,R
-  15,L,D,X
-  14,R,V
-  12,R,J
-   5,R
-   3,R,J
-   3,R
    1,R,J
-   9,R,G
-   3,R
-  16,R,D,X
-  15,R,C
-   7,R,G
-   1,R,J
-   2,K
-   1,L,J,G
-   1,L,K,G
-  10,L,J,G
-   7,L,U,X
-  30,R
-  15,U,X
-  24,L,J
    1,J
-   1,L,J
-   4,J
-  10,L,Z
-   9,R,J
-  15,R,D,X
-  35,R,J
-   5,R
-   6,R,D
-   1,L,D
-   1,J,G
-   4
-   5,R
    1,R,J
-   1,R
-  20,R,Z
+   3,R
+  15,R,Z
+  29,R,U,X
+  15,L,D,C
+  14,R,Z
+  12,R,J
+   9,R
+   1,R,J
+  10,R,D
+   1,G
+  21,R,Z
+   2,R,G
+   1,R,J
+   1,R,K
+   2,R,G
+   1,R,J
+   1,R,K
+   2,R,G
+   1,L,J
+   3,L,K
+   6,L,J,G
+   5,L,U,X
+  25,R
+   2
+   2,R
+   1
+  17,U,X
+  29,L,J
+   1,L
+   1,L,J
+   1
+   1,L
+   3
+  12,R,Z
+   3,R,J
+  15,R,D,X
+   9,R,J
+  23,R
+   4,R,D
+  22,R,Z
    2,R,J
-   5,R,Z
+   7,R,Z
    1,R,J
    6,R
    5,R,J
@@ -1026,83 +1075,79 @@ console load SecretSanta2024/2-Medium/bosssauce
   10,R,J,G
   15,R,D,X
    4,R
-   2,J
-   9,R,J
-  14,R,U,X
-   1,R,J,G
-   3,L,J
-   2,J
-   1,L,J
+  10,R,J
+   1,R
+   4
+   1,J
    2
-   1,R,K,G
+  15,U,X
    1,R,J,G
    1,K,G
+  10,R
+   1,L
    1,R
-   1
-   7,R
-#lmao
-   1,L,D
-   1,R
-   1,N
+   1,R,N
    1,S
    1,D,J
   34
-   3,L,J
+   3,L
 
 #lvl_intro3
-#-34f but -168 speed
-#   1,S
-#   1,D,J
-#  37
-#  14,L,D,X
-#   1,R,J
-#  17,R,D,X
-#
-  34
    1,S
    1,D,J
-  34
+  42
   14,L,D,X
    1,R,J
-   1,R
-   1,R,K,G
-   2,R,J,G
-   8,R,D,X
+   1,R,D,X
 
 #lvl_d-00
-   8,R,D,X
-   2,R,J
-   7,R
-   1,R,J
-  11,R,U,X
+   5,R,D,X
+   1,R,D,J
+  14,R
+   1,R,D,J
+   1,R,K,G
+   2,R
    9,R,J,G
-   9,R
+   5,R
+   2,R,J
+   5,R,D,X
+   2,R,J,G
+   1,J
+   3,R,J
+   4,R,K,G
+   6,R
+   1,R,J
+   2,R
   11,R,J
    8,R
-   1,R,J
-   8,R
+   7,R,J
+   5,J
+   8,R,D,X
   40
 
 #lvl_d-01
-  10,R
-   1,R,J,G
-  32,R,U,X,G
-   1,L
-   1,R,J,G
-   1,L,J
+   7,R,D,X
    1,J
-   1,L,J
-   9
-   4,L
-  37,R,U,Z,G
+   3,R
+   2
+  13,R,U,X
+  13,G
+  12,R,J
+   1,J
+  13,R,U,Z
+  13,G
+   8,R
+   1
   15,R,U,X
-  40,R,C
-  15,R,D,X
-  25,R
-   6,R,D
+  15,R,C
+  11,R
+   6
+  10,R
+  29,R,D,X
+  10,R
    5,R,J
    2,R
-  10,R,Z
+   9,R,Z
    1,R,J
    6,R
    2,R,J
@@ -1110,101 +1155,122 @@ console load SecretSanta2024/2-Medium/bosssauce
   40
 
 #lvl_d-02
-   1,R,J
-   5,R
-  28,R,D,X
-  34,R,J,G
-   1,L,J
-   3,R,J
-   6,R
-  14,R,U,X
-   2,R,J,G
-   2,R
-   1,R,J,G
+   3,R,D,J
+  15,R,D,X
    1,R
-   1,R,J,G
-   7,R
-  11,R,Z
+   1,R,D
+  14,R
+  14,R,U,Z
+  13,G
+  18,R,G
+   1,L
+   4,R
+   6
+  10,R
+  13,R,D,X
    1,R,J
-   8,R
-   2,R,J
+   3,R
   40
 
 #lvl_d-03
-  13,R,X
-   1,R,J,G
-  11,R
-   1,R,J
-  20,R,D,X
-   2,R,J
-  45,R,U,X,G
-  18,L,G
-   8,G
-  15,D,X
-  28,R,U,C
-  15,R,D,X
-   7,R
-  21,R,G
-   1,R
-  13,R,D
-  15,R,D,X
-  11,R,D,C
-   4,R,J
-   7,R
-  15,U,X
-   6,R
-   6
-  40,R
-  20,R,D,X
-  10,R,Z
-   1,R,J
    4,R
-#save (at least) 1f?
-  10,R,D,X
-  40
-
-#lvl_d-04
-   4,R,D,X
    1,R,J
-   3,R,K,G
+   3
+   5,R,D,X
    1,R,J,G
-   1,J
-   6,R,J,G
+   3,R
+   7
+   1,R
+   1,R,D,J
+   1,R
+  20,R,D,X
+   9,R,J
+  14,R,U,Z
+  13,G
+   8,R
+   1,L
+   1,R,J
+   3,J
+   1,R,J
+   3,J
+   1
+   1,R,J
+   3,R
+   6,R,D
+   3,R
+  13,G
+   2,R,G
+   1,R,J,G
+  12,R,G
+   1
+  11,L
+   5,L,D
+   4,D
+   1,L,D
+   1,L
+   1
+   6,R,Z
+   9,R,J
+  13,R,U,X
+  13,G
+   8,R
+   1,L
+  29,R
+  22,R,D,X
+   1,R,J
+   1,R
+  12,R,D,X
+   1,R,J
+  47,R
+   1,R,J
+  10,R,K,G
   15,R,D,X
    3,R,J
-  13,R,K,G
-  35,R,U,X,G
-  15,L,G
+   1,R,K,G
+  17,R,J,G
+  14,R,U,X
+   3,L
+  13,G
+   8,L
    1,R
-   6,L
-  47,R
-  15,R,X
-  14,L,D,C
+   8,L
+   1
+   1,L
+  43,R,D
+   2,R
+  16,R,C
+  14,L,D,X
    1,R,J
    5,R,D,X
-  12,R,G
-   9,R,J,G
+  13,G
+   8,R,J
    1,L,J
   14,R,J
   15,R,D,X
    8,R
-  10
-  15,L,D,X
-   5,L
-   5,X
-  20,L,D,G
-  12,R,D,G
-   1,L,D,G
-   3,R,D,G
+   1
+   9,D
+  19,L,D,X
+   5,C
+  13,G
+   9,L,D,G
+  16,R,D,G
    1,R
-   9,L,D
+
+   1,L,D
+   1,R
+   4,R,D
   15,R,Z
-  17,R,D
-  33,R,U,X,G
+  19,R,D
+   1,R
+  14,R,U,X
+  13,G
+   8,R
    1,L
-  54,R
+  50,R
   13,R,Z
-   2,R,J
+   1,R,J
+   1,R
   14,R,D,X
    1,R,J
   14,R,D,X
@@ -1218,86 +1284,94 @@ console load SecretSanta2024/2-Medium/bosssauce
    8,R,D,X
    1,R,J
    7,R
-   2,R,J
-   1,J
-   8,R,J
-   5,J
+   9,R,J
+   6,J
+   1,R,J
   13,U,X
-  23,L,G
-  38,R,G
-   4,R
-   2,R,D
-   4,D
-   2
-  15,R,Z
-  13
+  13,G
+  10,L,G
+  40,R,G
    1,R
-   2,R,D
-  45,R,Z
-  20,R,D,X
-  10,U,C
-  21,G
-   1,D
-   9,U,X
-  15,G
-   7,R,G
-   1,R
-  22,D
-  14,R,D
-   6,R
-   1
-  11,R
-   4
-   5,L,J
-   2,J
-  14,R,D,X
-   1,R,J
-   5,R,D,X
-  15,R,G
-   8,R,J,G
-   4,R,G
-  11,U,X
-  22,R,G
-   6,R
-  13
-  12,U,X
-  18,R
-  15,R,D,X
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
+   4,R,D
    3,R
-  10,R,D
-  27,R,X
-   4,Z
+   1,R,D
+   1,R
+  15,R,Z
+   1,R
+  15,R,X
+  15,R
+  10
+  27,R
+   7,R,U,X
+   1,J
+  11
+  13,G
+   1,L
+   1
+   5,R
+   1
+   1,R
+  17,R,D
+  15,R,X
+   2
+   4,R
    1,R,J
-   6,R
+   4,J
+  14,L,D,X
+   1,R,J
+   9,R,D,X
+  13,G
+   3,R,G
+   7,R,J,G
    4,R,J
-   5,R,X
-   1,R,J,G
-  14,R
+  12,U,X
+  13,G
+   9,R
+   8,R,U,X
+  13,G
+   3,R
+   6,L
+   1,R
+   2
+   1,J
+   1,L
+  17,R
+  22,R,D,X
+   9,R
+   9,R,D
+   1,D
+   1,R,D
+   4,R,J,G
+   1,R
+   7,R,D,X
+   1,R,J
+   7,R
+   3,R,J
+   5,R,D,X
+   3,R,J,G
+  11,R
+   3
    3,R,J
   40
 
 #lvl_d-06
-   4,R,J
-   9,R
-  14,R,J
-  14,R,U,X
+   3,R,J
+   4,R
+  15,R,J,G
+  14,R,U,Z
   29,R,C
-  11,R,J
-  14,R,Z
+  10,R,J
+  13,R,Z
    1,R,J
-  11,R,D,X
-   4,R,J
-   5,R
+   1,R
+  12,R,D,X
+   3,R,J
+   3,R
    2,R,J
-  10,R
-  19,R,D
+  27,R,D
+   1,D
+   2,R,D
+   1,R
    1,R,J
   14,R,Z
    7,R,J
@@ -1305,80 +1379,75 @@ console load SecretSanta2024/2-Medium/bosssauce
   22,R,J
   26,R,U,X
   27,L,U,C
-  10,R,Z
-   6,R,J
+  11,R,Z
+   5,R,J
    1,R
-   1,R,J
-   4,R
-   1,R,J
-   9,R
-   1,R,D
-   5,D
+   2,R,J
+  14,R
    1
-   1,R
-   1,D
-   1,R
-   1,R,D
-  12,R,Z
+   6,D
+   3
+  14,R,Z
    1,R,J
-   6,R
-   8,R,J
-  10,R,X
+  14,R,D,X
+   1,R,J
+   9,R,U,X
    1,R,J,G
    5,R
   40
 
 #lvl_d-07
    8,R
+   3,R,J
+  15,R,D,X
+   2,R,J
+  10,J
+  15,R,U,X
+  37,D,C
+  14,R,D,X
+  17,R,J
+   9,R
+  18,U,X
+  15,R,Z
+   2,G
+Repeat, 4
+   3,G
+   3,L,G
+EndRepeat
+   2,G
+   1,U,G
+   3,J
+   7
+   7,L
+   5,R,Z
    1,R,J
    3,R
+   6,R,J
   15,R,D,X
-  12,R,J
-  15,R,U,X
-  33,D,C
-  15,R,D,X
-   1,R,D,J
-  10,J
-   1,L,K,G
-   1,L,J,G
-  23,L,D,G
-   6,G
-  35,R,J
-   1,J
-  26,R,U,Z
-   1
-   7,L,V
-   1,R,J
-   6,R
+  10,R
    4,R,J
-  24,R,D,X
-   5,R,J
-   5,R
+   7,R
    3,R,J
-   1,R
-   5
-   5,R
-   1,R,J,G
+   8,R
+   1,J,G
   15,R,J
   14,U,X
    6,R,J
-  15,L,X
+  19,L,X
    1,L,J
-   6,L
-  11,L,U,X
-  19,L,G
-#save this 1f?
+  13,L,U,X
+  13,G
+   4,L
   63,R,X
-  15,D,C,G
-  25,R,G
-   1,R,D,G
+  15,D,C
+  23,R,G
+   3,R,D,G
    1,L
-  56,R
-   3,R,D
-  14,R,U,X
-   2,R,J,G
+  58,R,D
+  15,R,U,X
+   1,R,J,G
    7,R
-   4,Z
+   4,L,Z
    1,R,J
    6,R
    2,R,J
@@ -1386,100 +1455,120 @@ console load SecretSanta2024/2-Medium/bosssauce
    3,R
    5,R,D,X
    1,R,J,G
-   3,R
-   2
    5,R
+   2,R,J
+   3,R
   40
 
 #lvl_d-08
-   2,R
+   1
+   1,R
    2,R,J
    2,R
    5,R,D,X
    1,R,J,G
-  16,R
+  12,R
    1,R,J
-  37,R,U,X,G
+   7,R
+   7,R,U,X
+  15,G
+   9,R,G
+   3,R,J,G
+   2,L,K,G
+   8,R,J,G
+   4,R,G
    1,G
-   4,R,J,G
-   1,R,J
-   8,R,U,X
-  28,R,G
-  36,L,D,X
-  15,R,C,G
-  10,G
-  15,L,G
-  22,U,X,G
+   1,J,G
+   1,G
+   1,D,J
+   2,J,G
+  12,R,J
+  23,L,D,X
+   3,G
+  15,D,X
+  13,G
+  18,R,J,G
+  10
+  22,U,X
   11,R,Z
    1,R,J
    1,L,J
   35,R,J
-  18,R,U,X
-   1,L,K,G
-   1,R,K
-   8,L,K
-   2,L
+  17,R,U,X
+   1,L
    1,L,J,G
-  11,L,K,G
-   4,L
-   4,J,G
-   6,L
+   2,R,J
+  12,L,J
+  15,L,K,G
+   1,L,J,G
+   4,L,K,G
+   5,L
+   1,L,J
+   9,L
+   4,Z
+   1,R,J
    1,R
-   1,J
-   5,R,J
-  10,L,D,X
-  38,R,J,G
-   1,R,D
-  10,U,X,G
-  25,R
-  15,D,X
-   4,R,D
-  21,R,Z
-  25,R,X
-  79,R,C
+   4,R,J
+   2,R
+   9,R,J
+  13,G
+   1,R,J
+   6,R
+   1,R,J
+  14,R
+   8,R,D
+  18,R,U,Z
+  10,R,C
+  13,G
+  11,R,G
+   1,L
+  73,R,D
+   2,D
   14,R,Z
-   6,R,J
+   5,R,J
    5,R,K,G
    2,R
    9,R,D,X
    1,R,J,G
-   8,R
-  40
+   7,R
+  41
 
 #lvl_d-09
    3,R
    1,R,J
-   1
-   8,R
-  14,R,X
-  13,R,K,G
+  14,R
+   2,R,J
+   3,R
+  13,R,J,G
   51,R,X
   15,D,C
-  13,L,Z
-   2,R,J
-  39,R,D,X,G
-   4,R,J,G
-  31,R,G
+  14,L,Z
+   1,R,J
+   8,R,D,X
+  13,G
+  19,R,D,G
+   3,R,J,G
+  30,R,G
   20,R,U,X
    1,J,G
    2,R,J,G
    1,L,J
    7,R,J
    2,R
-  15,R,Z
-  40,R,D
-  11,D
-   1
   12,R,Z
-   4,R,J
-   5,R,D,X
-   6,R,J,G
-   7,R
-   1
-   7,R
-   3,R,J
-   2,R
+   6
+  50,R,D
+  10,R,Z
+   2,R,J
+   2,J
+   7,R,K,G
    6,R,D,X
+   1,R,J,G
+   2,R
+   1
+  13,R
+   3,R,D,J
+   5,R,D,X
    1,R,J,G
    7,R
   40
@@ -1488,128 +1577,133 @@ console load SecretSanta2024/2-Medium/bosssauce
    4,R
    2,R,J
    8,R
-  25,R,J
-   1,R
-   1,R,J
-   3,R
-  15,R,Z,G
-   4,R,J,G
+  10,R,J
+   5,R
+   4,R,J
+   5,R
+  14,R,Z
+   4,J,G
    7,R
-  11,R,D,X
+  10,R,Z
    1,R,J
-   9,R,K,G
-  22,R
+   8,R,K,G
+   5,R
+   3,R,J
+  15,R
    3
    1,R
    4
-   5,R,Z
-  10,R,Z
-   9,R
-   5,L,D,X
-  22,L,G
+  25,R,Z
+   6,L,D,X
+  13,G
+   6,L,G
   35,R,X
-  11,R,J,G
-   1,R
-  10,U,X
+  13,R,J,G
+   1,L,J,G
+   2,J,G
+   1,K,G
+   1,J,G
+  17,L,J,G
+   1,J,G
+   1,K,G
+   1,J,G
+  10,R,J,G
    5,R,J
-  24,J,G
+  15,R,U,X
+  38,R
+   1,R,D
    1,R
-   1,L
-  13,L,K,G
-  10,L,D,X
-  14,R,J
-  16,R,D
-  11,D
-  17,R
+   1,R,D
+   1,R
+  18
   18,R,U,X
-   5
-   2,R
-   3,R,G
-  11,L,K
-  44,L
+   9
+   1,G
+   7,L,J
+   9,L
+   1,L,J
+  32,L
   14,L,Z
    1,R,J
    5,R,D,X
-  13,R,G
-  21,R,J,G
+  13,G
+  19,R,J,G
    1,R
   14,R,U,X
-  21,R,G
-  21,R
-   9,L,D
-  14,L,Z
-   7,L
-   4,R,Z
+  13,G
+  41,R,J,G
+  14,R,U,X
+  13,G
+  16,R,J,G
+   4,R,G
+   1,L
+   6,R
+   6
+  10,R
+  24,R,D,X
+   9,R
+   1,R,D
+   1,R
+   3,D
+   1,R
+   6,L,Z
    1,R,J
    6,R
    5,R,J
-  21,R,J,G
-   1,L
-  18,R
-  15,R,D,X
-  20,R
-   4,R,D
-   4,R
-   1,R,D
-#find better setup?
-   8,L,Z
-   1,R,J
-   6,R
-   1,R,J
-   9,R,U,X
-   7,R,J,G
-   7,R
-   1,R,J
-   1,R
+   6,R,K,G
   17,R,D,X
+   1,R,J
   40
 
 #lvl_d-11
    1,R,J
-   1,J
-   8,R
+   9,R
    1,R,J
    5,R
-   1,R,J
-   4,R
-   1,R,J
+   2,R,J
    2,R
+   2,R,J
+   3,R
   12,R,U,X
    1,R,J,G
-  10,R
-  12,R,J
+   9,R
+   2,R,J
   15,R,D,X
+   5,R,D,J
+   6,R
    1,N
    1,S
    1,D,J
   34
-   2,R,D
-   2,R,J
-   2,R
-  10,R,U,X
+  12,R,U,Z
    6,R,J,G
 
 #lvl_a-01
-   4,R,J,G
-   2,R,J
-   4,R
-   3
-   8,J
-   1,R,J
-  12,U,X
-   2,J
-   1,R,K,G
-  11,R,J,G
-   7,R
-   5,R,J
-   2,R
-  10,R,Z
-   1,R,J
-   7,R
    4,R,J
-  15,R,D,X
-  22,R
+   5,R
+   1,R,J
+   2,R
+   8,L,J
+  14,U,X
+   1,R
+   1,J,G
+   1,L
+   1,R,K,G
+   2,R,J,G
    3,R,J
+   1,J
+   1,R,K,G
+   1,R,J,G
+   2,R
+   1
+   4,R
+   7,R,J
+  14,R,Z
+   1,R,J
+   6,R
+   2,R,J
+  20,R,D,X
+  15,R
 Repeat, 7
    1,R,J
   14,R,D,X
@@ -1620,7 +1714,7 @@ EndRepeat
    1,R,J
   14,R
    1,R,J
-  11,R
+  10,R
   14,R,D,X
    1,S
    1,D,J
@@ -1634,282 +1728,348 @@ EndRepeat
    1,D,J
   34
    2,R,J
-  16,R
+   7,R
+   2,R,J
+   8,R
   37,D,X
 
 #lvl_e-00
-   8,D
+   8
    1,S
    1,D,J
    1,O
   68
    4,Z
    1,R,J
-   6,R
+   1,J
+   3
+   1,J
    1
-   8,R,J
-  14,R,D,X
-  15,R,J
-  14,R,D,X
-   9,R,J
+   1,J
+   3
+   4,Z
+   1,R,J
+   6,R
+   1,R,J
+   3,R,K,G
+  18,R,J,G
+  15,R,D,X
+   2,R
+   2,R,J
    5,R
-   5,R,J
+   1,R,J
+   7,R
   14,R,U,X
    1,J,G
-   8,R
-  14,R,D,X
-   5,R,J
-  15,R,D,X
-   6,R
-  17,R,J
-  13,R,Z
-   1,R,J,G
-  29,R,D
-   4,Z
-   8,R,J
+   1,R
+   1
    4,R
-   2,R,J
+   1,L
+   1,J
+  14,R,Z
+   5,R,J
+  20,R,D,X
+   1,R,J
+   1,J
+  15,R,J
+  13,R,X
+   1,R,J,G
+  19,R,D
+   2,R
+   6,R,D
+   1,R
+   1,R,D
+   6,Z
+   7,R,J
+   4,R
+   2,R,D,J
   17,R,D,X
   40
 
-#lvl_e-01d
-#Notes about teleport dash
+#lvl_e-01
    6,R,D
    1,R,J
   13,R,D,X
    6,R,J
-   7,R
-   1
+   6,R
+  18
    1,R
    1
-  21,L
-   1
-   1,L
-   9,R
-   3
-   3,R
-  11,R,J
-  13,R
-   2,R,U,X
-  17,R
-   4,Z
+   4,J
    1,R,J
-   7,R
+   1
+   1,R
+   4
+   6,R
+   5,R,J
+   1
+  10,R,K
+  11,R
+   5,R,U,X
+   9,R
    3,R,J
-   6,R,U,X
-   1,R,J,G
-  10,R
-   2,R,J
+   1
+   1,R
+   1,J
+   5,R,D,X
+   1,R,J
+   6,R
+   1,R,D,J
+   3,R,J
+   2,R
+   1,R,K,G
+   9,R
+   3,R,J
   40
 
 #lvl_e-02
    7,R,J
   15,R,U,X
-   7,R
-  20,D
-   4,R,D
-  11,R,X
-  11,R,C
-  10,U,X
-  22,R,J
-  19,R,U,X
-   2,U,C
-  16,R
-  21,R,X
+   9,R
+   5
+   1,R,D
+   6,D
+   3,L,D
+   3,R,D
+   3,R
+  15,R,X
+   7,R,C
+   1
+   1,R
+   1
+  11,U,Z
+  23,R,J
+  19,R,U,Z
+   5,U,X
+  11,R
+   5,R,X
    1,R,J
-   4,Z
-   5,R,J
-  10,R,K,G
+  16,R,D,X
+   3,R,J
+   6,R,X
+   1,R,J,G
+   8,R,K,G
   40
 
 #lvl_e-03
    4,R,J
   15,R,D,X
    8,R,J
-  17,R,G
-  18,L,U,X
-  12,R,C
-   5,R,J
-  10,J
-  15,R,X
-  14,L
-  12,L,D,X
-   2,D
-  24,L,D,G
-   3,G
-   2,D,G
-   3,G
+  10,R
+   1,G
+   4,L,J
+   8,L
+   5,R,X
+   1,J
+  10,L,Z
+   1,R,J
+   8,R
+   4,R,J
+   4,J
+   1,R,J
+   1,J
+   2
+  18,R,D,X
+   5,L,D,C
+  12,L,D
+   1,G
+   3,L,D
+   1,D
+   6,G
+   8,D,G
+   8,G
+   1
+   1,J
+   5,K,G
    1,J,G
-   1,K,G
-   1,J,G
-   5
-   1,K,G
-   6,R,U,X
-  25,R
-   6,R,J
+   5,R,U,X
+  24,R
+   2,R,D
+   2,R,J
   40
 
 #lvl_e-04
-   6,R
-   1,R,J
-   2,R
-   5,R,D
-   2,R,J
-   5,R
    4,R,J
-   6,U,X
-  10,R,J
-  15,R
-  14,R,U,X
-  15,R,J
-  10,R,C
-   2,R,G
-  14,R,G
-   1,R
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-  14,R,X
-   1,R
+   3,R
+   1
+   3,R
+   3,R,D
+   2,R
    2,R,J
-  15,R,D,X
-  10,R,D
+   1,J
+   5,R
+  10,R,J
+  18,R,U,X
+   5,U,C
+  12,R,X
+   1,G
+   5
+   1,G
+   2
+  10,G
+   1
+   1,R,J,G
+   1,R,K,G
+   2,R,J,G
+   1,K,G
+   5,R,Z
+   6
+   4,R
+  18,R,D
    1,R,D,J
    4,R
-  10,R,J
-  14,R
+   9,R,J
+  13,R
    2,R,J
-   3,R
-   1,J,G
-   2,R,J
+   1,R
+   3,R,K,G
    2,R
-  40
+  40,J
 
 #lvl_e-05
-  16,R
-   3,R,J
-  15,R,U,X
+   4,R,J
+   1,R
+   1,R,J
+   8,R
+   4,R,J
+  12,R,U,X
   15,L,U,C
   15,L,U,X
-  10,L,G
-  15,U,G
-   5,G
-   1,J,G
+   8
+   1,L
+   6,G
+   6,U,G
+   9,G
+   1
+   1,J
    1,K,G
-   1,J,G
-  13,R,J,X
-   5,R,J
-   3,J
-   7
+  17,R,K,X
+   4,K
+   1,R,K
+   1,K
+   4
    5,R,D,X
-   1
-   1,R
-   1
-   2,R
+   4
+   2,D
    9,L,Z
    1,R,J
-   7,R
-   7,R,J
-   5,R,J,X
-   4,R,J
-   4,R
-   6,R,J
    6,R
-   5,L,X
-  13,D
-  15,L,D
+   8,R,J
+   9,R,J,X
+   9,R
+   1,R,J
+   8,R
+   5,L,C
+   7,L
+   3
+  15,D
    5,R,D,X
-  12,D
-   7,R,U,X
-   6
-  13,R
-   1
-  18,R,D
-   4,Z
-  11,R,J
+   8,D
+   2
+   3,R,D
+   5,R,U,C
+  38,R,D
+   1,R,J
+   9,R,D,X
+   5,R,J
   40
 
 #lvl_e-06
-  11,R,J
-  13,U,X
-  10,R,J
-   2,R
-  13,R,X,G
-   3
-  23,U,G
-   1,G
-   5,U,G
-   4,J,G
-   5,R,J
-   7,R,K
-   4,R
-   5,R,C
-  15,R,D,X
-   5,R,G
-   1,K
-   3,L
-   4
-   2,J
-  10
-  10,R,Z
-   1,L,J
+   9,R,J
+   3,J
+  15,U,Z
+   4,J
+   5,R,J,X
+   9,R,J
+   4,J
+   2,R,J
    1,J
-   7,L,J
-   6,R,D,J,X
-   9,R
-  26,R,D,C
-  17,R
+  14,U,Z
+   7,J
+   5,R
+   9,R,D,X
+  12,R,C
+   1,G
+   1,J
+   2,L
+   1
+   1,L
+   1
+   2,J
+  12
+  10,R,Z
+   8,L,J
+   5,R,D,X
+  10,R
+  24,R,D,X
+  18,R
   40
 
 #lvl_e-07
-  10,R
+  11,R
   11,L,Z
-   1,R,J
-   8,R
-  20,R,J
+   4,R,J
+   4,R
+  18,R,D,J
   18,U,X
    6,R,D,J,C
    9,J
-   9,R,J
-  11,L,D,X
-   1,R,J
-  10,R
-  31,R,D,X
+   2,R,J
+   4,R
+   3
    1,R
-  19,R,G
+  10,L,D,X
+   1,R,J
+   9,R
+  21,R,D,X
+  11,R,D
+   1,R,G
+   3
+  12,G
+   2,D,G
+   1
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   6,R,K,G
-  19,R,U,X
-  14,L,U,C
-  10,U,X
-  14,L,C
+   7,R,K,G
+  18,R,U,X
+   5,L,U,C
+   5
+   4,L
+   5,U,X
+   5,L
+  14,L,X
    1,R,J
-   7,R
+   4,R
+   1
+   1,R
+   1
   12,L,D,X
    1,R,J
-   2,J
-   5
+   4,J
+   3
+   2,R
+   1,J
+   7,R,J
+   1,R
+  25,R,D,X
    1,R,J
-   3,J
-   8,R,J
-  15,R,D,X
-  14,R
-   3,R,J
-  40
+  40,J
 
 #lvl_e-08
-   8,R,J
-  20,R,D,G
-   1,R
+   9,J
+   7
+   1,G
+   7
+   3,U,G
+   1
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   8,R
-   9,R,U,J,X
-   7,L,D,C
+   1,R,K,G
+   9,R
+   5,R,U,X
+   6,L,D,C
    1,R,J
    7,R
    1,R,J
@@ -1919,15 +2079,17 @@ EndRepeat
    1,S
    1,D,J
   34
-   9,R,D,X
+   8,R,D,X
    1,R,J
    7,R
-Repeat, 3
    1,R,J
   14,R,D,X
-EndRepeat
    1,R,J
- 132,D,X
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+ 131,D,X
    1,S
    1,D,J
   34
@@ -1947,4 +2109,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:29.348(15844)
+ChapterTime: 4:15.527(15031)
