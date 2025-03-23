@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 13070
+RecordCount: 13547
 AnalogMode,Ignore
 Set,BounceHelper.JellyfishDash,A
 console load SecretSanta2024/1-Easy/Quinnigan
@@ -330,23 +330,29 @@ console clear_warps
    2,L,G
    1,R
    5,L
-   3,J
-   3
-  14,U,X
-   1,L,J
-  12,L
-   1,N
+   1,R,J
+   5,L,J
+  12,U,X
+   6,L,J
+   1,K,G
+   4,L
+   4
+   1,R
+   1,L
+   1,R,N
    1,S
    1,D,J
   34
-   4,R,J
-  24,R,D,X
-   3,R
-   1,D
+   2,R
+   1,R,J
+  15,D,X
+   7,R,D
    4,Z
    1,R,J
-  10,R
-  18,D,X
+   1,R
+   1,R,J
+  11,R
+  17,D,X
   13,G
   30,D,G
    4,L,D,G
@@ -418,8 +424,9 @@ console clear_warps
    1,R,J,G
   11,R
    6,R,J
-   7,R
-   5,R,N
+   2,R
+   7
+   4,R,N
    1,U,J
   26
 
@@ -790,13 +797,14 @@ console clear_warps
    7,J
   10,R,X
    9,R,J
-   1,R
+   1
   12,R,U,X
-   1,J,G
-   4,J
-   6,R,J,G
-  13,R
-   5,X
+   1,R,J,G
+  10,J
+   1,R,K,G
+   4,R
+   6
+   4,N
    1,U
    1,J,F,0
   26
@@ -804,7 +812,7 @@ console clear_warps
 #lvl_4reef1 (1)
    3
 #spinner cycle
-   2
+   1
 #
    4,Z
    1,R,J
@@ -940,8 +948,9 @@ EndStunPause
 #lvl_reef-rift5
    1,R,J,G
    7,R
+   3
    4,Z
-   7,R,J
+   4,R,J
    3,R,K,G
    1,K
    7,R
@@ -1094,6 +1103,7 @@ EndStunPause
    1,R,J
    2,R
   40
+
 
 #lvl_reef-rift9
    4,R
@@ -1458,9 +1468,9 @@ EndStunPause
   27,L,D,X
    5
   10,R,D,C
-   8,L,J
+   9,L,J
   13,L
-   5,X
+   4,N
    1,D
    1,F,180
    1,D,J
@@ -1581,8 +1591,8 @@ EndStunPause
    1,R,J
    1,L,K,G
    2,L,J,G
-  13,L
-   5,X
+  14,L
+   4,X
    1,D
    1,F,180
    1,D,J
@@ -1668,13 +1678,14 @@ EndStunPause
    1,R,J
   10,R
   25,R,J
-  15,R,D
-  50,D
-   6,L,D
-   7
-   5,X
-  34,R
-  16,R,J
+  19,R,D
+  47,D
+   3
+  10,L,D,X
+   8,R,J
+   9,R
+  14,R,X
+  15,R,J
   15,U,Z
   11,J
    3
@@ -1699,7 +1710,7 @@ EndStunPause
    2,R,J
    1,R,G
    5,K,G
-   7
+   7,R
    5,X
    1,D,J
   26
@@ -1767,9 +1778,8 @@ EndStunPause
    3,L,J,G
    7,L
    1,L,J,G
-  10,L
-   1,N
-   4
+  11,L
+   4,N
    1,U
    1,J,F,0
   26
@@ -1951,13 +1961,14 @@ EndStunPause
    7,J
   10,R,X
    9,R,J
-   1,R
+   1
   12,R,U,X
-   1,J,G
-   4,J
-   6,R,J,G
-  13,R
-   5,X
+   1,R,J,G
+  10,J
+   1,R,K,G
+   4,R
+   6
+   4,N
    1,U,J
   26
 
@@ -1995,4 +2006,4 @@ EndStunPause
   20,L,D,J
   91,U,X
 
-ChapterTime: 4:19.233(15249)
+ChapterTime: 4:18.995(15235)
