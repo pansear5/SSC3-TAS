@@ -1,4 +1,4 @@
-RecordCount: 7856
+RecordCount: 11670
 
 console wipedebug
 console load SecretSanta2024/3-Hard/maya
@@ -39,156 +39,96 @@ console load SecretSanta2024/3-Hard/maya
   40
 
 #lvl_ultras
-#   5,R,U,X
-#   1,R,J,G
-#   1,R,K,G
-#invoke,Player.MoveV,.125
-#   6,R
-#   1,S
-#  10,J
-#   1,R,J
-#   1,R
-#   1,R,J
-#  15,R,D,X
-#   2,R
-# 200,R,J
    4,R,U,X
-   2,R,J,G
-   1,R,K,G
-   2,R,J,G
-  15,R,D,X
-   3,R
-#------
-#   1,R,J
-#   5,R
-#   2,R,J
-#   1,R
-#   1,R,J
-#  12,R
-#   5,R,U,X
-#   1,R,J,G
-#   5,R
-#   1,S,N
-#  10,J
-#   1,R,J
-#   2,R
-#   1,R,J
-#   5,R,D,X
-#  40
-#  10,R,D,X
-#   2
-#   1,R
-#   6,R,D,X
-#   1,R,J,G
-#   5,R
-#   1,S,N
-#  10,J
-#   3,R,J
-#   1,R
-#   1,R,J
-#  15,R,U,X
-#  10,R,U
-#   1,R,J
-#   7,R
-#  15,R,D,X
-#   6,R
-#  15,R,U,X
-#   5,R
-#   8,R,U
-#   6,U
-#   6,R,D,X
-#  40
-#   9,R,D,X
-#  15,R,U,C
-# 200,U
-#------
-  13,R,J
-  14,R,D,X
    1,R,J,G
-   2,R,K,G
-   5,R,J,G
+   8,R
+   1,R,K
+   7,R
+   1,R,J
+  15,R,D,X
+  20,R
   40
 
 #lvl_minor difficulty spike
-   2,R,J
-   1,R
-   2,R,J,G
-   2,R
+   1,R,K
+   4,R
   14,R,D,X
    1,R,J,G
-   6,R
+   5,R
    1,S,N
   10,J
    1,R,J
-   1,R
+   2,R
    1,R,J
   15,R,U,X
   10,R,U
+   1,R
    1,R,J
-  10,R
-  15,R,D,Z
-   4,R,D
+   8,R,U,X
+   1,L,J,G
+   6,R,J
+   5,R
+   3,R,K
+  29,R
+  15,R,D,X
    4,R
    1,R,J
-   2,R
-  15,R,U,Z
-   6,R,U
-  13,R
-   6,R,D,X
   40
 
 #lvl_cornerboost
-   9,R,D,X
-  15,R,U,C
-  64,R,U
+  15,R,U,Z
+  60,R,U
+   3,U
   15,L,U
   40
 
 #lvl_transportation
-  42,U
+   2,U
+   9,L,U
+  31,R,U
   40
 
 #lvl_don't worry about it
-  28,L,U
-  11,L,Z
-  11,R,J
-  14,R,Z
+   8,R,U
+   5,R
+   9,G
+   1,J,G
+   8,L
+   6
+  10,R,Z
    1,R,J
-   4,R
-  15,R,D,X
-   4,R,D
-   3,R
-   1,R,J
-  15,R,U,X
-   4,R,J
-   2,L
-   1,L,J
-  15,L,D,X
-   3,L,D
-   1,L,J
-  15,L,U,X
-   5,L,U
-   1,L,J
-  17,L,D,X
-  15,R,U,C
-   5,R,U
-   1,R,J
-  15,R,D,X
-   4,R,D
-   4,R,J
-  33,L
-  41
-   2,L
-  14,U,X
-   3,L,J
-  15,R,J
-   3,R,K,G
-   3,L,K
+   2,R,K,G
    1,R,J,G
    1,R,K,G
-   9,R
-   2,R,J
-  15,U,X
+   1,R
+  15,R,U,X
+   4,R,U
+   5,R,J
+   2,J
+   1,R,K,G
+   2,L
+   1,L,J
+   8,L
+   2,L,K
+   2,L
+   1
+   2,L
+   2,L,J
+  15,L,D,Z
+   1,D
+   1,L,D
+   1,L,J
+   6,L
+  15,R,U,X
+   5,R,U
+   2,R,U,J
+  15,R,D,X
+   3,R,D
+   3,R,J
+  64,L
+  11
+  15,R,U,X
+  16,U
   40
 
 #lvl_goodvibes
@@ -196,53 +136,65 @@ console load SecretSanta2024/3-Hard/maya
    1,L,J
    5,L,K,G
    2,L,J,G
-  12,L
+   1
+   6,L
+   2,L,K
+   3,L
    1,L,J
    4,X
    4,L,D,X
    1,R,J,G
+   2
+   4,L
+   1,L,K
+   9,L
    4
-   4,L,J
-   3,L
-   8,U
-  16,L,U
-  13,R,Z
-   2,R,J
-  18,R,U,X
-  11,R,V
+   7,U
+   7,L,U
+  10,R,Z
+   4,R,J
+   1,J
+  18,R,U,Z
+   1
+  10,R,X
    1,R,J
    1,R,K,G
-   2,R,J,G
-   1,R,K,G
-  15,R,U,Z
+   1,R,J,G
    1,R
+   1,R,K,G
+  18,R,U,Z
+   2,J
    1,R,J
   15,R,D,X
-   4,R,D
-   2,R,J
-   4,R
-   2
-   2,L
+   2,R,D
+   8,R,J
+   1,L
   15,L,U,Z
-   2,L
+   1,L
    1,L,J
   15,L,D,X
    1,L,J
-   5,L,U,X
+   6,L,U,X
    1,L,J,G
-   1,L,K,G
+   2,L,K,G
   11,L
    3,L,J
   15,L,D,X
    5,L,D
    1,L,J
-  12,L
+   5,L
   15,L,U,X
-  43,L
-  24
-   2,U
+  30,L
+   5
+   4,L
    1
-  21,U
+   1,L
+  33
+   2,U
+   2
+  10,U
+   1
+   4,U
    2,R,U
   10,L,U
   40
@@ -257,175 +209,166 @@ console load SecretSanta2024/3-Hard/maya
 
 #lvl_most readable maya gameplay
   46,L,U
-  27,U
+  26,U
+   1,L,U
   10,L,U,X
    5,L,J
   15,L,U,X
+   3,L
    1,L,J
-   6,L
-   8,L,D,X
-   1,L,J,G
-   4,L,K,G
-   1,L
-   1,L,J,G
-   1,L,K,G
-   1,L
-  37,L,J,G
-   1
-  14,L,D,X
+  11,L,D,X
    4,L,J,G
-   9,L
-   9,L,J
-   5,L
-   6,L,J
-  14,L,Z
-   4,L,J
-   1,L,K,G
-   1,J,G
-   4,L
-  11
-  14,R,Z
-   7,R,J
-  15,R,U,X
-   3,U
-   3,R,U
-   2,R,J
-   7,R
-  10,R,U,X
-   1,R,J
-   1,R,K,G
-   1,R,J,G
-   1
-   1,R,K,G
-   1,R,J,G
-   2,J
-  15,R,U,X
-   1,R
-   5,U
-   3
-   2,R
-  10,R,U,X
-   1,R,J
-   4,R,K,G
-   2,R
-  14,R,U,X
-   1,J,G
-  15,R,U,X
-  29,R,U
-   1,R
-  97,R,J
-   2,R,U
-  14,R,X
-   7,J,G
-   1,K,G
-   7
-  20,L,U
-
-#lvl_teleport
- 169
-
-#lvl_the voices are getting louder
-  13,R,U,Z
-   2,L,J
-  15,L,D,X
-   3,L
-   1,L,J
-  15,L,U,X
-   3,L
-   1,L,J
-   4,L
-   9,L,U,X
-   1,L,J,G
    2,L,K,G
    1,L,J,G
-   1,L,K,G
-   1,L
-  18,L,U,X
-  15,L,D,C
-   1,L
-  15,L,D,X
-   1,L,D
-   2,L,J
-  15,L,D,X
-   2,L,D
-   6,L,J
-  12,L,Z
-   1,L,J,G
-   1,L,K,G
-   1,L
-   6,L,D,X
-   1,L,J,G
-   2,L
-   4,L,K,G
-   6,L
+  12,L,K,G
+   5,L
    1,L,K
-   2,L
-   3,L,J
-   6,L,U,X
-   2,L,J,G
-   1,L,K,G
+  21,L
+  15,L,D,X
    1,L,J,G
-   5,L
-   1,S,N
-  10,J
-   1,L,J
-   2,L
-   1,L
-   1,L,J
-   1,L
-   7,L,D,X
-   1,L,J,G
-   2,L,K,G
-   1,L,J,G
-   1,L,K,G
-   5,L
-   1,S,N
-  10,J
-   1,L,J
-   8,L
+   3
+   4,L
    5,L,J
+   5,L,X
+   1,L,J,G
+   1,L,K,G
    7,L
    1,L,J
+   7,J
+   4
+  14,R,U,X
+   1,R,J
+   2,R,K,G
+   1,R,J,G
+   4,R,K,G
+  15,R,U,X
+   3
+  10,R,U
+  10,R,U,X
+   1,R,J
+   1,R,K,G
+   2,R,J,G
+   1,K,G
+   2
+  17,R,U,X
+   1,R,J,G
+  15,R,U,X
+  29,R,U,K
+   2,R,K
+  12,R,J
+   5,R
+  10,R,K
+  62,R
+   5,R,U
+   1,R
+  14,R,X
+   2,R,J,G
+   1,K,G
+   3
+   3,R
+   1,L
+   9
+   2,L
+   1,U
+   2,L,U
+   1,U
+   5,L,U
+  40
+
+#lvl_teleport
+ 129
+
+#lvl_the voices are getting louder
+  10,R,U,Z
+   5,L,J
   15,L,D,X
+   1,L
+   1,L,J
+  15,L,U,X
+   4,L
+   1,L,J
+   2,L
+   8,L,U,Z
+   1,L,J,G
+   1,L,K,G
+   1,L
+   1,L,J,G
+   1,L,K,G
+   2,L
+  18,L,U,X
   15,L,D,C
-  34,L
-  32,L,D
-   9,R,D
+   1,L,D
+  15,L,D,X
+   1,L
+   2,L,J
+  15,L,D,X
+   5,L
+   4,L,J
+  13,L,U,X
+   1,L,J,G
+   2,L,K,G
+   1,L,J,G
+   6,L,D,X
+   5,L,J,G
+   5,L
+   1,L,K
+   3,L
+   1,L,J
+   8,L,U,Z
+   1,L,J,G
+   2,L,K,G
+   1,L,J,G
+   5,L,K,G
+  15,L,U,Z
+   1,L,J
+  11,L,U,X
+   1,L,J,G
+   2,L,K,G
+   1,L,J,G
+   1,L,K,G
+  13,L,U
+  15,L,D,Z
+  32,L
+  43,L,D
+   8,R,D
   40
 
 #lvl_transition2
-  17,R,D
-  16,D
+  18,R,D
+  15,D
    7,L,D
    8,D
   40
 
 #lvl_suffer
-   7,D
+   1
+   3,D
+   3
    4,X
   11,D,X
-  14,R,Z
+  10,R,Z
    1,R,J
-   2
+   4,R
    9,R,Z
    1,R,J,G
    2,R,K,G
    1,R,J,G
-   1,R,K,G
-  15,R,D,X
-   7,R,D
-   1,R,D,J
-  10,R
-   1
-  15,R,U,Z
-   1,J
-  15,R,D,X
-   7,R
-   2,R,J
-   1,R
-   8,R,U,X
-   1,R,J,G
    2,R,K,G
+  15,R,D,X
+   6,R,D
+   1,R,D,J
+   5,R
+   3
+   2,R
+  15,R,U,Z
+   3,J
+  15,R,D,X
+   4,R,D
+   2,R,J
+   9,R,U,X
+   1,R,J,G
+   1,R,K,G
+   1,R
    1,R,J,G
    1,R,K,G
    6,R
@@ -437,38 +380,40 @@ console load SecretSanta2024/3-Hard/maya
    9,R,D,X
    1,R,J,G
    2,R,K,G
-   3,R,J,G
-   8,L
-  10,L,D,X
-   3,L,J,G
-  16,L
-   6,L,D
-   4,L,J
-  15,L
+   2,R,J,G
+   9,R
+   1,L
+   9,L,D,X
+   1,L,J,G
+   5
+   3,L,K
+   9,L
+   5,L,D
+  11,L,D,J
+   8
   14,R,U,X
-   4,R,J,G
-   8,R
+   1,R,J,G
+   1,R,K,G
+   2,K
+   6
+   2,R
    4,R,J
-   3,R
+   3
    4,X
    4,R,D,X
   10
    5,L
-  12,L,U,X
+  12,L,U,Z
    1,L,J,G
-   1
-   1,J,G
-   1
-   1,S,N
-  10,J
-   6,L,J
-   1,L
-  17,R
+   2,K,G
+   7,L
+  18,R
+   4,X
+   1,R,D,X
    1,R,J
-  11,R
-  15,R,D,X
-  19,R,D
-   5,D
+   5,R
+  10
+  21,D
   40
 
 #lvl_singularity
@@ -479,72 +424,76 @@ console load SecretSanta2024/3-Hard/maya
    1,R,J,G
    2,R,K,G
   15,R,D,X
-   3,R
+   2,R
+   1
    1,R,J
   10,R,U,X
-   5,R,J,G
+   4,R,J,G
+   1,J
   11,R,D,X
    1,R,J
    1,R,K,G
-   1,R,J,G
-   1
-  10,R,J,G
-   4,R
+   2,R,J,G
+   9,R,K,G
+   5,R
   10,R,D,X
    1,R,J,G
-  11,R
-   6,R,J
    6,R
-   1,S,N
-  10,J
-   1,R,J
-   1,R
-   2,R,J
-   2,R
+   1,R,K
+   4,R
+   6,R,J
+   4,R
+   5,R,J,G
   15,R,D,X
-   4,R,J
+   1,R
+   4,R,D,J
    1,R
    8,R,D,X
-   3,R,J,G
+   1,R,J,G
+   2,R,K,G
    8,R
   14,R,U,X
    1,R,J,G
   15,R,U,X
    6,R,U
    1,R,J
-  11,R,Z
-   1,R,J,G
-   2,R,K,G
-   1,R,J,G
-   2,R,K,G
+   1,R
+   4,X
+   5,R,U,X
+   5,R,J,G
+   1,R
   15,R,U,X
-   4,R,U
    1,R,J
   15,R,D,X
    3,R,D
    1,R,J
+   1,R
   15,R,U,X
-  12,R,U
-  15,R,D,X
-  15,R,J
+  11,R,U
+  15,R,D,Z
+   1,R
+  11,R,J
+   2,R
    4,X
   11,R,D,X
-  67,R
-  25,R,X
-  45
+   3,R,D
+   1,R,J
+  55,R
+  22,R,U,X
+  47
 
 #lvl_endcutscene_0
- 183
+ 184
 
 #lvl_endcutscene_1
- 467
+ 465
   15,U,X
-   6,U,C
-  65
+   5,U,C
+  66
 
 #lvl_heart
   36
   12,U,X
  135
 
-ChapterTime: 1:14.171(4363)
+ChapterTime: 1:09.938(4114)
