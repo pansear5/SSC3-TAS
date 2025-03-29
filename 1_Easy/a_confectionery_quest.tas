@@ -1,15 +1,12 @@
-# SecretSantaCollab2024
-# https://gamebanana.com/mods/532531
+RecordCount: 13548
 
-RecordCount: 13547
-AnalogMode,Ignore
-Set,BounceHelper.JellyfishDash,A
 console load SecretSanta2024/1-Easy/Quinnigan
-
-   1
 console clear_warps
+   1
 
 #Start
+Set,BounceHelper.JellyfishDash,A
+AnalogMode,Ignore
  190
 
 #lvl_0village1 (0)
