@@ -1,28 +1,28 @@
-#This file was made based off the files in the BL folder.
+#This file was made based off the files in the EL folder.
 Unsafe
 #This will wipe the debug save!
 #Uncomment at your own peril.
 console clrsav
 console load SecretSanta2024/0-Lobbies/1-Easy
-EnforceMaingame
+#EnforceMaingame
    1
 
 #Start
 Read,1_Easy_Lobby/easy_0-1,Start
-Read,EnterLevel,Start
+Read,EnterPostcard,Start
 Read,1_Easy/mt_celeste_jazz_club,Start
    1,O
   32
 
 Read,1_Easy_Lobby/easy_1-2,Start
-Read,EnterLevel,Start
+Read,EnterPostcard,Start
 Read,1_Easy/the_austrex_project,Start
    1,O
   32
 
 Read,1_Easy_Lobby/easy_2-3,Start
 Read,EnterLevel,Start
-Read,1_Easy/a_confectionary_quest,Start
+Read,1_Easy/a_confectionery_quest,Start
    1,O
   32
 
@@ -33,13 +33,13 @@ Read,1_Easy/five_foot_forest,Start
   32
 
 Read,1_Easy_Lobby/easy_4-5,Start
-Read,EnterLevel,Start
+Read,EnterPostcard,Start
 Read,1_Easy/an_artificers_ascent,Start
    1,O
   32
 
 Read,1_Easy_Lobby/easy_5-6,Start
-Read,EnterLevel,Start
+Read,EnterPostcard,Start
 Read,1_Easy/VOYAGE,Start
    1,O
   32
@@ -64,7 +64,7 @@ Read,1_Easy/your_story_my_world,Start
 
 Read,1_Easy_Lobby/easy_9-10,Start
 Read,EnterLevel,Start
-Read,1_Easy/sumperranian_sewers,Start
+Read,1_Easy/sumpterranian_sewers,Start
    1,O
   32
 
@@ -74,8 +74,7 @@ Read,1_Easy/the_house_on_ash_tree_lane,Start
    1,O
   32
 
-
- 36
+  36
    1,Q
    1,J
   31
@@ -95,4 +94,4 @@ Read,1_Easy_Lobby/easy_12-14,Start
   61
    1,O
 
-FileTime: 23:17.111(82183)
+FileTime: 33:02.132(116596)
