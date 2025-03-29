@@ -1,4 +1,4 @@
-RecordCount: 7745
+RecordCount: 7756
 # first draft: 5342
 # sub 11: 5687
 
@@ -1664,18 +1664,18 @@ endrepeat
    1,N
    1,PJ
    2
-   1,X
-   1,L
-  24
-   2,PB
    1,PX
-  19
-   1,N
-   4
-  36,MD
-   6,L
-   1
-   1,L,K
+  21
+   4,PX
+  14,PB
+   1,D
+  13,N
+  21,L,G
+   3,L
+   2,R
+   1,D
+   8
+   1,K
    1
    6,R,Z,G
    4,R,K,G
@@ -1684,7 +1684,7 @@ endrepeat
   13,R
   17,R,K
   11,U,Z
-  13,R,D
+  13,R
   15,U,Z
    1,O
   40
@@ -4025,4 +4025,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:40.509(37677)
+FileTime: 10:40.390(37670)
