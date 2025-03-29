@@ -1,13 +1,11 @@
-RecordCount: 6403
+RecordCount: 6408
 
-Invoke SaveData.InitializeDebugMode true
-Invoke XaphanModule.ModSaveData.SavedFlags.Clear
-Invoke XaphanModule.ModSaveData.UnlockedWarps.Clear
+Invoke SaveData.InitializeDebugMode false
+evallua Celeste.Mod.XaphanHelper.XaphanModule.ModSaveData.SavedFlags:Clear()
+evallua Celeste.Mod.XaphanHelper.XaphanModule.ModSaveData.UnlockedWarps:Clear()
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
-
-Set SantasGiftsModule.Settings.InMapJournalBind J
 
 ##################################
 
@@ -24,6 +22,7 @@ Set SantasGiftsModule.Settings.InMapJournalBind J
 ###################################
 
 #Start
+Set SantasGiftsSettings.InMapJournalBind J
  190
 
 Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
@@ -1402,4 +1401,4 @@ Endstunpause
  135
 Assert Equal True {Level.Completed}
 
-FileTime: 3:40.524(12972)
+FileTime: 3:36.852(12756)
