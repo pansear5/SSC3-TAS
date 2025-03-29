@@ -1,15 +1,11 @@
-# SecretSantaCollab2024
-# https://gamebanana.com/mods/532531
-
 RecordCount: 23880
-
-AnalogMode,Ignore
-Set,CommunalHelper.DeployElytra,E
 
 console load SecretSanta2024/1-Easy/xolimono
    1
 
 #Start
+AnalogMode,Ignore
+Set,CommunalHelper.DeployElytra,E
  190
 
 #lvl_xd-start
