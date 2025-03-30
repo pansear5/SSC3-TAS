@@ -1,4 +1,4 @@
-RecordCount: 8379
+RecordCount: 8429
 # first draft: 5342
 # sub 11: 5687
 
@@ -26,6 +26,8 @@ console load SecretSanta2024/1-Easy/Flagpole1up
    1
 
 # Set bindings:
+# Dash binds should NOT also be cancel binds
+Invoke Input.MenuCancel.Binding.Controller.Clear
 # PX = cancel
 Invoke Input.MenuCancel.Binding.Keyboard.Insert 0 X
 # PA = open ability menu
@@ -302,7 +304,7 @@ Read,VOYAGE,lvl_TravellersPlains_3,power glove
   25
    1,R
  170
-   1,X
+   1,PX
   25
   40
 # -----------------
@@ -608,15 +610,15 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,D,C
 ##
 
-## Factory - CDash [9]
-# WMS for coast, cdash, all factory berries [5-8] and bottom terrarium berry [9]
+## Factory - LDash [7]
+# WMS for coast. get bottom berry [5], ldash, and autoscroller berries [6-7].
 
    1,N
    1,PJ
    2
-   1,X
+   1,PX
   21
-   1,X
+   1,N,PX
   24
    4,Z
    1,R,K
@@ -708,7 +710,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
   25
-   1,X
+   1,PX
   24
    1,S
    8,O
@@ -839,7 +841,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    5,L
    1,PJ
   28
-   1,X
+   1,PX
   25
   40
 
@@ -873,9 +875,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   18
 ##
 
-## Thicket - Bombs [12]
+## Thicket - Bombs [10]
 
-# warp to coast, get coast top berry [10] and plains bottom right berries [11-12], get plains warp, get thicket warp, WMS for coast, get bombs
+# warp to coast, get coast top berry [8] and plains bottom right berries [9-10], get plains warp, get thicket warp, WMS for coast, get bombs
 
 #lvl_RunicCoastFront_6 (0)
    7,L
@@ -1289,9 +1291,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
    2
-   1,X
+   1,PX
   21
-   1,X
+   1,N,PX
   24
    4,Z
    1,L,K
@@ -1328,9 +1330,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   18
 ##
 
-## Coast - Berries 1 [13]
+## Coast - Berries 1 [11]
 
-# we have to wait for the bomb to explode anyway, so we can get this berry [13] before remote warp without losing time
+# we have to wait for the bomb to explode anyway, so we can get this berry [11] before remote warp without losing time
 
 #lvl_RunicCoastFront_6 (1)
    1,N
@@ -1426,9 +1428,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   18
 ##
 
-## Thicket - Anchor Tablet [14]
+## Thicket - Anchor Tablet [12]
 
-# warp to thicket, get top right berry [14], get remote warp
+# warp to thicket, get top right berry [12], get remote warp
 
 # why we need remote warp: TLDR we cant spawn bombs while WMS is active.
 # WMS works by storing the warp cutscene so that we can skip it whenever we want to trigger the warp. but being in a cutscene disables the bag UIs (top right), and that prevents us from spawning bombs.
@@ -1541,9 +1543,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   26
 ##
 
-## Plains to Tower [16]
+## Plains to Tower [14]
 
-# warp to plains, get top right berries [15-16], elevator to tower
+# warp to plains, get top right berries [13-14], elevator to tower
 
 #lvl_TravellersPlains_9_H1 (1)
    7,L
@@ -1757,9 +1759,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    2,R,N
 ##
 
-## Tower to Terrarium [19]
+## Tower to Terrarium [17]
 
-# get bottom right berries [17-18], get left warp, elevator to balcony, get balcony berry [19], get dreamdash, go to terrarium
+# get bottom right berries [15-16], get left warp, elevator to balcony, get balcony berry [17], get dreamdash, go to terrarium
 
   61
    1,L,D
@@ -2130,9 +2132,9 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   40
 ##
 
-## Terrarium - Mega Bomb [20]
+## Terrarium - Mega Bomb [21]
 
-# get mega bomb, get top berry [20]
+# mega bomb, top berry [18], elevator berry [19], top factory berry [20], factory dream berry [21]
 
 #lvl_AncientBiotope_18
   15,L,J
@@ -2203,7 +2205,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
   24
-   1,X
+   1,PX
   24,ARD
    3,Z
   11,L,J
@@ -2333,7 +2335,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    3,L
    1,PJ
   38
-   1,X
+   1,PX
   24
    2,D
    4,Z
@@ -2341,7 +2343,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    7,R
    1,PJ
   77
-   1,X
+   1,PX
   25
   40
 
@@ -2470,12 +2472,11 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,J
    1,K
    9,R,K
-   7,R
+   7
   10,R,X
-   4,L,J
-   9,L
-   2,L,J
-  23,L
+   3,L,J
+  26,L
+   6,L,D
   28,R,Z,G
    3,R,K,G
    2,R
@@ -2499,7 +2500,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    3,R,D
   55,L,D
   13,L,D,X
-   3,L,J
+   3,L,K
    2,L
    1
    8,L,U,Z
@@ -2579,6 +2580,10 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,D,X
   14,PB
    1,D
+
+   1,L,PW
+   1,PJW
+   1,PX
    4,Z
    1,L,J
    7,L
@@ -2588,9 +2593,19 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,J
   10
   15,D,X
-  25,L,D
-   3,K
-   5,L,U,Z
+   2,L,D
+   1,L,D,PX
+  15,L,D
+   7,D
+   1,PW
+   1,U
+   1,L
+   1,L,U
+   1,L
+   1,L,U,K
+   2,L,K
+   4,L,U,Z
+   1,L,U,Z,O
   40
 
 #lvl_AncientBiotope_4 (2)
@@ -2633,21 +2648,12 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    4,R,K
    5,R
    1,R,K
-   3,R
-   6
-   6,L,J
-  19
-  12,K
-  10,L,D,X
-   5,L,J
-  34,L,X
-  17,L,D
-  14,D
-   1,PW
-   1,D
-   1,F,180
+   9,R
+   9,L,J
+  15,U,X
+   1,S
    1,D,O
-  26
+  18
 ##
 
 ## Coast - Berries 2 [25]
@@ -2689,7 +2695,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
    2
-   1,X
+   1,PX
    2,R,J
   12,R,Z
    1,R,J
@@ -3000,7 +3006,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    6
    1,PJ
  153
-   1,X
+   1,PX
   25
   40
 
@@ -3023,7 +3029,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,R
    1,R,PJ
   24
-   1,X
+   1,PX
   25
   40
 
@@ -3084,12 +3090,12 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
    3
-   1,X
+   1,PX
    4,Z
    1,L,J
   12,L
   10,D,Z
-   5,D,X
+   5,D,PX
    4,R,D
   14
    1,PW
@@ -3107,7 +3113,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,L,D,X
    1,PJ
   79
-   1,X
+   1,PX
   25
   40
 
@@ -3121,7 +3127,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,N
    1,PJ
    2
-   1,X
+   1,PX
    4,Z
    2,R,J
   18,R,D
@@ -3827,4 +3833,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:28.133(36949)
+FileTime: 10:26.569(36857)
