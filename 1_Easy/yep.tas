@@ -1,4 +1,4 @@
-RecordCount: 3875
+RecordCount: 4439
 
 console load SecretSanta2024/1-Easy/LegS
    1
@@ -11,78 +11,174 @@ console load SecretSanta2024/1-Easy/LegS
 ##
 
 #lvl_LegS-a0 (0)
-  57,R
+   1,S,N
+   1,D,J
+  69,O
+   5,R
+   1,R,J
+  18,R
+   1,R,D
+   1,R,J
+  18,R
+   3,R,D
+   1,D
+   1,R,D
+   2,R
+   1,R,D,J
+   1,R,K,G
+   1,R,J,G
+  10,R
    1
-  67,R,U,G
+   2,R
+   1,R,D,J
+   1,J
+   3,R,J
+   1,R,K,G
+   3,R,J,G
+   1,R,K,G
+  18,R
+   5,R,D
+   1,D
+   2,R,D
+   1,R
+   1,R,D
+   7,R,J
+   2,R
+   1,R,K,G
+   3,R,J,G
+   2,R,K,G
+   1,K
+   6,R,K
+   7,R
+   2,R,K
+   1,R
+   1,R,K
+  11,R
+   1,R,J
+   1,R,K,G
+   7,R,J,G
+   6,R,K,G
+   3,R,J,G
+   6,R
+   2,R,K
+   5,R
+  10,R,K
+  12,R,J
+   5,R
+  10,R,K
+  35,R
+   2,R,J,G
+   2,L,J
+   6,R
+   2,R,K
+   1,R
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+   2,R
+   1,R,J,G
+  20,R
+   1,R,D
+  11,R,J
+   9,R
+   1,R,K
+   9,R
+  42,R,D
+   1,R,J
+  36,R
+   1,R,J
+   2,R
    1
- 101,R,U,G
+  15,R
+   1,R,D
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+  18,R
+   1,R,J
+  19,R
+   1,R,J
+  20,R
+  12,R,J
+   5,R
+  10,R,K
+  29,R
+  21,R,D
+  23,L,D
+  13,R,D
+   5,D
+   1,R,D
+   1,D
+   6,R,D
+   1,D
+  15,R,D
+  36,L
+  29,L,D
+   1,D
+   1,L,D
+  12,R,D
+   1,R
+   1,R,D
+  34,R
+  10,R,D
+  21,L,D
+  16,R,D
+   1,D
+   8,R,D
+   7,R
+   1,R,J
+  18,R
+   5,R,D
+   1,R,J
+  18,R
+   1,R,D
+   1,R,J
+  18,R
+   5,R,D
+   1,R,J
+  18,R
+   5,R,D
+   1,R,J
+  18,R
+   5,R,D
+   4,R
+   7,R,D,J
+   5,R
+   2,R,K
+   1,J
+   1,L,J
+   1,K
+   2,J,G
+   7,R,J
+  22,R
+   1,R,J
+   2,R
+   3,K
+   7,R,K
+   1,R
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+  18,R
+   1,R,J
+   6,R
+   1,S,N
+   1,D,J
+  43,R
+   1,R,J
+   8,R
+   3,R,K
    1
    1,R
    1
-  34,R,U,G
+   1,R
    1
- 100,R,U,J,G
- 200,R,U,G
-   2,R
-   5
-Repeat, 16
-   1,R,D
-   1,D
-EndRepeat
-   4,R,D
-   1,D
-   8,R,D
- 108,R,U,G
-  11,R,U,J,G
- 227,R,U,G
-   5,R,D
-   1,D
-   1,R,D
-   1,D
-   1,R,D
-  10,L,D
-   1,D
-   6,L,D
-   6,R,D
+   3,R
    1
-  17,R,D
-  51,R,U,G
-   1
- 109,R,U,G
-   1
- 115,R,U,G
-  29,R,D
-   1,D
-  38,R,D
-  35,D
-  14,L,D
-  13,R,D
    4,D
+   1,R,D
    1,L,D
-   1,R,D
-   2,D
-  40,R,D
-  49,L,D
-  13,R,D
-  40,R
-   5,R,D
-  13,L,D
-   1,D
-   8,L,D
-  25,R,D
- 327,R,U,G
-   1
-  75,R,U,G
-   1,S
-   1,D,J
-  34
-   8,R
-   6,R,J
-  24,R
 #under route might be faster but couldn't make it work
-   1,R,D
-   3,L,D
-   1,L
    1,J
    5,K,G
    2
@@ -637,7 +733,7 @@ EndRepeat
   11,L,J
   40
 
-#lvl_[d0 (1)] 
+#lvl_[d0 (1)]
   10,L,J
   51,L,X
    4,L,J
@@ -692,6 +788,9 @@ EndStunPause
   14,R,D
   14,L,Z
   17,R,D
+##Spinner cycle [moladan-journey]
+   1
+##
   10,R,Z
    1,L,J
    9,D
@@ -1040,4 +1139,4 @@ EndRepeat
   15,U,C
  136,D
 
-ChapterTime: 4:02.879(14287)
+FileTime: 3:50.010(13530)
