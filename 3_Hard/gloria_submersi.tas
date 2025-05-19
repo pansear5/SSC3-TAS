@@ -1,4 +1,4 @@
-RecordCount: 1991
+RecordCount: 2804
 
 console load SecretSanta2024/3-Hard/butcherberries
    1
@@ -147,6 +147,7 @@ console load SecretSanta2024/3-Hard/butcherberries
    9,R,D,X
   40
 
+
 #lvl_DEPTH-7
    5,R,D,X
    1,R,J
@@ -166,6 +167,7 @@ console load SecretSanta2024/3-Hard/butcherberries
    9,R,J
   40
 
+#lvl_DEPTH-8
    2,R,J
    5,R
    1,R,J
@@ -216,43 +218,34 @@ console load SecretSanta2024/3-Hard/butcherberries
   18,L,J
    1,J
   15,L,U,X
-  57,R,D
-   5,R
-   3,R,D
+  61,R,D
+  14,R,D,X
    1,R,J
-  14,R
-   5,Z
-   1,R,J
-   8,R
-   1,R,J
-  11,R,D,X
-  31
-   1,R,U
-  11,F,105
-   5,F,107.815
-   1,F,107.844
-  11,F,168
-   6,F,187.074
-   1,F,187.075
-  11,F,247
-  28,F,267.796
-   1,F,90
-  13,F,93.388
-   7,F,84.258
-#11f against jumpthrough here
-  28,F,179
-   5,D
-   6,L,D
-  25,R,D
+  12,R,D,X
+  30
+   1,R,D
+  10,F,80.393
+   1,F,79.513
+  14,F,70.994
+   6,F,99.071
+   1,F,99.927
+  11,F,160
+  11,F,220
+  10,F,271
+  24,F,269.911
+  19,F,90
+  11,F,146
+   5,F,180.037
+   4
+  32,R,D
   14,R,D,X
    1,R,J
    7,R,U,X
   40
 
+#lvl_DEPTH-10
   34,R,U,X
-StartExportGameInfo infodump.txt
    1,R,U
-FinishExportGameInfo
    7,F,76.585
    1,F,75.251
   11,F,15
@@ -289,20 +282,18 @@ FinishExportGameInfo
    3,R,K,G
    8,R
    5,X
-  11,R,J
-   1,L,J
-   4,K,G
-   6,L
-   2,R
+  12,R,J
+   1,K
+   1,L,K
+   1,K
+   1,L,K
+   4
+   3,L
    1,R,D,J
    1,R,K,G
-   2,R,J,G
-   1,J
-   3,R,J
-  18,R,Z
-   4,J
-   1
-   1,J
+   5,R,J,G
+  19,R,Z
+   6,K
    7,R
    1,R,D
    2,L,D,J
@@ -415,20 +406,21 @@ EndRepeat
 #lvl_FLOOR-1
   28,D
   15,L,Z
-  15,D,X
-  47
-  16,L
-  14,R,Z
-   1,R,J
-   1,R
-  15,R,V
-   4
+  10,D,X
+   3,R,J,G
+   5,L
+  24
+  10,L
+   2
+  15,R,X
+  15,R,Z
+   3
    6,R
-  12,R,J
-   8,R
-  12,R,U,Z
+  10,R,J
+  18,R,U,Z
    1,L,J,G
-   5,L,K,G
+   4,L,K,G
+   1,K
    3,R,K
    1,K
    1,R,K
@@ -675,20 +667,13 @@ EndRepeat
    4,R,J
    7,R
   14,R,U,Z
-   2,R,J,G
-   1,J
-   1,R,J
+   7,R,J,G
    1,K
-   1,J,G
-   1,L,J
-   1,L,K,G
-   5,L,J,G
-   5,L
-   1,L,J
-   5,L
-  15,D,C
-   1,N
-  34
+   6,L,U,X
+   2,L,J,G
+   8,L
+   1,L,N
+  33
    3,L
    1,L,D
    6,L
@@ -755,9 +740,12 @@ EndRepeat
    1,L
    1,J,G
   21,R,J
-  29,R
-  15,R,X
-   3,R,J
+  15,R,D
+   1,R,J
+   1,R
+  12,R,X
+   6,R,J
+   2,R
   12,R,U,Z
    1,L,J,G
    3,L,K,G
@@ -831,28 +819,41 @@ EndRepeat
   48,L
   23,F,240
   24,F,180
-  13,F,90
-  15,U,X
-  20,J
-  10,R,Z
-  60,R,J,G
-  21,F,120
-  15,R,D,X
-   4,R,D
-   8,R,X
-  29
-  27,R
+  11,F,90
+   2,F,127
+  15,L,U,Z
+  15,L,U,X
+  19,L,D
+  10,L,Z
+   1,R,J
+   4,R
+  17,R,U,Z
+   1,R,J,G
+   1,J
+  10,R,J
+   3,R
+   2,R,J,G
+  21,R
+  21,R,D,X
+   5,R,C
+   4,R,J
+  26
+   1,R,U
+   3,F,90
+  18,F,96
   40
 
 #lvl_FLOOR-X1
-  14,R
-  50,F,5
-  18,F,340
-  18,F,95
-  11,R,Z
+   9,F,97
+   9,F,68
+  38,F,3
+  14,F,340
+   4,F,0
+  14,F,48
+   8,R,Z
    1,R,J
-   7,R
-   6,R,J
+   6,R
+   5,R,J
   15,R,D,X
    1,R,J
   14,R,D,X
@@ -870,8 +871,8 @@ EndRepeat
   14,R,D,X
    1,R,J
   14,R,D,X
-   3,R,J
-  14,R,U,X
- 139
+   4,R,J
+  15,R,U,X
+ 135
 
-ChapterTime: 1:49.242(6426)
+ChapterTime: 1:47.389(6317)
