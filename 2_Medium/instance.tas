@@ -1,57 +1,81 @@
-RecordCount: 24696
+RecordCount: 28215
 
 console load SecretSanta2024/2-Medium/bosssauce
    1
-
 #Start
  110
 
 #lvl_intro1
+   1
    1,S
    1,D,J
   34
-#maybe better exit?
-  11,L,Z
+   4,L,Z
    1,R,J
    1,R,K,G
    1,R,J,G
-   1,R
-   6,R,D,X
+   1,R,K,G
+   6,R,D
+   2,R,J
+   1,R,K,G
+   1,R,D,X
 
 #lvl_a-00
-  11,R
+   5,R,D,X
+   9,R
    1,R,J
-  13,R,D,X
-   1,R,J,G
-   4,R
-   4,R,J
   11,R,D,X
-   1,R,J,G
-   1,R
-   2,R,J
+   1,R,J
    4,R
+   3,R,J
+  12,R,D,X
+   1,R,J
+   5,R
    7,R,J
   15,R,D,X
    1,R
-   5,R,J
-   9,R,D,X
+   1,R,J
+   3,R
+   8,R,D,X
    1,R,J,G
-  11,R
+   7,R
    1,R,J
-  11,R,D,X
-  10,R,J,G
+   3,R
+  10,R,D,X
+   3,R,J
+   2,R
+   3,R,J
   15,R,D,X
+  15,R,D,C
+   5,R
    1,R,J
-  12,R,D,X
-   1,R,J
-  19,R
+   1,R
 
 #lvl_a-00b
    1,G
    2
- 312,G
-   3,U,G
+ 240,G
+##
+Repeat, 3
+   4,G
+   1
+EndRepeat
+Repeat, 4
+   8,U,G
+   1
+EndRepeat
+   4,G
+   1
+   8,G
+   1
    3,G
+   2
+   4,G
+   1
+##
+   6,G
+   2,U,G
+   4,G
    3,D,G
    2
 
@@ -63,35 +87,33 @@ console load SecretSanta2024/2-Medium/bosssauce
    2,R,J
    9,R,U,X
    1,R,J,G
+   9,R
+   1,R,J
    5,R
    1,R,J
-   4,R
-   1,R,J
-   8,R
+   2,R
    2,R,J
   25,R,D,X
-   4,R,J
-  12,R,X
-   2,R,J,G
-   7,R
+   2,R,J
+   5,R
    3,R,J
+   3,R
+   2,R,J
+   6,R,K,G
   15,R,D,X
-   1,R,J
-  40,J
+   3,R,J
+  40
 
 #lvl_b-01
-   4,R,J
-   1,R
-  14,R,U,X
-  21,R,J,G
-   2,R,J
-   1,R
-   1,R,K,G
+   5,R,J
+  13,R,U,X
+  19,R,J,G
+   7,J
+   4,R,K,G
+   6,R
    1
-   2,R,K,G
-   7,R
-   4,Z
-   6,R,J
+   5,Z
+   5,R,J
    3,R,K,G
    1,R,J,G
    5,R
@@ -105,33 +127,34 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J,G
   11,R
    1,R,J
-   5,R
+   7,R
    1,R,J
-   2,R
+   1,R
    3,R,J
-  13,R,D
-   6,D
+   9,R,D
+   7,D
+   1
+   1,R,D
    2
   15,U,Z
    1,R
   13,J
-   5,R,J
+   4,R,J
    1,J
+   1,R,J
    1,K
    1,J
   11,L,J
    7,L
   10,J
-   3,L,J
+   2,L,J
+   1,J
   15,U,X
-   9,L
+  10,L
+   8,J
    1
-   7,J
-   1,L,J
+   3,L
    1
-   2,L
-   1
-   1,L
    1,J
    9,L
    1,L,J
@@ -172,36 +195,43 @@ console load SecretSanta2024/2-Medium/bosssauce
 #lvl_b-04
   10,L
   13,J
-  16,R,J
-   4,K
-   4,L,K
-   2,K
-  15,R,D,X
-   1
-  10,R,D,X
-   6,L,J
-  15,L,D,X
-   9,L,J
+   9,R,J
+   5,J
+   1,R,J
    1,J
-  26,L,J
-  16,L,K,G
-   1,L,J,G
-   2,L,K,G
+   1,R,J
+   2,J
+   4,K
+   3,L,K
    2,L
-   1,J,G
-   2,L,J
+  15,R,D,X
+  10,R,D,C
+   5,L,J
+  15,L,D,X
+  35,L,J
+   4,L,K,G
+   9,L
+   3,L,J,G
+   3,L
+   2,L,J,G
+   1,K,G
+   2,L,K
    8,L
    1,R
-   1,R,J
-   1,R,K,G
-  12,R
+   1,R,J,G
+   4,R,K,G
+   9,R
    1,J,G
    7
-   2,G
-   8
+   1,G
+   6
+   1,R
+   2
    1,G
    1,R,J
-  14,R
+   5,R
+   1
+   8,R
    4,D
    1,R
    1
@@ -213,43 +243,49 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,L,J
    1,R,J
    1,L,J
-   1,R,J
-   1,L
-   2,R,J
    1,R
-   1
-   5,R
    1,L,J
-   1,K,G
+   3,R,J
+   1,J
+   5,R
+   1,L,K
    1,J,G
+   1,K,G
   14,R,U,X
-   5,R,J,G
+   4,R,J,G
    3,R,K,G
   40
 
 #lvl_b-05
-   9,R,K
+   6,R,K
    5,R
+   1,R,J
+   1,R
+  12,R,U,Z
+   1,L,J,G
+   9,R
    2,R,J
-  16,R
-   5,R,J
-   5,R,U,X
+   5,R
   40
 
 #lvl_b-06
-   9,R,U,X
-   4,J
-   1
-  25,R,U,X
-  18,R,U,C
-  12,U,X
-  22,R,J
-  14,R,Z
+  14,R,U,Z
+   1,J,G
+   1,K,G
+   1,R,K
+   6,K
+   1,L,K
+   6,K
+  15,U,X
+   1,R
+  12,R,J
+  15,R,U,X
+  13,R,Z
    1,R,J
    4,R,K,G
   14,R,D,X
-   9,R,J
    2,J
+   9,R,J
    9,R,U,X
   40
 
@@ -262,68 +298,57 @@ console load SecretSanta2024/2-Medium/bosssauce
    5
    4,R,J,G
    2,R,K,G
-   5,R
-   2,R,J
-  11,R
-  14,R,U,X
-   1,R,J,G
-   7,J
-   3,R,J
    7,R
+   1,R,J
+   1,R
+   2,R,J
+   7,R
+  14,R,U,X
+  10,R,J,G
+   5,R
+   1,R,J
+   2,R
    4,Z
    1,R,J
    6,R
-   3,R,J
-   1,R,K,G
-   4,R,J,G
+   1,R,J
+   7,R,K,G
   40
 
 #lvl_b-08
-   7,R,J
-   1,J
+   4,R,J
+   3,R
   15,R,D,X
-  12,R,J
-  11,R
+  21,R,J
   15,U,Z
   29,L,J,G
-  12,U,X
-  20,L,J
-   4,K
-   2
-   4,R
-   1
-   4,R
-   2,R,D
-   1,R
-   1,R,D
-  22,R
-   3,R,D
-   1,R,J,G
-   1,R,G
-   4,R
-   7
-   1,R
-  21,R,J
-  15,R,U,X
-   9,L
-   4,J
-  23,R,D,X
-   1,D
+  18,U,X
+   6,R,J,G
+   1,R,K,G
    6,R,D
-  21,R,D,X
-   5,R,J
-   5,R
-   2,R,J
-   5,R
-  15,R,X
-  15,U,Z
-   6,U,X
-  15,R,J
-  23,R
-   4,R,D
-   1,R
+  15,D
+   2,R
    1,R,D
-   1,R
+  25,R,J
+  16,R,U,X
+  18,R,C
+   2,R
+  15,R,D,X
+   8,R
+  15,R,D,C
+   5,R
+   2,R,D
+  14,R,X
+  31,R,J
+  15,R,U,X
+   6,U,C
+  13,R,J
+   8,R
+   3,R,J
+   3,R
+   1,R,J
+  14,R
+   1,R,D
    6,L,D,X
    1,R,J
    6,R
@@ -353,9 +378,9 @@ console load SecretSanta2024/2-Medium/bosssauce
    2,D
   12,R,U,Z
    3,R,J,G
-   6,R
+   5,R
    1,R,J
-   2,R
+   3,R
    2,R,J
    2,R
   15,R,D,X
@@ -393,33 +418,34 @@ console load SecretSanta2024/2-Medium/bosssauce
   15,U,Z
    2,R
    1
-   2,R,J
-   1,J
+   1,R,J
+   1,R
+   1
    7,L,U,X
    1,J
-  17,R,J
+  16,R,J
+   1,R
    1,R,K,G
    1,R
    1
    1,R
-   5
-   1,R,J
-   1
+   4
+   1,R
    3,L
-   5,Z
+   4,Z
+   1,R,J
+   4,R
+   6,R,J
+   7,R
    1,R,J
    1,R
-   1
-   1,R
-   7,R,J
-   7,R
-   2,R,D,J
-  13,R,D,X
+  12,R,D,X
   40
 
 #lvl_b-11
-   5,R
-   7,R,D,J
+   4,R,D
+   1
+   7,R,J
   16,R,D,X
    1,R,J
   23,R,Z
@@ -431,27 +457,26 @@ console load SecretSanta2024/2-Medium/bosssauce
   14,R,U,Z
    4,R,J,G
    4,R,K,G
-   7,K
+   1,R,K
+   5,K
+   1,R,K
   12,L,D,X
    3,R
-   1,L
-   2
-   1,L
+   3,L
+   1
    1,R,G
    1,L,J
    1,R,K,G
-  17,L,K
+  16,L,K
   15,L,U,Z
   14,U,X
-  10,R
-  15,R,D,X
-   5,R
-   2,R,D
-   2,R
+  11,R
+  17,R,D,X
+   3,R
    1,R,D
+   4,R
    6,R,J
-   3,J
-  13,L,J
+  16,L,J
    6,J
   14,R,U,X
    4,J
@@ -532,22 +557,21 @@ console load SecretSanta2024/2-Medium/bosssauce
    5,R
   17,R,U,Z
    7
-  14,R,Z
+  12,R,Z
+   3,R,J
+   8,R,D,X
    1,R,J
-   9,R,D,X
-   1,R,J
-   1
-   2,R
+   3,R
    1,R,J
    3,R
   21,R,J
   15,U,X
    2,R
    8,L
-   8,L,J
-  13,J
+   7,L,J
+  14,J
    4,X
-   3,L,D,X
+   3,D,X
 
 #lvl_intro2
    1,S
@@ -593,7 +617,7 @@ console load SecretSanta2024/2-Medium/bosssauce
 #lvl_c-01
    3,R,J
    1,R
-   1,R,D
+   1,D
   11,R,D,J
   20,R,U,X
   15,R,C
@@ -649,18 +673,19 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R
    1,R,J
    3,R
-   1,J
-   6,R,J
-   1,J
-   4
-   1,R
+   1,R,J
+   9,J
+   1
   18,R,U,Z
    2,R
    5
    1,R
    1
   15,R,Z
-  21,L
+  19,L
+   1,D
+   1,L
+
    6,R
   21,R,J
   12,R,X
@@ -687,9 +712,8 @@ console load SecretSanta2024/2-Medium/bosssauce
 #lvl_c-04
   16,R,D,X
    1,R,J
-  19,R,D
-   8,R
-   1
+  27,R
+   1,D
   18,R,U,X
   15,R,Z
    1,R
@@ -707,26 +731,24 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J
    2,R
   30,R,U,X
-   4,Z
+   6,Z
    1,R,J
    6,R
-   4,R,J
+   2,R,J
   40
 
 #lvl_c-05
    7,R,J
-   5,R
-   1,R,J
-   3,R
+   6,R
+   2
   16,R,U,X
-  15,R,U,C
-   5,R,D
+  20,R,U,C
   34,D
-   6,L,D
-   3,D
-  11,R,D
-   7,R
-   2,D
+   8,L,D
+   1,R
+  12,R,D
+   6,R
+   1,R,D
   14,R,X
    1,R,J,G
    1,J
@@ -736,8 +758,7 @@ console load SecretSanta2024/2-Medium/bosssauce
    6,R,Z
    1,R,J
    7,R
-   1,R,J
-   1,R
+   2,R,J
   14,R,D,X
    1,R,J
    4,R
@@ -876,25 +897,27 @@ console load SecretSanta2024/2-Medium/bosssauce
    1,R,J
    8,R,U,X
    5,R,J,G
-   5,R
-   1,R,J
-   4,R
+  10,R
    3,R,J
   40
 
 #lvl_c-10
    3,R,J
    5,R
-   3
    1,R,J
-   4,J
-   1,R,J
-   1,R
-  31,R,U,X
-  14,R,Z
-  10,R,J
-   1,R
-  19,R,U,X
+   2,R
+   1,D,K
+   4,R,K
+   1,K
+   1
+  15,R,U,X
+   8,R
+   5,R,J
+   2,R
+  12,R,Z
+   7,R,J
+   7,R
+  16,R,U,X
   12,L
    1,L,G
    1,L,J
@@ -1096,132 +1119,117 @@ EndRepeat
    1,S
    1,D,J
   42
-  14,L,D,X
+  13,L,D,X
    1,R,J
+   2,R,K,G
    1,R,D,X
 
 #lvl_d-00
    5,R,D,X
-   1,R,D,J
-  14,R
-   1,R,D,J
-   1,R,K,G
-   2,R
-   9,R,J,G
-   5,R
-   2,R,J
-   5,R,D,X
-   2,R,J,G
-   1,J
    3,R,J
-   4,R,K,G
-   6,R
+   7,R
    1,R,J
-   2,R
+   3,R
+  14,R,J
+   5,R,D,X
+   4,R,J,G
+   1,R,K,G
+   4,R
+   1,R,J,G
+  11,R
   11,R,J
    8,R
-   7,R,J
-   5,J
-   8,R,D,X
-  40
+   1,R,J
+   4,R
+  45
 
 #lvl_d-01
-   7,R,D,X
-   1,J
-   3,R
+   6,R
    2
-  13,R,U,X
+   1,R
+   3,R,J
+   1,R
+  13,R,U,Z
   13,G
   12,R,J
    1,J
   13,R,U,Z
   13,G
-   8,R
-   1
+   7,R
+   2
   15,R,U,X
-  15,R,C
-  11,R
-   6
+  31,R,C
   10,R
   29,R,D,X
-  10,R
+   8,R
+   2,R,D
    5,R,J
    2,R
-   9,R,Z
+  10,R,Z
    1,R,J
    6,R
    2,R,J
-  15,R,D,X
+  14,R,D,X
   40
 
 #lvl_d-02
-   3,R,D,J
-  15,R,D,X
    1,R
-   1,R,D
-  14,R
-  14,R,U,Z
+   3,R,J
+  15,R,D,X
+  15,R
+  13,R,U,Z
   13,G
-  18,R,G
-   1,L
-   4,R
-   6
-  10,R
-  13,R,D,X
+   8,R,G
+   1,L,J
+   3,R,J,G
+  14,R,J
+   9,R,U,X
+   1,R,J,G
+  13,R
    1,R,J
-   3,R
   40
 
 #lvl_d-03
-   4,R
-   1,R,J
-   3
-   5,R,D,X
-   1,R,J,G
-   3,R
-   7
-   1,R
-   1,R,D,J
-   1,R
-  20,R,D,X
+   5,R
+   2,R,J
+   2,R
+   5,R,J
+  22,R,D,X
    9,R,J
   14,R,U,Z
   13,G
-   8,R
-   1,L
-   1,R,J
-   3,J
-   1,R,J
-   3,J
-   1
-   1,R,J
-   3,R
-   6,R,D
-   3,R
+   8,R,J,G
+   9,L,J
+  14,R,D
   13,G
    2,R,G
    1,R,J,G
   12,R,G
    1
-  11,L
-   5,L,D
-   4,D
-   1,L,D
+  13,D
+   1,R,D
+   2,D
    1,L
-   1
-   6,R,Z
-   9,R,J
-  13,R,U,X
+   3,L,D
+   1,D
+   1,L,D
+   9,R,D,X
+   6,R,J
+  14,R,U,X
   13,G
    8,R
    1,L
-  29,R
+  28,R
   22,R,D,X
    1,R,J
    1,R
   12,R,D,X
    1,R,J
-  47,R
+   2,R
+  40
+
+#lvl_d-04
+   5,R
    1,R,J
   10,R,K,G
   15,R,D,X
@@ -1241,28 +1249,32 @@ EndRepeat
   16,R,C
   14,L,D,X
    1,R,J
-   5,R,D,X
+   7,R,D,X
   13,G
-   8,R,J
+   8,R,J,G
    1,L,J
-  14,R,J
+  11,R,J
+   1,R
   15,R,D,X
-   8,R
-   1
-   9,D
+   1,R,D
+   1,R
+   5,R,D
+   2,D
+   2
+   1,R
+   5,R,D
   19,L,D,X
    5,C
   13,G
    9,L,D,G
   16,R,D,G
    1,R
-
    1,L,D
-   1,R
-   4,R,D
+   5,R,D
   15,R,Z
-  19,R,D
+  18,R,D
    1,R
+   1,R,D
   14,R,U,X
   13,G
    8,R
@@ -1270,37 +1282,43 @@ EndRepeat
   50,R
   13,R,Z
    1,R,J
-   1,R
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  11,R,D,X
+   6,R
+  12,R,J
+  15,R,D,X
+   7,R,J
   40
 
 #lvl_d-05
-   3,R,D,X
-   3,R,J
-   8,R,D,X
+   5,R,J
+  15,R,D,X
+   8,R,J
+   2,J
    1,R,J
-   7,R
-   9,R,J
-   6,J
-   1,R,J
-  13,U,X
+   1
+   1,R
+  14,U,X
   13,G
-  10,L,G
+   7,L,G
+   1,G
+   1,L,G
+   1,G
   40,R,G
    1,R
    4,R,D
-   3,R
-   1,R,D
-   1,R
+   2,R
+   3,R,D
   15,R,Z
-   1,R
+   2,R
   15,R,X
-  15,R
-  10
+  10,R
+   1
+   1,R
+   3
+   5,D
+   1,R
+   1
+   1,R
+   1,R,D
   27,R
    7,R,U,X
    1,J
@@ -1343,26 +1361,24 @@ EndRepeat
    1,R,D
    4,R,J,G
    1,R
-   7,R,D,X
+   8,R,D,X
    1,R,J
    7,R
-   3,R,J
+   2,R,J
    5,R,D,X
-   3,R,J,G
-  11,R
-   3
-   3,R,J
+   4,R,J,G
+  14,R
+   2,R,J
   40
 
 #lvl_d-06
-   3,R,J
-   4,R
-  15,R,J,G
+   6,R,J
+  13,R,K,G
   14,R,U,Z
   29,R,C
   10,R,J
   13,R,Z
-   1,R,J
+   1,R,J,G
    1,R
   12,R,D,X
    3,R,J
@@ -2109,4 +2125,4 @@ Repeat, 34
    2,R
 EndRepeat
 
-ChapterTime: 4:15.527(15031)
+ChapterTime: 4:13.946(14938)
