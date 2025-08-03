@@ -1,7 +1,7 @@
 # SecretSantaCollab2024
 # https://gamebanana.com/mods/532531
 
-RecordCount: 7075
+RecordCount: 8732
 
 console load SecretSanta2024/2-Medium/CrystalGames
    1
@@ -70,80 +70,48 @@ console load SecretSanta2024/2-Medium/CrystalGames
   12,R
    2,R,G
    1,R,J,G
-  16,R
-  14,L,D,X
+   2,R
+  14,R,D,X
+   1,L,J
+  14,L,V
    1,R,J
-   7,R
-  12,R,D,J
+   8,R,D,X
    1,R,K,G
-   1,R
+   1,R,J,G
+   1,R,K,G
    1
-   3,R
-   2,R,J
+   6,R
+  10,R,D,J
+   2,R,K,G
    8,R
-  14,R,X
-   4,R,J,G
-   3,J
-   4,R,J
-   5,R
-   4,R,J
-   5,R,K,G
-  17,R
-   4,Z
    1,R,J
-   7,R
+   3,R
+  11,R,X
+  13,R,K,G
+   1,R,J,G
+  13,R
    1,R,J
-   1,R
+   8,R,D,X
   40
 
 #lvl_a4Green
-  27,D
-   2,R,D
-  10,L,Z
-  10,R,J
+   1,R,J
+  19,D
+   6,R,D
+   1
+
+
+  12,L,Z
+   9,R,J
    1,R
-  23,R,J,G
+  24,R,J,G
   11,R,K,G
-   6,J,G
+   7,J,G
    9,R,J
   15,R,U,X
    1,R,J,G
   15,R,D
   15,D
-#   25,R,D
-#    2,R
-#    1,R,D
-#    1,R
-#    1,R,D
-#    1,R,J
-#    4,R
-#   10
-#   14,L,Z
-#    1,R,J
-#    6,R
-#    6,R,J
-#    3,R
-#    2
-#    2,J
-#    6,R
-#   13,R,Z
-#    1,R,J,G
-#    3,J
-#   13
-#    2,R
-#    4,R,J
-#    3,R,K,G
-#   13,R
-#   13,R,U,X
-#    1,R,J,G
-#   13,R
-#    4,Z
-#    2,R,J
-#   40
-
-#   15,D,X
-#    1,R,D
-#    1
    2,L
    8
    2,R
@@ -162,7 +130,6 @@ console load SecretSanta2024/2-Medium/CrystalGames
   14,R,U,X
   29,R,J,G
    3
-   0,R,J
    1,R,K
    5,R
   41
@@ -172,7 +139,6 @@ console load SecretSanta2024/2-Medium/CrystalGames
    1,R,G
   15,U,Z
    5
-
   11,R,J,G
    1,R
   12,R,K,G
@@ -234,23 +200,25 @@ console load SecretSanta2024/2-Medium/CrystalGames
    3,L,J
   10,L,D,X
    1,L,J
-   8
-   7,R,Z
+   8,L
+   4,R,Z
+   1,R,J
+   7,R
    2,R,J
-   1,R
-   4,R,J
-   1,R,K,G
-   5,R
-   1,R,K,G
-  15,R
-   3,R,J
+   3,R,K,G
+   7,R,D,X
+   1,R,J
+   7,R
+   7,R,J
   40
 
 #lvl_a8Green
-   8,R,J
-   8,R,G
+   4,R,J
+   7,R
+   1,R,G
   18,D,X
   18,R,C
+   1
    9,U,X
    1,R,J
   18,R,G
@@ -335,88 +303,95 @@ EndRepeat
   40
 
 #lvl_b2Yellow
-   5,R
-   1
-   1,R,J
-  12,R,U,X
-
-   2,R,J,G
-  13,R
+   2
+   3,R
+  11,R,J
+   2,R,K,G
+  14,R
+   8,L,D,X
+   7,L,K,G
+   7,L
+  15,J
+   2
+   2,L
+   2,L,G
+   1,L
+   1,K,G
+   5,R,D,X
+  15,R
+  23,R,J
   14,R,U,X
-   1,L,J
-  12,L
-  15,D,X
-   7,L,D
-  41,R
-  19,U,X
-   9,L,C
-  57,R
-  16,R,Z
-  10,R
-  30,R,X
-   4,Z
-   1,R,J
-   7,R
-   2,R,J
-   1,R
+   7,R,K,G
   40
 
 #lvl_b3Yellow
-   2,R
+   4,R,K,G
+  22,R,U,X
+  14,R,U,C
+   3,R,K,G
+  15,R,D
+  12,L,D
+   1,D
+   1,L,D
+   3,D
+   5,L,D
+   3,L
    1
-   3,R
-  15,R,D,X
-   8,L,J
-   5,L
-   1,L,J
+   3,L,D
    4,L
-   2
+  15,L,X
+   3,L
+  43,R
+  17,R,U,Z
+   1,R,K,G
+   5,R
    2,R,J
-  32,R,U,X
-  26,R,U,C
-   3,L,J,G
-  27,L,G
-   1,L,J,G
-   1,K,G
-
+   8,L
+   1,L,K,G
+  12,L
+   1,L,K,G
+   7,L
+  11,L,D
+   5,L,X
+   1,L,K,G
+  11,L
    1
-   1,J,G
-   1,K,G
-
+   2,L,G
+   2,L
+  13,L,D,G
+  10,L,G
+   1,L,D,G
+  25,L,G
+   3,L
    1,L,K,G
    1,L,J,G
-   5,L,G
-  38,D,X
-
-  10,L,Z
-  32,R,J
-  19,R,X
-   3,L
-  18,R,U,X
-  21,U,C
-  12,R,Z
-  25,R,J
-  15,R,X
-  58,R,D
-  17,D,X
-  54,R,D
-   1,R,J,G
-   5,Z
-   1,R,J
-   7,R
-   4,R,J
+   6,R,J
+   5,R
+  11,R,J
+   2,R
+  20,R,J
+   1,R
+   9,R,J
   40
 
 #lvl_b4Yellow
-  25,R,J
+   1,J
+  11,R,J
+   1,J
+   5,R
   15,D,X
-  12,D
+   7,D
+   3,R,D
+   1,R
+   1,R,D
    5,R,X
    7,R,J
    8,R
   11,R,J
   15,U,Z
-  41,R
+   2,R
+   4
+  34,R
   15,R,D,X
    3,D
    4,R,D
@@ -428,13 +403,14 @@ EndRepeat
   73,R,D
    9,R,J
   34,R,X
-  46,R,C
+  45,R,C
   21,R
-  10,U,X
-  34,R
-  14,R,Z
-   1,R,J,G
-  13,R
+  11,U,Z
+  35,R
+  15,R,Z
+   6,R,V
+   1,R,J
+   7,R
    1,R,J
    6,R,D,X
   40
@@ -446,15 +422,17 @@ EndRepeat
   11,R,D,X
    1,R,J
   11,R,D,X
-  10,R,C
+   1
+  11,R,C
    5,R,J
   12,R,X
   11,Z
    1,R,J
-   9,R
-  40
+   2,R
+  43
 
 #lvl_b7Yellow
+   4
    1,R
    1,R,J
    7,R
@@ -465,32 +443,50 @@ EndRepeat
   12,D
   49,L,D
   24,D,X
-  15,L,D,C
-  27
-   6,R,J
-  55,R
-  21,U,X
-  33,L,U,C
+   9,L,D,C
+   1,L,K,G
+  10,L
+   2
+   1,L
+   2,D
+   1,L,D
+   2,D
+  12,L,U,G
+   2,L
+   1,L,K,G
+   3,R,K,G
+   5,R
+   2,R,J
+  11,R
+  21,R,J
+  21,R,U,Z
+  33,L,U,X
   50,L,J,G
   12,K,G
   12,J,G
   45,G
   32
   22,J,G
-  80,G
+  79,G
   12
   12,J
-  12,L
+  13,L
    1,L,J,G
-  58,G
+  51,G
+   1,L,D,G
+   1,L,G
+   1,L,D,G
+   1,L,G
+   2,L,D,G
+   2,L,G
    1
    1,L
    1,K
    3,J,G
    1,R,J
-  10,L,J
-   1,K
-   1,J,G
+  10,L,K
+   1,J
+   1,K,G
   15,R,D,X
   12,R
    1,D
@@ -1305,74 +1301,138 @@ EndRepeat
    1,R,J,G
   15,R
   26,D
-  21,R,D
-  12,R,D,X
+### start of skip, doesn't sync
+  16,R,D
+   5,L,D
+  13,R,D,X
    1,R,J
-  53,R,J,G
-   5,R,D,G
-   2,R
-  15,U,Z
-   2,R
-   1
-  17,R,J
-  14,J
-  15,U,X
-   5
-   4,R
    1,R,J,G
-   2,R,K,G
-   7,R
-   1,R,G
+  30,R,G
+  14,R,D,G
+   8,R,J,G
+   2,R,G
    4,R,J
-   1,L,J
-  18,L
-  27
-   7,L,Z
-   4,R,J
-   5,R
-   5,R,D,X
-  13,R,G
-  22,R,J,G
+   4,R
+  16,U,X
+  35,U,G
+   5,R,U,G
+   2,G
    1,L
-  16,R,D,K,X
-   5,R,K
-  77,R,J
-  15,R,U,X
-  15,R
+  14,R,U,Z
+   1,K,G
+   5
+   5,L
+   3,R
+   9,L,D,X
+   1,R,J
+  17,R,J,G
+   2,R,K,G
+   1,R
+   1,R,J,G
+   3
+   6,R
+   1,R,J
+   8,R
+  14,R,U,X
+ 266,R,U,J,G
+  34,R,D,G
+   4,R,G
   15,R,X
   15,R,C
   15,R,X
   15,R,D,C
-   5,R,D
-  15,R,Z
-  15,R,U,X
+  11,R,D,G
+  15,R,X
+   3,R
+  15,R,U,C
+  15,U,X
   15,U,C
   15,U,X
-  15,R,U,C
-  21,R
-  14,R,Z
+# works but slightly worse, idk the setup is probably optimizable
+#   15,R,U,C
+#    1,R
+#   12,L,X
+#    1,J
+#   24,L,J
+#    1,L,K
+#   14,L,Z
+#    1,R,K
+#    1,R,J
+#    1,R,K
+#    1,R,J
+#    1,R,K
+#    1,R,J
+#   15,R,D,X
+#   13,R,G
+#    7,R,U,G
+#   40
+#  240,R,U,G
+#    7,R
+#   14,R,U,X
+#  555,R,U,G
+  15,R,C
+   3,R,G
+   1,R
+  15,L,U,X
+   7,L
+# fails by .2 (~0.08 if we manip to get good subpixels)
+#   15,U,C
+#   11,R
+#   14,L,D,X
+#    1,R,J
+#    1,R,K
+#    1,R,J
+#   15,R,D,X
+#    1,D
+#   11,R,D
+#    1,R,J
+#    5,R,D,X
+#   13,R,G
+#   40
+  15,U,C
+   4
+   8,L
+   1
+  14,L,D,X
+   1,R,K
    1,R,J
-   7,R
+   2,R,K
+   1,R
+  15,R,D,X
+   1,D
+  12,R,D
    1,R,J
-   8,R,D,X
+   5,R,D,X
+  13,R,G
   40
 
 #lvl_e8BluePink
-   2,R,D,X
-   1,R,J
+   1,G
+  11,R,G
+ 170,R,U,J,G
    7,R
-   4,R,J
- 630,X
-  14,R,D,C
+  14,R,U,X
+ 124,R,U,G
+   1,R,D
+   2,R,J
+  12,R,K,G
+   1
+   6,R
+   6,R,Z
    1,R,J
-  14,R,D,X
+   6,R
+   1
    1,R,J
-   7,R
-   3,R,J
-  15,R,D,X
+  10,R,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
    2,R,J
   15,R,D,X
-  48,R,D
+   1,R
+   0,R,J
+  62,R,D,X
   40
 
 #lvl_f1Pink
@@ -1590,9 +1650,8 @@ EndRepeat
 #lvl_f5Pink
    6,R,J
   12,R
-  10,U,X
-SeedRandom,Update,1
-   1,U,X
+SeedRandom,Update,2
+  11,U,X
    1
   17,R
    9,R,D
@@ -1602,9 +1661,8 @@ SeedRandom,Update,1
    7,R
   11,R,J
    1,K
-  14,U,X
-SeedRandom,Update,36
-   1,U,X
+SeedRandom,Update,4
+  15,U,X
    5
   22,R,D
    6,L,Z
@@ -2087,8 +2145,7 @@ EndRepeat
   14,R,U,X
   27
    1,R,U
- 600,F,75.9
-  55,F,75.9
+ 655,F,75.9
   14,R,Z
    1,R,J
    6,R
@@ -2164,7 +2221,6 @@ EndRepeat
   22,R
   13,R,D,X
    2
-   0,R,J
   12,R,D,C
   28,R
   18,U,X
@@ -2196,7 +2252,6 @@ EndRepeat
   10,D
   23,R,D
   15,R,D,X
-   0,R,J
   10,R,Z
    1,R,J
    4,R
@@ -2221,8 +2276,7 @@ EndRepeat
    6,D,C
   44,R,X
   14,R,C
- 117
-  22
+ 139
   10,L,Z
    5,R,J
   15,R,D,X
@@ -2247,7 +2301,6 @@ EndRepeat
   33,R,U,J,G
    1,R
    6
-
   14,U,X
   45,R,G
    6,R,U,G
@@ -2266,8 +2319,6 @@ EndRepeat
    8,R,J
    4,J
   15,R,U,X
-
-
   28,D
    7,R,D
    8,R,Z
@@ -2281,7 +2332,6 @@ EndRepeat
    9
    1,L
   16,R,D
-   0,D
   18,R,X
    9,R,C
   26
@@ -2361,4 +2411,4 @@ EndRepeat
   10,R,D,X
  135
 
-ChapterTime: 8:17.828(29284)
+ChapterTime: 8:12.371(28963)
