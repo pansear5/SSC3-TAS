@@ -1,14 +1,7 @@
-# SecretSantaCollab2024
-# https://gamebanana.com/mods/532531
-
-RecordCount: 1486
-
+RecordCount: 1495
 
 console load SecretSanta2024/1-Easy/Aiden
    1
-#seeding the platypus (?)
-console ah_set_seed 1234
-
 
 #If someone wants to implement swag movement
 #(e.g. cornerslips, soft landings) that would
@@ -16,6 +9,8 @@ console ah_set_seed 1234
 #save imo
 
 #Start
+console ah_set_seed 1234
+#seeding the platypus (?) unsure if this actually helps or not
   84
 
 #lvl_Hubby (0)
@@ -357,7 +352,7 @@ EndRepeat
    8,R,D,X
    3
   12,L,U
-  69,U
+ 106,U
   10,L,U,X
    1,L,J
    7,L
@@ -676,4 +671,4 @@ EndRepeat
   38,R,U,X
   39,L,J
 
-ChapterTime: 3:04.858(10874)
+ChapterTime: 3:05.487(10911)
