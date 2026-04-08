@@ -1,4 +1,4 @@
-RecordCount: 842
+RecordCount: 940
 
 console load SecretSanta2024/0-Lobbies/0-Prologue
    1
@@ -43,27 +43,35 @@ console load SecretSanta2024/0-Lobbies/0-Prologue
    1,R,J
   14,R
    1,R,J
-   6,R
+  14,R
+  15,R,D,X
+   1,N
+  64
+   1,S,N
+   1,D,J
+  69,O
+   6,L,Z
+   1,R,J
+   2
+   1,R,K
    1
-   1,R
-   2,R,K
-   5,R
-  14,R,D,X
+   4,R
+   4,Z
    1,L,J
    1,L,N
-   1,L
-repeat 380
-   1,J
+   2,L
+Repeat,55
    1,O
-endrepeat
-  17
+   1,J
+EndRepeat
+   7
    1,D
    1,O
    1
-repeat 58
+Repeat,58
    1,J
    1,O
-endrepeat
+EndRepeat
  110
 
-ChapterTime: 0:18.343(1079)
+ChapterTime: 0:09.673(569)
