@@ -1,4 +1,4 @@
-RecordCount: 6640
+RecordCount: 6663
 
 console load SecretSanta2024/2-Medium/simonius
    1
@@ -278,8 +278,8 @@ console load SecretSanta2024/2-Medium/simonius
    1,D
    1,L,D
    1,D
-   3,L,D
-   2,D
+   2,L,D
+   3,D
    4,J
    3,R,J
   10,L,D,X
@@ -288,17 +288,22 @@ console load SecretSanta2024/2-Medium/simonius
    4,R,Z
 #potential to keep dash?
 Stunpause
-   7,R,Z
+   8,R,Z
 EndStunpause
-   4,R,Z
+   3,R,Z
   22,R,D
-   5,R
+   2
+   3,R
    1,R,D
-  11,R,J,G
-  16,R
-   6,R,J
+   7,R,J,G
    5,R
-   3,R,J
+   2,R,K
+   1,R
+   1,R,K
+  11,R
+   1,J
+   1,R,J
+   9,R
    1,J,G
    6,R,J
    1,L,J
@@ -835,7 +840,7 @@ EndStunpause
    1,K
   11,R,J
 #still 27 stamina left
-#dcb somewhere 
+#dcb somewhere
    7,R
    6,R,Z
    1,R,J
@@ -858,4 +863,4 @@ EndStunpause
   14,U,X
  135
 
-ChapterTime: 1:55.311(6783)
+ChapterTime: 1:55.260(6780)
