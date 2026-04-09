@@ -1,6 +1,7 @@
-RecordCount: 4635
+RecordCount: 4637
 
 console load SecretSanta2024/2-Medium/phant
+   1
 
 # Notes about time reverse
 # ~ There is a ~1 second cooldown between time reverse uses (and also after room transition)
@@ -8,7 +9,6 @@ console load SecretSanta2024/2-Medium/phant
 # ~ However, even if grab is pressed while not in StNormal, you must wait 60 frames before time reversing
 
 #grabless map btw
-   1
 
 #Start
   76
@@ -268,7 +268,7 @@ console load SecretSanta2024/2-Medium/phant
   10
    8,D,X
   40
-   
+
 #lvl_phant-04 (1)
    1,S
    1,D,J
@@ -481,8 +481,8 @@ console load SecretSanta2024/2-Medium/phant
    1,R,J
   10,R
   12,R,X
-   8,R,J
-   8,J
+   9,R,J
+   7,J
    1,K
   16,J
    2,L,J
