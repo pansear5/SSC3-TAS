@@ -1,4 +1,4 @@
-RecordCount: 1495
+RecordCount: 1794
 
 console load SecretSanta2024/1-Easy/Aiden
    1
@@ -9,24 +9,32 @@ console load SecretSanta2024/1-Easy/Aiden
 #save imo
 
 #Start
-console ah_set_seed 1234
-#seeding the platypus (?) unsure if this actually helps or not
   84
 
 #lvl_Hubby (0)
+   2
+#CantPause
    7,Z
    8,R,J
   11,R
+#both cutscenes have a low chance of extra dialog popping up
+#(secret dialog: 30 for bartender, ? for platypus)
+EvalLua,math.randomseed(0)
    1,N
-Repeat, 252
+   1,S,N
+   1,D,O
+  34
+   1,R,J
+   1,R
+Repeat,43
    1,J
    1,O
 EndRepeat
-   1,J
+   1
 
 #lvl_It's Reining Deer
   35
-Repeat, 11
+Repeat,11
    1,R,J
   14,R
 EndRepeat
@@ -34,7 +42,7 @@ EndRepeat
    5
    1,J
    5
-Repeat, 5
+Repeat,5
    1,J
   14
 EndRepeat
@@ -47,7 +55,7 @@ EndRepeat
   14
    1,J
   27
-Repeat, 6
+Repeat,6
    1,J
   14
 EndRepeat
@@ -60,18 +68,18 @@ EndRepeat
   10
    1,J
   20
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
   40,J
   40,K
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
   36,J
-Repeat, 6
+Repeat,6
    1,K
   14
 EndRepeat
@@ -83,7 +91,7 @@ EndRepeat
    9
    8,D,J
   12
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -98,7 +106,7 @@ EndRepeat
   66
   54,J
   42,K
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -108,7 +116,7 @@ EndRepeat
   14
   21,J
   16
-Repeat, 5
+Repeat,5
    1,J
   14
 EndRepeat
@@ -167,7 +175,7 @@ EndRepeat
   60
   10,J
    5
-Repeat, 6
+Repeat,6
    1,J
   14
 EndRepeat
@@ -181,13 +189,13 @@ EndRepeat
   16,R,D,X
    1,U
    1,J
-Repeat, 9
+Repeat,9
    2,U
    1,J
 EndRepeat
    2,U
   92
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -201,7 +209,7 @@ EndRepeat
    5
    2,J
  110
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -210,7 +218,7 @@ EndRepeat
   28,Z
    9,J
   18
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -227,13 +235,13 @@ EndRepeat
   20,J
   45
   11,U,J
-Repeat, 18
+Repeat,18
    2,U
    1,J
 EndRepeat
   38
   20,J
-Repeat, 6
+Repeat,6
    2,U
    1,J
 EndRepeat
@@ -242,7 +250,7 @@ EndRepeat
    5,J
 #grab jump refill?
  251
-Repeat, 5
+Repeat,5
    1,J
   14
 EndRepeat
@@ -281,7 +289,7 @@ EndRepeat
   84
   36,J
   81
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -305,7 +313,7 @@ EndRepeat
    5
    1,J
    6
-Repeat, 11
+Repeat,11
    1,J
   14
 EndRepeat
@@ -321,12 +329,12 @@ EndRepeat
   14
   11,J
    7
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
    4,J
-   1,S
+   1,S,N
    1,D,J
   18
 
@@ -364,24 +372,29 @@ EndRepeat
    1,L,J
    7,L
   11,L,J
-   5,L
-   6
-   1,R,N
-   1,R,J
-Repeat, 165
-   1,O
+  11,L
+   3,R
+EvalLua,math.randomseed(0)
+   1,N
+   2
+   1,S,N
+   1,D,J
+  34
+   3
+   1,N
+Repeat,44
    1,J
-EndRepeat
    1,O
-  31
+EndRepeat
+   1
 
 #lvl_The Platypus
   35
-Repeat, 4
+Repeat,4
    1,R,J
   14,R
 EndRepeat
-Repeat, 17
+Repeat,17
    1,J
   14
 EndRepeat
@@ -391,7 +404,7 @@ EndRepeat
   35,J
    8,K
   15
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -400,7 +413,7 @@ EndRepeat
   30,J
   35,X
   41,C
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -413,7 +426,7 @@ EndRepeat
   12,U,J
    1,U
    1,J
-Repeat, 4
+Repeat,4
    2,U
    1,J
 EndRepeat
@@ -443,7 +456,7 @@ EndRepeat
    6
   26,J
   50,K
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -470,7 +483,7 @@ EndRepeat
   75,Z
   11,J
   18
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -484,7 +497,7 @@ EndRepeat
   25,U,Z
    1,D
    2,J
-Repeat, 9
+Repeat,9
    2,D
    1,J
 endrepeat
@@ -528,7 +541,7 @@ endrepeat
    5
    1,J
   20
-Repeat, 5
+Repeat,5
    1,J
   14
 EndRepeat
@@ -552,7 +565,7 @@ EndRepeat
   14
    1,J
   18
-Repeat, 3
+Repeat,3
    1,J
   14
 EndRepeat
@@ -562,7 +575,7 @@ EndRepeat
   11,K
   42
   15,R,Z
-Repeat, 4
+Repeat,4
    2,U
    1,J
 EndRepeat
@@ -577,7 +590,7 @@ EndRepeat
   14
   12,D,J
    7
-Repeat, 17
+Repeat,17
    2,D
    1,J
 EndRepeat
@@ -589,7 +602,7 @@ EndRepeat
    7,K
    7
   11,D,J
-Repeat, 11
+Repeat,11
    2,D
    1,J
 EndRepeat
@@ -608,13 +621,13 @@ EndRepeat
    8
   61,J
   52,Z
-Repeat, 5
+Repeat,5
    1,J
   14
 EndRepeat
   20,J
   81
-Repeat, 4
+Repeat,4
    1,J
   14
 EndRepeat
@@ -640,7 +653,7 @@ EndRepeat
   52,J
   58,K
  152,J
-   1,S
+   1,S,N
    1,D,J
   18
 
@@ -671,4 +684,4 @@ EndRepeat
   38,R,U,X
   39,L,J
 
-ChapterTime: 3:05.487(10911)
+ChapterTime: 2:55.168(10304)
