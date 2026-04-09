@@ -1,13 +1,13 @@
-RecordCount: 1828
+RecordCount: 1989
 
 console load SecretSanta2024/3-Hard/Asgord
    1
 
 #Start
+#Spinner cycle [1 | Ravine]
+   0
+
 #lvl_0 | Gateway
-#spinner cycle
-   1
-#-------------
   15,U,X
   35,R,D
   67
@@ -20,6 +20,7 @@ console load SecretSanta2024/3-Hard/Asgord
    1,R,J
    8,D,X
   40
+
 #lvl_1 | Ravine
    1,R,J
    6,R
@@ -50,8 +51,12 @@ console load SecretSanta2024/3-Hard/Asgord
   25,R,D,X
    3,R,J
   40
+
 #lvl_2 | Overpass
    4,R,J
+#Spinner cycle [3 | Breakthrough]
+   1
+#
   25,R,X
    9,D,C
   21,R,J
@@ -86,6 +91,7 @@ console load SecretSanta2024/3-Hard/Asgord
    1,R,J
   10,R,X
   40
+
 #lvl_3 | Breakthrough
    4,R
    7,R,J
@@ -105,8 +111,9 @@ stunpause
    2,R,U
    5
    1,L
-endstunpause 
+endstunpause
   40
+
 #lvl_4 | Forsaken Tower
    1,L
    1
@@ -144,11 +151,12 @@ endstunpause
   26,L,U,C
   11,U
   40
+
 #lvl_5 | Obliteration
    2,U
-#spinner cycle 0-2
-   2
-#-----------------
+#Spinner cycle [6 | Lookout Point]
+   0
+#
    9,D,X
    1,L,J
   18,J
@@ -176,23 +184,27 @@ endstunpause
    1,L,J
    1,R
   11,R,X
-   7,R,J
-   4,R
-   6
+  12,R,J
+   4,J
+   1,K
   18,U,X
+   3,L
   15,L,U,C
+  17,L
+   4,R,J
+   2,R
+  15,L,X
+   5,L
+  15,L,Z
   14,L
-  24,L,X
-   1
+  15,L,D,X
+   1,R,D,J
   15,D,C
-   6,D
-   1,R,J
-  15,D,X
-   7,L,D
-   6,L,X
-  40
+   6,L,D
+   7,L,X
+  43
+
 #lvl_6 | Lookout Point
-   3
    9,L,J
    8,D,X
   11,L,J
@@ -213,12 +225,12 @@ endstunpause
    1,R,J
    1,R
   18,R,U,X
-  13,L
-stunpause
-   5,L
-  25,L,U
-endstunpause
-  19,L,U
+  12,L
+StunPause
+   6,L
+  24,L,U
+EndStunPause
+  20,L,U
   25,U
    6,L,U
    4,L
@@ -234,9 +246,9 @@ endstunpause
   14,R
    5,R,J
    6,D,X
-  40
+  43
+
 #lvl_7 | Death Wish
-   3
    2,R
    2,R,J
    5,R
@@ -300,10 +312,11 @@ endstunpause
    3,R,J
   15,D,X
    7,R
-   1,R
-  19,R,D,X
-  15,R,Z
-  18,L,U
+  15,R,D,X
+  13,R
+  15,R,U,Z
+   1,U
+   9
   20,X
    6,L,C
   20,L,J
@@ -329,9 +342,9 @@ endstunpause
   14,R,X
    1,R,J
   10,U,X
-  40
+  43
+
 #lvl_8 | The Vault
-   3
    4,R
    2,R,J
   15,R,U,X
@@ -378,4 +391,5 @@ endrepeat
    4,R,J
    9,R,Z
  135
-ChapterTime: 1:06.878(3934)
+
+ChapterTime: 1:07.303(3959)
