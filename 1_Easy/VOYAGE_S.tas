@@ -1,4 +1,4 @@
-RecordCount: 8674
+RecordCount: 8724
 # first draft: 5342
 # sub 11: 5687
 
@@ -1477,16 +1477,20 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,R,K
    1,L,K
    1,R,K
-  13,R,J,G
-   9,K,G
-   4
+  11,R,J,G
    2,R
+   9,K,G
+   1,R
    1
+   1,R
+   4
+   1,R
    2,PB
   18,R,PB
    2,PB
-   2
+   1
    1,D
+   3
   14,PB
    1,D
   12,R,Z
@@ -1496,10 +1500,13 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   19,L,U,X
    5
    1,G
-  12,J,G
-   4
-   2,L
+   8,J,G
+   1,L,J
    1
+   1,L
+   1,K,G
+   7
+   1,L
    2,PB
   32,L,PB
    2,PB
@@ -1942,22 +1949,27 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,R,J
    8,R
    2,R,N
-  62,PB
- 186,D,PB
-   7,D
-  24,R,D
-   8,D
+  62,G,PB
+  60,D,G,PB
+   9,R,D,G,PB
+   8,D,G,PB
+   1,L,D,G,PB
+   1,R,D,G,PB
+ 107,D,G,PB
+   7,D,PB
+  15,R,D
+  17,D
   22,PB
    1
    1,R
-   4
+   1,D
+   3
    9,L,Z
    1,R,J
   19,G
    3,R,G
-   1,G
+   2,G
    1,R,G
-   1,G
    3,K,G
    1
   13,L,Z
@@ -2599,7 +2611,6 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,D,X
   14,PB
    1,D
-
    1,L,PW
    1,PJW
    1,PX
@@ -3780,4 +3791,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:31.618(37154)
+FileTime: 10:21.690(36570)
