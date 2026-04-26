@@ -1,6 +1,7 @@
-RecordCount: 9270
+RecordCount: 9903
 # first draft: 5342
 # sub 11: 5687
+# sub 10: 9903
 
 ## README
 
@@ -140,7 +141,7 @@ Read,VOYAGE,Start,lvl_RunicCoastFront_1 (1)
 Read,VOYAGE,lvl_RunicCoastFront_5,lvl_TravellersPlains_2 (0)
 ##
 
-## Plains to Caverns [2]
+## Plains to Tidepool [2]
 
 #  dashcode for plains secret berry, get walljump + berry below [2], dummy to climb
 
@@ -311,7 +312,7 @@ Read,VOYAGE,lvl_TravellersPlains_3,power glove
 
 ##
 
-## Caverns to Factory [4]
+## Tidepool to Factory [4]
 
 # get climb, get cavern berries [3-4], get factory warp
 
@@ -1563,7 +1564,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   26
 ##
 
-## Plains to Tower [14]
+## Plains to Belltower [14]
 
 # warp to plains, get top right berries [13-14], elevator to tower
 
@@ -1779,7 +1780,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    2,R,N
 ##
 
-## Tower to Terrarium [17]
+## Belltower to Terrarium [17]
 
 # get bottom right berries [15-16], get left warp, elevator to balcony, get balcony berry [17], get dreamdash, go to terrarium
 
@@ -2161,9 +2162,10 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   40
 ##
 
-## Terrarium - Mega Bomb [21]
+## Terrarium - Berries [21]
 
-# mega bomb, top berry [18], elevator berry [19], top factory berry [20], factory dream berry [21]
+# top berry [18], elevator berry [19], top factory berry [20], factory dream berry [21]
+# we used to also get mega bombs here, but turns out they're not needed!
 
 #lvl_AncientBiotope_18
   15,L,J
@@ -2197,206 +2199,68 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,L,J,G
    2,R,J
    7,L
-   4,Z
-   1,L,J
-   7,L
+  14,L,C
   40
 
 #lvl_AncientBiotope_16 (0)
-  10,L,K
-  13,U,X
-   5,L,J
-   2
-   2,K,G
-   4
-   2,L
-   1,R
-   9,R,J
-  10,U,X
-  14,L,J
-  10,L
-   3
-   1,J
-   1,L,K
-   2,K
-   3
-   1,L
-   7,R,Z
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-   6,L,K
-   7,L
-  15,D,X
-  14,L,D
-  18,D
-   1,N
-   1,PJ
-  24
+   1,L,C
+   8
+   1,PW
+   1,PJW
    1,PX
-  24,ARD
-   3,Z
-  11,L,J
-   3,L
-  10
-   1,S
-   8,O
-   6,L,X,G
-   1,S
-   8,O
-   3,L,J,G
-  12,L,J,ARD
-   8,J,ARD
-   3,L
-   1,S
-   8,O
-   4,K,G
-   5
-   2,L
-  12,J
-  12,K,G
-  11,J,G
-   4,R,X,G
-   1,K,G,AR
-  19,R,K
-   1,J
-   3,L,K,G
-   7,L
-   9,U,X
-  40
-
-#lvl_AncientBiotope_17 (0)
-   9,L
-   2
-   9,K,G
-   2
-   8,R,X,G
-   5,R,J,G
-   9,R
-   6,R,K
-  16,U,X
-   1,L,J,G
-  11,J
-   4,K,G
-   2,R,K
-   7,R
-   6,R,Z
-   1,R,J
-   7,R
-   1,R,K
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   9,R,D,X
-   1,R,J
-   7,R
-   2,R,K
-  24,R,U,X
-   9,R,J
-  24,R,U,X
-   4,R,Z
-   2,R,J
-   8,R
-   1,R,K
-   7,R,D,X
-   1,R,J
-   1,J
-   1,R,K,G
-   1,K
-   4
-   7,R
-   4,R,J
-  15,R,D,X
-  42
-  15,L,Z
-   3,L,J
-  15,R,D,X
-  22,D
-   3
-   6,L
-   4,L,Z,G
-   1,L,J,G
-  30,L,D
-  12,R,D
-  40
-
-#lvl_AncientBiotope_17_H1
-  26,R,D
-   4
-   4,R,Z,G
-  16,R,J,G
-  12,J
-   1,L,K
-   1,R,K
-   3,K
-   4,J,G
-   1,L
-# mega bombs
-  59
-   1,O
-  30
-  13
-  49,L,Z,G
-   4,J,G
-   1,R,J
-   1,K
-  12,L,J,G
-   6,L
-   1
-  15,U,C
-  10,J,G
-  40
-
-#lvl_AncientBiotope_17 (1)
-   2,R
-   1,L,K,G
-   1,R,K
-   6,K
-   2
-   1,L
-   1
-   3,L
-   1,PJ
-  38
-   1,PX
-  24
-   2,D
-   4,Z
-   1,R,J
-   7,R
-   1,PJ
-  77
+  10,L,Z
+   2,L,K
+   8,L
+   6,G
+   1,G,PX
+  17,G
+  10,R,X,G
+   1,R,PJ
+  63
    1,PX
   25
-  40
-
-#lvl_AncientBiotope_15_H2
-  21,L,D
-  11,L,D,X
-   1,L,J
-   3,L
-  14,R,Z
-   5,R,K
-  10,R
-   2,R,J
-  24,R,D
-  10,R
-  12,K,G
-  12,J,G
-   4,K,G
-  27,L,X,G
+   1,D
   40
 
 #lvl_AncientBiotope_15 (0)
-   2,L,X
+   5,R,D,X
+  40
+
+#lvl_AncientBiotope_15_H2
+   9,R,D,X
+   1,R,K
+   1,K
+   3,R,K
+   5,R
+   1,R,K
+  13,R
+   1,R,J,G
+   5,R
+   2,R,J
+   5,R
+   1,R,K
+  21,R
+  14,R,U,X
+  10,J,G
+   2,L,J
+   1,K
+   7,L,K
+   8,L
+   2,L,K
+   8,L
+  30,L,X
+   4,L,J
    1,L,K
-  12,L,C
+  20,L,D
+   4,Z
+   2,L,J
+   6,L
+  40
+
+#lvl_AncientBiotope_15 (1)
+   2,L
+   1,L,K
+  13,L,D,X
    4,R,J
    1,R,K
   12
@@ -2432,34 +2296,39 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,L,PJ
  110
    1,PX
-  24,PBC
+  24
    1,L,D
   40
 
-#lvl_AncientBiotope_15 (1)
-   4,L,D
-  11,R,D
-   1,D
-   9,R,D
-   7,D
-  14,PB
-   1,D
+#lvl_AncientBiotope_15 (2)
+  26,L,D
+   6,D
+   1,PW
+   1,PJW
+   1,PX
+   6,L,Z
+   1,L,K
+   7,L
+   1,L,J
   14,L,D,X
-   1,R,J
-   9,R,D,X
-  13,R,G
-   1,R,K,G
-  13,R,G
-   1,L
-   1,R,J,PJ
+   1,R,K
+  12,R,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L,PX
+   1,L,K
+   2,L
+  21,R,C,G
+   7,R
+   1,PJ
   24
    1,PX
   25
   40
 
 #lvl_AncientBiotope_12
-   1,S
-   1,D,J
+   1
   69,O
    5,R,K
   15,R,D,X
@@ -2522,7 +2391,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    4,X
   11,D,X
   26,L,D
-   4,PBC
+   4
   34,D
    1,R,D
    1,R
@@ -2879,79 +2748,102 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    5
    2,L
    4,J
-   2,R,J
+   1,R,J
+   1,R
   15,U,X
   60,D
+   2,D
   17,L,D
-  11,D
-  40
-
-#lvl_VenomsporeThicket_5 (1)
-   6,R,D
-  30,X,PBC
-   2,R
-   5
-   1,R
-  14
-  14,PB
+   2,D
+   1,PJ
+  25
+   1,PX
+  25
+   9,L,Z
+   1,R,K
+   3
+   1,K
+   3
+   1,PJ
+  52
+   1,PX
+  24
+  18,R
+   1,PJ
+  24
+   1,PX
+  24
+   1,L,PW
+   1,PJW
+  22
+   1,PX
+   1
+   1,PX
+   1,K,PW
+   4,K
+  15
+   1,PX
+   8,R,X,G
+   1,R,J,PJ
+  24
+   1,PX
+  24
+   5,R
    1,D
-   1,K
-   1,L,K
-   3,R,K
-  24,R,G
+   1
+   1,D
+   3
+   1,J,PW
+  10,J
+   3
+   1,PX
    1,R
-  18,R,X
-  15,D,C
-   7,D,PBC
-   4,X
-  15,L,D,X
-   1,L
-  16,L,U,C
-  15,L,U,X
-  11,D
-  21,L,D
-  23,R,D
-  18,D
-  14,PB
-  14,D
-   5,L
-   2,L,K
-   2,K
-   8
-   1,K
+   4,Z
+   1,R,K
+   5,R
    2
-   3,R
-   2
-   4,R,Z,G
-   1,R,K,G
-  13,G
-   9,R,G
-   4,G
+   1,R
+   1,D
+   1,J,PW
+   1,J
+   3
+   1,PX
+   1,R
+   4,Z
+   1,R,K
+   7,R
+   3,R,J
   40
 
 #lvl_VenomsporeThicket_5_H1
-   7,G
-   1,L
-   8,L,J
-  15,U,X
-   5,L
-   2
-   3,K
-   9
+  15,D,X
+  14,PB
+   1,D
+   5,R
+   8,R,K
    1,K
-   4,R
-   1,R,K
-   1
-   3,R
+   2,R,K
+   2,K
+  14,L,D,X
+   1,R,J
+   5,R,D,J,C
+  13,J,G
+   5,R,J,G
+  13,R,K,G
+   1,L,K
+  13,R,K
+  15,U,X
+  20,R
    8
-   3,D
-   1,L
+   1,D
+   2,L,D
+   1
    5,D
-  24,L,X,G
+  24,L,C,G
   40
 
-#lvl_VenomsporeThicket_5 (2)
-   8,L,X
+#lvl_VenomsporeThicket_5 (1)
+   8,L,C
    1,J,G
   15,D,X
    7,L
@@ -3154,7 +3046,11 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   18
 ##
 
-## Tower to End [38]
+#cycle_BelltowerAtoll_2_H1
+   1
+#endcycle_BelltowerAtoll_2_H1
+
+## Belltower to End [38]
 
 # get remaining berries [32-38], win
 
@@ -3165,7 +3061,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   40
 
 #lvl_BelltowerAtoll_2 (1)
-  80,R,X,PBC
+  80,R,X
    1,R,K,G
    4,L
    5
@@ -3183,124 +3079,142 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    9,L,J,G
   29,L
    1,R,K,G
-  20,L
-   1,L,D
-  15,L,Z
+  11,L
    9
-  14,PB
    1,D
-   3
-   2,J
-   1
-   6,L,D,X
-  68,G
-   5,L,K,G
-   6,K,G
-   1,G
-   1,J,G
-   2,K,G
-   1,R,K,G
-   5,K,G
-   1,D,K
-   9,U,X
-  13,G
-  14,L,G
-   1,D
-   1,K,G
+  15,L,Z
+   8
+   1,PW
+   1,PJW
+   1,PX
+   3,L,J
+   4,J
+  15,U,C
    4,K
-  21,K,G
-   4,D,K
-   1,L,J,G
-   1,R,J
-  13,R,J,G
-   2,R,J,G
-   4,L,J,G
-   6,L,G
-   1,L,D,K
-   4,L
-   6,R,D,X
-   1,L,K
-  13,L,G
-   1,L,J,G
-   6,G
+  14,L,K
+  12,J,G
+   3,K,G
+   9,K,G,PX
+   5,J,G
+   1,L
+   1
+   1,L
+   5
+   1,L
+   2,PW
+   9,L,X
+   2,L,D,K
+   2
+   1,D
+   2
+   1,L,O
   40
 
 #lvl_BelltowerAtoll_2_H1
-   5,G
-   9,L,G
-   2,G
-   1,D,G
-   1,G
-   5,L,G
-   1,D
-   7,L,U,Z
-   1
-  61,R
-   1,R,D
-   1,R
-   4,R,D,PBC
-  17,R,X,G
-  12,J,G
-  12,K,G
-  12,J,G
-   1,R,K,G
-   4,L,K
-   7,R,K
-   4,R
-   3
-   5,L,Z
-   1,R,J
-   5,J
+  11
+  19,L,Z,G
+   1,S
+   1,D,O
+  18
+
+#lvl_BelltowerAtoll_3 (2)
+   7,L
+   2,L,J
+  18,R,X,G
   40
 
 #lvl_BelltowerAtoll_2 (2)
-   3,J
+  80,R,X
+   1,R,K,G
+   4,L
+   5
+   2,K
+   5
+   1,L
+   1
+   1,R
+   1
+   1,R
+   1,R,D
+   1,J
+  19,L,J
+   4,L,X,G
+   9,L,J,G
+  28,L
+   1,R
+   1,K,G
+   3
+   1,L
+   3
+  10,L,D,X
+   1,R,J
    1
    1,J
-  14
-   8,D
-   9,R,D
-  19,L,D
-   3,L
-   1
-   2,D
- 104,R,Z,G
-   3,K,G
-   4
-   2,R
-   1,L
-   6,J
-  14,L,U,X
-   1,K
-   7
-   4,C
-   1,L,J
-   2,L
-   1,L,K,G
-   7,K
    2
+  10,L,C
+  19,R,K
+  15,U,X
+  10,R
+   4,Z
+   1,R,K
+   2
+   5,R
+  11,R,J
+   9,R,K,G
+   3,R
+   3,J,G
+   1,L,J
+   9,J
+  12,K,G
+  11,J,G
+   1
+   1,K,G
+   1
    1,R
-   3,L
-   4,R
-   4,R,X,G
-   1,R,J,G
-  23,R
-   4,R,K
-  10,R,U,X
+  52,R,Z,G
+   1,J
+  25,D
+  17,R,D
+   1,R
+   1
+   4,R,Z,G
+   9,R,K,G
+   1,R
+   4,J
+   5,L,J
+   1,L
+  12,L,J
+   5,R
+   1
+   1,J
+   1
+   1,PW
+   1,PJW
+   1,PX
+   4,Z
+   1,R,K
+  18,R
+   2
+   3,D
+   1,D,PX
+   1,D
+   1
+  25,R,Z,G
+   2
   40
 
 #lvl_BelltowerAtoll_2_H2
-   4,R,U,X
-   1,J,G
-   2,R
-   3
-   1,L,D
-  15,D
-   2
- 128,R,Z,G
-   1,J,G
-  19,D
-   8,K
+   1
+   5,R
+   5,R,D
+   2,R,K
+   3,R
+  47,R,X,G
+   1,J
+   4,L
+  23,R,D
+   3,R,K
+   5,K
    2,L,K
  128,L,Z,G
    1,L,J,G
@@ -3555,7 +3469,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 #lvl_BelltowerAtoll_4 (2)
   23,R,J
   15,U,X
-  10,R,PBC
+  10,R
    4,Z
    1,R,K
    7,R
@@ -3584,43 +3498,52 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 
 #lvl_BelltowerAtoll_5 (0)
   15,L,K
+  12,L
   15,L,D,X
-   9
-   2,PB
-  12,G
-   1,D
-   6,L
-  13,G
-  17,D,G
+  10,D
   40
 
 #lvl_BelltowerAtoll_4 (3)
-  15,D,G
-  70,R,D,G
-   1,D,G
-  10,R,D,G
-   1,R
-  15,R,D,X
-   6
-   9,L,Z
+  17,D
+   2,R,D
+   2,D
+  63,R,D
+  22,R
+   5
+   1,PW
+   1,PJW
+   1,PBX
+  13,PB
+   1,D
+   3
+   4,Z
    1,R,J
-   7,R
-   2,R,K
-  21,R,K,G
-   7,R,G
-   1,R,K,G
-   5,R,G
-  22,R,J,G
-  13,R,D,G
-   2,R,G
+  17,R,G
+   4,R,G,PX
+   2,R,K,G
+   3,K,G
+   3,R,K,G
+   2,R,G,PB
+   1,D,J,PB
+   6,L
+   1,K,G
+   6,R,K,X,G
+  13,R,K,G
+   5,R,D,K
+  20,R,J
    1,R
-  18,R,U,Z
-  28,R
+   1,L
   15,U,X
-   5,R
-   3,R,K
-   9,K
-  11,PBC
+  10
+   1,G
+  10,K,G
+   1,R,K
+   1,R
+   1,J
+   9,R,J
+   1,J
+   6
+   1,R
 # copied from any%
   15,J
   17,U,X
@@ -3806,4 +3729,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 10:12.051(36003)
+FileTime: 9:51.923(34819)
