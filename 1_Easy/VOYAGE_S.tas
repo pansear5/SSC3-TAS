@@ -1,4 +1,4 @@
-RecordCount: 9903
+RecordCount: 10136
 # first draft: 5342
 # sub 11: 5687
 # sub 10: 9903
@@ -1057,12 +1057,20 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   14,U,Z
    5,L,J
   13,J
-  12,K,G
+   1,K
+  11,R,K
   40
 
 #lvl_TravellersPlains_9_H1 (0)
+   1
+   5,R
+   1
+   1,R
+   2
+   1,J,G
+   2,R,J
    1,J
-  17,R,J
+   1,R,J
    4,L,X,G
    1,K,G,AL
   10,K
@@ -1777,28 +1785,33 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    2
    1,R
   15,R,D,X
-   2,R,N
+   1,R,N
+   1,R,PW
+   1,PJW
+   1,PX
 ##
 
 ## Belltower to Terrarium [17]
 
 # get bottom right berries [15-16], get left warp, elevator to balcony, get balcony berry [17], get dreamdash, go to terrarium
 
-  61
+  59
    1,L,D
   24,L
    1,R
- 595,U
-   3,L
-   1,L,J
-  12,R
+ 583,U
+   3,ML
+   1,J,ML
+  12,MR
    4
   35,G
    3,U,G
    1
-  13,K
+   3,K
+  10,K,PX
    4,R,K
-  15,U,X
+  14,U,X
+   3
    3,R
   14,R,J
    8,R
@@ -1918,22 +1931,27 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    6,L,K
   15,L,D,X
   18,L
-   3,L,J
-   4,L
-   6,L,D,C
+   7,L,J
+   2,L
   40
 
 #lvl_BelltowerAtoll_3 (0)
-   9,L,D,C
-  15,U,X
-   6,L
-  22
-   6,D
    2,L
-  15,D,X
-  15,D,C
-   1,L,J
-   1
+  15,L,D,X
+   1,L
+   1,D
+   5,U,C
+   1,K
+   1,J,G
+   5
+   1,R
+   7
+   1,L,D,K
+   4,R,X
+  11,D,X
+  13,D,C
+   1,J,G
+   1,L
    6,L,X,G
    4,L,J,G
    7,L
@@ -2030,13 +2048,17 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1
   12,J,G
    1,L,K,G
-   3,R,K
-   3,L,K
-   1,L,J,G
-   2,L,K,G
-  25,L,U,X
- 105
-   4,L
+   1,R,K
+   4,K
+   2
+   3,L
+   2
+   1,PW
+   1,PJW
+   1,PX
+  26,L,U,X
+ 106
+   5,L
   10,L,Z
    1,R,J
    2,R
@@ -2051,17 +2073,17 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
    1,R,J
    2,L,J
    1,K
-  14,L,K
+   2,L,K
+  12,L,K,PX
    3,K
-  15,U,X
-  22,R
+  13,U,X
    2
-   2,J,G
-   2,L,J
-   1,K
-  11,L,K
-   7,L
-   9,L,J
+   2,L
+   1
+   1,L
+   2
+   8,L
+   8,L,J
   17,U,X
   40
 
@@ -2171,96 +2193,75 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   15,L,J
   18,U,X
   28,D
+   1,R,PW
+   1,PJW
+   1,PX
   16,R
    9,R,K
-  13,R
- 130
-  16,R
-   7,R,J
-   9,R
-   3,R,J
-   1,R
-  13
-   6,L,Z
-   1,L,K
-   4,L
-  12,L,J
-  11,L
-  14,L,Z
+   6,R
+   2,R,K
+  12,R
+   1,D
+ 171
+   5,R
+   1,R,J
+  15,J
+   2,J,PX
+  26,L,J,X,G
    1,L,J
-  14,L,D,X
-   1,L,J
-  14,L,D,X
-   9,L,J
-  35,L,D
-  24,L,U,Z
-   2,L,K
-  14,L,U,X
-   1,L,J,G
-   2,R,J
+  10,L
+   2
    7,L
-  14,L,C
+  14,L,U,Z
+   1,L,K,G
+   4,L
   40
 
 #lvl_AncientBiotope_16 (0)
-   1,L,C
-   8
-   1,PW
-   1,PJW
-   1,PX
-  10,L,Z
-   2,L,K
-   8,L
-   6,G
-   1,G,PX
-  17,G
-  10,R,X,G
-   1,R,PJ
-  63
-   1,PX
-  25
-   1,D
+   1,L
+   7,L,K
+  15,D,X
+   1,R
+  17,R,D
+   6,D
   40
 
 #lvl_AncientBiotope_15 (0)
-   5,R,D,X
+   3,L,D
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+   2,L
+  14,L,X
+   1,R,K
+  16,R,D,X
+   4,D
+  16,R,D
+  24,R,U,X
+  12,R,C
+   4,L,G
+   2,J,G
+   7,R,C,G
   40
 
 #lvl_AncientBiotope_15_H2
-   9,R,D,X
-   1,R,K
-   1,K
-   3,R,K
-   5,R
-   1,R,K
-  13,R
-   1,R,J,G
-   5,R
-   2,R,J
-   5,R
-   1,R,K
-  21,R
-  14,R,U,X
-  10,J,G
-   2,L,J
-   1,K
-   7,L,K
-   8,L
-   2,L,K
-   8,L
-  30,L,X
+  21,R,C
+   4,R,K
+  18,R,D
+   7
+  21,L,X,G
    4,L,J
-   1,L,K
-  20,L,D
-   4,Z
-   2,L,J
-   6,L
+   2,L,K
+  17,L
+   1,L,J
+  12,L,D,X
   40
 
 #lvl_AncientBiotope_15 (1)
-   2,L
+   2,L,D,X
    1,L,K
-  13,L,D,X
+  13,L,C
    4,R,J
    1,R,K
   12
@@ -2531,23 +2532,20 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
   10
   15,D,X
   10,R,D
-  19,R,X
-   6,R,Z
+  15,R,X
+   4,L,G
+   1
    1,R,J
-   3,R
+   7,L,J
+   1,L,K,G
+   7,R,Z,G
   40
 
 #lvl_AncientBiotope_3_H1
-   4,R
-   1,R,K
-  33,R,D,X
-   4,R,J
-   4,R,K
-   5,R
-   1,R,K
-   9,R
-   9,L,J
-  15,U,X
+  27,R,Z
+   7,R,J
+  18,R,K
+  12,U,X
    1,S
    1,D,O
   18
@@ -3047,7 +3045,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 ##
 
 #cycle_BelltowerAtoll_2_H1
-   1
+   0
 #endcycle_BelltowerAtoll_2_H1
 
 ## Belltower to End [38]
@@ -3729,4 +3727,4 @@ Read,VOYAGE,lvl_BelltowerAtoll_6
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 9:51.923(34819)
+FileTime: 9:47.996(34588)
