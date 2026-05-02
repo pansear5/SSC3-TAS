@@ -1,8 +1,8 @@
-RecordCount: 6408
+RecordCount: 6759
 
-Invoke SaveData.InitializeDebugMode false
-evallua Celeste.Mod.XaphanHelper.XaphanModule.ModSaveData.SavedFlags:Clear()
-evallua Celeste.Mod.XaphanHelper.XaphanModule.ModSaveData.UnlockedWarps:Clear()
+Invoke SaveData.InitializeDebugMode true
+Invoke XaphanModule.ModSaveData.SavedFlags.Clear
+Invoke XaphanModule.ModSaveData.UnlockedWarps.Clear
 
 console load SecretSanta2024/1-Easy/Flagpole1up
    1
@@ -22,12 +22,19 @@ console load SecretSanta2024/1-Easy/Flagpole1up
 ###################################
 
 #Start
+
+# Set bindings:
+# Dash binds should NOT also be cancel binds
+Invoke Input.MenuCancel.Binding.Controller.Clear
+# PX = cancel
+Invoke Input.MenuCancel.Binding.Keyboard.Insert 0 X
+# PA = open ability menu
+Set XaphanHelper.OpenMap A
+# PJ = open journal/manual
 Set SantasGiftsSettings.InMapJournalBind J
+
  190
 
-Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
-Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
-Assert,Equal,SecretSanta2024/1-Easy/Flagpole1up,{Level.Session.Area.SID}
 #lvl_RunicCoastFront_1 (0)
 #tread lightly when possible, it looks cool
    1,R,J
@@ -491,102 +498,113 @@ Safe
    6,R,D,C
    1,L,J
    4,L
-  12,L,J
-  18,L
-  14,L,Z
+  11,L,J
+   8,L
    1,L,J
-  11,L,D,X
+   1,J
    1,L,J
-  12,L
+   1,L
    1,L,J
-  12,L,D,X
+   6
+  15,L,X
+   8,R,Z
+   1,L,K
+   6,L
+  12,L,D,J
+  15,L,D,X
+   1,L,K
+   5,K
   40
 
 #lvl_TravellersPlains_4
-   2,L,D,X
-   1,L,J
-   7,L
-   3,L,J
-   4,L
-  15,L,D,X
-   6
-  17,R,J
-  11,R,X
-  22,L,J
-  15,L,U,X
-   5,L
-   5,R
-  28,R,J
-  18,U,X
-  25,U,C
-  10,L,X
+   1,K
+   3
+  15,L,U,Z
+   8,R
+   1,R,N
+   1,R,PJ
+  35
+   1,O
+  19
+   7,L,K
+  29,L,D,X
+   4,D
    5,R,J
-  15,R
+   8,R
+   2,J
+   4,Z
+   1,L,K
+   2
+   5,L
+  12,L,J
+   9,L
   15,U,X
-  12
-   3,R
-Repeat, 23
-   1,R
-   1
-EndRepeat
-  15,D,X
-  22
-   4,L,Z
-   1,L,J
+   1,L
+   2
    7,L
+  10,L,C
+  10,R,K
+   8,R
+  18,U,X
+  15,U,C
+  10,R
+  10,R,X
+  14,R,J
+  15,U,C
+  23,R
+   4,Z
+   1,L,J
+   4,L
+   1,L,J
+   2,L
   22,L,J
   24,L,U,X
-   9,J
-   2
+  10,J
+   1
   15,U,C
-   4
-   7,L
+   2,R
+   2
+   6,L
   15,L,J
   16,L,X
   15,D,C
-   2,L
    2
+   3,L
+   1
    2,L,J
   10,R,X
   18,L,J
   15,U,X
-  10,L
-   4,L,Z
+   9
+   1,N
+   1,J,PX
+   2
+  14,R,D,C
+   1,L,K
+  14,L,D,X
    1,L,J
-  11,L
-  40
+   8,L,D,J,X
+  40,J
 
 #lvl_TravellersPlains_5
-   8,L,D,X
-   1,L,J
-   7,L
-  20,L,J
-  15,L,U,X
-  10
-  12,R,D,X
-   1,L,J
-   2,L
-  11,L,D,X
-  10,L,J
-   1,L
+   5,J
+   4,L,K
+   9,K
+   1,L,K
+  24,L,U,C
    2,L,J
-   1,L
+  10,L,D,X
+  10,L,K
+  26,L
+  11,L,Z
+   8,L,J
+   5,L
    1,L,J
-  19,L
-   6
+  12,L
+   1,L,D
   14,L,Z
-  11,L,J
-  15,L
-   2,L,D
-   1,L
-   3,L,D
-   2,L
-  24,L,U,X
-   7,Z
-   1,L,J
-   6,L
-   1,L,J
-   6,L,D,X
+   1,L,K
+  13,L,D,X
   40
 
 #lvl_TravellersPlains_6
@@ -598,9 +616,10 @@ EndRepeat
    8,L
    2,L,J
    3,L
+   1
 #power glove
-  60
-   1,J
+  59
+   1,O
   30
    4,Z
    1,R,J
@@ -631,7 +650,7 @@ EndRepeat
   25
    1,R
  170
-   1,X
+   1,PX
   25
   40
 
@@ -665,8 +684,9 @@ EndRepeat
    4,Z
    8,L,J
    9,L
+   1
 #climbing kit
-  60
+  59
    1,J
   30
    4,Z
@@ -871,33 +891,50 @@ EndRepeat
    5,L,X
    6,L,J
    7,L
-  24,L,U,X
-   2,L
-  24,L,U,X
-  27,R
-  16,D,X
-  10,L
-  13,D,X
+
+   4,Z
+   1,L,K
+   7,L
+   6,L,J
+   7,L
+  15,D,X
+  20
+   4,R
+  21,R,K,PJ
+   1,R
+  15,U,C
+  13,R
+   6,R,PX
+   8
+  14,U,X
+  11
+   1,L,J,G
+  11,J
+   1,K,G
+   1,R,K
+   1,J
+   5,R,J
+  10,R
   25
-   5,R
-  20,U,X
-  25,R,J
-   6
-  16,L
-  13,L,Z
-  17,L,J
-  15,U,X
-  15,R,J
-  22,L,K
-   2,J,G
+   3,L
+  10,L,Z
+  14,L,J
+   3,J
+  14,U,X
+   8,R,J
+   8,J
    1,R,J
-   1,L,J
+   1,J
+   1,K
+  16,L,K
   40
 
 #lvl_TravellersPlains_10
-   9
-   1,K,G
-   2
+   8,L
+   1,L,J,G
+   1
+   1,L
+   1,K
   20,J
   25,U,X
    1,G
@@ -981,7 +1018,7 @@ EndRepeat
    1,L,N
    1,PJ
   25
-   1,X
+   1,PX
   25
    1,S
    8,O
@@ -1106,9 +1143,9 @@ EndRepeat
    1,PJ
   25
 #spinner unload cycle
-   1
+   0
 #-------------
-   1,X
+   1,PX
   25,U
    1,U,Z
    4,R,U,J
@@ -1399,6 +1436,5 @@ Endstunpause
   15,K
   14,U,X
  135
-Assert Equal True {Level.Completed}
 
-FileTime: 3:36.852(12756)
+FileTime: 3:36.291(12723)
