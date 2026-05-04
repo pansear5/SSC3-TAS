@@ -1,4 +1,4 @@
-RecordCount: 10674
+RecordCount: 10702
 # first draft: 5342
 # sub 11: 5687
 # sub 10: 9903
@@ -2331,17 +2331,15 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 #lvl_AncientBiotope_12
    1
   69,O
-   5,R,K
-  15,R,D,X
-   5,R
-   1,R,J
-  10,D,X
+   3,R
+   6,R,K
+   2,R
+  17,R,D,X
+   9,D
   40
 
 #lvl_AncientBiotope_11
-   5,D,X
-   1,R
-   3,R,K
+   1,D
   14,L,D,X
    1,L,J
   24,L,D,X
@@ -3049,7 +3047,7 @@ Read,VOYAGE,lvl_RunicCoastFront_10,lvl_RunicCoastFront_TideCavern_1
 ##
 
 #cycle_BelltowerAtoll_2_H1
-   2
+   0
 #endcycle_BelltowerAtoll_2_H1
 
 ## Belltower to End [38]
@@ -3967,4 +3965,4 @@ endrepeat
 
 Assert Equal 38 {Session.Strawberries.Count}
 
-FileTime: 9:44.494(34382)
+FileTime: 9:44.392(34376)
